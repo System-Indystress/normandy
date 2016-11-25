@@ -11,7 +11,7 @@ import Language.Haskell.TH.Quote (QuasiQuoter(..))
 
 import qualified Language.Thesaurus.Parser as TP
 import qualified Language.Thesaurus.Free as TF
-import qualified Text.Parsec.Prim   as PP
+
 import Control.Monad.Free
 
 -- Top-level QuasiQuoter

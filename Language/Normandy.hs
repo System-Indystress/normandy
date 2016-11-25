@@ -1,4 +1,20 @@
 module Language.Normandy
-(
-
+( normandy
+, NormProg(..)
+, parsedToFree
+, topic
+, interaction
+, subject
+, action
+, relation
+, prose
+, hole
+, todo
+, comment
+, prettyPrint
+, annotated
 ) where
+
+import Language.Normandy.Quote
+import Language.Normandy.Free
+import Language.Normandy.POS

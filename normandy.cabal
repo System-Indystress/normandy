@@ -18,16 +18,25 @@ cabal-version:       >=1.10
 library
   exposed-modules:
                        Language.Thesaurus
+                     , Language.Normandy
                      , Test.ThesaurusQuasi
-  other-modules:       Language.Normandy.Syntax
+                     , Test.NormandyQuasi
+
+  other-modules:       Language.Normandy.Parser
+                     , Language.Normandy.Free
+                     , Language.Normandy.Quote
+                     , Language.Normandy.POS
+                     
                      , Language.Thesaurus.Roget
                      , Language.Thesaurus.Free
                      , Language.Thesaurus.Parser
                      , Language.Thesaurus.Quote
+
   other-extensions:    DeriveDataTypeable
                      , TemplateHaskell
                      , ScopedTypeVariables
                      , KindSignatures
+
   build-depends:       base >=4.8 && <4.9
                      , free >= 4.12 && < 4.13
                      , text
@@ -35,5 +44,6 @@ library
                      , mtl
                      , parsec
                      , template-haskell
+                     , chatter
   -- hs-source-dirs:
   default-language:    Haskell2010
