@@ -13,4 +13,5 @@ testProse =
    %???
    Other cats like toys as well.
    %| Other cats | envy | Dragan |
-   The other cats suck.|]
+   The other cats suck.
+   They are dumb.|]

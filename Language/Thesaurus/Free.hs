@@ -35,7 +35,7 @@ parsedToFree (TP.NounE) = Free (NounE $ Pure ())
 parsedToFree (TP.VerbE) = Free (VerbE $ Pure ())
 parsedToFree (TP.AdjE) = Free (AdjE $ Pure ())
 parsedToFree (TP.AdvE) = Free (AdvE $ Pure ())
-parsedToFree (TP.ClusKeyE s) = Free (ClusKeyE s $ Pure ())
+parsedToFree (TP.ClusKeyE s) = Free (ClusKeyE s $ (ClusValE s $ Pure ()))
 parsedToFree (TP.ClusValsE ss) =
   let f str free = Free (ClusValE str free)
   in  foldr f (Pure ()) ss

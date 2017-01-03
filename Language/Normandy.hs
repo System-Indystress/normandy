@@ -1,6 +1,6 @@
 module Language.Normandy
 ( normandy
-, NormProg(..)
+, Story(..)
 , parsedToFree
 , topic
 , interaction
@@ -17,4 +17,4 @@ module Language.Normandy
 
 import Language.Normandy.Quote
 import Language.Normandy.Free
-import Language.Normandy.POS
+import Language.Normandy.Pass

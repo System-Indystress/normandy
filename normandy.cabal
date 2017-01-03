@@ -25,8 +25,10 @@ library
   other-modules:       Language.Normandy.Parser
                      , Language.Normandy.Free
                      , Language.Normandy.Quote
-                     , Language.Normandy.POS
-                     
+                     , Language.Normandy.Pass
+                     , Language.Normandy.Pass.Class
+                     , Language.Normandy.Pass.POS
+
                      , Language.Thesaurus.Roget
                      , Language.Thesaurus.Free
                      , Language.Thesaurus.Parser
@@ -36,6 +38,7 @@ library
                      , TemplateHaskell
                      , ScopedTypeVariables
                      , KindSignatures
+                     , QuasiQuotes
 
   build-depends:       base >=4.8 && <4.9
                      , free >= 4.12 && < 4.13

@@ -128,7 +128,7 @@ line = many $ noneOf "\n"
 -- Lexer
 lexer :: PT.TokenParser ()
 lexer = PT.makeTokenParser $ haskellStyle
-  { reservedOpNames = ["#", "##","*",","]
+  { reservedOpNames = ["#", "##","*",",",";"]
   , reservedNames   = ["noun:", "verb:", "adj:", "adv:"]
   }
 
@@ -142,6 +142,7 @@ stringLiteral = PT.stringLiteral  lexer
 integer       = PT.integer     lexer
 natural       = PT.natural     lexer
 commaSep1     = PT.commaSep1   lexer
+semiSep1      = PT.semiSep1    lexer
 parens        = PT.parens      lexer
 braces        = PT.braces      lexer
 brackets      = PT.brackets    lexer
