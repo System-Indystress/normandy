@@ -4,6 +4,12 @@ import Data.List.Split as Sp
 import qualified Data.Text as T
 import qualified System.Directory as D
 import Control.Monad (mapM)
+import Debug.Trace (traceIO)
+import qualified Data.Text as T
+import qualified Data.Text.IO as TIO
+
+readFileStrict :: FilePath -> IO String
+readFileStrict = fmap T.unpack . TIO.readFile
 
 template :: String -> String -> String -> String
 template cat cl body = concat $
@@ -26,6 +32,7 @@ cleanAll dir =
        | ".hs" `L.isSuffixOf` file = return ()
        | otherwise =
            do
+             traceIO file
              let [cat,cl] = Sp.splitOn "_" file
              writeFile (dir ++ "/" ++ cat ++ ".hs") (template cat cl str)
   in
@@ -35,12 +42,13 @@ cleanAll dir =
       let files'' = filter (/= "..") files'
       let files''' = map ((dir ++ "/") ++) files''
       strs <- mapM clean files'''
-      mapM makeFile (zip files strs)
+      mapM makeFile (zip files'' strs)
       return ()
 
 clean :: String -> IO (String)
 clean file = do
-  text <- readFile file
+  text <- readFileStrict file
+
   return $ (ws . starLine . (square False) . noun . verb . adj . adv . semi  . (paren False) . redund . dot ) text
 
 noun :: String -> String

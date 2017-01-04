@@ -1,0 +1,18 @@
+module Language.Thesaurus.RogetLite.REPULSION where 
+import Language.Thesaurus
+repulsion :: ThProg
+repulsion = [thesaurus|
+# SPACE
+## REPULSION
+noun:
+* repulsion
+ driving from, repulse, abduction
+verb:
+* repel
+ push from, drive from , chase, dispel, retrude, abduce, abduct, send away, repulse
+*keep at arm's length
+ turn one's back upon, give the cold shoulder, send off, send away with a flea in one's ear
+adj:
+* repelling
+ repellent, repulsive, abducent, abductive
+|]

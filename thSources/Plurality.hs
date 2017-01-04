@@ -1,0 +1,16 @@
+module Language.Thesaurus.RogetLite.PLURALITY where 
+import Language.Thesaurus
+plurality :: ThProg
+plurality = [thesaurus|
+# RELATION
+## PLURALITY
+noun:
+* plurality
+ a number, a certain number, one or two, two or three, a few, several, multitude , majority
+adj:
+* plural
+ more than one, upwards of, some, certain, not alone 
+adv:
+* et cetera
+ etc
+|]
