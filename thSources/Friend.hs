@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FRIEND where 
+module Language.Thesaurus.RogetLite.Friend where 
 import Language.Thesaurus
 friend :: ThProg
 friend = [thesaurus|
-# SENTIMENT
-## FRIEND
+# Sentiment
+## Friend
 noun:
 * friend
  friend of one's bosom, acquaintance, neighbor, wellwisher, alter ego, bosom friend, fast friend, amicus, usque ad aras, fidus Achates, persona grata

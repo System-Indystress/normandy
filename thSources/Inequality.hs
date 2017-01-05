@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INEQUALITY where 
+module Language.Thesaurus.RogetLite.Inequality where 
 import Language.Thesaurus
 inequality :: ThProg
 inequality = [thesaurus|
-# RELATION
-## INEQUALITY
+# Relation
+## Inequality
 noun:
 * inequality
  disparity, imparity, odds, difference , unevenness, inclination of the balance, partiality, bias, weight, shortcoming, casting weight, make- weight, superiority , inferiority , inequation

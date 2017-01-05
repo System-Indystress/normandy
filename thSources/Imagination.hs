@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMAGINATION where 
+module Language.Thesaurus.RogetLite.Imagination where 
 import Language.Thesaurus
 imagination :: ThProg
 imagination = [thesaurus|
-# IDEAS
-## IMAGINATION
+# Ideas
+## Imagination
 noun:
 * imagination
  originality, invention, fancy, inspiration, verve

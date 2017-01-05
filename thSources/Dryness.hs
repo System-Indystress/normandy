@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DRYNESS where 
+module Language.Thesaurus.RogetLite.Dryness where 
 import Language.Thesaurus
 dryness :: ThProg
 dryness = [thesaurus|
-# MATTER
-## DRYNESS
+# Matter
+## Dryness
 noun:
 * dryness
  siccity, aridity, drought, ebb tide, low water

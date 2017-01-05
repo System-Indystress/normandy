@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONINCREASE where 
+module Language.Thesaurus.RogetLite.Nonincrease where 
 import Language.Thesaurus
 nonincrease :: ThProg
 nonincrease = [thesaurus|
-# RELATION
-## NONINCREASE
+# Relation
+## Nonincrease
 noun:
 * decrease
  diminution, lessening, subtraction , reduction, abatement, declension, shrinking  , coarctation, abridgment  , extenuation

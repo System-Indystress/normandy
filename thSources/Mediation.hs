@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MEDIATION where 
+module Language.Thesaurus.RogetLite.Mediation where 
 import Language.Thesaurus
 mediation :: ThProg
 mediation = [thesaurus|
-# VOLITION
-## MEDIATION
+# Volition
+## Mediation
 noun:
 * measurement
  admeasurement, mensuration, survey, valuation, appraisement, assessment, assize, estimate, estimation, dead reckoning, reckoning  , gauging, horse power

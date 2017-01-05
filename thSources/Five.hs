@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FIVE where 
+module Language.Thesaurus.RogetLite.Five where 
 import Language.Thesaurus
 five :: ThProg
 five = [thesaurus|
-# RELATION
-## FIVE
+# Relation
+## Five
 noun:
 * five
  cinque, quint, quincux, six, half-a-dozen, half dozen, seven, eight, nine, three times three, dicker, ten, decade, eleven, twelve, dozen, thirteen, long dozen, baker's dozen, quintuplet, twenty, score, twenty-four, four and twenty, two dozen, twenty-five, five and twenty, quarter of a hundred, forty, two score, fifty, half a hundred, sixty, three score, seventy, three score and ten, eighty, four score, ninety, fourscore and ten, sestiad

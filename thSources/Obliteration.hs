@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OBLITERATION where 
+module Language.Thesaurus.RogetLite.Obliteration where 
 import Language.Thesaurus
 obliteration :: ThProg
 obliteration = [thesaurus|
-# IDEAS
-## OBLITERATION
+# Ideas
+## Obliteration
 noun:
 * obliteration
  erasure, rasure, cancel, cancellation, circumduction, deletion, blot, tabula rasa, effacement, extinction

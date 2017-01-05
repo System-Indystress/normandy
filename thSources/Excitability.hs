@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXCITABILITY where 
+module Language.Thesaurus.RogetLite.Excitability where 
 import Language.Thesaurus
 excitability :: ThProg
 excitability = [thesaurus|
-# SENTIMENT
-## EXCITABILITY
+# Sentiment
+## Excitability
 noun:
 * excitability
  impetuosity, vehemence, boisterousness, turbulence, impatience, intolerance, nonendurance, irritability  , itching  , wincing, disquiet, disquietude, restlessness, fidgets, fidgetiness, agitation  

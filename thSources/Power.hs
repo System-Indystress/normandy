@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.POWER where 
+module Language.Thesaurus.RogetLite.Power where 
 import Language.Thesaurus
 power :: ThProg
 power = [thesaurus|
-# RELATION
-## POWER
+# Relation
+## Power
 noun:
 * power
  potency, potentiality, jiva, puissance, might, force, energy , dint, right hand, right arm, ascendency, sway, control, prepotency, prepollence, almightiness, omnipotence, authority , strength 

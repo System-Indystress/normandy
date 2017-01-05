@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SPEECH where 
+module Language.Thesaurus.RogetLite.Speech where 
 import Language.Thesaurus
 speech :: ThProg
 speech = [thesaurus|
-# IDEAS
-## SPEECH
+# Ideas
+## Speech
 noun:
 * speech
  faculty of speech, locution, talk, parlance, verbal intercourse, prolation, oral communication, word of mouth, parole, palaver, prattle, effusion

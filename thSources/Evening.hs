@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EVENING where 
+module Language.Thesaurus.RogetLite.Evening where 
 import Language.Thesaurus
 evening :: ThProg
 evening = [thesaurus|
-# RELATION
-## EVENING
+# Relation
+## Evening
 noun:
 * evening
  eve, decline of day, fall of day, close of day, candlelight, candlelighting, eventide, nightfall, curfew, dusk, twilight, eleventh hour, sunset, sundown, going down of the sun, cockshut, dewy eve, gloaming, bedtime

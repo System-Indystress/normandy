@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PAYMENT where 
+module Language.Thesaurus.RogetLite.Payment where 
 import Language.Thesaurus
 payment :: ThProg
 payment = [thesaurus|
-# VOLITION
-## PAYMENT
+# Volition
+## Payment
 noun:
 * payment
  defrayment, discharge, acquittance, quittance, settlement, clearance, liquidation, satisfaction, reckoning, arrangement

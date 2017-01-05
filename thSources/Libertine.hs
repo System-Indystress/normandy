@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIBERTINE where 
+module Language.Thesaurus.RogetLite.Libertine where 
 import Language.Thesaurus
 libertine :: ThProg
 libertine = [thesaurus|
-# SENTIMENT
-## LIBERTINE
+# Sentiment
+## Libertine
 noun:
 * libertine
  voluptuary , rake, debauchee, loose fish, rip, rakehell, fast man, intrigant, gallant, seducer, fornicator, lecher, satyr, goat, whoremonger, paillard, adulterer, gay deceiver, Lothario, Don Juan, Bluebeard, chartered libertine

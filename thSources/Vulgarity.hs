@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VULGARITY where 
+module Language.Thesaurus.RogetLite.Vulgarity where 
 import Language.Thesaurus
 vulgarity :: ThProg
 vulgarity = [thesaurus|
-# SENTIMENT
-## VULGARITY
+# Sentiment
+## Vulgarity
 noun:
 * vulgarity
  vulgarism, barbarism, Vandalism, Gothicism, mauvis gout, bad taste, gaucherie, awkwardness, want of tact, ill-breeding  

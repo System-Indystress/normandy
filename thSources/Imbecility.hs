@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMBECILITY where 
+module Language.Thesaurus.RogetLite.Imbecility where 
 import Language.Thesaurus
 imbecility :: ThProg
 imbecility = [thesaurus|
-# IDEAS
-## IMBECILITY
+# Ideas
+## Imbecility
 noun:
 * want of intelligence 
  want of intellect , shadowness, silliness, foolishness, imbecility, incapacity, vacancy of mind, poverty of intellect, clouded perception, poor head, apartments to let, stupidity, stolidity, hebetude, dull understanding, meanest capacity, shortsightedness, incompetence  

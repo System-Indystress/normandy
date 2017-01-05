@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AGRICULTURE where 
+module Language.Thesaurus.RogetLite.Agriculture where 
 import Language.Thesaurus
 agriculture :: ThProg
 agriculture = [thesaurus|
-# MATTER
-## AGRICULTURE
+# Matter
+## Agriculture
 noun:
 * agriculture
  cultivation, husbandry, farming, georgics, geoponics, tillage, agronomy, gardening, spade husbandry, vintage, horticulture, arboriculture, floriculture, landscape gardening, viticulture

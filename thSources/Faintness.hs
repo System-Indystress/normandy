@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FAINTNESS where 
+module Language.Thesaurus.RogetLite.Faintness where 
 import Language.Thesaurus
 faintness :: ThProg
 faintness = [thesaurus|
-# MATTER
-## FAINTNESS
+# Matter
+## Faintness
 noun:
 * faintness
  faint sound, whisper, breath, undertone, underbreath, murmur, hum, susurration, tinkle, "still small voice"

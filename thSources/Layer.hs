@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LAYER where 
+module Language.Thesaurus.RogetLite.Layer where 
 import Language.Thesaurus
 layer :: ThProg
 layer = [thesaurus|
-# SPACE
-## LAYER
+# Space
+## Layer
 noun:
 * layer
  stratum, course, bed, zone, substratum, floor, flag, stage, story, tier, slab, escrapment, table, tablet, dess, flagstone, board, plank, trencher, platter

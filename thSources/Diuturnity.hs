@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIUTURNITY where 
+module Language.Thesaurus.RogetLite.Diuturnity where 
 import Language.Thesaurus
 diuturnity :: ThProg
 diuturnity = [thesaurus|
-# RELATION
-## DIUTURNITY
+# Relation
+## Diuturnity
 noun:
 * diuturnity
  a long time, a length of time, an age, a century, an eternity, slowness , perpetuity , blue moon, coon's age , dog's age

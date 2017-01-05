@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SPECIALITY where 
+module Language.Thesaurus.RogetLite.Speciality where 
 import Language.Thesaurus
 speciality :: ThProg
 speciality = [thesaurus|
-# RELATION
-## SPECIALITY
+# Relation
+## Speciality
 noun:
 * speciality
  specialite, individuality, individuity, particularity, peculiarity, idiocrasy  , personality, characteristic, mannerism, idiosyncrasy, specificness, singularity  , reading, version, lection, state, trait, distinctive feature, technicality, differentia

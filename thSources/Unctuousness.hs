@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNCTUOUSNESS where 
+module Language.Thesaurus.RogetLite.Unctuousness where 
 import Language.Thesaurus
 unctuousness :: ThProg
 unctuousness = [thesaurus|
-# MATTER
-## UNCTUOUSNESS
+# Matter
+## Unctuousness
 noun:
 * unctuousness
  unctuosity, lubricity, ointment  , anointment, lubrication 

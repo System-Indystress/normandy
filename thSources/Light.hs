@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIGHT where 
+module Language.Thesaurus.RogetLite.Light where 
 import Language.Thesaurus
 light :: ThProg
 light = [thesaurus|
-# MATTER
-## LIGHT
+# Matter
+## Light
 noun:
 * light
  ray, beam, stream, gleam, streak, pencil, sunbeam, moonbeam, aurora

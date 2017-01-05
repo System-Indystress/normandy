@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OFFER where 
+module Language.Thesaurus.RogetLite.Offer where 
 import Language.Thesaurus
 offer :: ThProg
 offer = [thesaurus|
-# VOLITION
-## OFFER
+# Volition
+## Offer
 noun:
 * offer
  proffer, presentation, tender, bid, overture, proposal, proposition, motion, invitation, candidature, offering  

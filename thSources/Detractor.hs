@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DETRACTOR where 
+module Language.Thesaurus.RogetLite.Detractor where 
 import Language.Thesaurus
 detractor :: ThProg
 detractor = [thesaurus|
-# SENTIMENT
-## DETRACTOR
+# Sentiment
+## Detractor
 noun:
 * detractor
  reprover, censor, censurer, cynic, critic, caviler, carper, word-catcher, frondeur, barracker

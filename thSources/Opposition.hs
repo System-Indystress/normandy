@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OPPOSITION where 
+module Language.Thesaurus.RogetLite.Opposition where 
 import Language.Thesaurus
 opposition :: ThProg
 opposition = [thesaurus|
-# VOLITION
-## OPPOSITION
+# Volition
+## Opposition
 noun:
 * opposition
  antagonism, oppugnancy, oppugnation, impugnation, contrariety, contravention, counteraction , counterplot

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SATAN where 
+module Language.Thesaurus.RogetLite.Satan where 
 import Language.Thesaurus
 satan :: ThProg
 satan = [thesaurus|
-# SENTIMENT
-## SATAN
+# Sentiment
+## Satan
 noun:
 * Satan
  the Devil, Lucifer, Ahriman, Belial, Samael, Zamiel, Beelzebub, the Prince of the Devils

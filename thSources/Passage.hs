@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PASSAGE where 
+module Language.Thesaurus.RogetLite.Passage where 
 import Language.Thesaurus
 passage :: ThProg
 passage = [thesaurus|
-# SPACE
-## PASSAGE
+# Space
+## Passage
 noun:
 * passage
  transmission, permeation, penetration, interpenetration, transudation, infiltration, endosmose, exosmose, endosmosis, intercurrence, ingress , egress , path , conduit , opening , journey , voyage 

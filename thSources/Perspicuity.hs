@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PERSPICUITY where 
+module Language.Thesaurus.RogetLite.Perspicuity where 
 import Language.Thesaurus
 perspicuity :: ThProg
 perspicuity = [thesaurus|
-# IDEAS
-## PERSPICUITY
+# Ideas
+## Perspicuity
 noun:
 * perspicuity
  perspicuousness  , plain speaking  , definiteness, definition, exactness , explicitness, lucidness

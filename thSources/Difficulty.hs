@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIFFICULTY where 
+module Language.Thesaurus.RogetLite.Difficulty where 
 import Language.Thesaurus
 difficulty :: ThProg
 difficulty = [thesaurus|
-# VOLITION
-## DIFFICULTY
+# Volition
+## Difficulty
 noun:
 * difficulty
  hardness, impracticability  , tough work, hard work, uphill work, hard task, Herculean task, Augean task, task of Sisyphus, Sisyphean labor, tough job, teaser, rasper, dead lift

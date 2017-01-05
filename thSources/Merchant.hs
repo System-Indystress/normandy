@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MERCHANT where 
+module Language.Thesaurus.RogetLite.Merchant where 
 import Language.Thesaurus
 merchant :: ThProg
 merchant = [thesaurus|
-# VOLITION
-## MERCHANT
+# Volition
+## Merchant
 noun:
 * merchant
  trader, dealer, monger, chandler, salesman, changer, regrater, shopkeeper, shopman, tradesman, tradespeople, tradesfolk

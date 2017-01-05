@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REPULSION where 
+module Language.Thesaurus.RogetLite.Repulsion where 
 import Language.Thesaurus
 repulsion :: ThProg
 repulsion = [thesaurus|
-# SPACE
-## REPULSION
+# Space
+## Repulsion
 noun:
 * repulsion
  driving from, repulse, abduction

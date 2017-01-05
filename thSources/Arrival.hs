@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ARRIVAL where 
+module Language.Thesaurus.RogetLite.Arrival where 
 import Language.Thesaurus
 arrival :: ThProg
 arrival = [thesaurus|
-# SPACE
-## ARRIVAL
+# Space
+## Arrival
 noun:
 * arrival
  advent, landing, debarkation, disembarkation, reception, welcome, vin d'honneur

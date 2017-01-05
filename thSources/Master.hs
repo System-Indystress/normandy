@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MASTER where 
+module Language.Thesaurus.RogetLite.Master where 
 import Language.Thesaurus
 master :: ThProg
 master = [thesaurus|
-# VOLITION
-## MASTER
+# Volition
+## Master
 noun:
 * master
  padrone, lord, lord paramount, commander, commandant, captain, chief, chieftain, sirdar, sachem, sheik, head, senior, governor, ruler, dictator, leader  , boss, cockarouse, sagamore, werowance

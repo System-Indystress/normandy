@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VANITY where 
+module Language.Thesaurus.RogetLite.Vanity where 
 import Language.Thesaurus
 vanity :: ThProg
 vanity = [thesaurus|
-# SENTIMENT
-## VANITY
+# Sentiment
+## Vanity
 noun:
 * vanity
  conceit, conceitedness, self-conceit, self-complacency, self-confidence, self-sufficiency, self-esteem, self-love, self-approbation, self-praise, self-glorification, self-laudation, self-gratulation, self-applause, self-admiration, amour propre, selfishness 

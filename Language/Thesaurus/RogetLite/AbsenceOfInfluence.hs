@@ -1,8 +1,9 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.AbsenceOfInfluence
 (absenceOfInfluence
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
 absenceOfInfluence :: ThProg
 absenceOfInfluence = [thesaurus|

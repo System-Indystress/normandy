@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MOISTURE where 
+module Language.Thesaurus.RogetLite.Moisture where 
 import Language.Thesaurus
 moisture :: ThProg
 moisture = [thesaurus|
-# MATTER
-## MOISTURE
+# Matter
+## Moisture
 noun:
 * moisture
  moistness, humidity, humectation, madefaction, dew, serein, marsh , hygrometry, hygrometer

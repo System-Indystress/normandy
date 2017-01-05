@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INCLUSION where 
+module Language.Thesaurus.RogetLite.Inclusion where 
 import Language.Thesaurus
 inclusion :: ThProg
 inclusion = [thesaurus|
-# RELATION
-## INCLUSION
+# Relation
+## Inclusion
 noun:
 * inclusion
  admission, comprehension, reception

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PITILESSNESS where 
+module Language.Thesaurus.RogetLite.Pitilessness where 
 import Language.Thesaurus
 pitilessness :: ThProg
 pitilessness = [thesaurus|
-# SENTIMENT
-## PITILESSNESS
+# Sentiment
+## Pitilessness
 noun:
 * pitilessness
  inclemency, severity , malevolence 

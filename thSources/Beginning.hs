@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BEGINNING where 
+module Language.Thesaurus.RogetLite.Beginning where 
 import Language.Thesaurus
 beginning :: ThProg
 beginning = [thesaurus|
-# ORDER
-## BEGINNING
+# Order
+## Beginning
 noun:
 * beginning
  commencement, opening, outset, incipience, inception, inchoation, introduction  , alpha, initial, inauguration, debut, le premier pas, embarcation, rising of the curtain, maiden speech, outbreak, onset, brunt, initiative, move, first move, narrow end of the wedge, thin end of the wedge, fresh start, new departure

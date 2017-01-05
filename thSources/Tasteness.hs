@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TASTENESS where 
+module Language.Thesaurus.RogetLite.Tasteness where 
 import Language.Thesaurus
 tasteness :: ThProg
 tasteness = [thesaurus|
-# SENTIMENT
-## TASTENESS
+# Sentiment
+## Tasteness
 noun:
 * taste
  good taste, refined taste, cultivated taste, delicacy, refinement, fine feeling, gust, gusto, tact, finesse, nicety  , , polish, elegance, grace

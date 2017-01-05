@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SENSIBILITY where 
+module Language.Thesaurus.RogetLite.Sensibility where 
 import Language.Thesaurus
 sensibility :: ThProg
 sensibility = [thesaurus|
-# SENTIMENT
-## SENSIBILITY
+# Sentiment
+## Sensibility
 noun:
 * sensibility
  sensibleness, sensitiveness, moral sensibility, impressibility, affectibility, suceptibleness, susceptibility, susceptivity, mobility, vivacity, vivaciousness, tenderness, softness, sentimental, sentimentality, sentimentalism

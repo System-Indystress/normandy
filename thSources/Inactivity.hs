@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INACTIVITY where 
+module Language.Thesaurus.RogetLite.Inactivity where 
 import Language.Thesaurus
 inactivity :: ThProg
 inactivity = [thesaurus|
-# VOLITION
-## INACTIVITY
+# Volition
+## Inactivity
 noun:
 * inactivity
  inaction , inertness , obstinacy . lull  , quiescence , rust, rustiness

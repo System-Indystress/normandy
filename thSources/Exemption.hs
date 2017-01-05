@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXEMPTION where 
+module Language.Thesaurus.RogetLite.Exemption where 
 import Language.Thesaurus
 exemption :: ThProg
 exemption = [thesaurus|
-# VOLITION
-## EXEMPTION
+# Volition
+## Exemption
 noun:
 * exemption
  absence , exception, immunity, privilege, release

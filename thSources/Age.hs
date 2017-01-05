@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AGE where 
+module Language.Thesaurus.RogetLite.Age where 
 import Language.Thesaurus
 age :: ThProg
 age = [thesaurus|
-# RELATION
-## AGE
+# Relation
+## Age
 noun:
 * age
  oldness, old age, advanced age, golden years, senility, senescence, years, anility, gray hairs, climacteric, grand climacteric, declining years, decrepitude, hoary age, caducity, superannuation, second childhood, second childishness, dotage, vale of years, decline of life, "sear and yellow leaf" , threescore years and ten, green old age, ripe age, longevity, time of life

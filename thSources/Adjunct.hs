@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ADJUNCT where 
+module Language.Thesaurus.RogetLite.Adjunct where 
 import Language.Thesaurus
 adjunct :: ThProg
 adjunct = [thesaurus|
-# RELATION
-## ADJUNCT
+# Relation
+## Adjunct
 noun:
 * adjunct
  addition, additament, additum, affix, appelidage, annexe, annex, augment, augmentation, increment, reinforcement, supernumerary, accessory, item, garnish, sauce, accompaniment , adjective, addendum, complement, supplement, continuation

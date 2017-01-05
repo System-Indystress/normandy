@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FOLD where 
+module Language.Thesaurus.RogetLite.Fold where 
 import Language.Thesaurus
 fold :: ThProg
 fold = [thesaurus|
-# SPACE
-## FOLD
+# Space
+## Fold
 noun:
 * fold
  plicature, plait, ply, crease, tuck, gather, flexion, flexure, joint, elbow, double, doubling, duplicature, gather, wrinkle, rimple, crinkle, crankle, crumple, rumple, rivel, ruck, ruffle, dog's ear, corrugation, frounce, flounce, lapel, pucker, crow's feet, plication, accordion pleat

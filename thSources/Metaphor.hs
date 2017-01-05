@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.METAPHOR where 
+module Language.Thesaurus.RogetLite.Metaphor where 
 import Language.Thesaurus
 metaphor :: ThProg
 metaphor = [thesaurus|
-# IDEAS
-## METAPHOR
+# Ideas
+## Metaphor
 noun:
 * figure of speech
  facon de parler , way of speaking, colloquialism

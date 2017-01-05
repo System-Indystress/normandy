@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BORROWING where 
+module Language.Thesaurus.RogetLite.Borrowing where 
 import Language.Thesaurus
 borrowing :: ThProg
 borrowing = [thesaurus|
-# VOLITION
-## BORROWING
+# Volition
+## Borrowing
 noun:
 * borrowing
  pledging

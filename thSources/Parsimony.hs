@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PARSIMONY where 
+module Language.Thesaurus.RogetLite.Parsimony where 
 import Language.Thesaurus
 parsimony :: ThProg
 parsimony = [thesaurus|
-# VOLITION
-## PARSIMONY
+# Volition
+## Parsimony
 noun:
 * parsimony
  parcity, parsimoniousness, stinginess, stint, illiberality, avarice, tenancity, avidity, rapacity, extortion, venality, cupidity, selfishness , auri sacra fames

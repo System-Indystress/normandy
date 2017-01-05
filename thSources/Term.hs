@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TERM where 
+module Language.Thesaurus.RogetLite.Term where 
 import Language.Thesaurus
 term :: ThProg
 term = [thesaurus|
-# RELATION
-## TERM
+# Relation
+## Term
 noun:
 * term
  rank, station, stage, step, degree , scale, remove, grade, link, peg, round of the ladder, status, position, place, point, mark, pas, period, pitch, stand, standing, footing, range

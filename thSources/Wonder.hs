@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WONDER where 
+module Language.Thesaurus.RogetLite.Wonder where 
 import Language.Thesaurus
 wonder :: ThProg
 wonder = [thesaurus|
-# SENTIMENT
-## WONDER
+# Sentiment
+## Wonder
 noun:
 * wonder
  marvel, astonishment, amazement, wonderment, bewilderment, amazedness, admiration, awe, stupor, stupefaction, stound, fascination, sensation, surprise  

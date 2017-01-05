@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRETEXT where 
+module Language.Thesaurus.RogetLite.Pretext where 
 import Language.Thesaurus
 pretext :: ThProg
 pretext = [thesaurus|
-# VOLITION
-## PRETEXT
+# Volition
+## Pretext
 noun:
 * pretext
  pretense, pretension, plea, allegation, advocation, ostensible motive, subterfuge, obtensible ground, obtensible reason, phony reason, excuse  , color, gloss, guise, cover

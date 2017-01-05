@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INEXPEDIENCE where 
+module Language.Thesaurus.RogetLite.Inexpedience where 
 import Language.Thesaurus
 inexpedience :: ThProg
 inexpedience = [thesaurus|
-# VOLITION
-## INEXPEDIENCE
+# Volition
+## Inexpedience
 noun:
 * inexpedience
  inexpediency, undesirableness, undesirability, discommodity, impropriety, unfitness  , inutility , disadvantage

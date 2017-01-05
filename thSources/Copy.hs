@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COPY where 
+module Language.Thesaurus.RogetLite.Copy where 
 import Language.Thesaurus
 copy :: ThProg
 copy = [thesaurus|
-# RELATION
-## COPY
+# Relation
+## Copy
 noun:
 * copy
  facsimile, xerox, counterpart, effigies, effigy, form, likeness, image, picture, photo, similitude, semblance, cast, tracing, ectype, photo offset, electrotype, imitation , model, representation, adumbration, study, portrait  , resemblance

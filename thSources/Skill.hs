@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SKILL where 
+module Language.Thesaurus.RogetLite.Skill where 
 import Language.Thesaurus
 skill :: ThProg
 skill = [thesaurus|
-# VOLITION
-## SKILL
+# Volition
+## Skill
 noun:
 * skill
  skillfulness, address, dexterity, dexterousness, adroitness, expertness, expertise, proficiency, competence, craft, callidity, facility, knack, trick, sleight, mastery, mastership, excellence, panurgy, ambidexterity, ambidextrousness, sleight of hand  

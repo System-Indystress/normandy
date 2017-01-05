@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ATONEMENT where 
+module Language.Thesaurus.RogetLite.Atonement where 
 import Language.Thesaurus
 atonement :: ThProg
 atonement = [thesaurus|
-# SENTIMENT
-## ATONEMENT
+# Sentiment
+## Atonement
 noun:
 * atonement
  reparation, compromise, composition, compensation , quittance, quits, expiation, redemption, reclamation, conciliation, propitiation, indemnification, redress

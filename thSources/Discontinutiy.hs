@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCONTINUTIY where 
+module Language.Thesaurus.RogetLite.Discontinutiy where 
 import Language.Thesaurus
 discontinutiy :: ThProg
 discontinutiy = [thesaurus|
-# RELATION
-## DISCONTINUTIY
+# Relation
+## Discontinutiy
 noun:
 * discontinuity
  disjunction , anacoluthon, interruption, break, fracture, flaw, fault, crack, cut, gap  , solution of continuity, caesura, broken thread, parenthesis, episode, rhapsody, patchwork, intermission, alternation  , dropping fire

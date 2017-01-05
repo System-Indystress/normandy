@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TACITURNITY where 
+module Language.Thesaurus.RogetLite.Taciturnity where 
 import Language.Thesaurus
 taciturnity :: ThProg
 taciturnity = [thesaurus|
-# IDEAS
-## TACITURNITY
+# Ideas
+## Taciturnity
 noun:
 * silence
  muteness, obmutescence, taciturnity, pauciloquy, costiveness, curtness, reserve, reticence  

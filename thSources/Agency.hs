@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AGENCY where 
+module Language.Thesaurus.RogetLite.Agency where 
 import Language.Thesaurus
 agency :: ThProg
 agency = [thesaurus|
-# RELATION
-## AGENCY
+# Relation
+## Agency
 noun:
 * agency
  operation, force, working, strain, function, office, maintenance, exercise, work, swing, play, interworking, interaction, procurement

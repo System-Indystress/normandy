@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NEWNESS where 
+module Language.Thesaurus.RogetLite.Newness where 
 import Language.Thesaurus
 newness :: ThProg
 newness = [thesaurus|
-# RELATION
-## NEWNESS
+# Relation
+## Newness
 noun:
 * newness
  novelty, recency, immaturity, youth , gloss of novelty

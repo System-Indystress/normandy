@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PENITENCE where 
+module Language.Thesaurus.RogetLite.Penitence where 
 import Language.Thesaurus
 penitence :: ThProg
 penitence = [thesaurus|
-# SENTIMENT
-## PENITENCE
+# Sentiment
+## Penitence
 noun:
 * penitence
  contrition, compunction, repentance, remorse, regret 

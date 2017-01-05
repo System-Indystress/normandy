@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.QUINQUESECTION where 
+module Language.Thesaurus.RogetLite.Quinquesection where 
 import Language.Thesaurus
 quinquesection :: ThProg
 quinquesection = [thesaurus|
-# RELATION
-## QUINQUESECTION
+# Relation
+## Quinquesection
 noun:
 * division by five 
  quinquesection, decimation, fifth

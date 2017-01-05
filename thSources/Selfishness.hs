@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SELFISHNESS where 
+module Language.Thesaurus.RogetLite.Selfishness where 
 import Language.Thesaurus
 selfishness :: ThProg
 selfishness = [thesaurus|
-# SENTIMENT
-## SELFISHNESS
+# Sentiment
+## Selfishness
 noun:
 * selfishness
  self-love, self-indulgence, self-worship, self-interest, egotism, egoism, amour propre  , nepotism

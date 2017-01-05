@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SEMITRANSPARENCY where 
+module Language.Thesaurus.RogetLite.Semitransparency where 
 import Language.Thesaurus
 semitransparency :: ThProg
 semitransparency = [thesaurus|
-# MATTER
-## SEMITRANSPARENCY
+# Matter
+## Semitransparency
 noun:
 * semitransparency
  opalescence, milkiness, pearliness, gauze, muslin, film, mica, mother-of-pearl, nacre, mist  

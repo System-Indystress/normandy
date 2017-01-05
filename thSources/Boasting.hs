@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BOASTING where 
+module Language.Thesaurus.RogetLite.Boasting where 
 import Language.Thesaurus
 boasting :: ThProg
 boasting = [thesaurus|
-# SENTIMENT
-## BOASTING
+# Sentiment
+## Boasting
 noun:
 * boasting
  boast, vaunt, crake, pretense, pretensions, puff, puffery, flourish, fanfaronade, gasconade, blague, bluff, gas, highfalutin, highfaluting, hot air, spread-eagleism , brag, braggardism, bravado, bunkum, buncombe, jactitation, jactancy, bounce, venditation, vaporing, rodomontade, bombast, fine talking, tall talk, magniloquence, teratology, heroics, Chauvinism, exaggeration 

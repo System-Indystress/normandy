@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VEGETABLE where 
+module Language.Thesaurus.RogetLite.Vegetable where 
 import Language.Thesaurus
 vegetable :: ThProg
 vegetable = [thesaurus|
-# MATTER
-## VEGETABLE
+# Matter
+## Vegetable
 noun:
 * vegetable
  vegetable kingdom, flora, verdure

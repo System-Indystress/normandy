@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RECOIL where 
+module Language.Thesaurus.RogetLite.Recoil where 
 import Language.Thesaurus
 recoil :: ThProg
 recoil = [thesaurus|
-# SPACE
-## RECOIL
+# Space
+## Recoil
 noun:
 * recoil
  reaction, retroaction, revulsion, bounce, rebound, ricochet, repercussion, recalcitration, kick, contrecoup, springing back, elasticity , reflexion, reflex, reflux, reverberation  , rebuff, repulse, return

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HELL where 
+module Language.Thesaurus.RogetLite.Hell where 
 import Language.Thesaurus
 hell :: ThProg
 hell = [thesaurus|
-# SENTIMENT
-## HELL
+# Sentiment
+## Hell
 noun:
 * hell
  bottomless pit, place of torment, habitation of fallen angels, Pandemonium, Abaddon, Domdaniel, jahannan, sheol

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESONANCE where 
+module Language.Thesaurus.RogetLite.Resonance where 
 import Language.Thesaurus
 resonance :: ThProg
 resonance = [thesaurus|
-# MATTER
-## RESONANCE
+# Matter
+## Resonance
 noun:
 * resonance
  ring, ringing, reflexion, reflection, reverberation, tinnitis

@@ -1,11 +1,12 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.Achromatism
-(acromatism
+(achromatism
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
-acromatism :: ThProg
-acromatism = [thesaurus|
+achromatism :: ThProg
+achromatism = [thesaurus|
 # Matter
 ## Achromatism
 noun:

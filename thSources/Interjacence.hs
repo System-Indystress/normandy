@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTERJACENCE where 
+module Language.Thesaurus.RogetLite.Interjacence where 
 import Language.Thesaurus
 interjacence :: ThProg
 interjacence = [thesaurus|
-# SPACE
-## INTERJACENCE
+# Space
+## Interjacence
 noun:
 * interjacence
  intercurrence, intervenience, interlocation, interdigitation, interpenetration, permeation

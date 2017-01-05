@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SOLECISM where 
+module Language.Thesaurus.RogetLite.Solecism where 
 import Language.Thesaurus
 solecism :: ThProg
 solecism = [thesaurus|
-# IDEAS
-## SOLECISM
+# Ideas
+## Solecism
 noun:
 * solecism
  bad grammar, false grammar, faulty grammar, slip of the pen, slip of the tongue, lapsus linguae, slipslop, bull, barbarism, impropriety

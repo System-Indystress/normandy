@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SIMPLICITY where 
+module Language.Thesaurus.RogetLite.Simplicity where 
 import Language.Thesaurus
 simplicity :: ThProg
 simplicity = [thesaurus|
-# SENTIMENT
-## SIMPLICITY
+# Sentiment
+## Simplicity
 noun:
 * simplicity
  plainness, homeliness, undress, chastity

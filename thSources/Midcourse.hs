@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MIDCOURSE where 
+module Language.Thesaurus.RogetLite.Midcourse where 
 import Language.Thesaurus
 midcourse :: ThProg
 midcourse = [thesaurus|
-# VOLITION
-## MIDCOURSE
+# Volition
+## Midcourse
 noun:
 * middle course
  midcourse, mean  middle , juste milieu, mezzo termine, golden mean, aurea mediocritas

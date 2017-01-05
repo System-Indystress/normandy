@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONADDITION where 
+module Language.Thesaurus.RogetLite.Nonaddition where 
 import Language.Thesaurus
 nonaddition :: ThProg
 nonaddition = [thesaurus|
-# RELATION
-## NONADDITION
+# Relation
+## Nonaddition
 noun:
 * nonaddition
  subduction, subtraction, deduction, retrenchment, removal, ablation, sublation, abstraction  , garbling, mutilation, detruncation, amputation, abscision, excision, recision, curtailment , minuend, subtrahend, decrease , abrasion

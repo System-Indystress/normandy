@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REGRESSION where 
+module Language.Thesaurus.RogetLite.Regression where 
 import Language.Thesaurus
 regression :: ThProg
 regression = [thesaurus|
-# SPACE
-## REGRESSION
+# Space
+## Regression
 noun:
 * regress
  regression, retrocession, retrogression, retrograduation, retroaction, reculade, retreat, withdrawal, retirement, remigration, recession  , recess, crab-like motion

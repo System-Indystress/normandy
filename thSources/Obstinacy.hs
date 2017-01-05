@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OBSTINACY where 
+module Language.Thesaurus.RogetLite.Obstinacy where 
 import Language.Thesaurus
 obstinacy :: ThProg
 obstinacy = [thesaurus|
-# VOLITION
-## OBSTINACY
+# Volition
+## Obstinacy
 noun:
 * obstinateness
  obstinacy, tenacity, cussedness , perseverance , immovability, old school, inflexibility  , obduracy, obduration, dogged resolution, resolution , ruling passion, blind side

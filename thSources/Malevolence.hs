@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MALEVOLENCE where 
+module Language.Thesaurus.RogetLite.Malevolence where 
 import Language.Thesaurus
 malevolence :: ThProg
 malevolence = [thesaurus|
-# SENTIMENT
-## MALEVOLENCE
+# Sentiment
+## Malevolence
 noun:
 * malevolence
  bad intent, bad intention, unkindness, diskindness, ill nature, ill will, ill blood, bad blood, enmity , hate , malignity, malice, malice prepense, maliciousness, spite, despite, resentment 

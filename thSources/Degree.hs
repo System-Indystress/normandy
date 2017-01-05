@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEGREE where 
+module Language.Thesaurus.RogetLite.Degree where 
 import Language.Thesaurus
 degree :: ThProg
 degree = [thesaurus|
-# RELATION
-## DEGREE
+# Relation
+## Degree
 noun:
 * degree
  grade, extent, measure, amount, ratio, stint, standard, height, pitch, reach, amplitude, range, scope, caliber, gradation, shade, tenor, compass, sphere, station, rank, standing, rate, way, sort

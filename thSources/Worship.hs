@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WORSHIP where 
+module Language.Thesaurus.RogetLite.Worship where 
 import Language.Thesaurus
 worship :: ThProg
 worship = [thesaurus|
-# SENTIMENT
-## WORSHIP
+# Sentiment
+## Worship
 noun:
 * worship
  adoration, devotion, aspiration, homage, service, humiliation, kneeling, genuflection, prostration

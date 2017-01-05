@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FEEBLENESS where 
+module Language.Thesaurus.RogetLite.Feebleness where 
 import Language.Thesaurus
 feebleness :: ThProg
 feebleness = [thesaurus|
-# IDEAS
-## FEEBLENESS
+# Ideas
+## Feebleness
 noun:
 * feebleness
 adj:

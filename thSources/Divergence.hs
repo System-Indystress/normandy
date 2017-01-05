@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIVERGENCE where 
+module Language.Thesaurus.RogetLite.Divergence where 
 import Language.Thesaurus
 divergence :: ThProg
 divergence = [thesaurus|
-# SPACE
-## DIVERGENCE
+# Space
+## Divergence
 noun:
 * divergence
  divergency, divarication, ramification, forking, radiation, separation  , dispersion , deviation , aberration

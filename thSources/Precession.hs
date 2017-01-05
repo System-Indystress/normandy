@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRECESSION where 
+module Language.Thesaurus.RogetLite.Precession where 
 import Language.Thesaurus
 precession :: ThProg
 precession = [thesaurus|
-# SPACE
-## PRECESSION
+# Space
+## Precession
 noun:
 * precession
  leading, heading, precedence , priority , the lead, le pas, van  , precursor 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MESSENGER where 
+module Language.Thesaurus.RogetLite.Messenger where 
 import Language.Thesaurus
 messenger :: ThProg
 messenger = [thesaurus|
-# IDEAS
-## MESSENGER
+# Ideas
+## Messenger
 noun:
 * messenger
  envoy, emissary, legate, nuncio, internuncio, ambassador  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WRONG where 
+module Language.Thesaurus.RogetLite.Wrong where 
 import Language.Thesaurus
 wrong :: ThProg
 wrong = [thesaurus|
-# SENTIMENT
-## WRONG
+# Sentiment
+## Wrong
 noun:
 * wrong
  what ought not to be, what should not be, malum in se, unreasonableness, grievance, shame

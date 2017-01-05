@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEAFNESS where 
+module Language.Thesaurus.RogetLite.Deafness where 
 import Language.Thesaurus
 deafness :: ThProg
 deafness = [thesaurus|
-# MATTER
-## DEAFNESS
+# Matter
+## Deafness
 noun:
 * deafness
  hardness of hearing, surdity, inaudibility, inaudibleness

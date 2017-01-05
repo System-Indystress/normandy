@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TERGIVERSATION where 
+module Language.Thesaurus.RogetLite.Tergiversation where 
 import Language.Thesaurus
 tergiversation :: ThProg
 tergiversation = [thesaurus|
-# VOLITION
-## TERGIVERSATION
+# Volition
+## Tergiversation
 noun:
 * change of mind
  change of intention, change of purpose, afterthought

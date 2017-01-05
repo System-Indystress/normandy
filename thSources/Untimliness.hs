@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNTIMLINESS where 
+module Language.Thesaurus.RogetLite.Untimliness where 
 import Language.Thesaurus
 untimliness :: ThProg
 untimliness = [thesaurus|
-# RELATION
-## UNTIMLINESS
+# Relation
+## Untimliness
 noun:
 * untimeliness
  intempestivity, unseasonableness, inexpedience, unsuitable time, improper time, unreasonableness, evil hour, contretemps, intrusion, anachronism 

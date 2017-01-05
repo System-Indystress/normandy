@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PARTY where 
+module Language.Thesaurus.RogetLite.Party where 
 import Language.Thesaurus
 party :: ThProg
 party = [thesaurus|
-# VOLITION
-## PARTY
+# Volition
+## Party
 noun:
 * party
  faction, side, denomination, communion, set, crew, band, horde, posse, phalanx, family, clan, , team, tong

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISSIMILARITY where 
+module Language.Thesaurus.RogetLite.Dissimilarity where 
 import Language.Thesaurus
 dissimilarity :: ThProg
 dissimilarity = [thesaurus|
-# RELATION
-## DISSIMILARITY
+# Relation
+## Dissimilarity
 noun:
 * dissimilarity
  dissimilaritude, unlikeness, diversity, disparity, dissemblance, divergence, variation, difference , novelty, originality, creativeness, oogamy

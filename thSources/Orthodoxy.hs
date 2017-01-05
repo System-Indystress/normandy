@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ORTHODOXY where 
+module Language.Thesaurus.RogetLite.Orthodoxy where 
 import Language.Thesaurus
 orthodoxy :: ThProg
 orthodoxy = [thesaurus|
-# SENTIMENT
-## ORTHODOXY
+# Sentiment
+## Orthodoxy
 noun:
 * orthodoxy
  strictness, soundness, religious truth, true faith, truth , soundness of doctrine

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LINING where 
+module Language.Thesaurus.RogetLite.Lining where 
 import Language.Thesaurus
 lining :: ThProg
 lining = [thesaurus|
-# SPACE
-## LINING
+# Space
+## Lining
 noun:
 * lining
  inner coating, coating  , stalactite, stalagamite

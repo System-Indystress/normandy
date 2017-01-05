@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WARFARE where 
+module Language.Thesaurus.RogetLite.Warfare where 
 import Language.Thesaurus
 warfare :: ThProg
 warfare = [thesaurus|
-# VOLITION
-## WARFARE
+# Volition
+## Warfare
 noun:
 * warfare
  fighting, hostilities, war, arms, the sword, Mars, Bellona, grim visaged war, horrida bella, bloodshed

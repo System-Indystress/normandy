@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REJOICING where 
+module Language.Thesaurus.RogetLite.Rejoicing where 
 import Language.Thesaurus
 rejoicing :: ThProg
 rejoicing = [thesaurus|
-# SENTIMENT
-## REJOICING
+# Sentiment
+## Rejoicing
 noun:
 * rejoicing
  exultation, triumph, jubilation, heyday, flush, revelling, merrymaking  , jubilee  , paean, Te Deum  , congratulation 

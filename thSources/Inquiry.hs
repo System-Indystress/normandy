@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INQUIRY where 
+module Language.Thesaurus.RogetLite.Inquiry where 
 import Language.Thesaurus
 inquiry :: ThProg
 inquiry = [thesaurus|
-# IDEAS
-## INQUIRY
+# Ideas
+## Inquiry
 noun:
 * inquiry
  request , search, research, quest, pursuit 

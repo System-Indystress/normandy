@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONVOLUTION where 
+module Language.Thesaurus.RogetLite.Convolution where 
 import Language.Thesaurus
 convolution :: ThProg
 convolution = [thesaurus|
-# SPACE
-## CONVOLUTION
+# Space
+## Convolution
 noun:
 * winding
  convolution, involution, circumvolution, wave, undulation, tortuosity, anfractuosity, sinuosity, sinuation, meandering, circuit, circumbendibus, twist, twirl, windings and turnings, ambages, torsion, inosculation, reticulation  , rivulation, roughness 

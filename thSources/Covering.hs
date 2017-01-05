@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COVERING where 
+module Language.Thesaurus.RogetLite.Covering where 
 import Language.Thesaurus
 covering :: ThProg
 covering = [thesaurus|
-# SPACE
-## COVERING
+# Space
+## Covering
 noun:
 * covering
  cover, baldachin, baldachino, baldaquin, canopy, tilt, awning, tent, marquee, tente d'abri, umbrella, parasol, sunshade, veil  , shield  

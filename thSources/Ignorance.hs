@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IGNORANCE where 
+module Language.Thesaurus.RogetLite.Ignorance where 
 import Language.Thesaurus
 ignorance :: ThProg
 ignorance = [thesaurus|
-# IDEAS
-## IGNORANCE
+# Ideas
+## Ignorance
 noun:
 * ignorance
  nescience, tabula rasa, crass ignorance, ignorance crasse, unacquaintance, unconsciousness, darkness, blindness, incomprehension, inexperience, simplicity

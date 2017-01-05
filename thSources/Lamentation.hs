@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LAMENTATION where 
+module Language.Thesaurus.RogetLite.Lamentation where 
 import Language.Thesaurus
 lamentation :: ThProg
 lamentation = [thesaurus|
-# SENTIMENT
-## LAMENTATION
+# Sentiment
+## Lamentation
 noun:
 * lament
  lamentation, wail, complaint, plaint, murmur, mutter, grumble, groan, moan, whine, whimper, sob, sigh, suspiration, heaving, deep sigh

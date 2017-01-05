@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTEMPT where 
+module Language.Thesaurus.RogetLite.Contempt where 
 import Language.Thesaurus
 contempt :: ThProg
 contempt = [thesaurus|
-# SENTIMENT
-## CONTEMPT
+# Sentiment
+## Contempt
 noun:
 * contempt
  disdain, scorn, sovereign contempt, despisal, despiciency, despisement, vilipendency, contumely, slight, sneer, spurn, by-word, despect

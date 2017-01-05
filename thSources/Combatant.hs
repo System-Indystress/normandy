@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMBATANT where 
+module Language.Thesaurus.RogetLite.Combatant where 
 import Language.Thesaurus
 combatant :: ThProg
 combatant = [thesaurus|
-# VOLITION
-## COMBATANT
+# Volition
+## Combatant
 noun:
 * combatant
  disputant, controversialist, polemic, litigant, belligerent, competitor, rival, corrival, fighter, assailant, champion, Paladin, mosstrooper, swashbuckler, fire eater, duelist, bully, bludgeon man, rough

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NECESSITY where 
+module Language.Thesaurus.RogetLite.Necessity where 
 import Language.Thesaurus
 necessity :: ThProg
 necessity = [thesaurus|
-# VOLITION
-## NECESSITY
+# Volition
+## Necessity
 noun:
 * involuntariness
  instinct, blind impulse, inborn proclivity, innate proclivity, native tendency, natural tendency, natural impulse, predetermination

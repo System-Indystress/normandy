@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LUMINARY where 
+module Language.Thesaurus.RogetLite.Luminary where 
 import Language.Thesaurus
 luminary :: ThProg
 luminary = [thesaurus|
-# MATTER
-## LUMINARY
+# Matter
+## Luminary
 noun:
 * luminary
  light , flame  

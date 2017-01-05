@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXCRETION where 
+module Language.Thesaurus.RogetLite.Excretion where 
 import Language.Thesaurus
 excretion :: ThProg
 excretion = [thesaurus|
-# SPACE
-## EXCRETION
+# Space
+## Excretion
 noun:
 * excretion
  discharge, emanation, exhalation, exudation, extrusion, secretion, effusion, extravasation, ecchymosis, evacuation, dejection, faeces, excrement, bloody flux, cacation, coeliac-flux, coeliac-passion, dysentery, perspiration, sweat, subation, exudation, diaphoresis, sewage, eccrinology

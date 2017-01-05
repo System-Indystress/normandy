@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEFENSE where 
+module Language.Thesaurus.RogetLite.Defense where 
 import Language.Thesaurus
 defense :: ThProg
 defense = [thesaurus|
-# VOLITION
-## DEFENSE
+# Volition
+## Defense
 noun:
 * defense
  protection, guard, ward, shielding, propugnation, preservation , guardianship

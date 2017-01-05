@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REVENGE where 
+module Language.Thesaurus.RogetLite.Revenge where 
 import Language.Thesaurus
 revenge :: ThProg
 revenge = [thesaurus|
-# SENTIMENT
-## REVENGE
+# Sentiment
+## Revenge
 noun:
 * revenge
  revengement, vengeance, avengement, avengeance, sweet revenge, vendetta, death feud, blood for blood retaliation , day of reckoning

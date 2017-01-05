@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEPRESSION where 
+module Language.Thesaurus.RogetLite.Depression where 
 import Language.Thesaurus
 depression :: ThProg
 depression = [thesaurus|
-# SPACE
-## DEPRESSION
+# Space
+## Depression
 noun:
 * lowering
  depression, dip  , abasement, detrusion, reduction

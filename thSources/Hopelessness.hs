@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HOPELESSNESS where 
+module Language.Thesaurus.RogetLite.Hopelessness where 
 import Language.Thesaurus
 hopelessness :: ThProg
 hopelessness = [thesaurus|
-# SENTIMENT
-## HOPELESSNESS
+# Sentiment
+## Hopelessness
 noun:
 * hopelessness
  despair, desperation, despondency  , pessimism, pessimist, Job's comforter, bird of bad omen, bird of ill omen

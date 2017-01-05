@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OCEAN where 
+module Language.Thesaurus.RogetLite.Ocean where 
 import Language.Thesaurus
 ocean :: ThProg
 ocean = [thesaurus|
-# MATTER
-## OCEAN
+# Matter
+## Ocean
 noun:
 * sea
  ocean, main, deep, brine, salt water, waves, billows, high seas, offing, great waters, watery waste, "vasty deep", wave, tide,  

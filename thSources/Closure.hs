@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CLOSURE where 
+module Language.Thesaurus.RogetLite.Closure where 
 import Language.Thesaurus
 closure :: ThProg
 closure = [thesaurus|
-# SPACE
-## CLOSURE
+# Space
+## Closure
 noun:
 * closure
  occlusion, blockade, shutting up, obstruction  , embolus, contraction , infarction, constipation, obstipation, blind alley, blind corner, keddah, cul-de-sac, caecum, imperforation, imperviousness, impermeability, stopper 

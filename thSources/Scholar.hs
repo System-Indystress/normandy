@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SCHOLAR where 
+module Language.Thesaurus.RogetLite.Scholar where 
 import Language.Thesaurus
 scholar :: ThProg
 scholar = [thesaurus|
-# IDEAS
-## SCHOLAR
+# Ideas
+## Scholar
 noun:
 * scholar
  connoisseur, savant, pundit, schoolman, professor, graduate, wrangler, academician, academist, master of arts, doctor, licentitate, gownsman, philosopher, master of math, scientist, clerk, sophist, sophister, linguist, glossolinguist, philologist, philologer, lexicographer, glossographer, grammarian, litterateur, literati, dilettanti, illuminati, fellow, Hebraist, lexicologist, mullah, munshi, Sanskritish, sinologist, sinologue, Mezzofanti, admirable Crichton, Mecaenas

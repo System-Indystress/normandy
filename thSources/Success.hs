@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUCCESS where 
+module Language.Thesaurus.RogetLite.Success where 
 import Language.Thesaurus
 success :: ThProg
 success = [thesaurus|
-# VOLITION
-## SUCCESS
+# Volition
+## Success
 noun:
 * success
  successfulness, speed, advance  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRISON where 
+module Language.Thesaurus.RogetLite.Prison where 
 import Language.Thesaurus
 prison :: ThProg
 prison = [thesaurus|
-# VOLITION
-## PRISON
+# Volition
+## Prison
 noun:
 * prison
  prison house, jail, gaol, cage, coop, den, cell, stronghold, fortress, keep, donjon, dungeon, Bastille, oubliette, bridewell, house of correction, hulks, tollboth, panopticon, penitentiary, guardroom, lockup, hold, round house, watch house, station house, sponging house, station, house of detention, black hole, pen, fold, pound, inclosure , penal settlement, bilboes, stocks, limbo, quod, calaboose, chauki, choky, thana, workhouse 

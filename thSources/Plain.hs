@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PLAIN where 
+module Language.Thesaurus.RogetLite.Plain where 
 import Language.Thesaurus
 plain :: ThProg
 plain = [thesaurus|
-# MATTER
-## PLAIN
+# Matter
+## Plain
 noun:
 * plain
  tableland, face of the country, open country, champaign country, basin, downs, waste, weary waste, desert, wild, steppe, pampas, savanna, prairie, heath, common, wold, veldt, moor, moorland, busch, plateau  , campagna, alkali flat, llano, mesa, mesilla , playa, shaking prairie, trembling prairie, vega

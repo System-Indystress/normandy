@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSOLENCE where 
+module Language.Thesaurus.RogetLite.Insolence where 
 import Language.Thesaurus
 insolence :: ThProg
 insolence = [thesaurus|
-# SENTIMENT
-## INSOLENCE
+# Sentiment
+## Insolence
 noun:
 * insolence
  haughtiness, arrogance, airs, overbearance, domineering, tyranny 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISINTERESTEDNESS where 
+module Language.Thesaurus.RogetLite.Disinterestedness where 
 import Language.Thesaurus
 disinterestedness :: ThProg
 disinterestedness = [thesaurus|
-# SENTIMENT
-## DISINTERESTEDNESS
+# Sentiment
+## Disinterestedness
 noun:
 * disinterestedness
  generosity, liberality, liberalism, altruism, benevolence , elevation, loftiness of purpose, exaltation, magnanimity, chivalry, chivalrous spirit, heroism, sublimity

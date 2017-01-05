@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSANITY where 
+module Language.Thesaurus.RogetLite.Insanity where 
 import Language.Thesaurus
 insanity :: ThProg
 insanity = [thesaurus|
-# IDEAS
-## INSANITY
+# Ideas
+## Insanity
 noun:
 * disordered reason
  disordered intellect, diseased mind, unsound mind, abnormal mind, derangement, unsoundness

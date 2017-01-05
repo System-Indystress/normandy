@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESTORATION where 
+module Language.Thesaurus.RogetLite.Restoration where 
 import Language.Thesaurus
 restoration :: ThProg
 restoration = [thesaurus|
-# VOLITION
-## RESTORATION
+# Volition
+## Restoration
 noun:
 * restoration
  restoral, reinstatement, replacement, rehabilitation, reestablishment, reconstitution, reconstruction, reproduction , renovation, renewal, revival, revivessence, reviviscence, refreshment , resuscitation, reanimation, revivification, reviction, Phoenix, reorganization

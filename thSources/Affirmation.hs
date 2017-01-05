@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AFFIRMATION where 
+module Language.Thesaurus.RogetLite.Affirmation where 
 import Language.Thesaurus
 affirmation :: ThProg
 affirmation = [thesaurus|
-# IDEAS
-## AFFIRMATION
+# Ideas
+## Affirmation
 noun:
 * affirmance
  affirmation, statement, allegation, assertion, predication, declaration, word, averment, confirmation

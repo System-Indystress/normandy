@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MAXIM where 
+module Language.Thesaurus.RogetLite.Maxim where 
 import Language.Thesaurus
 maxim :: ThProg
 maxim = [thesaurus|
-# IDEAS
-## MAXIM
+# Ideas
+## Maxim
 noun:
 * maxim
  aphorism, apothegm, apophthegm, dictum, saying, adage, saw, proverb, sentence, mot, motto, word, byword, moral, phylactery, protasis

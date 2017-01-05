@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COURAGE where 
+module Language.Thesaurus.RogetLite.Courage where 
 import Language.Thesaurus
 courage :: ThProg
 courage = [thesaurus|
-# SENTIMENT
-## COURAGE
+# Sentiment
+## Courage
 noun:
 * courage
  bravery, valor, resoluteness, boldness, spirit, daring, gallantry, intrepidity, contempt of danger, defiance of danger, derring-do, audacity, rashness , dash, defiance , confidence, self-reliance

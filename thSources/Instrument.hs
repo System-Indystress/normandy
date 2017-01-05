@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSTRUMENT where 
+module Language.Thesaurus.RogetLite.Instrument where 
 import Language.Thesaurus
 instrument :: ThProg
 instrument = [thesaurus|
-# VOLITION
-## INSTRUMENT
+# Volition
+## Instrument
 noun:
 * machinery
  mechanism, engineering

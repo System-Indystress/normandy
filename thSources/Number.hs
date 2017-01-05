@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NUMBER where 
+module Language.Thesaurus.RogetLite.Number where 
 import Language.Thesaurus
 number :: ThProg
 number = [thesaurus|
-# RELATION
-## NUMBER
+# Relation
+## Number
 noun:
 * number
  symbol, numeral, figure, cipher, digit, integer, counter, round number, formula, function, series

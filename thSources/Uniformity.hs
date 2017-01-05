@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNIFORMITY where 
+module Language.Thesaurus.RogetLite.Uniformity where 
 import Language.Thesaurus
 uniformity :: ThProg
 uniformity = [thesaurus|
-# RELATION
-## UNIFORMITY
+# Relation
+## Uniformity
 noun:
 * uniformity
  homogeneity, homogeneousness, consistency, connaturality, connaturalness, homology, accordance, conformity , agreement , consonance, uniformness

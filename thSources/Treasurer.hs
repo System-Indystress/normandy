@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TREASURER where 
+module Language.Thesaurus.RogetLite.Treasurer where 
 import Language.Thesaurus
 treasurer :: ThProg
 treasurer = [thesaurus|
-# VOLITION
-## TREASURER
+# Volition
+## Treasurer
 noun:
 * treasurer
  bursar, bursary, purser, purse bearer, cash keeper, banker, depositary, questor, receiver, steward, trustee, accountant, Accountant General, almoner, liquidator, paymaster, cashier, teller, cambist, money changer  

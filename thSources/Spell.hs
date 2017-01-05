@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SPELL where 
+module Language.Thesaurus.RogetLite.Spell where 
 import Language.Thesaurus
 spell :: ThProg
 spell = [thesaurus|
-# SENTIMENT
-## SPELL
+# Sentiment
+## Spell
 noun:
 * spell
  charm, incantation, exorcism, weird, cabala, exsufflation, cantrap, runes, abracadabra, open sesame, countercharm, Ephesian letters, bell book and candle, Mumbo Jumbo, evil eye, fee-faw-fum

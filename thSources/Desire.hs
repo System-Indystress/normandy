@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DESIRE where 
+module Language.Thesaurus.RogetLite.Desire where 
 import Language.Thesaurus
 desire :: ThProg
 desire = [thesaurus|
-# SENTIMENT
-## DESIRE
+# Sentiment
+## Desire
 noun:
 * desire
  wish, fancy, fantasy, want, need, exigency

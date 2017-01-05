@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ALARM where 
+module Language.Thesaurus.RogetLite.Alarm where 
 import Language.Thesaurus
 alarm :: ThProg
 alarm = [thesaurus|
-# VOLITION
-## ALARM
+# Volition
+## Alarm
 noun:
 * alarm
  alarum, larum, alarm bell, tocsin, alerts, beat of drum, sound of trumpet, note of alarm, hue and cry, fire cross, signal of distress, blue lights, war-cry, war-whoop, warning , fogsignal, foghorn, yellow flag, danger signal, red light, red flag, fire bell, police whistle

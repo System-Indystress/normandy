@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FASHION where 
+module Language.Thesaurus.RogetLite.Fashion where 
 import Language.Thesaurus
 fashion :: ThProg
 fashion = [thesaurus|
-# SENTIMENT
-## FASHION
+# Sentiment
+## Fashion
 noun:
 * fashion
  style, ton, bon ton, society, good society, polite society, monde, drawing-room, civilized life, civilization, town, beau monde, high life, court, world, fashionable world, gay world, Vanity Fair, show  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.POSTERITY where 
+module Language.Thesaurus.RogetLite.Posterity where 
 import Language.Thesaurus
 posterity :: ThProg
 posterity = [thesaurus|
-# RELATION
-## POSTERITY
+# Relation
+## Posterity
 noun:
 * posterity
  progeny, breed, issue, offspring, brood, litter, seed, farrow, spawn, spat, family, grandchildren, heirs, great-grandchild

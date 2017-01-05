@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCONTENT where 
+module Language.Thesaurus.RogetLite.Discontent where 
 import Language.Thesaurus
 discontent :: ThProg
 discontent = [thesaurus|
-# SENTIMENT
-## DISCONTENT
+# Sentiment
+## Discontent
 noun:
 * discontent
  discontentment, dissatisfaction, dissent 

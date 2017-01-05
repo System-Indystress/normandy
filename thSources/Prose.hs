@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROSE where 
+module Language.Thesaurus.RogetLite.Prose where 
 import Language.Thesaurus
 prose :: ThProg
 prose = [thesaurus|
-# IDEAS
-## PROSE
+# Ideas
+## Prose
 noun:
 * prose
  prose writer

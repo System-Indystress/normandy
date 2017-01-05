@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MYTHOLOGICAL where 
+module Language.Thesaurus.RogetLite.Mythological where 
 import Language.Thesaurus
 mythological :: ThProg
 mythological = [thesaurus|
-# SENTIMENT
-## MYTHOLOGICAL
+# Sentiment
+## Mythological
 noun:
 * god
  goddess, heathen gods and goddesses, deva, Jupiter, Jove, pantheon

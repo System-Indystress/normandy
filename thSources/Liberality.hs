@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIBERALITY where 
+module Language.Thesaurus.RogetLite.Liberality where 
 import Language.Thesaurus
 liberality :: ThProg
 liberality = [thesaurus|
-# VOLITION
-## LIBERALITY
+# Volition
+## Liberality
 noun:
 * liberality
  generosity, munificence, bounty, counteous, bounteousness, bountifulness, hospitality, charity  

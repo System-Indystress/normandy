@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.POVERTY where 
+module Language.Thesaurus.RogetLite.Poverty where 
 import Language.Thesaurus
 poverty :: ThProg
 poverty = [thesaurus|
-# VOLITION
-## POVERTY
+# Volition
+## Poverty
 noun:
 * poverty
  indigence, penury, pauperism, destitution, want, need, neediness, lack, necessity, privation, distress, difficulties, wolf at the door

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.APHONY where 
+module Language.Thesaurus.RogetLite.Aphony where 
 import Language.Thesaurus
 aphony :: ThProg
 aphony = [thesaurus|
-# IDEAS
-## APHONY
+# Ideas
+## Aphony
 noun:
 * aphony
  aphonia, dumbness, obmutescence, absence of voice, want of voice, dysphony, cacoopy, silence  , raucity, harsh voice  , unmusical voice  , falsetto, "childish treble mute", dummy

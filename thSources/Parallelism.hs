@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PARALLELISM where 
+module Language.Thesaurus.RogetLite.Parallelism where 
 import Language.Thesaurus
 parallelism :: ThProg
 parallelism = [thesaurus|
-# SPACE
-## PARALLELISM
+# Space
+## Parallelism
 noun:
 * parallelism
  coextension, equidistance

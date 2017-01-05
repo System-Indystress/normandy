@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ARTLESSNESS where 
+module Language.Thesaurus.RogetLite.Artlessness where 
 import Language.Thesaurus
 artlessness :: ThProg
 artlessness = [thesaurus|
-# VOLITION
-## ARTLESSNESS
+# Volition
+## Artlessness
 noun:
 * artlessness
  nature, simplicity, innocence , bonhomie, naivete, abandon, candor, sincerity, singleness of purpose, singleness of heart, honesty , plain speaking, epanchement

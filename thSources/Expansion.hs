@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXPANSION where 
+module Language.Thesaurus.RogetLite.Expansion where 
 import Language.Thesaurus
 expansion :: ThProg
 expansion = [thesaurus|
-# SPACE
-## EXPANSION
+# Space
+## Expansion
 noun:
 * expansion
  increase  of size, enlargement, extension, augmentation, amplification, ampliation, aggrandizement, spread, increment, growth, development, pullulation, swell, dilation, rarefaction, turgescence, turgidness, turgidity, dispansion, obesity  , hydrocephalus, hydrophthalmus, dropsy, tumefaction, intumescence, swelling, tumor, diastole, distension, puffing, puffiness, inflation, pandiculation

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CAUTION where 
+module Language.Thesaurus.RogetLite.Caution where 
 import Language.Thesaurus
 caution :: ThProg
 caution = [thesaurus|
-# RELATION
-## CAUTION
+# Relation
+## Caution
 noun:
 * caution
  cautiousness, discretion, prudence, cautel, heed, circumspection, calculation, deliberation

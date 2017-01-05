@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PHRASE where 
+module Language.Thesaurus.RogetLite.Phrase where 
 import Language.Thesaurus
 phrase :: ThProg
 phrase = [thesaurus|
-# IDEAS
-## PHRASE
+# Ideas
+## Phrase
 noun:
 * phrase
  expression, set phrase, sentence, paragraph, figure of speech , idiom, idiotism, turn of expression, style, collocation

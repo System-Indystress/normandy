@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ARENA where 
+module Language.Thesaurus.RogetLite.Arena where 
 import Language.Thesaurus
 arena :: ThProg
 arena = [thesaurus|
-# VOLITION
-## ARENA
+# Volition
+## Arena
 noun:
 * arena
  field, platform, scene of action, theater, walk, course, hustings, stare, boards  , amphitheater, Coliseum, Colosseum, Flavian amphitheater, hippodrome, circus, race course, corso, turf, cockpit, bear garden, playground, gymnasium, palestra, ring, lists, tiltyard, tilting ground, Campus Martins, Champ de Allars, campus 

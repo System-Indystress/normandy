@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OUTLINE where 
+module Language.Thesaurus.RogetLite.Outline where 
 import Language.Thesaurus
 outline :: ThProg
 outline = [thesaurus|
-# SPACE
-## OUTLINE
+# Space
+## Outline
 noun:
 * outline
  circumference, perimeter, periphery, ambit, circuit, lines, tournure, contour, profile, silhouette, bounds, coastline

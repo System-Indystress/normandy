@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MEMORY where 
+module Language.Thesaurus.RogetLite.Memory where 
 import Language.Thesaurus
 memory :: ThProg
 memory = [thesaurus|
-# IDEAS
-## MEMORY
+# Ideas
+## Memory
 noun:
 * memory
  remembrance, retention, retentiveness, tenacity, veteris vestigia flammae, tablets of the memory, readiness

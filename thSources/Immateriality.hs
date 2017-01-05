@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMMATERIALITY where 
+module Language.Thesaurus.RogetLite.Immateriality where 
 import Language.Thesaurus
 immateriality :: ThProg
 immateriality = [thesaurus|
-# MATTER
-## IMMATERIALITY
+# Matter
+## Immateriality
 noun:
 * immateriality
  immaterialness, incorporeity, spirituality, inextension, astral plane

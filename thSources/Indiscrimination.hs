@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INDISCRIMINATION where 
+module Language.Thesaurus.RogetLite.Indiscrimination where 
 import Language.Thesaurus
 indiscrimination :: ThProg
 indiscrimination = [thesaurus|
-# SENTIMENT
-## INDISCRIMINATION
+# Sentiment
+## Indiscrimination
 noun:
 * indiscrimination
  indistinctness, indistinction, uncertainty  

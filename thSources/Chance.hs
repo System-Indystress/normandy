@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CHANCE where 
+module Language.Thesaurus.RogetLite.Chance where 
 import Language.Thesaurus
 chance :: ThProg
 chance = [thesaurus|
-# RELATION
-## CHANCE
+# Relation
+## Chance
 noun:
 * chance
  indetermination, accident, fortune, hazard, hap, haphazard, chance medley, random, luck, raccroc, casualty, contingence, adventure, hit, fate  , equal chance, lottery, tombola, toss up , turn of the table, turn of the cards, hazard of the die, chapter of accidents, fickle finger of fate, cast of the dice, throw of the dice, heads or tails, flip of a coin, wheel of Fortune, sortes, sortes Virgilianae

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RASHINESS where 
+module Language.Thesaurus.RogetLite.Rashiness where 
 import Language.Thesaurus
 rashiness :: ThProg
 rashiness = [thesaurus|
-# SENTIMENT
-## RASHINESS
+# Sentiment
+## Rashiness
 noun:
 * rashness
  temerity, want of caution, imprudence, indiscretion, overconfidence, presumption, audacity

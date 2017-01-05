@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRANSIENTNESS where 
+module Language.Thesaurus.RogetLite.Transientness where 
 import Language.Thesaurus
 transientness :: ThProg
 transientness = [thesaurus|
-# RELATION
-## TRANSIENTNESS
+# Relation
+## Transientness
 noun:
 * transience
  transientness, evanascence, impermanence, fugacity, caducity, mortality, span, nine days' wonder, bubble, Mayfly, spurt, flash in the pan, temporary arrangement, interregnum

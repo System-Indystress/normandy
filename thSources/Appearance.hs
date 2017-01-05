@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.APPEARANCE where 
+module Language.Thesaurus.RogetLite.Appearance where 
 import Language.Thesaurus
 appearance :: ThProg
 appearance = [thesaurus|
-# MATTER
-## APPEARANCE
+# Matter
+## Appearance
 noun:
 * appearance
  phenomenon, sight, spectacle, show, premonstration, scene, species, view, coup d'oeil, lookout, outlook, prospect, vista, perspective, bird's-eye view, scenery, landscape, picture, tableau, display, exposure, mise en scene, rising of the curtain

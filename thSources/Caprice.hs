@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CAPRICE where 
+module Language.Thesaurus.RogetLite.Caprice where 
 import Language.Thesaurus
 caprice :: ThProg
 caprice = [thesaurus|
-# VOLITION
-## CAPRICE
+# Volition
+## Caprice
 noun:
 * caprice
  fancy, humor, whim, whimsy, whimwham, crotchet, capriccio, quirk, freak, maggot, fad, vagary, prank, fit, flimflam, escapade, boutade, wild-goose chase, capriciousness, kink

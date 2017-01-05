@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXPEDIENCE where 
+module Language.Thesaurus.RogetLite.Expedience where 
 import Language.Thesaurus
 expedience :: ThProg
 expedience = [thesaurus|
-# VOLITION
-## EXPEDIENCE
+# Volition
+## Expedience
 noun:
 * expedience
  expediency, desirableness, desirability, fitness  , utility , propriety, opportunism, advantage

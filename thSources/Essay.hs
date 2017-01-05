@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ESSAY where 
+module Language.Thesaurus.RogetLite.Essay where 
 import Language.Thesaurus
 essay :: ThProg
 essay = [thesaurus|
-# VOLITION
-## ESSAY
+# Volition
+## Essay
 noun:
 * essay
  trial, endeavor, attempt, aim, struggle, venture, adventure, speculation, coup d'essai, debut, probation  

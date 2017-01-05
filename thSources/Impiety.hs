@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPIETY where 
+module Language.Thesaurus.RogetLite.Impiety where 
 import Language.Thesaurus
 impiety :: ThProg
 impiety = [thesaurus|
-# SENTIMENT
-## IMPIETY
+# Sentiment
+## Impiety
 noun:
 * impiety
  sin , irreverence, profaneness, profanity, profanation, blasphemy, desecration, sacrilege, scoffing

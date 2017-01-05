@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESTRAINT where 
+module Language.Thesaurus.RogetLite.Restraint where 
 import Language.Thesaurus
 restraint :: ThProg
 restraint = [thesaurus|
-# VOLITION
-## RESTRAINT
+# Volition
+## Restraint
 noun:
 * restraint
  hindrance , coercion  , cohibition, constraint, repression, discipline, control

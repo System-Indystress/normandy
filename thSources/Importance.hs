@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPORTANCE where 
+module Language.Thesaurus.RogetLite.Importance where 
 import Language.Thesaurus
 importance :: ThProg
 importance = [thesaurus|
-# VOLITION
-## IMPORTANCE
+# Volition
+## Importance
 noun:
 * importance
  consequence, moment, prominence, consideration, mark, materialness

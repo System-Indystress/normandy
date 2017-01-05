@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CARRIER where 
+module Language.Thesaurus.RogetLite.Carrier where 
 import Language.Thesaurus
 carrier :: ThProg
 carrier = [thesaurus|
-# SPACE
-## CARRIER
+# Space
+## Carrier
 noun:
 * carrier
  porter, bearer, tranter, conveyer, cargador, express, expressman, stevedore, coolie, conductor, locomotive, motor

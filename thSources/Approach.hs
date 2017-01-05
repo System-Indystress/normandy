@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.APPROACH where 
+module Language.Thesaurus.RogetLite.Approach where 
 import Language.Thesaurus
 approach :: ThProg
 approach = [thesaurus|
-# SPACE
-## APPROACH
+# Space
+## Approach
 noun:
 * approach
  approximation, appropinquation, access, appulse, afflux, affluxion, advent  , pursuit 

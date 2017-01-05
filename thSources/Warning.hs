@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WARNING where 
+module Language.Thesaurus.RogetLite.Warning where 
 import Language.Thesaurus
 warning :: ThProg
 warning = [thesaurus|
-# VOLITION
-## WARNING
+# Volition
+## Warning
 noun:
 * warning
  early warning, caution, caveat, notice  , premonition, premonishment, prediction , contraindication, lesson, dehortation, admonition, monition, alarm 

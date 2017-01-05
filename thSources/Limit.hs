@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIMIT where 
+module Language.Thesaurus.RogetLite.Limit where 
 import Language.Thesaurus
 limit :: ThProg
 limit = [thesaurus|
-# SPACE
-## LIMIT
+# Space
+## Limit
 noun:
 * limit
  boundary, bounds, confine, enclave, term, bourn, verge, curbstone, but, pale, termination, terminus, stint, frontier, precinct, marches, backwoods

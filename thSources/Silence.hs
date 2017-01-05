@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SILENCE where 
+module Language.Thesaurus.RogetLite.Silence where 
 import Language.Thesaurus
 silence :: ThProg
 silence = [thesaurus|
-# MATTER
-## SILENCE
+# Matter
+## Silence
 noun:
 * silence
  stillness  , peace, hush, lull, muteness , solemn silence, awful silence, dead silence, deathlike silence

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INVERSION where 
+module Language.Thesaurus.RogetLite.Inversion where 
 import Language.Thesaurus
 inversion :: ThProg
 inversion = [thesaurus|
-# SPACE
-## INVERSION
+# Space
+## Inversion
 noun:
 * inversion
  eversion, subversion, reversion, retroversion, introversion, contraposition , contrariety , reversal, turn of the tide

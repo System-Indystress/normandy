@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VARIEGATION where 
+module Language.Thesaurus.RogetLite.Variegation where 
 import Language.Thesaurus
 variegation :: ThProg
 variegation = [thesaurus|
-# MATTER
-## VARIEGATION
+# Matter
+## Variegation
 noun:
 * variegation
  colors, dichroism, trichroism, iridescence, play of colors, polychrome, maculation, spottiness, striae

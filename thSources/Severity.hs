@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SEVERITY where 
+module Language.Thesaurus.RogetLite.Severity where 
 import Language.Thesaurus
 severity :: ThProg
 severity = [thesaurus|
-# VOLITION
-## SEVERITY
+# Volition
+## Severity
 noun:
 * severity
  strictness, harshness, rigor, stringency, austerity, inclemency  , arrogance , precisianism

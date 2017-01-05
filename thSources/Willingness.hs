@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WILLINGNESS where 
+module Language.Thesaurus.RogetLite.Willingness where 
 import Language.Thesaurus
 willingness :: ThProg
 willingness = [thesaurus|
-# VOLITION
-## WILLINGNESS
+# Volition
+## Willingness
 noun:
 * willingness
  voluntariness, willing mind, willing heart

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INFERIORITY where 
+module Language.Thesaurus.RogetLite.Inferiority where 
 import Language.Thesaurus
 inferiority :: ThProg
 inferiority = [thesaurus|
-# RELATION
-## INFERIORITY
+# Relation
+## Inferiority
 noun:
 * inferiority
  minority, subordinacy, shortcoming, deficiency, minimum, smallness , imperfection, lower quality, lower worth

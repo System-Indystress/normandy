@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNWILLINGNESS where 
+module Language.Thesaurus.RogetLite.Unwillingness where 
 import Language.Thesaurus
 unwillingness :: ThProg
 unwillingness = [thesaurus|
-# VOLITION
-## UNWILLINGNESS
+# Volition
+## Unwillingness
 noun:
 * unwillingness
  indisposition, indisposedness, disinclination, aversation, nolleity, nolition, renitence, renitency, reluctance, indifference , backwardness, slowness , want of alacrity, want of readiness, indocility  

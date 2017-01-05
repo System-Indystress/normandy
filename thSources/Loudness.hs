@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LOUDNESS where 
+module Language.Thesaurus.RogetLite.Loudness where 
 import Language.Thesaurus
 loudness :: ThProg
 loudness = [thesaurus|
-# MATTER
-## LOUDNESS
+# Matter
+## Loudness
 noun:
 * loudness
  power, loud noise, din, blare, clang, clangor, clatter, noise, bombilation, roar, uproar, racket, hubbub, bobbery, fracas, charivari, trumpet blast, flourish of trumpets, fanfare, tintamarre, peal, swell, blast, larum, boom, resonance 

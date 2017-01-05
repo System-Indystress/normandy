@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REDNESS where 
+module Language.Thesaurus.RogetLite.Redness where 
 import Language.Thesaurus
 redness :: ThProg
 redness = [thesaurus|
-# MATTER
-## REDNESS
+# Matter
+## Redness
 noun:
 * red
  scarlet, vermilion, carmine, crimson, pink, lake, maroon, carnation, couleur de rose, rose du Barry, magenta, damask, purple, flesh color, flesh tint, color, fresh color, high color, warmth, gules

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VINCULUM where 
+module Language.Thesaurus.RogetLite.Vinculum where 
 import Language.Thesaurus
 vinculum :: ThProg
 vinculum = [thesaurus|
-# RELATION
-## VINCULUM
+# Relation
+## Vinculum
 noun:
 * vinculum
  link, connective, connection, junction , bond of union, copula, intermedium, hyphen, bracket, bridge, stepping-stone, isthmus

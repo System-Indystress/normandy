@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.THEPRESENTTIME where 
+module Language.Thesaurus.RogetLite.Thepresenttime where 
 import Language.Thesaurus
 thepresenttime :: ThProg
 thepresenttime = [thesaurus|
-# RELATION
-## THEPRESENTTIME
+# Relation
+## Thepresenttime
 noun:
 * the present time
  the present, the present day, the present moment, the present juncture, the present occasion, the times, the existing time, the time being, today, these days, nowadays, our times, modern times, the twenty-first century, the new millennium, nonce, crisis, epoch, day, hour. age, time of life

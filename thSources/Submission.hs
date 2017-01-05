@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUBMISSION where 
+module Language.Thesaurus.RogetLite.Submission where 
 import Language.Thesaurus
 submission :: ThProg
 submission = [thesaurus|
-# VOLITION
-## SUBMISSION
+# Volition
+## Submission
 noun:
 * submission
  yielding, nonresistance, obedience 

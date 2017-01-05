@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CAUSE where 
+module Language.Thesaurus.RogetLite.Cause where 
 import Language.Thesaurus
 cause :: ThProg
 cause = [thesaurus|
-# RELATION
-## CAUSE
+# Relation
+## Cause
 noun:
 * cause
  origin, source, principle, element, occasioner, prime mover, primum mobile, vera causa, author  , mainspring, agent, leaven, groundwork, foundation  

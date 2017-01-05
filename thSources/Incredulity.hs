@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INCREDULITY where 
+module Language.Thesaurus.RogetLite.Incredulity where 
 import Language.Thesaurus
 incredulity :: ThProg
 incredulity = [thesaurus|
-# IDEAS
-## INCREDULITY
+# Ideas
+## Incredulity
 noun:
 * incredulousness
  incredulity, skepticism, pyrrhonism, want of faith  

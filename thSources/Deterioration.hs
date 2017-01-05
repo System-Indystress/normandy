@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DETERIORATION where 
+module Language.Thesaurus.RogetLite.Deterioration where 
 import Language.Thesaurus
 deterioration :: ThProg
 deterioration = [thesaurus|
-# VOLITION
-## DETERIORATION
+# Volition
+## Deterioration
 noun:
 * deterioration
  debasement, wane, ebb, recession , retrogradation , decrease 

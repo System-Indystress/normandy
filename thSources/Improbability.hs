@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPROBABILITY where 
+module Language.Thesaurus.RogetLite.Improbability where 
 import Language.Thesaurus
 improbability :: ThProg
 improbability = [thesaurus|
-# IDEAS
-## IMPROBABILITY
+# Ideas
+## Improbability
 noun:
 * improbability
  unlikelihood, unfavorable chance, bad chance, ghost of a chance, little chance, small chance, poor chance, scarcely any chance, no chance, bare possibility, long odds, incredibility 

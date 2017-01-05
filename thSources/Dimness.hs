@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIMNESS where 
+module Language.Thesaurus.RogetLite.Dimness where 
 import Language.Thesaurus
 dimness :: ThProg
 dimness = [thesaurus|
-# MATTER
-## DIMNESS
+# Matter
+## Dimness
 noun:
 * dimness
  darkness , paleness  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIVESTMENT where 
+module Language.Thesaurus.RogetLite.Divestment where 
 import Language.Thesaurus
 divestment :: ThProg
 divestment = [thesaurus|
-# SPACE
-## DIVESTMENT
+# Space
+## Divestment
 noun:
 * divestment
  taking off

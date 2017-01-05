@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SIZE where 
+module Language.Thesaurus.RogetLite.Size where 
 import Language.Thesaurus
 size :: ThProg
 size = [thesaurus|
-# SPACE
-## SIZE
+# Space
+## Size
 noun:
 * size
  magnitude, dimension, bulk, volume, largeness, greatness  , expanse  , amplitude, mass, proportions

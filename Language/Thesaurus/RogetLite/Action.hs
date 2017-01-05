@@ -1,8 +1,9 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.Action
 (action
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
 action :: ThProg
 action = [thesaurus|

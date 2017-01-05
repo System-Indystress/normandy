@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.METHOD where 
+module Language.Thesaurus.RogetLite.Method where 
 import Language.Thesaurus
 method :: ThProg
 method = [thesaurus|
-# VOLITION
-## METHOD
+# Volition
+## Method
 noun:
 * method
  way, manner, wise, gait, form, mode, fashion, tone, guise, modus operandi, MO, procedure  

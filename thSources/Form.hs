@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FORM where 
+module Language.Thesaurus.RogetLite.Form where 
 import Language.Thesaurus
 form :: ThProg
 form = [thesaurus|
-# SPACE
-## FORM
+# Space
+## Form
 noun:
 * form
  figure, shape, conformation, configuration, make, formation, frame, construction, cut, set, build, trim, cut of one's jib, stamp, type, cast, mold, fashion, contour  , structure , plasmature

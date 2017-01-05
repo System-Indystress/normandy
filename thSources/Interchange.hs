@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTERCHANGE where 
+module Language.Thesaurus.RogetLite.Interchange where 
 import Language.Thesaurus
 interchange :: ThProg
 interchange = [thesaurus|
-# RELATION
-## INTERCHANGE
+# Relation
+## Interchange
 noun:
 * interchange
  exchange, commutation, permutation, intermutation, reciprocation, transposition, shuffling, alternation, reciprocity, castling , hocus-pocus

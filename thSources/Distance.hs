@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISTANCE where 
+module Language.Thesaurus.RogetLite.Distance where 
 import Language.Thesaurus
 distance :: ThProg
 distance = [thesaurus|
-# SPACE
-## DISTANCE
+# Space
+## Distance
 noun:
 * distance
  space , remoteness, farness, far-cry to, longinquity, elongation, offing, background, remote region, removedness, parallax, reach, span, stride

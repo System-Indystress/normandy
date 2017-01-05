@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SHALLOWNESS where 
+module Language.Thesaurus.RogetLite.Shallowness where 
 import Language.Thesaurus
 shallowness :: ThProg
 shallowness = [thesaurus|
-# MATTER
-## SHALLOWNESS
+# Matter
+## Shallowness
 noun:
 * shallowness
  shoals, mere scratch

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NOTCH where 
+module Language.Thesaurus.RogetLite.Notch where 
 import Language.Thesaurus
 notch :: ThProg
 notch = [thesaurus|
-# SPACE
-## NOTCH
+# Space
+## Notch
 noun:
 * notch
  dent, nick, cut, indent, indentation, dimple

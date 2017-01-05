@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PLUNGE where 
+module Language.Thesaurus.RogetLite.Plunge where 
 import Language.Thesaurus
 plunge :: ThProg
 plunge = [thesaurus|
-# SPACE
-## PLUNGE
+# Space
+## Plunge
 noun:
 * plunge
  dip, dive, header, ducking, diver

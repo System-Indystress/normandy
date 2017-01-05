@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REJECTION where 
+module Language.Thesaurus.RogetLite.Rejection where 
 import Language.Thesaurus
 rejection :: ThProg
 rejection = [thesaurus|
-# VOLITION
-## REJECTION
+# Volition
+## Rejection
 noun:
 * rejection
  repudiation, exclusion, refusal , declination

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTELLIGIBILITY where 
+module Language.Thesaurus.RogetLite.Intelligibility where 
 import Language.Thesaurus
 intelligibility :: ThProg
 intelligibility = [thesaurus|
-# IDEAS
-## INTELLIGIBILITY
+# Ideas
+## Intelligibility
 noun:
 * intelligibility
  clearness, explicitness, lucidity, comprehensibility, perspicuity, legibility, plain speaking  , precision , a word to the wise

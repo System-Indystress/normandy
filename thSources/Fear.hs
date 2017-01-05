@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FEAR where 
+module Language.Thesaurus.RogetLite.Fear where 
 import Language.Thesaurus
 fear :: ThProg
 fear = [thesaurus|
-# SENTIMENT
-## FEAR
+# Sentiment
+## Fear
 noun:
 * fear
  timidity, diffidence, want of confidence, apprehensiveness, fearfulness, solicitude, anxiety, care, apprehension, misgiving, feeze , mistrust  , suspicion, qualm, hesitation  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUBSTITUTION where 
+module Language.Thesaurus.RogetLite.Substitution where 
 import Language.Thesaurus
 substitution :: ThProg
 substitution = [thesaurus|
-# RELATION
-## SUBSTITUTION
+# Relation
+## Substitution
 noun:
 * substitution
  commutation, supplanting, metaphor, metonymy  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STATE where 
+module Language.Thesaurus.RogetLite.State where 
 import Language.Thesaurus
 state :: ThProg
 state = [thesaurus|
-# RELATION
-## STATE
+# Relation
+## State
 noun:
 * state
  condition, category, estate, lot, ease, trim, mood, pickle, plight, temper, aspect  , dilemma, pass, predicament

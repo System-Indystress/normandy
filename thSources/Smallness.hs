@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SMALLNESS where 
+module Language.Thesaurus.RogetLite.Smallness where 
 import Language.Thesaurus
 smallness :: ThProg
 smallness = [thesaurus|
-# RELATION
-## SMALLNESS
+# Relation
+## Smallness
 noun:
 * smallness
  littleness  , tenuity, paucity, fewness  , meanness, insignificance  , mediocrity, moderation

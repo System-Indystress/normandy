@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PURITY where 
+module Language.Thesaurus.RogetLite.Purity where 
 import Language.Thesaurus
 purity :: ThProg
 purity = [thesaurus|
-# SENTIMENT
-## PURITY
+# Sentiment
+## Purity
 noun:
 * purity
  decency, decorum, delicacy, continence, chastity, honesty, virtue, modesty, shame, pudicity, pucelage, virginity

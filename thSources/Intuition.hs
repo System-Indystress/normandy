@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTUITION where 
+module Language.Thesaurus.RogetLite.Intuition where 
 import Language.Thesaurus
 intuition :: ThProg
 intuition = [thesaurus|
-# IDEAS
-## INTUITION
+# Ideas
+## Intuition
 noun:
 * intuition
  instinct, association, presentiment, rule of thumb

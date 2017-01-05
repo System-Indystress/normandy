@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INEXISTENCE where 
+module Language.Thesaurus.RogetLite.Inexistence where 
 import Language.Thesaurus
 inexistence :: ThProg
 inexistence = [thesaurus|
-# RELATION
-## INEXISTENCE
+# Relation
+## Inexistence
 noun:
 * inexistence
  nonexistence, nonsubsistence, nonentity, nil, negativeness, nullity, nihility, nihilism, tabula rasa, blank, abeyance, absence , no such thing , nonbeing, nothingness, oblivion

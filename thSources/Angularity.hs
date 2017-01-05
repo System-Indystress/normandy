@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ANGULARITY where 
+module Language.Thesaurus.RogetLite.Angularity where 
 import Language.Thesaurus
 angularity :: ThProg
 angularity = [thesaurus|
-# SPACE
-## ANGULARITY
+# Space
+## Angularity
 noun:
 * angularity
  angularness, aduncity, angle, cusp, bend, fold , notch , fork, bifurcation

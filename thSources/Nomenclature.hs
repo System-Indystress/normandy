@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NOMENCLATURE where 
+module Language.Thesaurus.RogetLite.Nomenclature where 
 import Language.Thesaurus
 nomenclature :: ThProg
 nomenclature = [thesaurus|
-# IDEAS
-## NOMENCLATURE
+# Ideas
+## Nomenclature
 noun:
 * nomenclature
  naming, nuncupation, nomination, baptism, orismology, onomatopoeia, antonomasia, onomasiology

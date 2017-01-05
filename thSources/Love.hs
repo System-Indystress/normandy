@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LOVE where 
+module Language.Thesaurus.RogetLite.Love where 
 import Language.Thesaurus
 love :: ThProg
 love = [thesaurus|
-# SENTIMENT
-## LOVE
+# Sentiment
+## Love
 noun:
 * love
  fondness, liking, inclination  , regard, dilection, admiration, fancy

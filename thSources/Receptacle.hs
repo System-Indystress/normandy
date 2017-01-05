@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RECEPTACLE where 
+module Language.Thesaurus.RogetLite.Receptacle where 
 import Language.Thesaurus
 receptacle :: ThProg
 receptacle = [thesaurus|
-# SPACE
-## RECEPTACLE
+# Space
+## Receptacle
 noun:
 * receptacle
  inclosure , recipient, receiver, reservatory

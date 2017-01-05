@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SOBRIETY where 
+module Language.Thesaurus.RogetLite.Sobriety where 
 import Language.Thesaurus
 sobriety :: ThProg
 sobriety = [thesaurus|
-# SENTIMENT
-## SOBRIETY
+# Sentiment
+## Sobriety
 noun:
 * sobriety
  teetotalism

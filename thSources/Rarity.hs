@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RARITY where 
+module Language.Thesaurus.RogetLite.Rarity where 
 import Language.Thesaurus
 rarity :: ThProg
 rarity = [thesaurus|
-# MATTER
-## RARITY
+# Matter
+## Rarity
 noun:
 * rarity
  tenuity, absence of solidity , subtility, subtilty, subtlety, sponginess, compressibility

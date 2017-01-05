@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INODOROUSNESS where 
+module Language.Thesaurus.RogetLite.Inodorousness where 
 import Language.Thesaurus
 inodorousness :: ThProg
 inodorousness = [thesaurus|
-# MATTER
-## INODOROUSNESS
+# Matter
+## Inodorousness
 noun:
 * inodorousness
  absence of smell, want of smell

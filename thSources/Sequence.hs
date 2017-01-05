@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SEQUENCE where 
+module Language.Thesaurus.RogetLite.Sequence where 
 import Language.Thesaurus
 sequence :: ThProg
 sequence = [thesaurus|
-# RELATION
-## SEQUENCE
+# Relation
+## Sequence
 noun:
 * sequence
  coming after, going after  , consecution, succession, posteriority 

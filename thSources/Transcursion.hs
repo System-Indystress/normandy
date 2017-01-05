@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRANSCURSION where 
+module Language.Thesaurus.RogetLite.Transcursion where 
 import Language.Thesaurus
 transcursion :: ThProg
 transcursion = [thesaurus|
-# SPACE
-## TRANSCURSION
+# Space
+## Transcursion
 noun:
 * transcursion
  transiliency, transgression, tresspass, encroachment, infringement, extravagation, transcendence, redundance 

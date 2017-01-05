@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CARE where 
+module Language.Thesaurus.RogetLite.Care where 
 import Language.Thesaurus
 care :: ThProg
 care = [thesaurus|
-# IDEAS
-## CARE
+# Ideas
+## Care
 noun:
 * care
  solicitude, heed, heedfulness, scruple  

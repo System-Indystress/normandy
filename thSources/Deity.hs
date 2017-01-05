@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEITY where 
+module Language.Thesaurus.RogetLite.Deity where 
 import Language.Thesaurus
 deity :: ThProg
 deity = [thesaurus|
-# SENTIMENT
-## DEITY
+# Sentiment
+## Deity
 noun:
 * Deity
  Divinity, Godhead, Godship, Omnipotence, Providence

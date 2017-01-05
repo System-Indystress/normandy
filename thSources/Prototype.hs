@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROTOTYPE where 
+module Language.Thesaurus.RogetLite.Prototype where 
 import Language.Thesaurus
 prototype :: ThProg
 prototype = [thesaurus|
-# RELATION
-## PROTOTYPE
+# Relation
+## Prototype
 noun:
 * prototype
  original, model, pattern, precedent, standard, ideal, reference, scantling, type, archetype, antitype, protoplast, module, exemplar, example, ensample, paradigm, lay figure

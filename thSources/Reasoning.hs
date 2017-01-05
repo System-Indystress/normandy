@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REASONING where 
+module Language.Thesaurus.RogetLite.Reasoning where 
 import Language.Thesaurus
 reasoning :: ThProg
 reasoning = [thesaurus|
-# IDEAS
-## REASONING
+# Ideas
+## Reasoning
 noun:
 * reasoning
  ratiocination, rationalism, dialectics, induction, generalization

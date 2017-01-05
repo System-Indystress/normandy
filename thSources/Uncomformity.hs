@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNCOMFORMITY where 
+module Language.Thesaurus.RogetLite.Uncomformity where 
 import Language.Thesaurus
 uncomformity :: ThProg
 uncomformity = [thesaurus|
-# RELATION
-## UNCOMFORMITY
+# Relation
+## Uncomformity
 noun:
 * nonconformity 
  unconformity, disconformity, unconventionality, informality, abnormity, abnormality, anomaly, anomalousness, exception, peculiarity, infraction of law, breach, of law, violation of law, violation of custom, violation of usage, infringement of law, infringement of custom, infringement of usage, teratism, eccentricity, bizarrerie, oddity, je ne sais quoi, monster, monstrosity, rarity, freak, freak of Nature, weirdo, mutant, rouser, snorter 

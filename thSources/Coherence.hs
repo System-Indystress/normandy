@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COHERENCE where 
+module Language.Thesaurus.RogetLite.Coherence where 
 import Language.Thesaurus
 coherence :: ThProg
 coherence = [thesaurus|
-# RELATION
-## COHERENCE
+# Relation
+## Coherence
 noun:
 * coherence
  adherence, adhesion, adhesiveness, concretion accretion, conglutination, agglutination, agglomeration, aggregation, consolidation, set, cementation, sticking, soldering, connection, dependence

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RELEASE where 
+module Language.Thesaurus.RogetLite.Release where 
 import Language.Thesaurus
 release :: ThProg
 release = [thesaurus|
-# VOLITION
-## RELEASE
+# Volition
+## Release
 noun:
 * release  
 adj:

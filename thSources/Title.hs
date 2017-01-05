@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TITLE where 
+module Language.Thesaurus.RogetLite.Title where 
 import Language.Thesaurus
 title :: ThProg
 title = [thesaurus|
-# SENTIMENT
-## TITLE
+# Sentiment
+## Title
 noun:
 * title
  honor, knighthood  

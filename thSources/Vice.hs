@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VICE where 
+module Language.Thesaurus.RogetLite.Vice where 
 import Language.Thesaurus
 vice :: ThProg
 vice = [thesaurus|
-# SENTIMENT
-## VICE
+# Sentiment
+## Vice
 noun:
 * vice
  evil-doing, evil courses, wrongdoing, wickedness, viciousness, iniquity, peccability, demerit, sin, Adam, old Adam, offending Adam

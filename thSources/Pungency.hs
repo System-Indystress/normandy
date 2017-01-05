@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PUNGENCY where 
+module Language.Thesaurus.RogetLite.Pungency where 
 import Language.Thesaurus
 pungency :: ThProg
 pungency = [thesaurus|
-# MATTER
-## PUNGENCY
+# Matter
+## Pungency
 noun:
 * pungency
  piquancy, poignancy, haut-gout, strong taste, twang, race

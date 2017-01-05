@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIRECTIONALITY where 
+module Language.Thesaurus.RogetLite.Directionality where 
 import Language.Thesaurus
 directionality :: ThProg
 directionality = [thesaurus|
-# VOLITION
-## DIRECTIONALITY
+# Volition
+## Directionality
 noun:
 * direction
  management, managery, government, gubernation, conduct, legislation, regulation, guidance, bossism , legislature, steerage, pilotage, reins, reins of government, helm, rudder, needle, compass, guiding star, load star, lode star, pole star, cynosure

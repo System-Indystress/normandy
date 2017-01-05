@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCORD where 
+module Language.Thesaurus.RogetLite.Discord where 
 import Language.Thesaurus
 discord :: ThProg
 discord = [thesaurus|
-# MATTER
-## DISCORD
+# Matter
+## Discord
 noun:
 * discord
  discordance, dissonance, cacophony, want of harmony, caterwauling, harshness 

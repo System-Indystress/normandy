@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMMONALTY where 
+module Language.Thesaurus.RogetLite.Commonalty where 
 import Language.Thesaurus
 commonalty :: ThProg
 commonalty = [thesaurus|
-# SENTIMENT
-## COMMONALTY
+# Sentiment
+## Commonalty
 noun:
 * commonalty
  democracy, obscurity, low condition, low life, low society, low company, bourgeoisie, mass of the people, mass of society, Brown Jones and Robinson, lower classes, humbler classes, humbler orders, vulgar herd, common herd, rank and file, hoc genus omne, the many, the general,the crowd, the people, the populace, the multitude, the million, the masses, the mobility, the peasantry, king Mob, proletariat, fruges consumere nati, demos, hoi polloi, great unwashed, man in the street

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SAVORINESS where 
+module Language.Thesaurus.RogetLite.Savoriness where 
 import Language.Thesaurus
 savoriness :: ThProg
 savoriness = [thesaurus|
-# MATTER
-## SAVORINESS
+# Matter
+## Savoriness
 noun:
 * savoriness
  relish, zest, appetizer

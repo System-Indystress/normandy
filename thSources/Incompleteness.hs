@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INCOMPLETENESS where 
+module Language.Thesaurus.RogetLite.Incompleteness where 
 import Language.Thesaurus
 incompleteness :: ThProg
 incompleteness = [thesaurus|
-# RELATION
-## INCOMPLETENESS
+# Relation
+## Incompleteness
 noun:
 * incompleteness
  deficiency, short measure, shortcoming , insufficiency , imperfection , immaturity  , half measures

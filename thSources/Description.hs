@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DESCRIPTION where 
+module Language.Thesaurus.RogetLite.Description where 
 import Language.Thesaurus
 description :: ThProg
 description = [thesaurus|
-# IDEAS
-## DESCRIPTION
+# Ideas
+## Description
 noun:
 * description
  account, statement, report, expose   specification, particulars, state of facts, summary of facts, brief  , return  , catalogue raisonne  , guidebook  

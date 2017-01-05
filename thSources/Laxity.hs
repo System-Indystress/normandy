@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LAXITY where 
+module Language.Thesaurus.RogetLite.Laxity where 
 import Language.Thesaurus
 laxity :: ThProg
 laxity = [thesaurus|
-# VOLITION
-## LAXITY
+# Volition
+## Laxity
 noun:
 * laxity
  laxness, looseness, slackness, toleration  , freedom 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIABILITY where 
+module Language.Thesaurus.RogetLite.Liability where 
 import Language.Thesaurus
 liability :: ThProg
 liability = [thesaurus|
-# RELATION
-## LIABILITY
+# Relation
+## Liability
 noun:
 * liability
  liableness, possibility, contingency, susceptivity, susceptibility

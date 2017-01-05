@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MEAN where 
+module Language.Thesaurus.RogetLite.Mean where 
 import Language.Thesaurus
 mean :: ThProg
 mean = [thesaurus|
-# RELATION
-## MEAN
+# Relation
+## Mean
 noun:
 * mean
  medium, intermedium, average, balance, mediocrity, generality, median, mode, golden mean  , middle , compromise , middle course, middle state, neutrality

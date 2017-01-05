@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISAPPEARANCE where 
+module Language.Thesaurus.RogetLite.Disappearance where 
 import Language.Thesaurus
 disappearance :: ThProg
 disappearance = [thesaurus|
-# MATTER
-## DISAPPEARANCE
+# Matter
+## Disappearance
 noun:
 * disappearance
  evanescence, eclipse, occultation

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CALEFACTION where 
+module Language.Thesaurus.RogetLite.Calefaction where 
 import Language.Thesaurus
 calefaction :: ThProg
 calefaction = [thesaurus|
-# MATTER
-## CALEFACTION
+# Matter
+## Calefaction
 noun:
 * increase of temperature
  heating, calefaction, tepefaction, torrefaction, melting, fusion, liquefaction , burning, ambustion, combustion, incension, accension, concremation, cremation, scorification, cautery, cauterization, ustulation, calcination, incineration, cineration, carbonization, cupellation

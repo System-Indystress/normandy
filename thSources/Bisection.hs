@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BISECTION where 
+module Language.Thesaurus.RogetLite.Bisection where 
 import Language.Thesaurus
 bisection :: ThProg
 bisection = [thesaurus|
-# RELATION
-## BISECTION
+# Relation
+## Bisection
 noun:
 * bisection
  bipartition, dichotomy, subdichotomy, halving, dimidiation

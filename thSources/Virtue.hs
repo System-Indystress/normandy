@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VIRTUE where 
+module Language.Thesaurus.RogetLite.Virtue where 
 import Language.Thesaurus
 virtue :: ThProg
 virtue = [thesaurus|
-# SENTIMENT
-## VIRTUE
+# Sentiment
+## Virtue
 noun:
 * virtue
  virtuousness, morality, moral rectitude, integrity  , nobleness 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXISTENCE where 
+module Language.Thesaurus.RogetLite.Existence where 
 import Language.Thesaurus
 existence :: ThProg
 existence = [thesaurus|
-# RELATION
-## EXISTENCE
+# Relation
+## Existence
 noun:
 * existence
  being, entity, ens, esse, subsistence

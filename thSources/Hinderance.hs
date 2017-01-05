@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HINDERANCE where 
+module Language.Thesaurus.RogetLite.Hinderance where 
 import Language.Thesaurus
 hinderance :: ThProg
 hinderance = [thesaurus|
-# VOLITION
-## HINDERANCE
+# Volition
+## Hinderance
 noun:
 * prevention
  preclusion, obstruction, stoppage, embolus, interruption, interception, interclusion, hindrance, impedition, retardment, retardation, embarrassment, oppilation, coarctation, stricture, restriction, restraint , inhibition , blockade  

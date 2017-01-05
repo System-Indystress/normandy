@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PREDETERMINATION where 
+module Language.Thesaurus.RogetLite.Predetermination where 
 import Language.Thesaurus
 predetermination :: ThProg
 predetermination = [thesaurus|
-# VOLITION
-## PREDETERMINATION
+# Volition
+## Predetermination
 noun:
 * predestination
  preordination, premeditation, predeliberation, predetermination, foregone conclusion, fait accompli, parti pris, resolve, propendency, intention , project , fate, foredoom, necessity

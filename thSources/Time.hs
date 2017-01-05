@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TIME where 
+module Language.Thesaurus.RogetLite.Time where 
 import Language.Thesaurus
 time :: ThProg
 time = [thesaurus|
-# RELATION
-## TIME
+# Relation
+## Time
 noun:
 * time
  duration, period, term, stage, space, span, spell, season, the whole time, the whole period, space-time, course , snap

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTERPRETATION where 
+module Language.Thesaurus.RogetLite.Interpretation where 
 import Language.Thesaurus
 interpretation :: ThProg
 interpretation = [thesaurus|
-# IDEAS
-## INTERPRETATION
+# Ideas
+## Interpretation
 noun:
 * interpretation
  definition, explanation, explication, solution, answer, rationale, plain interpretation, simple interpretation, strict interpretation, meaning 

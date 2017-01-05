@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.THEOLOGY where 
+module Language.Thesaurus.RogetLite.Theology where 
 import Language.Thesaurus
 theology :: ThProg
 theology = [thesaurus|
-# SENTIMENT
-## THEOLOGY
+# Sentiment
+## Theology
 noun:
 * theology 
  theogony, theosophy, divinity, hagiology, hagiography, Caucasian mystery, monotheism, religion, religious persuasion, religious sect, religious denomination, creed  , article of faith, declaration of faith, profession of faith, confession of faith

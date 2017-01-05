@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EJECTION where 
+module Language.Thesaurus.RogetLite.Ejection where 
 import Language.Thesaurus
 ejection :: ThProg
 ejection = [thesaurus|
-# SPACE
-## EJECTION
+# Space
+## Ejection
 noun:
 * ejection
  emission, effusion, rejection, expulsion, eviction, extrusion, trajection, discharge, emesis

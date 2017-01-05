@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ARRANGEMENT where 
+module Language.Thesaurus.RogetLite.Arrangement where 
 import Language.Thesaurus
 arrangement :: ThProg
 arrangement = [thesaurus|
-# RELATION
-## ARRANGEMENT
+# Relation
+## Arrangement
 noun:
 * arrangement
  plan , preparation , disposal, disposition, collocation, allocation, distribution, sorting, assortment, allotment, apportionment, taxis, taxonomy, syntaxis, graduation, organization, grouping, tabulation

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BYCHANCE where 
+module Language.Thesaurus.RogetLite.Bychance where 
 import Language.Thesaurus
 bychance :: ThProg
 bychance = [thesaurus|
-# VOLITION
-## BYCHANCE
+# Volition
+## Bychance
 noun:
 * chance 
  lot, fate  , luck, good luck  , mascot

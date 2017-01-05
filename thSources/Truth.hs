@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRUTH where 
+module Language.Thesaurus.RogetLite.Truth where 
 import Language.Thesaurus
 truth :: ThProg
 truth = [thesaurus|
-# IDEAS
-## TRUTH
+# Ideas
+## Truth
 noun:
 * fact
  reality  , plain matter of fact, nature  , truth, verity, gospel, orthodoxy , authenticity, veracity , correctitude

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PSEUDOREVELATION where 
+module Language.Thesaurus.RogetLite.Pseudorevelation where 
 import Language.Thesaurus
 pseudorevelation :: ThProg
 pseudorevelation = [thesaurus|
-# SENTIMENT
-## PSEUDOREVELATION
+# Sentiment
+## Pseudorevelation
 noun:
 * the Koran
  the Alcoran, Lyking, Vedas, Zendavest, Avesta, Sastra, Shastra, Tantra, Upanishads, Purana, Edda, Book of Mormon

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RIVER where 
+module Language.Thesaurus.RogetLite.River where 
 import Language.Thesaurus
 river :: ThProg
 river = [thesaurus|
-# MATTER
-## RIVER
+# Matter
+## River
 noun:
 * running water
 *jet

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.JUNCTION where 
+module Language.Thesaurus.RogetLite.Junction where 
 import Language.Thesaurus
 junction :: ThProg
 junction = [thesaurus|
-# RELATION
-## JUNCTION
+# Relation
+## Junction
 noun:
 * junction
  joining, joinder, union connection, conjunction, cojugation, annexion, annexation, annexment, astriction, attachment, compagination, vincture, ligation, alligation, accouplement, marriage  , infibulation, inosculation, symphysis, anastomosis, confluence, communication, concatenation, meeting, reunion, assemblage 

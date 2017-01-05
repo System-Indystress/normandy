@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.QUADRISECTION where 
+module Language.Thesaurus.RogetLite.Quadrisection where 
 import Language.Thesaurus
 quadrisection :: ThProg
 quadrisection = [thesaurus|
-# RELATION
-## QUADRISECTION
+# Relation
+## Quadrisection
 noun:
 * quadrisection
  quadripartition, quartering, fourth, quart, quarter, quartern, farthing 

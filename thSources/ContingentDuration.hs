@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTINGENTDURATION where 
+module Language.Thesaurus.RogetLite.Contingentduration where 
 import Language.Thesaurus
 contingentduration :: ThProg
 contingentduration = [thesaurus|
-# RELATION
-## CONTINGENTDURATION
+# Relation
+## Contingentduration
 adv:
 * during pleasure
  during good behavior, quandiu se bene gesserit

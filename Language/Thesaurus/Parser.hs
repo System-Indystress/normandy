@@ -112,7 +112,7 @@ thExp = thCat <||> thClass <||> thNoun <||>
       where
         entry = do
                   whiteSpaceOrComment
-                  ids <- manyTill anyChar newline
+                  ids <- manyTill anyChar (reservedOp ",") <||> manyTill anyChar newline
                   return ids
 whiteSpaceOrComment = comment <||> whiteSpace
   where

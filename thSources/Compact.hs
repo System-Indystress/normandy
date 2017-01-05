@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPACT where 
+module Language.Thesaurus.RogetLite.Compact where 
 import Language.Thesaurus
 compact :: ThProg
 compact = [thesaurus|
-# VOLITION
-## COMPACT
+# Volition
+## Compact
 noun:
 * compact
  contract, agreement, bargain, affidation, pact, paction, bond, covenant, indenture, bundobast, deal

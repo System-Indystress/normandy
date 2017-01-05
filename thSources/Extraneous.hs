@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXTRANEOUS where 
+module Language.Thesaurus.RogetLite.Extraneous where 
 import Language.Thesaurus
 extraneous :: ThProg
 extraneous = [thesaurus|
-# RELATION
-## EXTRANEOUS
+# Relation
+## Extraneous
 noun:
 * extraneousness
  extrinsicality , exteriority , alienage, alienism, foreign body, foreign substance, foreign element, alien, stranger, intruder, interloper, foreigner, novus homo, newcomer, immigrant, emmigrant, creole, outsider, tenderfoot

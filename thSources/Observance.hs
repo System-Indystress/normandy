@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OBSERVANCE where 
+module Language.Thesaurus.RogetLite.Observance where 
 import Language.Thesaurus
 observance :: ThProg
 observance = [thesaurus|
-# VOLITION
-## OBSERVANCE
+# Volition
+## Observance
 noun:
 * observance
  performance, compliance, acquiescence, concurrence, obedience , fulfillment, satisfaction, discharge, acquittance, acquittal

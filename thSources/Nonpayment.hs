@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONPAYMENT where 
+module Language.Thesaurus.RogetLite.Nonpayment where 
 import Language.Thesaurus
 nonpayment :: ThProg
 nonpayment = [thesaurus|
-# VOLITION
-## NONPAYMENT
+# Volition
+## Nonpayment
 noun:
 * nonpayment
  default, defalcation, protest, repudiation, application of the sponge, whitewashing

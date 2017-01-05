@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RECORD where 
+module Language.Thesaurus.RogetLite.Record where 
 import Language.Thesaurus
 record :: ThProg
 record = [thesaurus|
-# IDEAS
-## RECORD
+# Ideas
+## Record
 noun:
 * trace
  vestige, relic, remains, scar, cicatrix, footstep, footmark, footprint, pug, track mark, wake, trail, scent, piste

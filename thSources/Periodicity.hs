@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PERIODICITY where 
+module Language.Thesaurus.RogetLite.Periodicity where 
 import Language.Thesaurus
 periodicity :: ThProg
 periodicity = [thesaurus|
-# RELATION
-## PERIODICITY
+# Relation
+## Periodicity
 noun:
 * periodicity
  intermittence, beat, oscillation , pulse, pulsation, rhythm, alternation, alternateness, alternativeness, alternity

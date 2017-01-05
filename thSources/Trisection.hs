@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRISECTION where 
+module Language.Thesaurus.RogetLite.Trisection where 
 import Language.Thesaurus
 trisection :: ThProg
 trisection = [thesaurus|
-# RELATION
-## TRISECTION
+# Relation
+## Trisection
 noun:
 * trisection
  tripartition, trichotomy, third, third part

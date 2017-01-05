@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ELEVATION where 
+module Language.Thesaurus.RogetLite.Elevation where 
 import Language.Thesaurus
 elevation :: ThProg
 elevation = [thesaurus|
-# SPACE
-## ELEVATION
+# Space
+## Elevation
 noun:
 * elevation
  raising, erection, lift, sublevation, upheaval, sublimation, exaltation, prominence  

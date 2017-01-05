@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONVERGENCE where 
+module Language.Thesaurus.RogetLite.Convergence where 
 import Language.Thesaurus
 convergence :: ThProg
 convergence = [thesaurus|
-# SPACE
-## CONVERGENCE
+# Space
+## Convergence
 noun:
 * convergence
  confluence, concourse, conflux, congress, concurrence, concentration, convergency, appulse, meeting, corradiation

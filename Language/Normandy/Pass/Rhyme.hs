@@ -1,10 +1,10 @@
 module Language.Normandy.Pass.Rhyme where
 
-import Langugage.Pass.Class
+import Language.Normandy.Pass.Class
 import Language.Normandy.Free
 import Language.Thesaurus
 
-import Data.Free
+import Control.Monad.Free
 import Data.Monoid
 import Data.List (isPrefixOf, isSuffixOf)
 import qualified Data.Text as T
@@ -71,7 +71,7 @@ data RhymeScheme =
   RS { liftRS  :: Story Text -> Story SyllabicString
      , lowerRS :: Story SyllabicString -> Story Text
      }
-instance Pass RhymeScheme
+instance Pass RhymeScheme where
 -- pass :: RhymeScheme -> Story Text -> Story Text
   pass (RS lRS loRS) = lRS . loRS
 
@@ -116,7 +116,7 @@ syls = do
 syl = ws <||> dot <||> bang <||> interro <||> other
   where
     ws = do
-      whitespace
+      whiteSpace
       return $ SylStr " " [Space]
     dot     = undefined
     bang    = undefined

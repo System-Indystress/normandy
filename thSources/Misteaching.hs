@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MISTEACHING where 
+module Language.Thesaurus.RogetLite.Misteaching where 
 import Language.Thesaurus
 misteaching :: ThProg
 misteaching = [thesaurus|
-# IDEAS
-## MISTEACHING
+# Ideas
+## Misteaching
 noun:
 * misteaching
  misinformaton, misintelligence, misguidance, misdirection, mispersuasion, misinstruction, misleading, perversion, false teaching, sophistry , college of Laputa, the blind leading the blind

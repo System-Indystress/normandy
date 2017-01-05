@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INFREQUENCY where 
+module Language.Thesaurus.RogetLite.Infrequency where 
 import Language.Thesaurus
 infrequency :: ThProg
 infrequency = [thesaurus|
-# RELATION
-## INFREQUENCY
+# Relation
+## Infrequency
 noun:
 * infrequency
  rareness, rarity, fewness , seldomness, uncommonness

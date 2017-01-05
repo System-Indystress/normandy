@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INCREASE where 
+module Language.Thesaurus.RogetLite.Increase where 
 import Language.Thesaurus
 increase :: ThProg
 increase = [thesaurus|
-# RELATION
-## INCREASE
+# Relation
+## Increase
 noun:
 * increase
  augmentation, enlargement, extension, dilatation  , increment, accretion, accession , development, growth, aggrandizement, aggravation, rise, ascent , exaggeration, exacerbation, spread  , flood tide, gain, produce, product, profit

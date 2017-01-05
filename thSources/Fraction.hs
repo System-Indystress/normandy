@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FRACTION where 
+module Language.Thesaurus.RogetLite.Fraction where 
 import Language.Thesaurus
 fraction :: ThProg
 fraction = [thesaurus|
-# RELATION
-## FRACTION
+# Relation
+## Fraction
 noun:
 * fraction
  fractional part, part 

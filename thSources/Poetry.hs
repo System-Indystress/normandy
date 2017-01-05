@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.POETRY where 
+module Language.Thesaurus.RogetLite.Poetry where 
 import Language.Thesaurus
 poetry :: ThProg
 poetry = [thesaurus|
-# IDEAS
-## POETRY
+# Ideas
+## Poetry
 noun:
 * poetry
  poetics, poesy, Muse, Calliope, tuneful Nine, Parnassus, Helicon, Pierides, Pierian spring

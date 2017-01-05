@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONRESONANCE where 
+module Language.Thesaurus.RogetLite.Nonresonance where 
 import Language.Thesaurus
 nonresonance :: ThProg
 nonresonance = [thesaurus|
-# MATTER
-## NONRESONANCE
+# Matter
+## Nonresonance
 noun:
 * thud
  thump, dead sound, nonresonance, muffled drums, cracked bell, damper, silencer

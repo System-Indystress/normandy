@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COURTESY where 
+module Language.Thesaurus.RogetLite.Courtesy where 
 import Language.Thesaurus
 courtesy :: ThProg
 courtesy = [thesaurus|
-# SENTIMENT
-## COURTESY
+# Sentiment
+## Courtesy
 noun:
 * courtesy
  respect , good manners, good behavior, good breeding, manners, politeness, biens�ance, urbanity, comity, gentility, breeding, polish, presence, civility, civilization, amenity, suavity, good temper, good humor, amiability, easy temper, complacency, soft tongue, mansuetude, condescension  , affability, complaisance, pr�venance, amability, gallantry, pink of politeness, pink of courtesy

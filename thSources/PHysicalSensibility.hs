@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PHYSICALSENSIBILITY where 
+module Language.Thesaurus.RogetLite.Physicalsensibility where 
 import Language.Thesaurus
 physicalsensibility :: ThProg
 physicalsensibility = [thesaurus|
-# MATTER
-## PHYSICALSENSIBILITY
+# Matter
+## Physicalsensibility
 noun:
 * sensibility
  sensitiveness, physical sensibility, feeling, impressibility, perceptivity, aesthetics, moral sensibility 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CHEERFULNESS where 
+module Language.Thesaurus.RogetLite.Cheerfulness where 
 import Language.Thesaurus
 cheerfulness :: ThProg
 cheerfulness = [thesaurus|
-# SENTIMENT
-## CHEERFULNESS
+# Sentiment
+## Cheerfulness
 noun:
 * cheerfulness
  geniality, gayety, l'allegro, cheer, good humor, spirits, high spirits, animal spirits, flow of spirits, glee, high glee, light heart, sunshine of the mind, sunshine of the breast, gaiete de coeur, bon naturel

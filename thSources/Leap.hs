@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LEAP where 
+module Language.Thesaurus.RogetLite.Leap where 
 import Language.Thesaurus
 leap :: ThProg
 leap = [thesaurus|
-# SPACE
-## LEAP
+# Space
+## Leap
 noun:
 * leap
  jump, hop, spring, bound, vault, saltation

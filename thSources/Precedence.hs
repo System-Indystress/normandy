@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRECEDENCE where 
+module Language.Thesaurus.RogetLite.Precedence where 
 import Language.Thesaurus
 precedence :: ThProg
 precedence = [thesaurus|
-# RELATION
-## PRECEDENCE
+# Relation
+## Precedence
 noun:
 * precedence
  coming before, the lead, le pas, superiority , importance , antecedence, antecedency, anteriority  , precursor , priority , precession , anteposition, epacme, preference

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DANGER where 
+module Language.Thesaurus.RogetLite.Danger where 
 import Language.Thesaurus
 danger :: ThProg
 danger = [thesaurus|
-# VOLITION
-## DANGER
+# Volition
+## Danger
 noun:
 * danger
  peril, insecurity, jeopardy, risk, hazard, venture, precariousness, slipperiness, instability , defenselessness, exposure  , vulnerability, vulnerable point, heel of Achilles, forlorn hope  

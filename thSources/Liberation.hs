@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIBERATION where 
+module Language.Thesaurus.RogetLite.Liberation where 
 import Language.Thesaurus
 liberation :: ThProg
 liberation = [thesaurus|
-# VOLITION
-## LIBERATION
+# Volition
+## Liberation
 noun:
 * liberation
  disengagement, release, enlargement, emancipation, disenthrallment, disenthralment, affranchisement, enfranchisement, manumission, discharge, dismissal

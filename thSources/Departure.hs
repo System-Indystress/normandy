@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEPARTURE where 
+module Language.Thesaurus.RogetLite.Departure where 
 import Language.Thesaurus
 departure :: ThProg
 departure = [thesaurus|
-# SPACE
-## DEPARTURE
+# Space
+## Departure
 noun:
 * departure
  decession, decampment, embarkation, outset, start, removal, exit  , exodus, hejira, flight

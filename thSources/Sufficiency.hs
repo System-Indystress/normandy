@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUFFICIENCY where 
+module Language.Thesaurus.RogetLite.Sufficiency where 
 import Language.Thesaurus
 sufficiency :: ThProg
 sufficiency = [thesaurus|
-# VOLITION
-## SUFFICIENCY
+# Volition
+## Sufficiency
 noun:
 * sufficiency
  adequacy, enough, withal, quantum sufficit, satisfaction, competence, no less

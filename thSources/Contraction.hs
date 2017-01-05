@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTRACTION where 
+module Language.Thesaurus.RogetLite.Contraction where 
 import Language.Thesaurus
 contraction :: ThProg
 contraction = [thesaurus|
-# SPACE
-## CONTRACTION
+# Space
+## Contraction
 noun:
 * contraction
  reduction, diminution, decrease  of size, defalcation, decrement, lessening, shrinking, compaction, tabes, collapse, emaciation, attenuation, tabefaction, consumption, marasmus, atrophy, systole, neck, hourglass

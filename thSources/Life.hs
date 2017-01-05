@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIFE where 
+module Language.Thesaurus.RogetLite.Life where 
 import Language.Thesaurus
 life :: ThProg
 life = [thesaurus|
-# MATTER
-## LIFE
+# Matter
+## Life
 noun:
 * life
  vitality, viability, animation, vital spark, vital flame, soul, spirit

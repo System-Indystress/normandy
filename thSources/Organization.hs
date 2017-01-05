@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ORGANIZATION where 
+module Language.Thesaurus.RogetLite.Organization where 
 import Language.Thesaurus
 organization :: ThProg
 organization = [thesaurus|
-# MATTER
-## ORGANIZATION
+# Matter
+## Organization
 noun:
 * organized world
  organized nature, living nature, animated nature, living beings, organic remains, fossils

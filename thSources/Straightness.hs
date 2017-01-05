@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STRAIGHTNESS where 
+module Language.Thesaurus.RogetLite.Straightness where 
 import Language.Thesaurus
 straightness :: ThProg
 straightness = [thesaurus|
-# SPACE
-## STRAIGHTNESS
+# Space
+## Straightness
 noun:
 * straightness
  rectilinearity, directness, inflexibility  , straight line, right line, direct line, shortcut

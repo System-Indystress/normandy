@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HOPE where 
+module Language.Thesaurus.RogetLite.Hope where 
 import Language.Thesaurus
 hope :: ThProg
 hope = [thesaurus|
-# SENTIMENT
-## HOPE
+# Sentiment
+## Hope
 noun:
 * hope
  hopes, desire , fervent hope, sanguine expectation, trust, confidence, reliance, faith  , affiance, assurance, secureness, security, reassurance

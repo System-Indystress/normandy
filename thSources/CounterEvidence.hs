@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COUNTEREVIDENCE where 
+module Language.Thesaurus.RogetLite.Counterevidence where 
 import Language.Thesaurus
 counterevidence :: ThProg
 counterevidence = [thesaurus|
-# IDEAS
-## COUNTEREVIDENCE
+# Ideas
+## Counterevidence
 noun:
 * counter evidence
  evidence on the other side, evidence on the other hand, conflicting evidence, disproof, refutation , negation 

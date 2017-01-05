@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BELIEF where 
+module Language.Thesaurus.RogetLite.Belief where 
 import Language.Thesaurus
 belief :: ThProg
 belief = [thesaurus|
-# IDEAS
-## BELIEF
+# Ideas
+## Belief
 noun:
 * belief
  credence, credit, assurance, faith, trust, troth, confidence, presumption, sanguine expectation  , dependence on, reliance on

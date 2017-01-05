@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SORCERY where 
+module Language.Thesaurus.RogetLite.Sorcery where 
 import Language.Thesaurus
 sorcery :: ThProg
 sorcery = [thesaurus|
-# SENTIMENT
-## SORCERY
+# Sentiment
+## Sorcery
 noun:
 * sorcery
  occult art, occult sciences, magic, the black art, necromancy, theurgy, thaumaturgy, demonology, demonomy, demonship, diablerie, bedevilment, witchcraft, witchery, glamor, fetichism, feticism, ghost dance, hoodoo, obi, obiism, voodoo, voodooism, Shamanism , vampirism, conjuration, bewitchery, exorcism, enchantment, mysticism, second sight, mesmerism, animal magnetism, od force, odylic force, electrobiology, clairvoyance, spiritualism, spirit rapping, table turning

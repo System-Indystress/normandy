@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONDOLENCE where 
+module Language.Thesaurus.RogetLite.Condolence where 
 import Language.Thesaurus
 condolence :: ThProg
 condolence = [thesaurus|
-# SENTIMENT
-## CONDOLENCE
+# Sentiment
+## Condolence
 noun:
 * condolence
  lamentation , sympathy, consolation

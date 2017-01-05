@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONDEMNATION where 
+module Language.Thesaurus.RogetLite.Condemnation where 
 import Language.Thesaurus
 condemnation :: ThProg
 condemnation = [thesaurus|
-# SENTIMENT
-## CONDEMNATION
+# Sentiment
+## Condemnation
 noun:
 * condemnation
  conviction, judgment, penalty, sentence, proscription, damnation, death warrant

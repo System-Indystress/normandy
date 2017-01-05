@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SHADE where 
+module Language.Thesaurus.RogetLite.Shade where 
 import Language.Thesaurus
 shade :: ThProg
 shade = [thesaurus|
-# MATTER
-## SHADE
+# Matter
+## Shade
 noun:
 * shade
  awning  , parasol, sunshade, umbrella, chick, portiere, screen, curtain, shutter, blind, gauze, veil, mantle, mask, cloud, mist, gathering. of clouds

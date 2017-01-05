@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONPREPARATION where 
+module Language.Thesaurus.RogetLite.Nonpreparation where 
 import Language.Thesaurus
 nonpreparation :: ThProg
 nonpreparation = [thesaurus|
-# VOLITION
-## NONPREPARATION
+# Volition
+## Nonpreparation
 noun:
 * nonpreparation
  absence of preparation, want of preparation, inculture, inconcoction, improvidence

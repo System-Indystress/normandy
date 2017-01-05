@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WEARINESS where 
+module Language.Thesaurus.RogetLite.Weariness where 
 import Language.Thesaurus
 weariness :: ThProg
 weariness = [thesaurus|
-# SENTIMENT
-## WEARINESS
+# Sentiment
+## Weariness
 noun:
 * weariness
  defatigation, lassitude  , drowsiness 

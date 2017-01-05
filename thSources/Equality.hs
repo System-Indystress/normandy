@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EQUALITY where 
+module Language.Thesaurus.RogetLite.Equality where 
 import Language.Thesaurus
 equality :: ThProg
 equality = [thesaurus|
-# RELATION
-## EQUALITY
+# Relation
+## Equality
 noun:
 * equality
  parity, coextension, symmetry, balance, poise, evenness, monotony, level

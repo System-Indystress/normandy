@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONUNIFORMITY where 
+module Language.Thesaurus.RogetLite.Nonuniformity where 
 import Language.Thesaurus
 nonuniformity :: ThProg
 nonuniformity = [thesaurus|
-# RELATION
-## NONUNIFORMITY
+# Relation
+## Nonuniformity
 noun:
 * nonuniformity
  diversity, irregularity, unevenness, multiformity , unconformity , roughness , dissimilarity, dissimilitude, divarication, divergence

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OPTICALINSTRUMENT where 
+module Language.Thesaurus.RogetLite.Opticalinstrument where 
 import Language.Thesaurus
 opticalinstrument :: ThProg
 opticalinstrument = [thesaurus|
-# MATTER
-## OPTICALINSTRUMENT
+# Matter
+## Opticalinstrument
 noun:
 * optical instruments
  lens, meniscus, magnifier, microscope, megascope, tienoscope

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HEIGHT where 
+module Language.Thesaurus.RogetLite.Height where 
 import Language.Thesaurus
 height :: ThProg
 height = [thesaurus|
-# SPACE
-## HEIGHT
+# Space
+## Height
 noun:
 * height
  altitude, elevation, eminence, pitch, loftiness, sublimity

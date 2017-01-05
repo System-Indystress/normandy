@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CORRELATION where 
+module Language.Thesaurus.RogetLite.Correlation where 
 import Language.Thesaurus
 correlation :: ThProg
 correlation = [thesaurus|
-# RELATION
-## CORRELATION
+# Relation
+## Correlation
 noun:
 * reciprocalness
  reciprocity, reciprocation, mutuality, correlation, interdependence, connection, link, association, interchange , exchange, barter

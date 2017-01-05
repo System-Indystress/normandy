@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEATH where 
+module Language.Thesaurus.RogetLite.Death where 
 import Language.Thesaurus
 death :: ThProg
 death = [thesaurus|
-# MATTER
-## DEATH
+# Matter
+## Death
 noun:
 * death
  decease, demise, dissolution, departure, obit, release, rest, quietus, fall, loss, bereavement, mortality, morbidity

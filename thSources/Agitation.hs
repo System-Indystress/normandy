@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AGITATION where 
+module Language.Thesaurus.RogetLite.Agitation where 
 import Language.Thesaurus
 agitation :: ThProg
 agitation = [thesaurus|
-# SPACE
-## AGITATION
+# Space
+## Agitation
 noun:
 * agitation
  stir, tremor, shake, ripple, jog, jolt, jar, jerk, shock, succussion, trepidation, quiver, quaver, dance, jactitation, quassation, shuffling, twitter, flicker, flutter

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WATER where 
+module Language.Thesaurus.RogetLite.Water where 
 import Language.Thesaurus
 water :: ThProg
 water = [thesaurus|
-# MATTER
-## WATER
+# Matter
+## Water
 noun:
 * water
  serum, serosity, lymph, rheum, diluent, agua, aqua, pani

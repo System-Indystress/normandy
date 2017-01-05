@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FUEL where 
+module Language.Thesaurus.RogetLite.Fuel where 
 import Language.Thesaurus
 fuel :: ThProg
 fuel = [thesaurus|
-# MATTER
-## FUEL
+# Matter
+## Fuel
 noun:
 * fuel
  firing, combustible

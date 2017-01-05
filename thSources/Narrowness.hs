@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NARROWNESS where 
+module Language.Thesaurus.RogetLite.Narrowness where 
 import Language.Thesaurus
 narrowness :: ThProg
 narrowness = [thesaurus|
-# SPACE
-## NARROWNESS
+# Space
+## Narrowness
 noun:
 * narrowness
  closeness, exility, exiguity  

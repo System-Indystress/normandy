@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TOPIC where 
+module Language.Thesaurus.RogetLite.Topic where 
 import Language.Thesaurus
 topic :: ThProg
 topic = [thesaurus|
-# IDEAS
-## TOPIC
+# Ideas
+## Topic
 noun:
 * subject of thought
  material for thought, food for the mind, mental pabulum

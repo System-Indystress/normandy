@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRANSFER where 
+module Language.Thesaurus.RogetLite.Transfer where 
 import Language.Thesaurus
 transfer :: ThProg
 transfer = [thesaurus|
-# VOLITION
-## TRANSFER
+# Volition
+## Transfer
 noun:
 * transfer
  conveyance, assignment, alienation, abalienation, demise, limitation, conveyancing, transmission  , enfeoffment, bargain and sale, lease and release, exchange  , barter , substitution 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SOUND where 
+module Language.Thesaurus.RogetLite.Sound where 
 import Language.Thesaurus
 sound :: ThProg
 sound = [thesaurus|
-# MATTER
-## SOUND
+# Matter
+## Sound
 noun:
 * sound
  noise, strain, accent, twang, intonation, tone, cadence, sonorousness, audibility, resonance , voice , aspirate, ideophone, rough breathing

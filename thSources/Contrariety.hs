@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTRARIETY where 
+module Language.Thesaurus.RogetLite.Contrariety where 
 import Language.Thesaurus
 contrariety :: ThProg
 contrariety = [thesaurus|
-# RELATION
-## CONTRARIETY
+# Relation
+## Contrariety
 noun:
 * contrariety
  contrast, foil, antithesis, oppositeness, contradiction, antagonism  , clashing, repugnance

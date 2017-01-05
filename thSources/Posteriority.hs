@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.POSTERIORITY where 
+module Language.Thesaurus.RogetLite.Posteriority where 
 import Language.Thesaurus
 posteriority :: ThProg
 posteriority = [thesaurus|
-# RELATION
-## POSTERIORITY
+# Relation
+## Posteriority
 noun:
 * posteriority
  succession, sequence, following , subsequence, supervention, futurity , successor, sequel , remainder, reversion

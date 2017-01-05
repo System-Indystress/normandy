@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FETOR where 
+module Language.Thesaurus.RogetLite.Fetor where 
 import Language.Thesaurus
 fetor :: ThProg
 fetor = [thesaurus|
-# MATTER
-## FETOR
+# Matter
+## Fetor
 noun:
 * fetor
  bad smell, bad odor, stench, stink, foul odor, malodor, empyreuma, mustiness, rancidity, foulness  

@@ -1,8 +1,9 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.Abrogation
 (abrogation
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
 abrogation :: ThProg
 abrogation = [thesaurus|

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FEWNESS where 
+module Language.Thesaurus.RogetLite.Fewness where 
 import Language.Thesaurus
 fewness :: ThProg
 fewness = [thesaurus|
-# RELATION
-## FEWNESS
+# Relation
+## Fewness
 noun:
 * fewness
  paucity, small number, small quantity , rarity, infrequency , handful, maniple, minority, exiguity

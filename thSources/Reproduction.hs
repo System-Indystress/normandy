@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REPRODUCTION where 
+module Language.Thesaurus.RogetLite.Reproduction where 
 import Language.Thesaurus
 reproduction :: ThProg
 reproduction = [thesaurus|
-# RELATION
-## REPRODUCTION
+# Relation
+## Reproduction
 noun:
 * reproduction
  renovation, restoration , renewal, new edition, reprint, revival, regeneration, palingenesis, revivication, apotheosis, resuscitation, reanimation, resurrection, reappearance, regrowth, Phoenix

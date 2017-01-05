@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CROSSING where 
+module Language.Thesaurus.RogetLite.Crossing where 
 import Language.Thesaurus
 crossing :: ThProg
 crossing = [thesaurus|
-# SPACE
-## CROSSING
+# Space
+## Crossing
 noun:
 * crossing
  intersection, interdigitation, decussation, transversion, convolution , level crossing

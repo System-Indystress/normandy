@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.QUATERNITY where 
+module Language.Thesaurus.RogetLite.Quaternity where 
 import Language.Thesaurus
 quaternity :: ThProg
 quaternity = [thesaurus|
-# RELATION
-## QUATERNITY
+# Relation
+## Quaternity
 noun:
 * quaternity
  four, tetrad, quartet, quaternion, square, quarter, tetract, tetragon

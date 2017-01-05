@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NEWS where 
+module Language.Thesaurus.RogetLite.News where 
 import Language.Thesaurus
 news :: ThProg
 news = [thesaurus|
-# IDEAS
-## NEWS
+# Ideas
+## News
 noun:
 * news
  information , piece of news, budget of news, budget of information, intelligence, tidings

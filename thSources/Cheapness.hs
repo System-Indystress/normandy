@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CHEAPNESS where 
+module Language.Thesaurus.RogetLite.Cheapness where 
 import Language.Thesaurus
 cheapness :: ThProg
 cheapness = [thesaurus|
-# VOLITION
-## CHEAPNESS
+# Volition
+## Cheapness
 noun:
 * cheapness
  low price, depreciation, bargain, good penny worth, snap 

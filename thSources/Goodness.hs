@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GOODNESS where 
+module Language.Thesaurus.RogetLite.Goodness where 
 import Language.Thesaurus
 goodness :: ThProg
 goodness = [thesaurus|
-# VOLITION
-## GOODNESS
+# Volition
+## Goodness
 noun:
 * goodness
  excellence, merit, virtue , value, worth, price

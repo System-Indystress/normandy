@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REMAINDER where 
+module Language.Thesaurus.RogetLite.Remainder where 
 import Language.Thesaurus
 remainder :: ThProg
 remainder = [thesaurus|
-# RELATION
-## REMAINDER
+# Relation
+## Remainder
 noun:
 *
 remainder

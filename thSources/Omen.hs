@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OMEN where 
+module Language.Thesaurus.RogetLite.Omen where 
 import Language.Thesaurus
 omen :: ThProg
 omen = [thesaurus|
-# IDEAS
-## OMEN
+# Ideas
+## Omen
 noun:
 * omen
  portent, presage, prognostic, augury, auspice, sign  , harbinger  , yule candle

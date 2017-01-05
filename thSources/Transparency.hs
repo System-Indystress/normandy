@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRANSPARENCY where 
+module Language.Thesaurus.RogetLite.Transparency where 
 import Language.Thesaurus
 transparency :: ThProg
 transparency = [thesaurus|
-# MATTER
-## TRANSPARENCY
+# Matter
+## Transparency
 noun:
 * transparence
  transparency, clarity, translucence, translucency, diaphaneity, lucidity, pellucidity, limpidity, fluorescence, transillumination, translumination. transparent medium, glass, crystal, lymph, vitrite, water

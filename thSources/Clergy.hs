@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CLERGY where 
+module Language.Thesaurus.RogetLite.Clergy where 
 import Language.Thesaurus
 clergy :: ThProg
 clergy = [thesaurus|
-# SENTIMENT
-## CLERGY
+# Sentiment
+## Clergy
 noun:
 * clergy
  clericals, ministry, priesthood, presbytery, the cloth, the desk

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONDUCT where 
+module Language.Thesaurus.RogetLite.Conduct where 
 import Language.Thesaurus
 conduct :: ThProg
 conduct = [thesaurus|
-# VOLITION
-## CONDUCT
+# Volition
+## Conduct
 noun:
 * conduct
  behavior, deportment, comportment, carriage, maintien, demeanor, guise, bearing, manner, observance

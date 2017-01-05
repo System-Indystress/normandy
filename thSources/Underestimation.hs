@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNDERESTIMATION where 
+module Language.Thesaurus.RogetLite.Underestimation where 
 import Language.Thesaurus
 underestimation :: ThProg
 underestimation = [thesaurus|
-# IDEAS
-## UNDERESTIMATION
+# Ideas
+## Underestimation
 noun:
 * underestimation
  depreciation  , pessimism, pessimist, undervaluing, modesty 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTERMENT where 
+module Language.Thesaurus.RogetLite.Interment where 
 import Language.Thesaurus
 interment :: ThProg
 interment = [thesaurus|
-# IDEAS
-## INTERMENT
+# Ideas
+## Interment
 noun:
 * interment
  burial, sepulture, inhumation, obsequies, exequies, funeral, wake, pyre, funeral pile, cremation

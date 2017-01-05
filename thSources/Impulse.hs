@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPULSE where 
+module Language.Thesaurus.RogetLite.Impulse where 
 import Language.Thesaurus
 impulse :: ThProg
 impulse = [thesaurus|
-# VOLITION
-## IMPULSE
+# Volition
+## Impulse
 noun:
 * impulse
  sudden thought, impromptu, improvisation, inspiration, flash, spurt. improvisatore, creature of impulse

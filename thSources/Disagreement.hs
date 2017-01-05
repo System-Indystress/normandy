@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISAGREEMENT where 
+module Language.Thesaurus.RogetLite.Disagreement where 
 import Language.Thesaurus
 disagreement :: ThProg
 disagreement = [thesaurus|
-# RELATION
-## DISAGREEMENT
+# Relation
+## Disagreement
 noun:
 * disagreement
  discord, discordance, dissonance, dissidence, discrepancy, unconformity , incongruity, incongruence, discongruity, mesalliance, jarring, dissension , conflict  , bickering, clashing, misunderstanding, wrangle

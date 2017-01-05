@@ -1,8 +1,9 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.Acquittal
 (acquittal
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
 acquittal :: ThProg
 acquittal = [thesaurus|

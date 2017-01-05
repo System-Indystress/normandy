@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EVENTUALLY where 
+module Language.Thesaurus.RogetLite.Eventually where 
 import Language.Thesaurus
 eventually :: ThProg
 eventually = [thesaurus|
-# RELATION
-## EVENTUALLY
+# Relation
+## Eventually
 noun:
 * eventuality
  event, occurrence, incident, affair, matter, thing, episode, happening, proceeding, contingency, juncture, experience, fact, matter of fact, naked fact, bare facts, just the facts, phenomenon, advent

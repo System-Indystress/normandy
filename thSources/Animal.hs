@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ANIMAL where 
+module Language.Thesaurus.RogetLite.Animal where 
 import Language.Thesaurus
 animal :: ThProg
 animal = [thesaurus|
-# MATTER
-## ANIMAL
+# Matter
+## Animal
 noun:
 * animal
  animal kingdom, fauna, brute creation

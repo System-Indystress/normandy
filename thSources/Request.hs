@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REQUEST where 
+module Language.Thesaurus.RogetLite.Request where 
 import Language.Thesaurus
 request :: ThProg
 request = [thesaurus|
-# VOLITION
-## REQUEST
+# Volition
+## Request
 noun:
 * request
  requisition, claim  , petition, suit, prayer, begging letter, round robin

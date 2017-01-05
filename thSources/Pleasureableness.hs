@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PLEASUREABLENESS where 
+module Language.Thesaurus.RogetLite.Pleasureableness where 
 import Language.Thesaurus
 pleasureableness :: ThProg
 pleasureableness = [thesaurus|
-# SENTIMENT
-## PLEASUREABLENESS
+# Sentiment
+## Pleasureableness
 noun:
 * pleasurableness
  pleasantness, agreeableness adj., pleasure giving, jucundity, delectability, amusement 

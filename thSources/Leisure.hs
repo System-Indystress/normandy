@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LEISURE where 
+module Language.Thesaurus.RogetLite.Leisure where 
 import Language.Thesaurus
 leisure :: ThProg
 leisure = [thesaurus|
-# VOLITION
-## LEISURE
+# Volition
+## Leisure
 noun:
 * leisure
  convenience, spare time, spare hours, spare moments, vacant hour, time, time to spare, time on one's hands, holiday  , otium cum dignitate , ease

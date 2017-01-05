@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REQUIREMENT where 
+module Language.Thesaurus.RogetLite.Requirement where 
 import Language.Thesaurus
 requirement :: ThProg
 requirement = [thesaurus|
-# VOLITION
-## REQUIREMENT
+# Volition
+## Requirement
 noun:
 * requirement
  need, wants, necessities, necessaries, necessities of life, stress, exigency, pinch, sine qua non, matter of necessity, case of need, case of life or death

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXEMPTIONALITY where 
+module Language.Thesaurus.RogetLite.Exemptionality where 
 import Language.Thesaurus
 exemptionality :: ThProg
 exemptionality = [thesaurus|
-# SENTIMENT
-## EXEMPTIONALITY
+# Sentiment
+## Exemptionality
 noun:
 * exemption
  freedom, irresponsibility, immunity, liberty, license, release, exoneration, excuse, dispensation, absolution, franchise, renunciation, discharge, exculpation 

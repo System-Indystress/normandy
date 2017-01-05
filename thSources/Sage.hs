@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SAGE where 
+module Language.Thesaurus.RogetLite.Sage where 
 import Language.Thesaurus
 sage :: ThProg
 sage = [thesaurus|
-# IDEAS
-## SAGE
+# Ideas
+## Sage
 noun:
 * sage
  wise man, master mind, master spirit of the age, longhead, thinker

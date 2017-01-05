@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ENGRAVING where 
+module Language.Thesaurus.RogetLite.Engraving where 
 import Language.Thesaurus
 engraving :: ThProg
 engraving = [thesaurus|
-# IDEAS
-## ENGRAVING
+# Ideas
+## Engraving
 noun:
 * engraving
  chalcography, line engraving, mezzotint engraving, stipple engraving, chalk engraving, dry point, bur, etching, aquatinta, chiseling, plate engraving, copperplate engraving, steel engraving, wood engraving, xylography, lignography, glyptography, cerography, lithography, chromolithography, photolithography, zincography, glyphography, xylograph, lignograph, glyptograph, cerograph, lithograph, chromolithograph, photolithograph, zincograph, glyphograph, holograph

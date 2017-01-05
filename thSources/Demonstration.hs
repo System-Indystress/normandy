@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEMONSTRATION where 
+module Language.Thesaurus.RogetLite.Demonstration where 
 import Language.Thesaurus
 demonstration :: ThProg
 demonstration = [thesaurus|
-# IDEAS
-## DEMONSTRATION
+# Ideas
+## Demonstration
 noun:
 * demonstration
  proof, conclusiveness, apodeixis, apodixis, probation, comprobation

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROFICIENT where 
+module Language.Thesaurus.RogetLite.Proficient where 
 import Language.Thesaurus
 proficient :: ThProg
 proficient = [thesaurus|
-# VOLITION
-## PROFICIENT
+# Volition
+## Proficient
 noun:
 * proficient
  expert, adept, dab, dabster, connoisseur  , master, master hand, prima donna, first fiddle, chef de cuisine, top sawyer, protagonist, past master, mahatma

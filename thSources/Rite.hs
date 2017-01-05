@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RITE where 
+module Language.Thesaurus.RogetLite.Rite where 
 import Language.Thesaurus
 rite :: ThProg
 rite = [thesaurus|
-# SENTIMENT
-## RITE
+# Sentiment
+## Rite
 noun:
 * rite
  ceremony, ceremonial, ordinance, observance, function, duty, form, formulary, solemnity, sacrament, incantation  , service, psalmody  

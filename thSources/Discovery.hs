@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCOVERY where 
+module Language.Thesaurus.RogetLite.Discovery where 
 import Language.Thesaurus
 discovery :: ThProg
 discovery = [thesaurus|
-# IDEAS
-## DISCOVERY
+# Ideas
+## Discovery
 noun:
 * discovery
  detection, disenchantment, ascertainment, disclosure, find, revelation

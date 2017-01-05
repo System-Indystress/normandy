@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.JOURNEY where 
+module Language.Thesaurus.RogetLite.Journey where 
 import Language.Thesaurus
 journey :: ThProg
 journey = [thesaurus|
-# SPACE
-## JOURNEY
+# Space
+## Journey
 noun:
 * travel
  traveling wayfaring, campaigning

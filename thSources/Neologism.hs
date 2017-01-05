@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NEOLOGISM where 
+module Language.Thesaurus.RogetLite.Neologism where 
 import Language.Thesaurus
 neologism :: ThProg
 neologism = [thesaurus|
-# IDEAS
-## NEOLOGISM
+# Ideas
+## Neologism
 noun:
 * neology
  neologism, newfangled expression, caconym, barbarism, archaism, black letter, monkish Latin, corruption, missaying, antiphrasis

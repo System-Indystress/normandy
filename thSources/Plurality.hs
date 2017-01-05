@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PLURALITY where 
+module Language.Thesaurus.RogetLite.Plurality where 
 import Language.Thesaurus
 plurality :: ThProg
 plurality = [thesaurus|
-# RELATION
-## PLURALITY
+# Relation
+## Plurality
 noun:
 * plurality
  a number, a certain number, one or two, two or three, a few, several, multitude , majority

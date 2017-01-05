@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIQUEFACTION where 
+module Language.Thesaurus.RogetLite.Liquefaction where 
 import Language.Thesaurus
 liquefaction :: ThProg
 liquefaction = [thesaurus|
-# MATTER
-## LIQUEFACTION
+# Matter
+## Liquefaction
 noun:
 * liquefaction
  liquescence, liquescency, melting  , colliquation, colliquefaction, thaw, liquation, deliquation, deliquescence, lixiviation, dissolution

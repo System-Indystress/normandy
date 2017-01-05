@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEFIANCE where 
+module Language.Thesaurus.RogetLite.Defiance where 
 import Language.Thesaurus
 defiance :: ThProg
 defiance = [thesaurus|
-# VOLITION
-## DEFIANCE
+# Volition
+## Defiance
 noun:
 * defiance
  daring, dare, challenge, cartel, threat , war cry, war whoop

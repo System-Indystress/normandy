@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REPEATEDNUMBER where 
+module Language.Thesaurus.RogetLite.Repeatednumber where 
 import Language.Thesaurus
 repeatednumber :: ThProg
 repeatednumber = [thesaurus|
-# RELATION
-## REPEATEDNUMBER
+# Relation
+## Repeatednumber
 noun:
 * repetition
  iteration, reiteration, harping, recurrence, succession, run, battology, tautology, monotony, tautophony, rhythm , diffuseness, pleonasm, redundancy

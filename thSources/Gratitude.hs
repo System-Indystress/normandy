@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GRATITUDE where 
+module Language.Thesaurus.RogetLite.Gratitude where 
 import Language.Thesaurus
 gratitude :: ThProg
 gratitude = [thesaurus|
-# SENTIMENT
-## GRATITUDE
+# Sentiment
+## Gratitude
 noun:
 * gratitude
  thankfulness, feeling of obligation, sense of obligation

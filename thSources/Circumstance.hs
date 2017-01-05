@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CIRCUMSTANCE where 
+module Language.Thesaurus.RogetLite.Circumstance where 
 import Language.Thesaurus
 circumstance :: ThProg
 circumstance = [thesaurus|
-# RELATION
-## CIRCUMSTANCE
+# Relation
+## Circumstance
 noun:
 * circumstance
  situation, phase, position, posture, attitude, place, point, terms, regime, footing, standing, status

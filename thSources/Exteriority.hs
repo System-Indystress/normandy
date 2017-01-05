@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXTERIORITY where 
+module Language.Thesaurus.RogetLite.Exteriority where 
 import Language.Thesaurus
 exteriority :: ThProg
 exteriority = [thesaurus|
-# SPACE
-## EXTERIORITY
+# Space
+## Exteriority
 noun:
 * exteriority
  outside, exterior, surface, superficies, skin  , superstratum, disk, disc, face, facet, extrados

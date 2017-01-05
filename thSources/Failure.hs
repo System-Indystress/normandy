@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FAILURE where 
+module Language.Thesaurus.RogetLite.Failure where 
 import Language.Thesaurus
 failure :: ThProg
 failure = [thesaurus|
-# VOLITION
-## FAILURE
+# Volition
+## Failure
 noun:
 * failure
  nonsuccess, nonfulfillment, dead failure, successlessness, abortion, miscarriage, brutum fulmen , labor in vain  , no go, inefficacy, inefficaciousness, vain attempt, ineffectual attempt, abortive attempt, abortive efforts, flash in the pan, "lame and impotent conclusion" , frustration, slip 'twixt cup and lip�  

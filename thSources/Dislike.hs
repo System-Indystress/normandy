@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISLIKE where 
+module Language.Thesaurus.RogetLite.Dislike where 
 import Language.Thesaurus
 dislike :: ThProg
 dislike = [thesaurus|
-# SENTIMENT
-## DISLIKE
+# Sentiment
+## Dislike
 noun:
 * dislike
  distaste, disrelish, disinclination, displacency

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FLUIDITY where 
+module Language.Thesaurus.RogetLite.Fluidity where 
 import Language.Thesaurus
 fluidity :: ThProg
 fluidity = [thesaurus|
-# MATTER
-## FLUIDITY
+# Matter
+## Fluidity
 noun:
 * fluidity
  liquidity, liquidness, gaseity 

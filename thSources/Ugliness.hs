@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UGLINESS where 
+module Language.Thesaurus.RogetLite.Ugliness where 
 import Language.Thesaurus
 ugliness :: ThProg
 ugliness = [thesaurus|
-# SENTIMENT
-## UGLINESS
+# Sentiment
+## Ugliness
 noun:
 * ugliness
  deformity, inelegance, acomia, disfigurement  , want of symmetry, inconcinnity, distortion , squalor  

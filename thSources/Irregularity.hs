@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IRREGULARITY where 
+module Language.Thesaurus.RogetLite.Irregularity where 
 import Language.Thesaurus
 irregularity :: ThProg
 irregularity = [thesaurus|
-# RELATION
-## IRREGULARITY
+# Relation
+## Irregularity
 noun:
 * irregularity
  uncertainty, unpunctuality, fitfulness, capriciousness, ecrhythmus

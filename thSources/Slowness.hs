@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SLOWNESS where 
+module Language.Thesaurus.RogetLite.Slowness where 
 import Language.Thesaurus
 slowness :: ThProg
 slowness = [thesaurus|
-# SPACE
-## SLOWNESS
+# Space
+## Slowness
 noun:
 * slowness
  languor  , drawl, creeping, lentor

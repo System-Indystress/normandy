@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MULTITUDE where 
+module Language.Thesaurus.RogetLite.Multitude where 
 import Language.Thesaurus
 multitude :: ThProg
 multitude = [thesaurus|
-# RELATION
-## MULTITUDE
+# Relation
+## Multitude
 noun:
 * multitude
  numerous, numerosity, numerality, multiplicity, profusion  , legion, host, great number, large number, round number, enormous number, a quantity, numbers, array, sight, army, sea, galaxy, scores, peck, bushel, shoal, swarm, draught, bevy, cloud, flock, herd, drove, flight, covey, hive, brood, litter, farrow, fry, nest, crowd  , lots, all in the world and his wife

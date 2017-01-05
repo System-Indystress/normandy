@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISAPPOINTMENT where 
+module Language.Thesaurus.RogetLite.Disappointment where 
 import Language.Thesaurus
 disappointment :: ThProg
 disappointment = [thesaurus|
-# IDEAS
-## DISAPPOINTMENT
+# Ideas
+## Disappointment
 noun:
 * disappointment
  blighted hope, balk, blow, slip 'twixt cup and lip, nonfulfillment of one's hopes, sad disappointment, bitter disappointment, trick of fortune, afterclap, false expectation, vain expectation, miscalculation , fool's paradise, much cry and little wool

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPLETENESS where 
+module Language.Thesaurus.RogetLite.Completeness where 
 import Language.Thesaurus
 completeness :: ThProg
 completeness = [thesaurus|
-# RELATION
-## COMPLETENESS
+# Relation
+## Completeness
 noun:
 * completeness
  completion , integration, allness

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DECREMENT where 
+module Language.Thesaurus.RogetLite.Decrement where 
 import Language.Thesaurus
 decrement :: ThProg
 decrement = [thesaurus|
-# RELATION
-## DECREMENT
+# Relation
+## Decrement
 noun:
 * decrement
  discount, defect, loss, deduction, afterglow, eduction, waste

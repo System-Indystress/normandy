@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CURIOSITY where 
+module Language.Thesaurus.RogetLite.Curiosity where 
 import Language.Thesaurus
 curiosity :: ThProg
 curiosity = [thesaurus|
-# IDEAS
-## CURIOSITY
+# Ideas
+## Curiosity
 noun:
 * interest
  thirst for knowledge, curiosity, curiousness, inquiring mind, inquisitiveness

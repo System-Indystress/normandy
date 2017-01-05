@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COOPERATION where 
+module Language.Thesaurus.RogetLite.Cooperation where 
 import Language.Thesaurus
 cooperation :: ThProg
 cooperation = [thesaurus|
-# VOLITION
-## COOPERATION
+# Volition
+## Cooperation
 noun:
 * cooperation
  coadjuvancy, coadjutancy, coagency, coefficiency, concert, concurrence, complicity, participation, union , combination , collusion

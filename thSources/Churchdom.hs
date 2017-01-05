@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CHURCHDOM where 
+module Language.Thesaurus.RogetLite.Churchdom where 
 import Language.Thesaurus
 churchdom :: ThProg
 churchdom = [thesaurus|
-# SENTIMENT
-## CHURCHDOM
+# Sentiment
+## Churchdom
 noun:
 * church
  churchdom, ministry, apostleship, priesthood, prelacy, hierarchy, church government, christendom, pale of the church

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VIOLENCE where 
+module Language.Thesaurus.RogetLite.Violence where 
 import Language.Thesaurus
 violence :: ThProg
 violence = [thesaurus|
-# RELATION
-## VIOLENCE
+# Relation
+## Violence
 noun:
 * violence
  inclemency, vehemence, might, impetuosity, boisterousness, effervescence, ebullition, turbulence, bluster, uproar, callithump , riot, row, rumpus, le diable a quatre, devil to pay, all the fat in the fire

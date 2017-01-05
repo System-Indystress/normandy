@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DETRACTION where 
+module Language.Thesaurus.RogetLite.Detraction where 
 import Language.Thesaurus
 detraction :: ThProg
 detraction = [thesaurus|
-# SENTIMENT
-## DETRACTION
+# Sentiment
+## Detraction
 noun:
 * detraction
  disparagement, depreciation, vilification, obloquy, scurrility, scandal, defamation, aspersion, traducement, slander, calumny, obtrectation, evil-speaking, backbiting, scandalum magnatum

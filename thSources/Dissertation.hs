@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISSERTATION where 
+module Language.Thesaurus.RogetLite.Dissertation where 
 import Language.Thesaurus
 dissertation :: ThProg
 dissertation = [thesaurus|
-# IDEAS
-## DISSERTATION
+# Ideas
+## Dissertation
 noun:
 * dissertation
  treatise, essay, thesis, theme, tractate, tractation, discourse, memoir, disquisition, lecture, sermon, homily, pandect, excursus

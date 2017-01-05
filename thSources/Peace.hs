@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PEACE where 
+module Language.Thesaurus.RogetLite.Peace where 
 import Language.Thesaurus
 peace :: ThProg
 peace = [thesaurus|
-# RELATION
-## PEACE
+# Relation
+## Peace
 noun:
 * peace
  amity  , harmony  , tranquillity  , truce  , pipe of peace, calumet of peace

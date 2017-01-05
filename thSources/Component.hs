@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPONENT where 
+module Language.Thesaurus.RogetLite.Component where 
 import Language.Thesaurus
 component :: ThProg
 component = [thesaurus|
-# RELATION
-## COMPONENT
+# Relation
+## Component
 noun:
 * component
  component part, integral part, integrant part, element, constituent, ingredient, leaven, part and parcel, contents, appurtenance, feature, member  , personnel

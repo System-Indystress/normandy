@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRACTION where 
+module Language.Thesaurus.RogetLite.Traction where 
 import Language.Thesaurus
 traction :: ThProg
 traction = [thesaurus|
-# SPACE
-## TRACTION
+# Space
+## Traction
 noun:
 * traction
  drawing, draught, pull, haul, rake, "a long pull a strong pull and a pull all together", towage, haulage

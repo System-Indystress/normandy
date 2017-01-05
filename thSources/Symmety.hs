@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SYMMETY where 
+module Language.Thesaurus.RogetLite.Symmety where 
 import Language.Thesaurus
 symmety :: ThProg
 symmety = [thesaurus|
-# SPACE
-## SYMMETY
+# Space
+## Symmety
 noun:
 * symmetry
  shapeliness, finish, beauty , proportion, eurythmy, uniformity, parallelism, bilateral symmetry, trilateral symmetry, multilateral symmetry, centrality 

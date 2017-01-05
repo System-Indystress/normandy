@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NORMALITY where 
+module Language.Thesaurus.RogetLite.Normality where 
 import Language.Thesaurus
 normality :: ThProg
 normality = [thesaurus|
-# RELATION
-## NORMALITY
+# Relation
+## Normality
 noun:
 * normality
  normalcy, normalness, familiarity, naturalness, commonness  , rule, standard  , customary  , standard, pattern  

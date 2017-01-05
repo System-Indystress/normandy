@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TENDENCY where 
+module Language.Thesaurus.RogetLite.Tendency where 
 import Language.Thesaurus
 tendency :: ThProg
 tendency = [thesaurus|
-# RELATION
-## TENDENCY
+# Relation
+## Tendency
 noun:
 * tendency
  aptness, aptitude, proneness, proclivity, bent, turn, tone, bias, set, leaning to, predisposition, inclination, propensity, susceptibiliy, conatus, nisus, liability , quality, nature, temperament, idiocrasy, idiosyncrasy, cast, vein, grain, humor, mood, drift  , conduciveness, conducement, applicability  , subservience  

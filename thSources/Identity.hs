@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IDENTITY where 
+module Language.Thesaurus.RogetLite.Identity where 
 import Language.Thesaurus
 identity :: ThProg
 identity = [thesaurus|
-# RELATION
-## IDENTITY
+# Relation
+## Identity
 noun:
 * identity
  sameness, coincidence, coalescence, convertibility, equality , selfness, self, oneself, identification

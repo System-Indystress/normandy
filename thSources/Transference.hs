@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRANSFERENCE where 
+module Language.Thesaurus.RogetLite.Transference where 
 import Language.Thesaurus
 transference :: ThProg
 transference = [thesaurus|
-# SPACE
-## TRANSFERENCE
+# Space
+## Transference
 noun:
 * transfer
  transference, translocation, elocation, displacement, metastasis, metathesis, removal, remotion, amotion, relegation, deportation, asportation, extradition, conveyance, draft, carrying, carriage, convection, conduction, contagion, transfer  

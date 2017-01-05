@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INFINITY where 
+module Language.Thesaurus.RogetLite.Infinity where 
 import Language.Thesaurus
 infinity :: ThProg
 infinity = [thesaurus|
-# RELATION
-## INFINITY
+# Relation
+## Infinity
 noun:
 * infinity
  infinitude, infiniteness, perpetuity , boundlessness

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SIBILATION where 
+module Language.Thesaurus.RogetLite.Sibilation where 
 import Language.Thesaurus
 sibilation :: ThProg
 sibilation = [thesaurus|
-# MATTER
-## SIBILATION
+# Matter
+## Sibilation
 noun:
 * sibilation
  zip, hiss, sternutation, high note 

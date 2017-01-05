@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LENITY where 
+module Language.Thesaurus.RogetLite.Lenity where 
 import Language.Thesaurus
 lenity :: ThProg
 lenity = [thesaurus|
-# VOLITION
-## LENITY
+# Volition
+## Lenity
 noun:
 * lenity
  lenience, leniency, moderation , tolerance, toleration, mildness, gentleness, favor, indulgence, indulgency, clemency, mercy, forbearance, quarter, compassion 

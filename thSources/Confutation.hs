@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONFUTATION where 
+module Language.Thesaurus.RogetLite.Confutation where 
 import Language.Thesaurus
 confutation :: ThProg
 confutation = [thesaurus|
-# IDEAS
-## CONFUTATION
+# Ideas
+## Confutation
 noun:
 * confutation
  refutation, answer, complete answer, disproof, conviction, redargution, invalidation, exposure, exposition, clincher, retort, reductio ad absurdum, knock down argument, tu quoque argument, sockdolager 

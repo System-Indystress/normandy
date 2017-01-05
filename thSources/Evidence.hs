@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EVIDENCE where 
+module Language.Thesaurus.RogetLite.Evidence where 
 import Language.Thesaurus
 evidence :: ThProg
 evidence = [thesaurus|
-# IDEAS
-## EVIDENCE
+# Ideas
+## Evidence
 noun:
 * evidence
  facts, premises, data, praecognita, grounds

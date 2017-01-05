@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUMMIT where 
+module Language.Thesaurus.RogetLite.Summit where 
 import Language.Thesaurus
 summit :: ThProg
 summit = [thesaurus|
-# SPACE
-## SUMMIT
+# Space
+## Summit
 noun:
 * summit
  summity, top, vertex, apex, zenith, pinnacle, acme, culmination, meridian, utmost height, ne plus ultra, height, pitch, maximum, climax, culminating point, crowning point, turning point, turn of the tide, fountain head, watershed, water parting, sky, pole

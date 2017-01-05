@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSTRUMENTALITY where 
+module Language.Thesaurus.RogetLite.Instrumentality where 
 import Language.Thesaurus
 instrumentality :: ThProg
 instrumentality = [thesaurus|
-# VOLITION
-## INSTRUMENTALITY
+# Volition
+## Instrumentality
 noun:
 * instrumentality
  aid , subservience, subserviency, mediation, intervention, medium, intermedium, vehicle, hand, agency 

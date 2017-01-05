@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REVELATION where 
+module Language.Thesaurus.RogetLite.Revelation where 
 import Language.Thesaurus
 revelation :: ThProg
 revelation = [thesaurus|
-# SENTIMENT
-## REVELATION
+# Sentiment
+## Revelation
 noun:
 * revelation
  inspiration, afflatus, theophany, theopneusty

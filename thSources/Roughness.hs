@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ROUGHNESS where 
+module Language.Thesaurus.RogetLite.Roughness where 
 import Language.Thesaurus
 roughness :: ThProg
 roughness = [thesaurus|
-# SPACE
-## ROUGHNESS
+# Space
+## Roughness
 noun:
 * roughness
  tooth, grain, texture, ripple, asperity, rugosity, salebrosity, corrugation, nodosity, arborescence , pilosity

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.THOUGHT where 
+module Language.Thesaurus.RogetLite.Thought where 
 import Language.Thesaurus
 thought :: ThProg
 thought = [thesaurus|
-# IDEAS
-## THOUGHT
+# Ideas
+## Thought
 noun:
 * thought
  exercitation of the intellect, exercise of the intellect, intellection, reflection, cogitation, consideration, meditation, study, lucubration, speculation, deliberation, pondering, head work, brain work, cerebration, deep reflection, close study, application  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REFRESHMENT where 
+module Language.Thesaurus.RogetLite.Refreshment where 
 import Language.Thesaurus
 refreshment :: ThProg
 refreshment = [thesaurus|
-# VOLITION
-## REFRESHMENT
+# Volition
+## Refreshment
 noun:
 * bracing
  recovery of strength , restoration, revival , repair, refection, refocillation, refreshment, regalement, bait, relief 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUBJECTION where 
+module Language.Thesaurus.RogetLite.Subjection where 
 import Language.Thesaurus
 subjection :: ThProg
 subjection = [thesaurus|
-# VOLITION
-## SUBJECTION
+# Volition
+## Subjection
 noun:
 * subjection
  dependence, dependency, subordination, thrall, thraldom, enthrallment, subjugation, bondage, serfdom, feudalism, feudality, vassalage, villenage, slavery, enslavement, involuntary servitude, conquest

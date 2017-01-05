@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STREAM where 
+module Language.Thesaurus.RogetLite.Stream where 
 import Language.Thesaurus
 stream :: ThProg
 stream = [thesaurus|
-# MATTER
-## STREAM
+# Matter
+## Stream
 noun:
 * stream  
   

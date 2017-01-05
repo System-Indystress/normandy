@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXCITATION where 
+module Language.Thesaurus.RogetLite.Excitation where 
 import Language.Thesaurus
 excitation :: ThProg
 excitation = [thesaurus|
-# SENTIMENT
-## EXCITATION
+# Sentiment
+## Excitation
 noun:
 * excitation of feeling
  mental excitement, suscitation, galvanism, stimulation, piquancy, provocation, inspiration, calling forth, infection, animation, agitation, pertubation, subjugation, fascination, intoxication, enravishment, entrancement, high pressure

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BASE where 
+module Language.Thesaurus.RogetLite.Base where 
 import Language.Thesaurus
 base :: ThProg
 base = [thesaurus|
-# SPACE
-## BASE
+# Space
+## Base
 noun:
 * base
  basement, plinth, dado, wainscot, baseboard, mopboard, bedrock, hardpan , foundation  , substructure, substratum, ground, earth, pavement, floor, paving, flag, carped, ground floor, deck, footing, ground work, basis, hold, bilge

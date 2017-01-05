@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DRUNKENNESS where 
+module Language.Thesaurus.RogetLite.Drunkenness where 
 import Language.Thesaurus
 drunkenness :: ThProg
 drunkenness = [thesaurus|
-# SENTIMENT
-## DRUNKENNESS
+# Sentiment
+## Drunkenness
 noun:
 * drunkenness
  intemperance, drinking v., inebriety, inebriation, ebriety, ebriosity, insobriety, intoxication, temulency, bibacity, winebibbing, comtation, potation, deep potations, bacchanals, bacchanalia, libations, bender 

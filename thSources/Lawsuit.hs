@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LAWSUIT where 
+module Language.Thesaurus.RogetLite.Lawsuit where 
 import Language.Thesaurus
 lawsuit :: ThProg
 lawsuit = [thesaurus|
-# SENTIMENT
-## LAWSUIT
+# Sentiment
+## Lawsuit
 noun:
 * lawsuit
  suit, action, cause, litigation, suit in law, dispute 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPENSATION where 
+module Language.Thesaurus.RogetLite.Compensation where 
 import Language.Thesaurus
 compensation :: ThProg
 compensation = [thesaurus|
-# VOLITION
-## COMPENSATION
+# Volition
+## Compensation
 noun:
 * compensation
  equation, commutation, indemnification, compromise  neutralization, nullification, counteraction , reaction, measure for measure, retaliation , equalization , robbing Peter to pay Paul

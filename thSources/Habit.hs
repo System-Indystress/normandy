@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HABIT where 
+module Language.Thesaurus.RogetLite.Habit where 
 import Language.Thesaurus
 habit :: ThProg
 habit = [thesaurus|
-# VOLITION
-## HABIT
+# Volition
+## Habit
 noun:
 * habit
  habitude, assuetude, assuefaction, wont, run, way

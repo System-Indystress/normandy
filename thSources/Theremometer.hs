@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.THEREMOMETER where 
+module Language.Thesaurus.RogetLite.Theremometer where 
 import Language.Thesaurus
 theremometer :: ThProg
 theremometer = [thesaurus|
-# MATTER
-## THEREMOMETER
+# Matter
+## Theremometer
 noun:
 * thermometer
  thermometrograph, thermostat, thermoscope, pyrometer, calorimeter

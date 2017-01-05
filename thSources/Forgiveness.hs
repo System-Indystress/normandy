@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FORGIVENESS where 
+module Language.Thesaurus.RogetLite.Forgiveness where 
 import Language.Thesaurus
 forgiveness :: ThProg
 forgiveness = [thesaurus|
-# SENTIMENT
-## FORGIVENESS
+# Sentiment
+## Forgiveness
 noun:
 * forgiveness
  pardon, condonation, grace, remission, absolution, amnesty, oblivion, indulgence, reprieve

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DUPE where 
+module Language.Thesaurus.RogetLite.Dupe where 
 import Language.Thesaurus
 dupe :: ThProg
 dupe = [thesaurus|
-# IDEAS
-## DUPE
+# Ideas
+## Dupe
 noun:
 * dupe
  gull, gudgeon, gobemouche, cull, cully, victim, pigeon, April fool, jay, sucker, laughingstock , Cyclops, simple Simon, flat, greenhorn, fool , puppet, cat's paw

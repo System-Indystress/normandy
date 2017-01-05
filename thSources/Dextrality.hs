@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEXTRALITY where 
+module Language.Thesaurus.RogetLite.Dextrality where 
 import Language.Thesaurus
 dextrality :: ThProg
 dextrality = [thesaurus|
-# SPACE
-## DEXTRALITY
+# Space
+## Dextrality
 noun:
 * dextrality
  right, right hand, dexter, offside, starboard

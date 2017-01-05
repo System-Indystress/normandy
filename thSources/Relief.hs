@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RELIEF where 
+module Language.Thesaurus.RogetLite.Relief where 
 import Language.Thesaurus
 relief :: ThProg
 relief = [thesaurus|
-# SENTIMENT
-## RELIEF
+# Sentiment
+## Relief
 noun:
 * relief
  deliverance, refreshment , easement, softening, alleviation, mitigation, palliation, soothing, lullaby

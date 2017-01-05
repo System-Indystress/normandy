@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISREPUTE where 
+module Language.Thesaurus.RogetLite.Disrepute where 
 import Language.Thesaurus
 disrepute :: ThProg
 disrepute = [thesaurus|
-# SENTIMENT
-## DISREPUTE
+# Sentiment
+## Disrepute
 noun:
 * disrepute
  discredit, ill repute, bad repute, bad name, bad odor, bad favor, ill name, ill odor, ill favor, disapprobation , ingloriousness, derogation, abasement, debasement, abjectness, degradation, dedecoration, a long farewell to all my greatness , odium, obloquy, opprobrium, ignominy

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COLOR where 
+module Language.Thesaurus.RogetLite.Color where 
 import Language.Thesaurus
 color :: ThProg
 color = [thesaurus|
-# MATTER
-## COLOR
+# Matter
+## Color
 noun:
 * color
  hue, tint, tinge, dye, complexion, shade, tincture, cast, livery, coloration, glow, flush, tone, key

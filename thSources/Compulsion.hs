@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPULSION where 
+module Language.Thesaurus.RogetLite.Compulsion where 
 import Language.Thesaurus
 compulsion :: ThProg
 compulsion = [thesaurus|
-# VOLITION
-## COMPULSION
+# Volition
+## Compulsion
 noun:
 * compulsion
  coercion, coaction, constraint, duress, enforcement, press, conscription

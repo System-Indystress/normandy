@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REGION where 
+module Language.Thesaurus.RogetLite.Region where 
 import Language.Thesaurus
 region :: ThProg
 region = [thesaurus|
-# SPACE
-## REGION
+# Space
+## Region
 noun:
 * region
  sphere, ground, soil, area, realm, hemisphere, quarter, district, beat, orb, circuit, circle, pale  , compartment, department, clearing, domain, tract, territory, country, canton, county, shire, province, arrondissement, mofussil, parish, township, commune, ward, wapentake, hundred, riding, lathe, garth, soke, tithing, bailiwick, principality, duchy, kingdom, archduchy, archdukedom

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.KNOWLEDGE where 
+module Language.Thesaurus.RogetLite.Knowledge where 
 import Language.Thesaurus
 knowledge :: ThProg
 knowledge = [thesaurus|
-# IDEAS
-## KNOWLEDGE
+# Ideas
+## Knowledge
 noun:
 * knowledge
  cognizance, cognition, cognoscence, acquaintance, experience, ken, privity, insight, familiarity, comprehension, apprehension, recognition, appreciation  , intuition, conscience, consciousness, perception, precognition, acroamatics

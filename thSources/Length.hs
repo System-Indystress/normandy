@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LENGTH where 
+module Language.Thesaurus.RogetLite.Length where 
 import Language.Thesaurus
 length :: ThProg
 length = [thesaurus|
-# SPACE
-## LENGTH
+# Space
+## Length
 noun:
 * length
  longitude, span, mileage

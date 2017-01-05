@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PHYSICALINSENSIBILITY where 
+module Language.Thesaurus.RogetLite.Physicalinsensibility where 
 import Language.Thesaurus
 physicalinsensibility :: ThProg
 physicalinsensibility = [thesaurus|
-# MATTER
-## PHYSICALINSENSIBILITY
+# Matter
+## Physicalinsensibility
 noun:
 * insensibility
  physical insensibility, obtuseness, palsy, paralysis, paraesthesia, anaesthesia, sleep , hemiplegia, motor paralysis

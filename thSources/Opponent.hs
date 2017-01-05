@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OPPONENT where 
+module Language.Thesaurus.RogetLite.Opponent where 
 import Language.Thesaurus
 opponent :: ThProg
 opponent = [thesaurus|
-# VOLITION
-## OPPONENT
+# Volition
+## Opponent
 noun:
 * opponent
  antagonist, adversary, adverse party, opposition, enemy , assailant

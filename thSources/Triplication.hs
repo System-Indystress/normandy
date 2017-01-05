@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRIPLICATION where 
+module Language.Thesaurus.RogetLite.Triplication where 
 import Language.Thesaurus
 triplication :: ThProg
 triplication = [thesaurus|
-# RELATION
-## TRIPLICATION
+# Relation
+## Triplication
 noun:
 * triplication
  triplicity, trebleness, trine

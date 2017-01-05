@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRIALITY where 
+module Language.Thesaurus.RogetLite.Triality where 
 import Language.Thesaurus
 triality :: ThProg
 triality = [thesaurus|
-# RELATION
-## TRIALITY
+# Relation
+## Triality
 noun:
 * Triality
  trinity, triunity

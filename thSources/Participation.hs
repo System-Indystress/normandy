@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PARTICIPATION where 
+module Language.Thesaurus.RogetLite.Participation where 
 import Language.Thesaurus
 participation :: ThProg
 participation = [thesaurus|
-# VOLITION
-## PARTICIPATION
+# Volition
+## Participation
 noun:
 * participation
  cotenancy, joint tenancy, occupancy in common, possession in common, tenancy in common, joint stock, common stock, co-partnership, partnership, communion, community of possessions, community of goods, communism, socialism, cooperation 

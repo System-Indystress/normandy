@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CERTAINTY where 
+module Language.Thesaurus.RogetLite.Certainty where 
 import Language.Thesaurus
 certainty :: ThProg
 certainty = [thesaurus|
-# IDEAS
-## CERTAINTY
+# Ideas
+## Certainty
 noun:
 * certainty
  necessity , certitude, surety, assurance, dead certainty, moral certainty, infallibleness, infallibility, reliability, indubitableness, inevitableness, unquestionableness

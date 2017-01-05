@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXPECTANCE where 
+module Language.Thesaurus.RogetLite.Expectance where 
 import Language.Thesaurus
 expectance :: ThProg
 expectance = [thesaurus|
-# SENTIMENT
-## EXPECTANCE
+# Sentiment
+## Expectance
 noun:
 * expectance  
 *nine days' wonder

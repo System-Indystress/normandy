@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NEARNESS where 
+module Language.Thesaurus.RogetLite.Nearness where 
 import Language.Thesaurus
 nearness :: ThProg
 nearness = [thesaurus|
-# SPACE
-## NEARNESS
+# Space
+## Nearness
 noun:
 * nearness
  proximity, propinquity, vicinity, vicinage, neighborhood, adjacency, contiguity 

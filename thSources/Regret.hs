@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REGRET where 
+module Language.Thesaurus.RogetLite.Regret where 
 import Language.Thesaurus
 regret :: ThProg
 regret = [thesaurus|
-# SENTIMENT
-## REGRET
+# Sentiment
+## Regret
 noun:
 * regret
  repining, homesickness, nostalgia, maldu pays, maladie, lamentation , penitence 

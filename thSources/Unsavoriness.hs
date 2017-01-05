@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNSAVORINESS where 
+module Language.Thesaurus.RogetLite.Unsavoriness where 
 import Language.Thesaurus
 unsavoriness :: ThProg
 unsavoriness = [thesaurus|
-# MATTER
-## UNSAVORINESS
+# Matter
+## Unsavoriness
 noun:
 * unsavoriness
  amaritude, acrimony, acridity, roughness  , acerbity, austerity, gall and wormwood, rue, quassia, aloes, marah, sickener

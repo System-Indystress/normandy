@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SEQUEL where 
+module Language.Thesaurus.RogetLite.Sequel where 
 import Language.Thesaurus
 sequel :: ThProg
 sequel = [thesaurus|
-# RELATION
-## SEQUEL
+# Relation
+## Sequel
 noun:
 * sequel
  suffix, successor, tail, queue, train, wake, trail, rear, retinue, suite, appendix, postscript, epilogue, peroration, codicil, continuation, sequela, appendage, tail piece, heelpiece, tag, more last words, colophon

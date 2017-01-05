@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ORNAMENT where 
+module Language.Thesaurus.RogetLite.Ornament where 
 import Language.Thesaurus
 ornament :: ThProg
 ornament = [thesaurus|
-# IDEAS
-## ORNAMENT
+# Ideas
+## Ornament
 noun:
 * ornament
  floridness, turgidity, turgescence, altiloquence, declamation, teratiology, well-rounded periods, elegance , orotundity

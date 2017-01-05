@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EVOLUTION where 
+module Language.Thesaurus.RogetLite.Evolution where 
 import Language.Thesaurus
 evolution :: ThProg
 evolution = [thesaurus|
-# SPACE
-## EVOLUTION
+# Space
+## Evolution
 noun:
 * evolution
  unfolding, development, evolvement, unfoldment, eversion  

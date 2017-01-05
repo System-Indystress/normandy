@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ATTACK where 
+module Language.Thesaurus.RogetLite.Attack where 
 import Language.Thesaurus
 attack :: ThProg
 attack = [thesaurus|
-# VOLITION
-## ATTACK
+# Volition
+## Attack
 noun:
 * attack
  assault, assault and battery, onset, onslaught, charge

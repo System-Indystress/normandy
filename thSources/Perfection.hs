@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PERFECTION where 
+module Language.Thesaurus.RogetLite.Perfection where 
 import Language.Thesaurus
 perfection :: ThProg
 perfection = [thesaurus|
-# VOLITION
-## PERFECTION
+# Volition
+## Perfection
 noun:
 * perfection
  perfectness, indefectibility, impeccancy, impeccability

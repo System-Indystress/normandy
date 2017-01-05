@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PENALTY where 
+module Language.Thesaurus.RogetLite.Penalty where 
 import Language.Thesaurus
 penalty :: ThProg
 penalty = [thesaurus|
-# SENTIMENT
-## PENALTY
+# Sentiment
+## Penalty
 noun:
 * penalty
  retribution  , pain, pains and penalties, weregild, wergild, peine forte et dure, penance  , the devil to pay

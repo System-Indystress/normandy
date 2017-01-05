@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INELEGANCE where 
+module Language.Thesaurus.RogetLite.Inelegance where 
 import Language.Thesaurus
 inelegance :: ThProg
 inelegance = [thesaurus|
-# IDEAS
-## INELEGANCE
+# Ideas
+## Inelegance
 noun:
 * inelegance
  stiffness, "unlettered Muse" , barbarism, slang , solecism , mannerism  , euphuism, fustian , cacophony, words that break the teeth, words that dislocate the jaw, marinism

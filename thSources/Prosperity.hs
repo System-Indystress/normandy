@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROSPERITY where 
+module Language.Thesaurus.RogetLite.Prosperity where 
 import Language.Thesaurus
 prosperity :: ThProg
 prosperity = [thesaurus|
-# VOLITION
-## PROSPERITY
+# Volition
+## Prosperity
 noun:
 * prosperity
  welfare, well-being, affluence  , success , thrift, roaring trade, good fortune, smiles of fortune, blessings, godsend

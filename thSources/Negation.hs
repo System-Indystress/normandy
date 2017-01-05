@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NEGATION where 
+module Language.Thesaurus.RogetLite.Negation where 
 import Language.Thesaurus
 negation :: ThProg
 negation = [thesaurus|
-# IDEAS
-## NEGATION
+# Ideas
+## Negation
 noun:
 * negation
  abnegation, denial, disavowal, disclaimer, abjuration, contradiction, contravention, recusation, protest, recusancy  , flat contradiction, emphatic contradiction, emphatic denial, dementi

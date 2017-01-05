@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONDIMENT where 
+module Language.Thesaurus.RogetLite.Condiment where 
 import Language.Thesaurus
 condiment :: ThProg
 condiment = [thesaurus|
-# MATTER
-## CONDIMENT
+# Matter
+## Condiment
 noun:
 * condiment
  seasoning, sauce, spice, relish, appetizer

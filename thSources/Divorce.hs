@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIVORCE where 
+module Language.Thesaurus.RogetLite.Divorce where 
 import Language.Thesaurus
 divorce :: ThProg
 divorce = [thesaurus|
-# SENTIMENT
-## DIVORCE
+# Sentiment
+## Divorce
 noun:
 * divorce
  divorcement, separation, judicial separation, legal separation, separate maintenance, living apart, separatio a mensa et thoro, separatio a vinculo matrimonii

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONIMITATION where 
+module Language.Thesaurus.RogetLite.Nonimitation where 
 import Language.Thesaurus
 nonimitation :: ThProg
 nonimitation = [thesaurus|
-# RELATION
-## NONIMITATION
+# Relation
+## Nonimitation
 noun:
 * nonimitation
  no imitation, originality, creativeness

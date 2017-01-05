@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REPOSE where 
+module Language.Thesaurus.RogetLite.Repose where 
 import Language.Thesaurus
 repose :: ThProg
 repose = [thesaurus|
-# VOLITION
-## REPOSE
+# Volition
+## Repose
 noun:
 * repose
  rest, silken repose, sleep 

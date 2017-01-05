@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CESSATION where 
+module Language.Thesaurus.RogetLite.Cessation where 
 import Language.Thesaurus
 cessation :: ThProg
 cessation = [thesaurus|
-# RELATION
-## CESSATION
+# Relation
+## Cessation
 noun:
 * cessation
  discontinuance, desistance, desinence

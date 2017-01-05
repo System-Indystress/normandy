@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUPPORT where 
+module Language.Thesaurus.RogetLite.Support where 
 import Language.Thesaurus
 support :: ThProg
 support = [thesaurus|
-# SPACE
-## SUPPORT
+# Space
+## Support
 noun:
 * support
  ground, foundation, base, basis, terra firma, bearing, fulcrum, bait , caudex crib, point d'appui, , purchase footing, hold, locus standi, landing place, landing stage, stage, platform, block, rest, resting place, groundwork, substratum, riprap, sustentation, subvention, floor  

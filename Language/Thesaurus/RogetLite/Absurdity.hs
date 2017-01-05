@@ -1,8 +1,9 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.Absurdity
 (absurdity
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
 absurdity :: ThProg
 absurdity = [thesaurus|

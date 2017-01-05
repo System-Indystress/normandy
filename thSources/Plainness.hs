@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PLAINNESS where 
+module Language.Thesaurus.RogetLite.Plainness where 
 import Language.Thesaurus
 plainness :: ThProg
 plainness = [thesaurus|
-# IDEAS
-## PLAINNESS
+# Ideas
+## Plainness
 noun:
 * plainness
  simplicity, severity, plain terms, plain English, Saxon English, household words

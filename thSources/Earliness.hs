@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EARLINESS where 
+module Language.Thesaurus.RogetLite.Earliness where 
 import Language.Thesaurus
 earliness :: ThProg
 earliness = [thesaurus|
-# RELATION
-## EARLINESS
+# Relation
+## Earliness
 noun:
 * earliness
  morning 

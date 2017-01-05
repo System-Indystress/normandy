@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REDUNDANCE where 
+module Language.Thesaurus.RogetLite.Redundance where 
 import Language.Thesaurus
 redundance :: ThProg
 redundance = [thesaurus|
-# VOLITION
-## REDUNDANCE
+# Volition
+## Redundance
 noun:
 * redundance
  too much, too many, superabundance, superfluity, superfluence, saturation, nimiety, transcendency, exuberance, profuseness, profusion  , repletion, enough in all conscience, satis superque, lion's share, more than enough , plethora, engorgement, congestion, load, surfeit, sickener, turgescence  , overdose, overmeasure, oversupply, overflow, inundation  , avalanche

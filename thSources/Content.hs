@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTENT where 
+module Language.Thesaurus.RogetLite.Content where 
 import Language.Thesaurus
 content :: ThProg
 content = [thesaurus|
-# SENTIMENT
-## CONTENT
+# Sentiment
+## Content
 noun:
 * content
  contentment, contentedness, complacency, satisfaction, entire satisfaction, ease, heart's ease, peace of mind, serenity , cheerfulness , ray of comfort, comfort  

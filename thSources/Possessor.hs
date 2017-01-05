@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.POSSESSOR where 
+module Language.Thesaurus.RogetLite.Possessor where 
 import Language.Thesaurus
 possessor :: ThProg
 possessor = [thesaurus|
-# VOLITION
-## POSSESSOR
+# Volition
+## Possessor
 noun:
 * possessor
  holder, occupant, occupier, tenant, person in possession, man in possession , renter, lodger, lessee, underlessee, zemindar, ryot, tenant on sufferance, tenant at will, tenant from year to year, tenant for years, tenant for life

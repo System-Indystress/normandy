@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PART where 
+module Language.Thesaurus.RogetLite.Part where 
 import Language.Thesaurus
 part :: ThProg
 part = [thesaurus|
-# RELATION
-## PART
+# Relation
+## Part
 noun:
 * part
  portion, dose, item, particular, aught, any, division, ward, subdivision, section, chapter, clause, count, paragraph, verse, article, passage, sector, segment, fraction, fragment, cantle, frustum, detachment, parcel

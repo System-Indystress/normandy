@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TEMPLE where 
+module Language.Thesaurus.RogetLite.Temple where 
 import Language.Thesaurus
 temple :: ThProg
 temple = [thesaurus|
-# SENTIMENT
-## TEMPLE
+# Sentiment
+## Temple
 noun:
 * place of worship
  house of God, house of prayer

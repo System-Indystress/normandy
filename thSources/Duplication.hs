@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DUPLICATION where 
+module Language.Thesaurus.RogetLite.Duplication where 
 import Language.Thesaurus
 duplication :: ThProg
 duplication = [thesaurus|
-# RELATION
-## DUPLICATION
+# Relation
+## Duplication
 noun:
 * duplication
  doubling, gemination, ingemination, reduplication, iteration  , renewal

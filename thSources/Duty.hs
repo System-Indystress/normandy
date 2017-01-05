@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DUTY where 
+module Language.Thesaurus.RogetLite.Duty where 
 import Language.Thesaurus
 duty :: ThProg
 duty = [thesaurus|
-# SENTIMENT
-## DUTY
+# Sentiment
+## Duty
 noun:
 * duty
  what ought to be done, moral obligation, accountableness, liability, onus, responsibility, bounden duty, imperative duty, call, call of duty, accountability

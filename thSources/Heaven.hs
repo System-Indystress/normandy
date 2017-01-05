@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HEAVEN where 
+module Language.Thesaurus.RogetLite.Heaven where 
 import Language.Thesaurus
 heaven :: ThProg
 heaven = [thesaurus|
-# SENTIMENT
-## HEAVEN
+# Sentiment
+## Heaven
 noun:
 * heaven
  kingdom of heaven, kingdom of God, heavenly kingdom, throne of God, presence of God, inheritance of the saints in light

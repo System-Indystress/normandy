@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DESUETUDE where 
+module Language.Thesaurus.RogetLite.Desuetude where 
 import Language.Thesaurus
 desuetude :: ThProg
 desuetude = [thesaurus|
-# VOLITION
-## DESUETUDE
+# Volition
+## Desuetude
 noun:
 * desuetude
  disusage, obsolescence, disuse , want of habit, want of practice, inusitation, newness to, new brooms

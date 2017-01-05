@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEPRECATION where 
+module Language.Thesaurus.RogetLite.Deprecation where 
 import Language.Thesaurus
 deprecation :: ThProg
 deprecation = [thesaurus|
-# VOLITION
-## DEPRECATION
+# Volition
+## Deprecation
 noun:
 * deprecation
  expostulation, intercession, mediation, protest, remonstrance

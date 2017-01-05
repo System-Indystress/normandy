@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RECESSION where 
+module Language.Thesaurus.RogetLite.Recession where 
 import Language.Thesaurus
 recession :: ThProg
 recession = [thesaurus|
-# SPACE
-## RECESSION
+# Space
+## Recession
 noun:
 * recession
  retirement, withdrawal, retreat, retrocession , departure, , recoil , flight  

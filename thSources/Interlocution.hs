@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTERLOCUTION where 
+module Language.Thesaurus.RogetLite.Interlocution where 
 import Language.Thesaurus
 interlocution :: ThProg
 interlocution = [thesaurus|
-# IDEAS
-## INTERLOCUTION
+# Ideas
+## Interlocution
 noun:
 * interlocution
  collocution, colloquy, converse, conversation, confabulation, talk, discourse, verbal intercourse, oral communication, commerce, dialogue, duologue, trialogue

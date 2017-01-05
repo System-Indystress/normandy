@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STRIDOR where 
+module Language.Thesaurus.RogetLite.Stridor where 
 import Language.Thesaurus
 stridor :: ThProg
 stridor = [thesaurus|
-# MATTER
-## STRIDOR
+# Matter
+## Stridor
 noun:
 * creak
  creaking, discord , stridor, roughness, sharpness, cacophony, cacoepy

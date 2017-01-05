@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRAVELER where 
+module Language.Thesaurus.RogetLite.Traveler where 
 import Language.Thesaurus
 traveler :: ThProg
 traveler = [thesaurus|
-# SPACE
-## TRAVELER
+# Space
+## Traveler
 noun:
 * traveler
  wayfarer, voyager, itinerant, passenger, commuter

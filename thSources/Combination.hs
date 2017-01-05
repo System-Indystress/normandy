@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMBINATION where 
+module Language.Thesaurus.RogetLite.Combination where 
 import Language.Thesaurus
 combination :: ThProg
 combination = [thesaurus|
-# RELATION
-## COMBINATION
+# Relation
+## Combination
 noun:
 * combination
  mixture , junction , union, unification, synthesis, incorporation, amalgamation, embodiment, coalescence, crasis, fusion, blending, absorption, centralization

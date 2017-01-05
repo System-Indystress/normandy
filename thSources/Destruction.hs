@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DESTRUCTION where 
+module Language.Thesaurus.RogetLite.Destruction where 
 import Language.Thesaurus
 destruction :: ThProg
 destruction = [thesaurus|
-# RELATION
-## DESTRUCTION
+# Relation
+## Destruction
 noun:
 * destruction
  waste, dissolution, breaking up, diruption, disruption, consumption, disorganization

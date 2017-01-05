@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REAR where 
+module Language.Thesaurus.RogetLite.Rear where 
 import Language.Thesaurus
 rear :: ThProg
 rear = [thesaurus|
-# SPACE
-## REAR
+# Space
+## Rear
 noun:
 * rear
  back, posteriority, rear rank, rear guard, background, hinterland

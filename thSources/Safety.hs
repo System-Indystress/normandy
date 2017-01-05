@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SAFETY where 
+module Language.Thesaurus.RogetLite.Safety where 
 import Language.Thesaurus
 safety :: ThProg
 safety = [thesaurus|
-# VOLITION
-## SAFETY
+# Volition
+## Safety
 noun:
 * safety
  security, surety, impregnability, invulnerability, invulnerableness, danger past, danger over, storm blown over, coast clear, escape , means of escape, blow valve, safety valve, release valve, sniffing valve, safeguard, palladium

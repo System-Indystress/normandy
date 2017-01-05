@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TENACITY where 
+module Language.Thesaurus.RogetLite.Tenacity where 
 import Language.Thesaurus
 tenacity :: ThProg
 tenacity = [thesaurus|
-# MATTER
-## TENACITY
+# Matter
+## Tenacity
 noun:
 * tenacity
  toughness, strength,  , grip, grasp, stickiness,  , sequacity, stubbornness , glue, cement, glutinousness, sequaciousness, viscidity,  

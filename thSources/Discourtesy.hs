@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCOURTESY where 
+module Language.Thesaurus.RogetLite.Discourtesy where 
 import Language.Thesaurus
 discourtesy :: ThProg
 discourtesy = [thesaurus|
-# SENTIMENT
-## DISCOURTESY
+# Sentiment
+## Discourtesy
 noun:
 * discourtesy
  ill breeding, ill manners, bad manners, ungainly manners, insuavity, uncourteousness, rusticity, inurbanity, illiberality, incivility displacency

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EVILDOER where 
+module Language.Thesaurus.RogetLite.Evildoer where 
 import Language.Thesaurus
 evildoer :: ThProg
 evildoer = [thesaurus|
-# SENTIMENT
-## EVILDOER
+# Sentiment
+## Evildoer
 noun:
 * evil doer
  evil worker, wrongdoer , mischief-maker, marplot, oppressor, tyrant, firebrand, incendiary, fire bug , pyromaniac, anarchist, destroyer, vandal, iconoclast, communist, Nazi, terrorist

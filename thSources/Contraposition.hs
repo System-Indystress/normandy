@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTRAPOSITION where 
+module Language.Thesaurus.RogetLite.Contraposition where 
 import Language.Thesaurus
 contraposition :: ThProg
 contraposition = [thesaurus|
-# SPACE
-## CONTRAPOSITION
+# Space
+## Contraposition
 noun:
 * contraposition
  opposition, polarity, inversion , opposite side, reverse, inverse, counterpart, antipodes, opposite poles, North and South

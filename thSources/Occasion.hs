@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OCCASION where 
+module Language.Thesaurus.RogetLite.Occasion where 
 import Language.Thesaurus
 occasion :: ThProg
 occasion = [thesaurus|
-# RELATION
-## OCCASION
+# Relation
+## Occasion
 noun:
 * timeliness
  occasion, opportunity, opening, room, event  , suitable season, proper season, suitable time, proper time, high time, opportuneness, tempestivity

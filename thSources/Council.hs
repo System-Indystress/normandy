@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COUNCIL where 
+module Language.Thesaurus.RogetLite.Council where 
 import Language.Thesaurus
 council :: ThProg
 council = [thesaurus|
-# VOLITION
-## COUNCIL
+# Volition
+## Council
 noun:
 * council
  committee, subcommittee, comitia, court, chamber, cabinet, board, bench, staff

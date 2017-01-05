@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INCLOSURE where 
+module Language.Thesaurus.RogetLite.Inclosure where 
 import Language.Thesaurus
 inclosure :: ThProg
 inclosure = [thesaurus|
-# SPACE
-## INCLOSURE
+# Space
+## Inclosure
 noun:
 * inclosure
  enclosure, envelope, case  , wrapper, girdle 

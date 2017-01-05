@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RECEIPT where 
+module Language.Thesaurus.RogetLite.Receipt where 
 import Language.Thesaurus
 receipt :: ThProg
 receipt = [thesaurus|
-# VOLITION
-## RECEIPT
+# Volition
+## Receipt
 noun:
 * receipt
  value received, money coming in, income, incomings, innings, revenue, return, proceeds, gross receipts, net profit, earnings  , accepta, avails

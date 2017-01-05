@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AGREEMENT where 
+module Language.Thesaurus.RogetLite.Agreement where 
 import Language.Thesaurus
 agreement :: ThProg
 agreement = [thesaurus|
-# RELATION
-## AGREEMENT
+# Relation
+## Agreement
 noun:
 * agreement
  accord, accordance, unison, harmony, concord , concordance, concert, understanding, mutual understanding

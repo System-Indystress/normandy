@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CRY where 
+module Language.Thesaurus.RogetLite.Cry where 
 import Language.Thesaurus
 cry :: ThProg
 cry = [thesaurus|
-# MATTER
-## CRY
+# Matter
+## Cry
 noun:
 * cry
  voice  , hubbub, bark  

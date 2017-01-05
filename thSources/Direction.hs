@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIRECTION where 
+module Language.Thesaurus.RogetLite.Direction where 
 import Language.Thesaurus
 direction :: ThProg
 direction = [thesaurus|
-# SPACE
-## DIRECTION
+# Space
+## Direction
 noun:
 * direction
  bearing, course, vector, set, drift, tenor, tendency , incidence, bending, trending, dip, tack, aim, collimation, steering, steerage

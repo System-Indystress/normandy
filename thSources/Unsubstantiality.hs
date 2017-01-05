@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNSUBSTANTIALITY where 
+module Language.Thesaurus.RogetLite.Unsubstantiality where 
 import Language.Thesaurus
 unsubstantiality :: ThProg
 unsubstantiality = [thesaurus|
-# RELATION
-## UNSUBSTANTIALITY
+# Relation
+## Unsubstantiality
 noun:
 * unsubstantiality
  insubstantiality, nothingness, nihility, no degree, no part, no quantity, no thing

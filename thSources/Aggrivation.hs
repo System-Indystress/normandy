@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AGGRIVATION where 
+module Language.Thesaurus.RogetLite.Aggrivation where 
 import Language.Thesaurus
 aggrivation :: ThProg
 aggrivation = [thesaurus|
-# SENTIMENT
-## AGGRIVATION
+# Sentiment
+## Aggrivation
 noun:
 * aggravation
  heightening, exacerbation, exasperation, overestimation , exaggeration 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONCOMPLETION where 
+module Language.Thesaurus.RogetLite.Noncompletion where 
 import Language.Thesaurus
 noncompletion :: ThProg
 noncompletion = [thesaurus|
-# VOLITION
-## NONCOMPLETION
+# Volition
+## Noncompletion
 noun:
 * noncompletion
  nonfulfillment, shortcoming , incompleteness , drawn battle, drawn game, work of Penelope

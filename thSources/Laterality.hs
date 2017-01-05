@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LATERALITY where 
+module Language.Thesaurus.RogetLite.Laterality where 
 import Language.Thesaurus
 laterality :: ThProg
 laterality = [thesaurus|
-# SPACE
-## LATERALITY
+# Space
+## Laterality
 noun:
 * laterality
  side, flank, quarter, lee, hand, cheek, jowl, jole, wing, profile, temple, parietes, loin, haunch, hip, beam

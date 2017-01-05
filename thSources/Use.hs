@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.USE where 
+module Language.Thesaurus.RogetLite.Use where 
 import Language.Thesaurus
 use :: ThProg
 use = [thesaurus|
-# VOLITION
-## USE
+# Volition
+## Use
 noun:
 * use
  employ, employment, exercise, exercitation, application, appliance, adhibition, disposal, consumption, agency  , usufruct, usefulness , benefit, recourse, resort, avail

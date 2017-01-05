@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ORDER where 
+module Language.Thesaurus.RogetLite.Order where 
 import Language.Thesaurus
 order :: ThProg
 order = [thesaurus|
-# RELATION
-## ORDER
+# Relation
+## Order
 noun:
 * order
  regularity, uniformity, symmetry, lucidus ordo, music of the spheres

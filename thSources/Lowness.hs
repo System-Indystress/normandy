@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LOWNESS where 
+module Language.Thesaurus.RogetLite.Lowness where 
 import Language.Thesaurus
 lowness :: ThProg
 lowness = [thesaurus|
-# SPACE
-## LOWNESS
+# Space
+## Lowness
 noun:
 * lowness
  debasement, depression, prostration  , depression  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MODESTY where 
+module Language.Thesaurus.RogetLite.Modesty where 
 import Language.Thesaurus
 modesty :: ThProg
 modesty = [thesaurus|
-# SENTIMENT
-## MODESTY
+# Sentiment
+## Modesty
 noun:
 * modesty
  humility , diffidence, timidity, retiring disposition, unobtrusiveness, bashfulness, mauvaise honte, blush, blushing, verecundity, self-knowledge

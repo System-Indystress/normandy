@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WILL where 
+module Language.Thesaurus.RogetLite.Will where 
 import Language.Thesaurus
 will :: ThProg
 will = [thesaurus|
-# VOLITION
-## WILL
+# Volition
+## Will
 noun:
 * will
  volition, conation, velleity, liberum arbitrium, will and pleasure, free will, freedom , discretion, option  , voluntariness, spontaneity, spontaneousness, originality

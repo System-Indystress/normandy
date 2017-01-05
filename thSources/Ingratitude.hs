@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INGRATITUDE where 
+module Language.Thesaurus.RogetLite.Ingratitude where 
 import Language.Thesaurus
 ingratitude :: ThProg
 ingratitude = [thesaurus|
-# SENTIMENT
-## INGRATITUDE
+# Sentiment
+## Ingratitude
 noun:
 * ingratitude
  thanklessness, oblivion of benefits, unthankfulness

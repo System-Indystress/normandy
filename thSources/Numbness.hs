@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NUMBNESS where 
+module Language.Thesaurus.RogetLite.Numbness where 
 import Language.Thesaurus
 numbness :: ThProg
 numbness = [thesaurus|
-# MATTER
-## NUMBNESS
+# Matter
+## Numbness
 noun:
 * numbness  
  anaesthesia, pins and needles

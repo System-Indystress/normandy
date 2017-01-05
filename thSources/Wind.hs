@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WIND where 
+module Language.Thesaurus.RogetLite.Wind where 
 import Language.Thesaurus
 wind :: ThProg
 wind = [thesaurus|
-# MATTER
-## WIND
+# Matter
+## Wind
 noun:
 *. wind
  draught, flatus, afflatus, efflation, eluvium, air, breath, breath of air, puff, whiff, zephyr, blow, drift, aura, stream, current, jet stream, undercurrent

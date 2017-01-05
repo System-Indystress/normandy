@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ACTIVITY where 
+module Language.Thesaurus.RogetLite.Activity where 
 import Language.Thesaurus
 activity :: ThProg
 activity = [thesaurus|
-# VOLITION
-## ACTIVITY
+# Volition
+## Activity
 noun:
 * activity
  briskness, liveliness, animation, life, vivacity, spirit, dash, energy, snap, vim

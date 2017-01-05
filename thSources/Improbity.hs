@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPROBITY where 
+module Language.Thesaurus.RogetLite.Improbity where 
 import Language.Thesaurus
 improbity :: ThProg
 improbity = [thesaurus|
-# SENTIMENT
-## IMPROBITY
+# Sentiment
+## Improbity
 noun:
 * improbity
  dishonesty, dishonor, deviation from rectitude, disgrace  , fraud  , lying , bad faith, Punic faith, mala fides, Punica fides, infidelity, faithlessness, Judas kiss, betrayal

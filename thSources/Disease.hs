@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISEASE where 
+module Language.Thesaurus.RogetLite.Disease where 
 import Language.Thesaurus
 disease :: ThProg
 disease = [thesaurus|
-# VOLITION
-## DISEASE
+# Volition
+## Disease
 noun:
 * disease
  illness, sickness, ailing, "all the ills that flesh is heir to" , morbidity, morbosity, infirmity, ailment, indisposition, complaint, disorder, malady, distemper, distemperature

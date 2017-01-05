@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIFFERENCE where 
+module Language.Thesaurus.RogetLite.Difference where 
 import Language.Thesaurus
 difference :: ThProg
 difference = [thesaurus|
-# RELATION
-## DIFFERENCE
+# Relation
+## Difference
 noun:
 * difference
  variance, variation, variety, diversity, dissimilarity , disagreement , disparity  , distinction, contradistinction, alteration

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PENDENCY where 
+module Language.Thesaurus.RogetLite.Pendency where 
 import Language.Thesaurus
 pendency :: ThProg
 pendency = [thesaurus|
-# SPACE
-## PENDENCY
+# Space
+## Pendency
 noun:
 * pendency
  dependency, suspension, hanging, pedicel, pedicle, peduncle, tail, train, flap, skirt, pigtail, pendulum, hangnail

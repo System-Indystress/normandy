@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MISNOMER where 
+module Language.Thesaurus.RogetLite.Misnomer where 
 import Language.Thesaurus
 misnomer :: ThProg
 misnomer = [thesaurus|
-# IDEAS
-## MISNOMER
+# Ideas
+## Misnomer
 noun:
 * misnomer
  lucus a non lucendo, Mrs. Malaprop, what d'ye call 'em  , Hoosier

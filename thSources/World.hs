@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WORLD where 
+module Language.Thesaurus.RogetLite.World where 
 import Language.Thesaurus
 world :: ThProg
 world = [thesaurus|
-# MATTER
-## WORLD
+# Matter
+## World
 noun:
 * world
  creation, nature, universe, earth, globe, wide world, cosmos, kosmos, terraqueous globe, sphere, macrocosm, megacosm, music of the spheres

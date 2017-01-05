@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NUMERATION where 
+module Language.Thesaurus.RogetLite.Numeration where 
 import Language.Thesaurus
 numeration :: ThProg
 numeration = [thesaurus|
-# RELATION
-## NUMERATION
+# Relation
+## Numeration
 noun:
 * numeration
  numbering, pagination, tale, recension, enumeration, summation, reckoning, computation, supputation, calculation, calculus, algorithm, algorism, rhabdology, dactylonomy, measurement , statistics

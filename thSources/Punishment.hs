@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PUNISHMENT where 
+module Language.Thesaurus.RogetLite.Punishment where 
 import Language.Thesaurus
 punishment :: ThProg
 punishment = [thesaurus|
-# SENTIMENT
-## PUNISHMENT
+# Sentiment
+## Punishment
 noun:
 * punishment
 punition, chastisement, chastening, correction, castigation

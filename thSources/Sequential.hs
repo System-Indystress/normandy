@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SEQUENTIAL where 
+module Language.Thesaurus.RogetLite.Sequential where 
 import Language.Thesaurus
 sequential :: ThProg
 sequential = [thesaurus|
-# SPACE
-## SEQUENTIAL
+# Space
+## Sequential
 noun:
 * sequence
  coming after  ,  , following pursuit 

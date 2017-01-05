@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GREENNESS where 
+module Language.Thesaurus.RogetLite.Greenness where 
 import Language.Thesaurus
 greenness :: ThProg
 greenness = [thesaurus|
-# MATTER
-## GREENNESS
+# Matter
+## Greenness
 noun:
 * green
  blue and yellow, vert

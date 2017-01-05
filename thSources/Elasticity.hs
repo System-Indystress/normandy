@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ELASTICITY where 
+module Language.Thesaurus.RogetLite.Elasticity where 
 import Language.Thesaurus
 elasticity :: ThProg
 elasticity = [thesaurus|
-# MATTER
-## ELASTICITY
+# Matter
+## Elasticity
 noun:
 * elasticity
  springiness, spring, resilience, renitency, buoyancy

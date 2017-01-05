@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNDUENESS where 
+module Language.Thesaurus.RogetLite.Undueness where 
 import Language.Thesaurus
 undueness :: ThProg
 undueness = [thesaurus|
-# SENTIMENT
-## UNDUENESS
+# Sentiment
+## Undueness
 noun:
 * undueness
  malum prohibitum, impropriety, illegality 

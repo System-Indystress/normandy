@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNCLEANNESS where 
+module Language.Thesaurus.RogetLite.Uncleanness where 
 import Language.Thesaurus
 uncleanness :: ThProg
 uncleanness = [thesaurus|
-# VOLITION
-## UNCLEANNESS
+# Volition
+## Uncleanness
 noun:
 * uncleanness
  impurity, immundity, immundicity, impurity  

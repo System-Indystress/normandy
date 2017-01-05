@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SCEPTER where 
+module Language.Thesaurus.RogetLite.Scepter where 
 import Language.Thesaurus
 scepter :: ThProg
 scepter = [thesaurus|
-# VOLITION
-## SCEPTER
+# Volition
+## Scepter
 noun:
 * scepter
  regalia, caduceus, Mercury's rod, Mercury's staff, Mercury's wand, rod of empire, mace, fasces, wand, staff, staff of office, baton, truncheon, flag  , ensign of authority, emblem of authority, badge of authority, insignia of authority

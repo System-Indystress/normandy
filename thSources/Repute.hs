@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REPUTE where 
+module Language.Thesaurus.RogetLite.Repute where 
 import Language.Thesaurus
 repute :: ThProg
 repute = [thesaurus|
-# SENTIMENT
-## REPUTE
+# Sentiment
+## Repute
 noun:
 * distinction
  mark, name, figure, repute, reputation, good repute, high repute, note, notability, notoriety, eclat

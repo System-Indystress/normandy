@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INCOGITANCY where 
+module Language.Thesaurus.RogetLite.Incogitancy where 
 import Language.Thesaurus
 incogitancy :: ThProg
 incogitancy = [thesaurus|
-# IDEAS
-## INCOGITANCY
+# Ideas
+## Incogitancy
 noun:
 * incogitancy
  vacancy, inunderstanding, fatuity , thoughtlessness  , vacuity

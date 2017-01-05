@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GENERALITY where 
+module Language.Thesaurus.RogetLite.Generality where 
 import Language.Thesaurus
 generality :: ThProg
 generality = [thesaurus|
-# RELATION
-## GENERALITY
+# Relation
+## Generality
 noun:
 * generality
  generalization, universality, catholicity, catholicism, miscellany, miscellaneousness, dragnet, common run, worldwideness

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNTRUTH where 
+module Language.Thesaurus.RogetLite.Untruth where 
 import Language.Thesaurus
 untruth :: ThProg
 untruth = [thesaurus|
-# IDEAS
-## UNTRUTH
+# Ideas
+## Untruth
 noun:
 * untruth
  falsehood, lie, story, thing that is not, fib, bounce, crammer, taradiddle, whopper

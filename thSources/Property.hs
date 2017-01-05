@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROPERTY where 
+module Language.Thesaurus.RogetLite.Property where 
 import Language.Thesaurus
 property :: ThProg
 property = [thesaurus|
-# VOLITION
-## PROPERTY
+# Volition
+## Property
 noun:
 * property
  possession, suum cuique, meum et tuum

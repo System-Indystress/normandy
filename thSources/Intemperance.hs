@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTEMPERANCE where 
+module Language.Thesaurus.RogetLite.Intemperance where 
 import Language.Thesaurus
 intemperance :: ThProg
 intemperance = [thesaurus|
-# SENTIMENT
-## INTEMPERANCE
+# Sentiment
+## Intemperance
 noun:
 * intemperance
  sensuality, animalism, carnality, tragalism, pleasure, effeminacy, silkiness, luxury, luxuriousness, lap of pleasure, lap of luxury, free living

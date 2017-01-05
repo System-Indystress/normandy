@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXTRINSICALITY where 
+module Language.Thesaurus.RogetLite.Extrinsicality where 
 import Language.Thesaurus
 extrinsicality :: ThProg
 extrinsicality = [thesaurus|
-# RELATION
-## EXTRINSICALITY
+# Relation
+## Extrinsicality
 noun:
 * extrinsicality
  objectiveness, nonego, extraneousness. , accident

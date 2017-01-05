@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.QUADRUPLICATION where 
+module Language.Thesaurus.RogetLite.Quadruplication where 
 import Language.Thesaurus
 quadruplication :: ThProg
 quadruplication = [thesaurus|
-# RELATION
-## QUADRUPLICATION
+# Relation
+## Quadruplication
 noun:
 * quadruplication
 verb:

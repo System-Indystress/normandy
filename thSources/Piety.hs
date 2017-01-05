@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PIETY where 
+module Language.Thesaurus.RogetLite.Piety where 
 import Language.Thesaurus
 piety :: ThProg
 piety = [thesaurus|
-# SENTIMENT
-## PIETY
+# Sentiment
+## Piety
 noun:
 * piety
  religion, theism, faith, religiousness, holiness, saintship, religionism, sanctimony  , reverence  , humility, veneration, devotion, prostration  , grace, unction, edification, sanctity, sanctitude, consecration

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INCURIOSITY where 
+module Language.Thesaurus.RogetLite.Incuriosity where 
 import Language.Thesaurus
 incuriosity :: ThProg
 incuriosity = [thesaurus|
-# IDEAS
-## INCURIOSITY
+# Ideas
+## Incuriosity
 noun:
 * incuriosity
  incuriousness, insouciance , indifference

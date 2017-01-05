@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTENTION where 
+module Language.Thesaurus.RogetLite.Contention where 
 import Language.Thesaurus
 contention :: ThProg
 contention = [thesaurus|
-# VOLITION
-## CONTENTION
+# Volition
+## Contention
 noun:
 * contention
  strife, contest, contestation, struggle, belligerency, opposition 

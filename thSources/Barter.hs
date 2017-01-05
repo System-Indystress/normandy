@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BARTER where 
+module Language.Thesaurus.RogetLite.Barter where 
 import Language.Thesaurus
 barter :: ThProg
 barter = [thesaurus|
-# VOLITION
-## BARTER
+# Volition
+## Barter
 noun:
 * barter
  exchange, scorse, truck system, interchange 

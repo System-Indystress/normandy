@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HARDNESS where 
+module Language.Thesaurus.RogetLite.Hardness where 
 import Language.Thesaurus
 hardness :: ThProg
 hardness = [thesaurus|
-# MATTER
-## HARDNESS
+# Matter
+## Hardness
 noun:
 * hardness
  rigidity, renitence, renitency, inflexibility, temper, callosity, durity

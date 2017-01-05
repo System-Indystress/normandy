@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PERMANENCE where 
+module Language.Thesaurus.RogetLite.Permanence where 
 import Language.Thesaurus
 permanence :: ThProg
 permanence = [thesaurus|
-# RELATION
-## PERMANENCE
+# Relation
+## Permanence
 noun:
 * stability 
  quiescence , obstinacy 

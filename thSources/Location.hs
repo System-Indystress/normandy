@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LOCATION where 
+module Language.Thesaurus.RogetLite.Location where 
 import Language.Thesaurus
 location :: ThProg
 location = [thesaurus|
-# SPACE
-## LOCATION
+# Space
+## Location
 noun:
 * location
  localization, lodgment, deposition, reposition, stowage, package, collocation, packing, lading, establishment, settlement, installation, fixation, insertion 

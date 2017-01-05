@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNBELIEF where 
+module Language.Thesaurus.RogetLite.Unbelief where 
 import Language.Thesaurus
 unbelief :: ThProg
 unbelief = [thesaurus|
-# IDEAS
-## UNBELIEF
+# Ideas
+## Unbelief
 noun:
 * unbelief
  disbelief, misbelief, discredit, miscreance, infidelity  , dissent , change of opinion , retractation 

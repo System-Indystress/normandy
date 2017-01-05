@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MUSICALINSTRUMENTS where 
+module Language.Thesaurus.RogetLite.Musicalinstruments where 
 import Language.Thesaurus
 musicalinstruments :: ThProg
 musicalinstruments = [thesaurus|
-# MATTER
-## MUSICALINSTRUMENTS
+# Matter
+## Musicalinstruments
 noun:
 * musical instruments
  band, string-band, brass-band, orchestra, orchestrina

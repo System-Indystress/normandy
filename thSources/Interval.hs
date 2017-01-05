@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTERVAL where 
+module Language.Thesaurus.RogetLite.Interval where 
 import Language.Thesaurus
 interval :: ThProg
 interval = [thesaurus|
-# SPACE
-## INTERVAL
+# Space
+## Interval
 noun:
 * interval
  interspace, separation , break, gap, opening, hole , chasm, hiatus, caesura, interruption, interregnum, interstice, lacuna, cleft, mesh, crevice, chink, rime, creek, cranny, crack, chap, slit, fissure, scissure, rift, flaw, breach, rent, gash, cut, leak, dike, ha-ha

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AUXILLARY where 
+module Language.Thesaurus.RogetLite.Auxillary where 
 import Language.Thesaurus
 auxillary :: ThProg
 auxillary = [thesaurus|
-# VOLITION
-## AUXILLARY
+# Volition
+## Auxillary
 noun:
 * auxiliary
  recruit, assistant, adjuvant, adjutant, ayudante, coaid, adjunct, help, helper, help mate, helping hand, midwife, colleague, partner, mate, confrere, cooperator, coadjutor, coadjutrix, collaborator

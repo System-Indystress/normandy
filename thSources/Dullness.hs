@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DULLNESS where 
+module Language.Thesaurus.RogetLite.Dullness where 
 import Language.Thesaurus
 dullness :: ThProg
 dullness = [thesaurus|
-# SENTIMENT
-## DULLNESS
+# Sentiment
+## Dullness
 noun:
 * dullness
  heaviness, flatness, infestivity , stupidity , want of originality, dearth of ideas

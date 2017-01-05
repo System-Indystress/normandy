@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SORCERER where 
+module Language.Thesaurus.RogetLite.Sorcerer where 
 import Language.Thesaurus
 sorcerer :: ThProg
 sorcerer = [thesaurus|
-# SENTIMENT
-## SORCERER
+# Sentiment
+## Sorcerer
 noun:
 * sorcerer
  magician, thaumaturgist, theurgist, conjuror, necromancer, seer, wizard, witch, hoodoo, voodoo, fairy , lamia, hag

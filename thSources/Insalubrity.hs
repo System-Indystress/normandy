@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSALUBRITY where 
+module Language.Thesaurus.RogetLite.Insalubrity where 
 import Language.Thesaurus
 insalubrity :: ThProg
 insalubrity = [thesaurus|
-# VOLITION
-## INSALUBRITY
+# Volition
+## Insalubrity
 noun:
 * insalubrity
  unhealthiness, nonnaturals, plague spot, malaria  , death in the pot, contagion, toxicity

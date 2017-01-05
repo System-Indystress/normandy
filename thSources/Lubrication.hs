@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LUBRICATION where 
+module Language.Thesaurus.RogetLite.Lubrication where 
 import Language.Thesaurus
 lubrication :: ThProg
 lubrication = [thesaurus|
-# MATTER
-## LUBRICATION
+# Matter
+## Lubrication
 noun:
 * smoothness 
  unctuousness 

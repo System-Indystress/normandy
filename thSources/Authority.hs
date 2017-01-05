@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AUTHORITY where 
+module Language.Thesaurus.RogetLite.Authority where 
 import Language.Thesaurus
 authority :: ThProg
 authority = [thesaurus|
-# VOLITION
-## AUTHORITY
+# Volition
+## Authority
 noun:
 * authority
  influence, patronage, power, preponderance, credit, prestige, prerogative, jurisdiction, right  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PETITIONER where 
+module Language.Thesaurus.RogetLite.Petitioner where 
 import Language.Thesaurus
 petitioner :: ThProg
 petitioner = [thesaurus|
-# VOLITION
-## PETITIONER
+# Volition
+## Petitioner
 noun:
 * petitioner
  solicitor, applicant, suppliant, supplicant, suitor, candidate, claimant, postulant, aspirant, competitor, bidder, place hunter, pot hunter, prizer

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REVOLUTION where 
+module Language.Thesaurus.RogetLite.Revolution where 
 import Language.Thesaurus
 revolution :: ThProg
 revolution = [thesaurus|
-# RELATION
-## REVOLUTION
+# Relation
+## Revolution
 noun:
 * revolution
  bouleversement, subversion, break up, destruction , sudden change, radical change, sweeping organic change, change of state, phase change, quantum leap, quantum jump, clean sweep, coup d'etat, counter revolution

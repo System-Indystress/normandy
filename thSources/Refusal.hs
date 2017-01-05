@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REFUSAL where 
+module Language.Thesaurus.RogetLite.Refusal where 
 import Language.Thesaurus
 refusal :: ThProg
 refusal = [thesaurus|
-# VOLITION
-## REFUSAL
+# Volition
+## Refusal
 noun:
 * refusal
  rejection, noncompliance, incompliance, denial, declining, declension, declinature, peremptory refusal, flat refusal, point blank refusal, repulse, rebuff, discountenance

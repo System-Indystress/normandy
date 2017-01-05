@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONSENT where 
+module Language.Thesaurus.RogetLite.Consent where 
 import Language.Thesaurus
 consent :: ThProg
 consent = [thesaurus|
-# VOLITION
-## CONSENT
+# Volition
+## Consent
 noun:
 * consent
  assent , acquiescence, approval , compliance, agreement, concession, yieldance, yieldingness, accession, acknowledgment, acceptance, agnition

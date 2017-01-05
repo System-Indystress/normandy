@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PHYSICALENERGY where 
+module Language.Thesaurus.RogetLite.Physicalenergy where 
 import Language.Thesaurus
 physicalenergy :: ThProg
 physicalenergy = [thesaurus|
-# RELATION
-## PHYSICALENERGY
+# Relation
+## Physicalenergy
 noun:
 * energy
  physical energy, force, keenness, intensity, vigor, strength, elasticity, go, high pressure, fire, rush

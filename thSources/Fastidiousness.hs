@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FASTIDIOUSNESS where 
+module Language.Thesaurus.RogetLite.Fastidiousness where 
 import Language.Thesaurus
 fastidiousness :: ThProg
 fastidiousness = [thesaurus|
-# SENTIMENT
-## FASTIDIOUSNESS
+# Sentiment
+## Fastidiousness
 noun:
 * fastidiousness
  nicety, hypercriticism, difficulty in being pleased, friandise, epicurism, omnia suspendens naso

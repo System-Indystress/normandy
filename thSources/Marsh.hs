@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MARSH where 
+module Language.Thesaurus.RogetLite.Marsh where 
 import Language.Thesaurus
 marsh :: ThProg
 marsh = [thesaurus|
-# MATTER
-## MARSH
+# Matter
+## Marsh
 noun:
 * marsh
  swamp, morass, marish, moss, fen, bog, quagmire, slough, sump, wash, mud, squash, slush, baygall , cienaga, jhil, vlei

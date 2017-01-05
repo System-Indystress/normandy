@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESENTMENT where 
+module Language.Thesaurus.RogetLite.Resentment where 
 import Language.Thesaurus
 resentment :: ThProg
 resentment = [thesaurus|
-# SENTIMENT
-## RESENTMENT
+# Sentiment
+## Resentment
 noun:
 * resentment
  displeasure, animosity, anger, wrath, indignation, exasperation, bitter resentment, wrathful indignation

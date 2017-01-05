@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPROMISE where 
+module Language.Thesaurus.RogetLite.Compromise where 
 import Language.Thesaurus
 compromise :: ThProg
 compromise = [thesaurus|
-# VOLITION
-## COMPROMISE
+# Volition
+## Compromise
 noun:
 * compromise
  commutation, composition, middle term, mezzo termine, compensation , abatement of differences, adjustment, mutal concession

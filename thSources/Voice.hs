@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VOICE where 
+module Language.Thesaurus.RogetLite.Voice where 
 import Language.Thesaurus
 voice :: ThProg
 voice = [thesaurus|
-# IDEAS
-## VOICE
+# Ideas
+## Voice
 noun:
 * voice
  vocality, organ, lungs, bellows, good voice, fine voice, powerful voice  , musical voice , intonation, tone of voice  

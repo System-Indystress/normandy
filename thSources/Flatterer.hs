@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FLATTERER where 
+module Language.Thesaurus.RogetLite.Flatterer where 
 import Language.Thesaurus
 flatterer :: ThProg
 flatterer = [thesaurus|
-# SENTIMENT
-## FLATTERER
+# Sentiment
+## Flatterer
 noun:
 * flatterer
  adulator, eulogist, euphemist, optimist, encomiast, laudator, whitewasher

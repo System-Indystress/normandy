@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NEVERNESS where 
+module Language.Thesaurus.RogetLite.Neverness where 
 import Language.Thesaurus
 neverness :: ThProg
 neverness = [thesaurus|
-# RELATION
-## NEVERNESS
+# Relation
+## Neverness
 noun:
 * "neverness"
  absence of time, no time, dies non, Tib's eve, Greek Kalends, a blue moon

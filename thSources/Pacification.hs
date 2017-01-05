@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PACIFICATION where 
+module Language.Thesaurus.RogetLite.Pacification where 
 import Language.Thesaurus
 pacification :: ThProg
 pacification = [thesaurus|
-# VOLITION
-## PACIFICATION
+# Volition
+## Pacification
 noun:
 * pacification
  conciliation, reconciliation, reconcilement, shaking of hands, accommodation, arrangement, adjustment, terms, compromise, amnesty, deed of release

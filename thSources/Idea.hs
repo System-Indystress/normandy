@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IDEA where 
+module Language.Thesaurus.RogetLite.Idea where 
 import Language.Thesaurus
 idea :: ThProg
 idea = [thesaurus|
-# IDEAS
-## IDEA
+# Ideas
+## Idea
 noun:
 * idea
  notion, conception, thought, apprehension, impression, perception, image, eidolon, sentiment, reflection, observation, consideration, abstract idea, archetype, formative notion, guiding conception, organizing conception, image in the mind, regulative principle

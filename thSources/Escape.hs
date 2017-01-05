@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ESCAPE where 
+module Language.Thesaurus.RogetLite.Escape where 
 import Language.Thesaurus
 escape :: ThProg
 escape = [thesaurus|
-# VOLITION
-## ESCAPE
+# Volition
+## Escape
 noun:
 * escape
  scape, avolation, elopement, flight, evasion  , retreat, narrow escape, hairbreadth escape, close call, come off, impunity

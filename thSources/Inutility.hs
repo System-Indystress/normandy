@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INUTILITY where 
+module Language.Thesaurus.RogetLite.Inutility where 
 import Language.Thesaurus
 inutility :: ThProg
 inutility = [thesaurus|
-# VOLITION
-## INUTILITY
+# Volition
+## Inutility
 noun:
 * inutility
  uselessness, inefficacy, futility, ineptitude, inaptitude, unsubservience, inadequacy  , inefficiency  , unskillfulness , disservice, unfruitfulness  , labor in vain, labor lost, labor of Sisyphus, lost trouble, lost labor, work of Penelope, sleeveless errand, wild goose chase, mere farce

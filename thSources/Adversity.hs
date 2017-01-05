@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ADVERSITY where 
+module Language.Thesaurus.RogetLite.Adversity where 
 import Language.Thesaurus
 adversity :: ThProg
 adversity = [thesaurus|
-# VOLITION
-## ADVERSITY
+# Volition
+## Adversity
 noun:
 * adversity
  evil , failure , bad luck, ill luck, evil luck, adverse luck, hard fortune, hard hap, hard luck, hard lot, frowns of fortune, evil dispensation, evil star, evil genius, ups and downs of life, broken fortunes, hard case, hard lines, hard life, sea of troubles, peck of troubles, hell upon earth, slough of despond

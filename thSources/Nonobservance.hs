@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONOBSERVANCE where 
+module Language.Thesaurus.RogetLite.Nonobservance where 
 import Language.Thesaurus
 nonobservance :: ThProg
 nonobservance = [thesaurus|
-# RELATION
-## NONOBSERVANCE
+# Relation
+## Nonobservance
 noun:
 * nonobservance 
  evasion, inobservance, failure, omission, neglect, laches, laxity, informality

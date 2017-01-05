@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TOUCH where 
+module Language.Thesaurus.RogetLite.Touch where 
 import Language.Thesaurus
 touch :: ThProg
 touch = [thesaurus|
-# MATTER
-## TOUCH
+# Matter
+## Touch
 noun:
 * touch
  tact, taction, tactility, feeling, palpation, palpability, contrectation, manipulation, massage

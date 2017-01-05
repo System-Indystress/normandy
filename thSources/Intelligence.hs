@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTELLIGENCE where 
+module Language.Thesaurus.RogetLite.Intelligence where 
 import Language.Thesaurus
 intelligence :: ThProg
 intelligence = [thesaurus|
-# IDEAS
-## INTELLIGENCE
+# Ideas
+## Intelligence
 noun:
 * intelligence
  capacity, comprehension, understanding, cuteness, sabe , savvy , intellect , nous, parts, sagacity, mother wit, wit, esprit, gumption, quick parts, grasp of intellect, acuteness, acumen, subtlety, penetration, perspicacy, perspicacity, discernment, due sense of, good judgment, discrimination , cunning , refinement  

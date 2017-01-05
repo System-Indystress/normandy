@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ENDEARMENT where 
+module Language.Thesaurus.RogetLite.Endearment where 
 import Language.Thesaurus
 endearment :: ThProg
 endearment = [thesaurus|
-# SENTIMENT
-## ENDEARMENT
+# Sentiment
+## Endearment
 noun:
 * endearment
  caress, blandishment, blandiment, �panchement, fondling, billing and cooing, dalliance, caressing

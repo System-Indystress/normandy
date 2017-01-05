@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SCOURAGE where 
+module Language.Thesaurus.RogetLite.Scourage where 
 import Language.Thesaurus
 scourage :: ThProg
 scourage = [thesaurus|
-# SENTIMENT
-## SCOURAGE
+# Sentiment
+## Scourage
 noun:
 * scourge
  rod, cane, stick, ratan, rattan, birch, birch rod, azote, blacksnake, bullwhack , chicote, kurbash, quirt, rawhide, sjambok, rod in pickle, switch, ferule, cudgel, truncheon

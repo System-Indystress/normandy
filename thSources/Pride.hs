@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRIDE where 
+module Language.Thesaurus.RogetLite.Pride where 
 import Language.Thesaurus
 pride :: ThProg
 pride = [thesaurus|
-# SENTIMENT
-## PRIDE
+# Sentiment
+## Pride
 noun:
 * dignity
  self-respect, mens sibi conscia recti 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ZERO where 
+module Language.Thesaurus.RogetLite.Zero where 
 import Language.Thesaurus
 zero :: ThProg
 zero = [thesaurus|
-# RELATION
-## ZERO
+# Relation
+## Zero
 noun:
 * zero
  nothing, null, nul, naught, nought, void, cipher, goose egg, none, nobody, no one, nichts , nixie, nix, zilch, zip, zippo , not a soul, ame qui vive, absence , unsubstantiality 

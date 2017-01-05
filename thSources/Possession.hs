@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.POSSESSION where 
+module Language.Thesaurus.RogetLite.Possession where 
 import Language.Thesaurus
 possession :: ThProg
 possession = [thesaurus|
-# VOLITION
-## POSSESSION
+# Volition
+## Possession
 noun:
 * possession
  seizin, seisin, ownership , occupancy, hold, holding, tenure, tenancy, feodality, dependency, villenage, villeinage, socage, chivalry, knight service. exclusive possession, impropriation, monopoly, retention , prepossession, preoccupancy, nine points of the law, corner, usucaption. future possession, heritage, inheritance, heirship, reversion, fee, seigniority, primogeniture, ultimogeniture

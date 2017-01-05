@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRETERITION where 
+module Language.Thesaurus.RogetLite.Preterition where 
 import Language.Thesaurus
 preterition :: ThProg
 preterition = [thesaurus|
-# RELATION
-## PRETERITION
+# Relation
+## Preterition
 noun:
 * preterition
  the past, past time, days of yore, times of yore, days of old, times of old, days past, times past, days gone by, times gone by, bygone days, old times, ancient times, former times, fore time, the good old days, the olden time, good old time, auld lang syne, eld

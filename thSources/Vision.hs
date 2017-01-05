@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VISION where 
+module Language.Thesaurus.RogetLite.Vision where 
 import Language.Thesaurus
 vision :: ThProg
 vision = [thesaurus|
-# MATTER
-## VISION
+# Matter
+## Vision
 noun:
 * vision
  sight, optics, eyesight

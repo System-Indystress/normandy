@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIFFUSENESS where 
+module Language.Thesaurus.RogetLite.Diffuseness where 
 import Language.Thesaurus
 diffuseness :: ThProg
 diffuseness = [thesaurus|
-# IDEAS
-## DIFFUSENESS
+# Ideas
+## Diffuseness
 noun:
 * diffuseness
  amplification, dilating, verbosity, verbiage, cloud of words, copia verborum, flow of words  , looseness

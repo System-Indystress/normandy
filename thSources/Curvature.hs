@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CURVATURE where 
+module Language.Thesaurus.RogetLite.Curvature where 
 import Language.Thesaurus
 curvature :: ThProg
 curvature = [thesaurus|
-# SPACE
-## CURVATURE
+# Space
+## Curvature
 noun:
 * curvature
  curvity, curvation, incurvature, incurvity, incurvation, bend, flexure, flexion, conflexure, crook, hook, bought, bending, deflexion, inflexion, concameration, arcuation, devexity, turn, deviation, detour, sweep, curl, curling, bough, recurvity, recurvation, sinuosity 

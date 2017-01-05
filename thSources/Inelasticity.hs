@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INELASTICITY where 
+module Language.Thesaurus.RogetLite.Inelasticity where 
 import Language.Thesaurus
 inelasticity :: ThProg
 inelasticity = [thesaurus|
-# MATTER
-## INELASTICITY
+# Matter
+## Inelasticity
 noun:
 * want of elasticity
  absence of elasticity , inelasticity  ,

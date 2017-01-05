@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMITATION where 
+module Language.Thesaurus.RogetLite.Imitation where 
 import Language.Thesaurus
 imitation :: ThProg
 imitation = [thesaurus|
-# RELATION
-## IMITATION
+# Relation
+## Imitation
 noun:
 * imitation
  copying, transcription, repetition, duplication, reduplication, quotation, reproduction, mimeograph, xerox, facsimile, reprint, offprint

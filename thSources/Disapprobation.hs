@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISAPPROBATION where 
+module Language.Thesaurus.RogetLite.Disapprobation where 
 import Language.Thesaurus
 disapprobation :: ThProg
 disapprobation = [thesaurus|
-# SENTIMENT
-## DISAPPROBATION
+# Sentiment
+## Disapprobation
 noun:
 * disapprobation
  disapproval, improbation, disesteem, disvaluation, displacency, odium, dislike 

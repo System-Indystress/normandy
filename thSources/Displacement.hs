@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISPLACEMENT where 
+module Language.Thesaurus.RogetLite.Displacement where 
 import Language.Thesaurus
 displacement :: ThProg
 displacement = [thesaurus|
-# SPACE
-## DISPLACEMENT
+# Space
+## Displacement
 noun:
 * displacement
  elocation, transposition

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPENITENCE where 
+module Language.Thesaurus.RogetLite.Impenitence where 
 import Language.Thesaurus
 impenitence :: ThProg
 impenitence = [thesaurus|
-# SENTIMENT
-## IMPENITENCE
+# Sentiment
+## Impenitence
 noun:
 * impenitence
  irrepentance, recusance, lack of contrition

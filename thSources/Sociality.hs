@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SOCIALITY where 
+module Language.Thesaurus.RogetLite.Sociality where 
 import Language.Thesaurus
 sociality :: ThProg
 sociality = [thesaurus|
-# SENTIMENT
-## SOCIALITY
+# Sentiment
+## Sociality
 noun:
 * sociality
  sociability, sociableness, social intercourse, consociation, intercourse, intercommunity, consortship, companionship, comradeship, clubbism, esprit de corps

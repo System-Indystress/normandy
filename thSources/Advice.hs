@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ADVICE where 
+module Language.Thesaurus.RogetLite.Advice where 
 import Language.Thesaurus
 advice :: ThProg
 advice = [thesaurus|
-# VOLITION
-## ADVICE
+# Volition
+## Advice
 noun:
 * advice
  counsel, adhortation, word to the wise, suggestion, submonition, recommendation, advocacy, advisemement

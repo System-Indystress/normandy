@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BLACKNESS where 
+module Language.Thesaurus.RogetLite.Blackness where 
 import Language.Thesaurus
 blackness :: ThProg
 blackness = [thesaurus|
-# MATTER
-## BLACKNESS
+# Matter
+## Blackness
 noun:
 * blackness
  darkness . , swartliness, lividity, dark color, tone, color, chiaroscuro 

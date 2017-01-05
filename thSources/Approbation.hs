@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.APPROBATION where 
+module Language.Thesaurus.RogetLite.Approbation where 
 import Language.Thesaurus
 approbation :: ThProg
 approbation = [thesaurus|
-# SENTIMENT
-## APPROBATION
+# Sentiment
+## Approbation
 noun:
 * approbation
  approval, approvement, sanction, advocacy, nod of approbation, esteem, estimation, good opinion, golden opinions, admiration, love , appreciation, regard, account, popularity, credit, repute , best seller

@@ -23,7 +23,7 @@ template cat cl body = concat $
   , "|]\n"
   ]
     where
-      upper = T.unpack . T.toUpper . T.pack
+      upper = T.unpack . T.toTitle . T.pack
       lower = T.unpack . T.toLower . T.pack
 
 cleanAll :: String -> IO ()

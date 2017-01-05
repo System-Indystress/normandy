@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CUNNING where 
+module Language.Thesaurus.RogetLite.Cunning where 
 import Language.Thesaurus
 cunning :: ThProg
 cunning = [thesaurus|
-# VOLITION
-## CUNNING
+# Volition
+## Cunning
 noun:
 * cunning
  craft, cunningness, craftiness, subtlety, artificiality, maneuvering, temporization, circumvention

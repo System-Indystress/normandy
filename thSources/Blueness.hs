@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BLUENESS where 
+module Language.Thesaurus.RogetLite.Blueness where 
 import Language.Thesaurus
 blueness :: ThProg
 blueness = [thesaurus|
-# MATTER
-## BLUENESS
+# Matter
+## Blueness
 noun:
 * blue
  garter-blue, watchett

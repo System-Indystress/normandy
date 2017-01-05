@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SECRET where 
+module Language.Thesaurus.RogetLite.Secret where 
 import Language.Thesaurus
 secret :: ThProg
 secret = [thesaurus|
-# IDEAS
-## SECRET
+# Ideas
+## Secret
 noun:
 * secret
  dead secret, profound secret, arcanum, mystery, latency , sealed book, secrets of the prison house, le desous des cartes

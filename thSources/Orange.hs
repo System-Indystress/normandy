@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ORANGE where 
+module Language.Thesaurus.RogetLite.Orange where 
 import Language.Thesaurus
 orange :: ThProg
 orange = [thesaurus|
-# MATTER
-## ORANGE
+# Matter
+## Orange
 noun:
 * orange
  red and yellow, gold, or, flame color

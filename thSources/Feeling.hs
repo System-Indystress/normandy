@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FEELING where 
+module Language.Thesaurus.RogetLite.Feeling where 
 import Language.Thesaurus
 feeling :: ThProg
 feeling = [thesaurus|
-# SENTIMENT
-## FEELING
+# Sentiment
+## Feeling
 noun:
 * feeling
  suffering, endurance, tolerance, sufferance, supportance, experience, response, sympathy  , impression, inspiration, affection, sensation, emotion, pathos, deep sense

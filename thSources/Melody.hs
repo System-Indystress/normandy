@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MELODY where 
+module Language.Thesaurus.RogetLite.Melody where 
 import Language.Thesaurus
 melody :: ThProg
 melody = [thesaurus|
-# MATTER
-## MELODY
+# Matter
+## Melody
 noun:
 * melody
  rhythm, measure, rhyme  

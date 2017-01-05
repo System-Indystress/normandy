@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SECLUSION where 
+module Language.Thesaurus.RogetLite.Seclusion where 
 import Language.Thesaurus
 seclusion :: ThProg
 seclusion = [thesaurus|
-# SENTIMENT
-## SECLUSION
+# Sentiment
+## Seclusion
 noun:
 * sculpture
  insculpture, carving, statuary

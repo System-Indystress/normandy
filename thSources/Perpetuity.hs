@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PERPETUITY where 
+module Language.Thesaurus.RogetLite.Perpetuity where 
 import Language.Thesaurus
 perpetuity :: ThProg
 perpetuity = [thesaurus|
-# RELATION
-## PERPETUITY
+# Relation
+## Perpetuity
 noun:
 * perpetuity
  eternity, everness, aye, sempiternity, immortality, athanasia, interminability, agelessness, everlastingness, perpetuation, continued existence, uninterrupted existence, perennity, permanence  

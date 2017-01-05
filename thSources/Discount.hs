@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCOUNT where 
+module Language.Thesaurus.RogetLite.Discount where 
 import Language.Thesaurus
 discount :: ThProg
 discount = [thesaurus|
-# VOLITION
-## DISCOUNT
+# Volition
+## Discount
 noun:
 * discount
  abatement, concession, reduction, depreciation, allowance, qualification, set-off, drawback, poundage, agio, percentage, rebate, rebatement, backwardation, contango, salvage, tare and tret

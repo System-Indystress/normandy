@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STORE where 
+module Language.Thesaurus.RogetLite.Store where 
 import Language.Thesaurus
 store :: ThProg
 store = [thesaurus|
-# VOLITION
-## STORE
+# Volition
+## Store
 noun:
 * stock
  fund, mine, vein, lode, quarry, spring, fount, fountain, well, wellspring, milch cow

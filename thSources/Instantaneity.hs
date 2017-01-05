@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSTANTANEITY where 
+module Language.Thesaurus.RogetLite.Instantaneity where 
 import Language.Thesaurus
 instantaneity :: ThProg
 instantaneity = [thesaurus|
-# RELATION
-## INSTANTANEITY
+# Relation
+## Instantaneity
 noun:
 * instantaneity
  instantaneousness, immediacy, suddenness, abruptness

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MEASUREMENT where 
+module Language.Thesaurus.RogetLite.Measurement where 
 import Language.Thesaurus
 measurement :: ThProg
 measurement = [thesaurus|
-# IDEAS
-## MEASUREMENT
+# Ideas
+## Measurement
 noun:
 * measurement
  admeasurement, mensuration, survey, valuation, appraisement, assessment, assize, estimate, estimation, dead reckoning, reckoning  , gauging, horse power

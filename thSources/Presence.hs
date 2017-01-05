@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRESENCE where 
+module Language.Thesaurus.RogetLite.Presence where 
 import Language.Thesaurus
 presence :: ThProg
 presence = [thesaurus|
-# SPACE
-## PRESENCE
+# Space
+## Presence
 noun:
 * presence
  occupancy, occupation, attendance, whereness

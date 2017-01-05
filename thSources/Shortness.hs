@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SHORTNESS where 
+module Language.Thesaurus.RogetLite.Shortness where 
 import Language.Thesaurus
 shortness :: ThProg
 shortness = [thesaurus|
-# SPACE
-## SHORTNESS
+# Space
+## Shortness
 noun:
 * shortness
  brevity, littleness , a span

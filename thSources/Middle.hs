@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MIDDLE where 
+module Language.Thesaurus.RogetLite.Middle where 
 import Language.Thesaurus
 middle :: ThProg
 middle = [thesaurus|
-# RELATION
-## MIDDLE
+# Relation
+## Middle
 noun:
 * middle
  midst, mediety, mean , medium, middle term, center , mid-course , mezzo termine, juste milieu , halfway house, nave, navel, omphalos, nucleus, nucleolus

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISORDER where 
+module Language.Thesaurus.RogetLite.Disorder where 
 import Language.Thesaurus
 disorder :: ThProg
 disorder = [thesaurus|
-# RELATION
-## DISORDER
+# Relation
+## Disorder
 noun:
 * disorder
  derangement , irregularity, anomaly  , anarchy, anarchism, want of method, untidiness, disunion, discord 

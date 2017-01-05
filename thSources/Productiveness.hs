@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRODUCTIVENESS where 
+module Language.Thesaurus.RogetLite.Productiveness where 
 import Language.Thesaurus
 productiveness :: ThProg
 productiveness = [thesaurus|
-# VOLITION
-## PRODUCTIVENESS
+# Volition
+## Productiveness
 noun:
 * productiveness
  fecundity, fertility, luxuriance, uberty

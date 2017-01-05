@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRECURSOR where 
+module Language.Thesaurus.RogetLite.Precursor where 
 import Language.Thesaurus
 precursor :: ThProg
 precursor = [thesaurus|
-# RELATION
-## PRECURSOR
+# Relation
+## Precursor
 noun:
 * precursor
  antecedent, precedent, predecessor, forerunner, vancourier, avant-coureur, pioneer, prodrome, prodromos, prodromus, outrider, leader, bellwether, herald, harbinger, foreboding, dawn, avant-courier, avant-garde, bellmare, forelooper, foreloper, stalking-horse, voorlooper, voortrekker

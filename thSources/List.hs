@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LIST where 
+module Language.Thesaurus.RogetLite.List where 
 import Language.Thesaurus
 list :: ThProg
 list = [thesaurus|
-# RELATION
-## LIST
+# Relation
+## List
 noun:
 * list
  catalog, catalogue, inventory, schedule, register  , account, bill, bill of costs, syllabus, terrier, tally, file, calendar, index, table, atlas, contents, book, ledger, synopsis, catalogue raisonne, tableau, invoice, bill of lading, prospectus, program, programme, bill of fare, menu, carte, score, census, statistics, returns, Red book, Blue book, Domesday book, cadastre, directory, gazetter, wish list, laundry list

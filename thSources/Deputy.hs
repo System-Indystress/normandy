@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEPUTY where 
+module Language.Thesaurus.RogetLite.Deputy where 
 import Language.Thesaurus
 deputy :: ThProg
 deputy = [thesaurus|
-# VOLITION
-## DEPUTY
+# Volition
+## Deputy
 noun:
 * deputy
  substitute, vice, proxy, locum tenens, badli, delegate, representative, next friend, surrogate, secondary

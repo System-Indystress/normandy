@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STRENGTH where 
+module Language.Thesaurus.RogetLite.Strength where 
 import Language.Thesaurus
 strength :: ThProg
 strength = [thesaurus|
-# RELATION
-## STRENGTH
+# Relation
+## Strength
 noun:
 * strength
  power , energy , vigor, force, main force, physical force, brute force, spring, elasticity, tone, tension, tonicity

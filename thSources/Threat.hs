@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.THREAT where 
+module Language.Thesaurus.RogetLite.Threat where 
 import Language.Thesaurus
 threat :: ThProg
 threat = [thesaurus|
-# SENTIMENT
-## THREAT
+# Sentiment
+## Threat
 noun:
 * threat
  menace, defiance , abuse, minacity, intimidation, denunciation, fulmination, commination  , gathering clouds  

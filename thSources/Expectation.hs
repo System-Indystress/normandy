@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXPECTATION where 
+module Language.Thesaurus.RogetLite.Expectation where 
 import Language.Thesaurus
 expectation :: ThProg
 expectation = [thesaurus|
-# IDEAS
-## EXPECTATION
+# Ideas
+## Expectation
 noun:
 * expectation
  expectance, expectancy, anticipation, reckoning, calculation, foresight 

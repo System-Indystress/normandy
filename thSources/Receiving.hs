@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RECEIVING where 
+module Language.Thesaurus.RogetLite.Receiving where 
 import Language.Thesaurus
 receiving :: ThProg
 receiving = [thesaurus|
-# VOLITION
-## RECEIVING
+# Volition
+## Receiving
 noun:
 * receiving
  acquisition , reception  , suscipiency, acceptance, admission

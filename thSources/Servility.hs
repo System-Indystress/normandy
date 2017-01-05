@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SERVILITY where 
+module Language.Thesaurus.RogetLite.Servility where 
 import Language.Thesaurus
 servility :: ThProg
 servility = [thesaurus|
-# SENTIMENT
-## SERVILITY
+# Sentiment
+## Servility
 noun:
 * servility
  slavery  , obsequiousness, subserviency, abasement, prostration, prosternation, genuflection  , fawning, tuft- hunting, timeserving, flunkeyism, sycophancy  , humility 

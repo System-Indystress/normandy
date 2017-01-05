@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STAMMERING where 
+module Language.Thesaurus.RogetLite.Stammering where 
 import Language.Thesaurus
 stammering :: ThProg
 stammering = [thesaurus|
-# IDEAS
-## STAMMERING
+# Ideas
+## Stammering
 noun:
 * inarticulateness
  stammering, hesitation, impediment in one's speech, titubancy, traulism, whisper  , lisp, drawl, tardiloquence, nasal tone, nasal accent, twang, falsetto  , broken voice, broken accents, broken sentences

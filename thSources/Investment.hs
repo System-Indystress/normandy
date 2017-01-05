@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INVESTMENT where 
+module Language.Thesaurus.RogetLite.Investment where 
 import Language.Thesaurus
 investment :: ThProg
 investment = [thesaurus|
-# SPACE
-## INVESTMENT
+# Space
+## Investment
 noun:
 * investment
  covering , dress, clothing, raiment, drapery, costume, attire, guise, toilet, toilette, trim, habiliment, vesture, vestment, garment, garb, palliament, apparel, wardrobe, wearing apparel, clothes, things

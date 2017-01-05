@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PULVERULENCE where 
+module Language.Thesaurus.RogetLite.Pulverulence where 
 import Language.Thesaurus
 pulverulence :: ThProg
 pulverulence = [thesaurus|
-# MATTER
-## PULVERULENCE
+# Matter
+## Pulverulence
 noun:
 *  powderiness
  pulverulence, sandiness, efflorescence, friability

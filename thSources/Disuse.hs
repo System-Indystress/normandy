@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISUSE where 
+module Language.Thesaurus.RogetLite.Disuse where 
 import Language.Thesaurus
 disuse :: ThProg
 disuse = [thesaurus|
-# VOLITION
-## DISUSE
+# Volition
+## Disuse
 noun:
 * forbearance
  abstinence, disuse, relinquishment , desuetude  , disusage

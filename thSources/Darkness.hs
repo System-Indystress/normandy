@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DARKNESS where 
+module Language.Thesaurus.RogetLite.Darkness where 
 import Language.Thesaurus
 darkness :: ThProg
 darkness = [thesaurus|
-# MATTER
-## DARKNESS
+# Matter
+## Darkness
 noun:
 * darkness
  blackness  , obscurity, gloom, murk, dusk  

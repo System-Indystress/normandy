@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LAND where 
+module Language.Thesaurus.RogetLite.Land where 
 import Language.Thesaurus
 land :: ThProg
 land = [thesaurus|
-# MATTER
-## LAND
+# Matter
+## Land
 noun:
 * land
  earth, ground, dry land, terra firma

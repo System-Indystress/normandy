@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OLDNESS where 
+module Language.Thesaurus.RogetLite.Oldness where 
 import Language.Thesaurus
 oldness :: ThProg
 oldness = [thesaurus|
-# RELATIONS
-## OLDNESS
+# Relations
+## Oldness
 noun:
 * oldness
  age, antiquity, cobwebs of antiquity

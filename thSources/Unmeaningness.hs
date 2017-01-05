@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNMEANINGNESS where 
+module Language.Thesaurus.RogetLite.Unmeaningness where 
 import Language.Thesaurus
 unmeaningness :: ThProg
 unmeaningness = [thesaurus|
-# IDEAS
-## UNMEANINGNESS
+# Ideas
+## Unmeaningness
 noun:
 * unmeaningness
  scrabble

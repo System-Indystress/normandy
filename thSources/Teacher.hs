@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TEACHER where 
+module Language.Thesaurus.RogetLite.Teacher where 
 import Language.Thesaurus
 teacher :: ThProg
 teacher = [thesaurus|
-# IDEAS
-## TEACHER
+# Ideas
+## Teacher
 noun:
 * teacher
  trainer, instructor, institutor, master, tutor, director, Corypheus, dry nurse, coach, grinder, crammer, don, governor, bear leader, governess, duenna, disciplinarian

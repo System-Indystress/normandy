@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HUMORIST where 
+module Language.Thesaurus.RogetLite.Humorist where 
 import Language.Thesaurus
 humorist :: ThProg
 humorist = [thesaurus|
-# SENTIMENT
-## HUMORIST
+# Sentiment
+## Humorist
 noun:
 * humorist
  wag, wit, reparteeist, epigrammatist, punster, bel esprit, life of the party, wit-snapper, wit-cracker, wit-worm, joker, jester, Joe Miller, drole de corps, gaillard, spark, bon diable

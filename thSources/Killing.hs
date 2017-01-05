@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.KILLING where 
+module Language.Thesaurus.RogetLite.Killing where 
 import Language.Thesaurus
 killing :: ThProg
 killing = [thesaurus|
-# MATTER
-## KILLING
+# Matter
+## Killing
 noun:
 * killing
  homicide, manslaughter, murder, assassination, trucidation, iccusion, effusion of blood, blood, bloodshed, gore, slaughter, carnage, butchery, battue

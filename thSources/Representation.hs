@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REPRESENTATION where 
+module Language.Thesaurus.RogetLite.Representation where 
 import Language.Thesaurus
 representation :: ThProg
 representation = [thesaurus|
-# IDEAS
-## REPRESENTATION
+# Ideas
+## Representation
 noun:
 * representation
  representment, imitation , illustration, delineation, depictment, imagery, portraiture, iconography, design, designing, art, fine arts, painting , sculpture , engraving , photography, cinematography, radiography, autoradiography, fluorography, sciagraphy

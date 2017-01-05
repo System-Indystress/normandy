@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INFORMATION where 
+module Language.Thesaurus.RogetLite.Information where 
 import Language.Thesaurus
 information :: ThProg
 information = [thesaurus|
-# IDEAS
-## INFORMATION
+# Ideas
+## Information
 noun:
 * information
  enlightenment, acquaintance, knowledge , publicity 

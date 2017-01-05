@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FRICTION where 
+module Language.Thesaurus.RogetLite.Friction where 
 import Language.Thesaurus
 friction :: ThProg
 friction = [thesaurus|
-# MATTER
-## FRICTION
+# Matter
+## Friction
 noun:
 * friction
  attrition, rubbing, confrication, detrition, contrition, affriction, abrasion, arrosion, limature, frication, rub, elbow grease, rosin, massage, roughness 

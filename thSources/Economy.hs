@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ECONOMY where 
+module Language.Thesaurus.RogetLite.Economy where 
 import Language.Thesaurus
 economy :: ThProg
 economy = [thesaurus|
-# VOLITION
-## ECONOMY
+# Volition
+## Economy
 noun:
 * economy
  frugality, thrift, thriftiness, care, husbandry, good housewifery, savingness, retrenchment

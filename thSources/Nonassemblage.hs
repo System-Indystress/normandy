@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NONASSEMBLAGE where 
+module Language.Thesaurus.RogetLite.Nonassemblage where 
 import Language.Thesaurus
 nonassemblage :: ThProg
 nonassemblage = [thesaurus|
-# RELATION
-## NONASSEMBLAGE
+# Relation
+## Nonassemblage
 noun:
 * dispersion
  disjunction , divergence , aspersion, scattering, dissemination, diffusion, dissipation, distribution, apportionment , spread, respersion, circumfusion, interspersion, spargefaction, affusion

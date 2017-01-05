@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DELIVERANCE where 
+module Language.Thesaurus.RogetLite.Deliverance where 
 import Language.Thesaurus
 deliverance :: ThProg
 deliverance = [thesaurus|
-# VOLITION
-## DELIVERANCE
+# Volition
+## Deliverance
 noun:
 * deliverance
  extrication, rescue, reprieve, reprieval, respite, liberation , emancipation, redemption, salvation, riddance, gaol delivery, redeemableness

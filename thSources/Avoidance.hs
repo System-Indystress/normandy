@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AVOIDANCE where 
+module Language.Thesaurus.RogetLite.Avoidance where 
 import Language.Thesaurus
 avoidance :: ThProg
 avoidance = [thesaurus|
-# VOLITION
-## AVOIDANCE
+# Volition
+## Avoidance
 noun:
 * abstention
  abstinence, forbearance, refraining, inaction , neutrality

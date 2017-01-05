@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONGRATULATION where 
+module Language.Thesaurus.RogetLite.Congratulation where 
 import Language.Thesaurus
 congratulation :: ThProg
 congratulation = [thesaurus|
-# SENTIMENT
-## CONGRATULATION
+# Sentiment
+## Congratulation
 noun:
 * congratulation
  gratulation, felicitation, salute , condolence , compliments of the season

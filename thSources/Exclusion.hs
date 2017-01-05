@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXCLUSION where 
+module Language.Thesaurus.RogetLite.Exclusion where 
 import Language.Thesaurus
 exclusion :: ThProg
 exclusion = [thesaurus|
-# RELATION
-## EXCLUSION
+# Relation
+## Exclusion
 noun:
 * exclusion
  nonadmission, omission, exception, rejection, repudiation, exile  , noninclusion, preclusion, prohibition

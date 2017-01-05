@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INNOCENCE where 
+module Language.Thesaurus.RogetLite.Innocence where 
 import Language.Thesaurus
 innocence :: ThProg
 innocence = [thesaurus|
-# SENTIMENT
-## INNOCENCE
+# Sentiment
+## Innocence
 noun:
 * innocence
  guiltlessness, incorruption, impeccability

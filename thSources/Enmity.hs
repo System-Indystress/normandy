@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ENMITY where 
+module Language.Thesaurus.RogetLite.Enmity where 
 import Language.Thesaurus
 enmity :: ThProg
 enmity = [thesaurus|
-# IDEAS
-## ENMITY
+# Ideas
+## Enmity
 noun:
 * enmity
  hostility, unfriendliness, discord , bitterness, rancor

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GASEITY where 
+module Language.Thesaurus.RogetLite.Gaseity where 
 import Language.Thesaurus
 gaseity :: ThProg
 gaseity = [thesaurus|
-# MATTER
-## GASEITY
+# Matter
+## Gaseity
 noun:
 * gaseity
  vaporousness, flatulence, flatulency, volatility, aeration, aerifiction

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEPTH where 
+module Language.Thesaurus.RogetLite.Depth where 
 import Language.Thesaurus
 depth :: ThProg
 depth = [thesaurus|
-# SPACE
-## DEPTH
+# Space
+## Depth
 noun:
 * depth
  deepness, profundity, depression  

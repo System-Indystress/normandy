@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ANACHRONISM where 
+module Language.Thesaurus.RogetLite.Anachronism where 
 import Language.Thesaurus
 anachronism :: ThProg
 anachronism = [thesaurus|
-# RELATION
-## ANACHRONISM
+# Relation
+## Anachronism
 noun:
 * anachronism
  metachronism, parachronism, prochronism, prolepsis, misdate, anticipation, antichronism

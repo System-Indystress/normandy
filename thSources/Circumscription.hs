@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CIRCUMSCRIPTION where 
+module Language.Thesaurus.RogetLite.Circumscription where 
 import Language.Thesaurus
 circumscription :: ThProg
 circumscription = [thesaurus|
-# SPACE
-## CIRCUMSCRIPTION
+# Space
+## Circumscription
 noun:
 * circumscription
  limitation, inclosure, confinement  , circumvallation, encintcture, envelope 

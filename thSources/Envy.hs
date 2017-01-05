@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ENVY where 
+module Language.Thesaurus.RogetLite.Envy where 
 import Language.Thesaurus
 envy :: ThProg
 envy = [thesaurus|
-# SENTIMENT
-## ENVY
+# Sentiment
+## Envy
 noun:
 * envy
  enviousness, rivalry, jalousie de milier, illwill, spite

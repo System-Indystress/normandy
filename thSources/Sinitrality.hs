@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SINITRALITY where 
+module Language.Thesaurus.RogetLite.Sinitrality where 
 import Language.Thesaurus
 sinitrality :: ThProg
 sinitrality = [thesaurus|
-# SPACE
-## SINITRALITY
+# Space
+## Sinitrality
 noun:
 * sinistrality
  left, left hand, sinister, nearside, larboard, port

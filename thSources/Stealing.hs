@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STEALING where 
+module Language.Thesaurus.RogetLite.Stealing where 
 import Language.Thesaurus
 stealing :: ThProg
 stealing = [thesaurus|
-# VOLITION
-## STEALING
+# Volition
+## Stealing
 noun:
 * stealing
  theft, thievery, latrociny, direption, abstraction, appropriation, plagiary, plagiarism, autoplagiarism, latrocinium

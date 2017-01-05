@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RELAPSE where 
+module Language.Thesaurus.RogetLite.Relapse where 
 import Language.Thesaurus
 relapse :: ThProg
 relapse = [thesaurus|
-# VOLITION
-## RELAPSE
+# Volition
+## Relapse
 noun:
 * relapse
  lapse, falling back, retrogradation  , deterioration 

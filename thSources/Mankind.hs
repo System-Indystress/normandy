@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MANKIND where 
+module Language.Thesaurus.RogetLite.Mankind where 
 import Language.Thesaurus
 mankind :: ThProg
 mankind = [thesaurus|
-# MATTER
-## MANKIND
+# Matter
+## Mankind
 noun:
 * man
  mankind, human race, human species, human kind, human nature, humanity, mortality, flesh, generation

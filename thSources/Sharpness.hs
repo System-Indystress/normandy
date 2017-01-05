@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SHARPNESS where 
+module Language.Thesaurus.RogetLite.Sharpness where 
 import Language.Thesaurus
 sharpness :: ThProg
 sharpness = [thesaurus|
-# SPACE
-## SHARPNESS
+# Space
+## Sharpness
 noun:
 * sharpness
  acuity, acumination, spinosity

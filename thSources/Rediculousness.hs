@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REDICULOUSNESS where 
+module Language.Thesaurus.RogetLite.Rediculousness where 
 import Language.Thesaurus
 rediculousness :: ThProg
 rediculousness = [thesaurus|
-# SENTIMENT
-## REDICULOUSNESS
+# Sentiment
+## Rediculousness
 noun:
 * ridiculousness
  comicality, oddity, extravagance, drollery

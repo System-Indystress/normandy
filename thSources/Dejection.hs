@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEJECTION where 
+module Language.Thesaurus.RogetLite.Dejection where 
 import Language.Thesaurus
 dejection :: ThProg
 dejection = [thesaurus|
-# SENTIMENT
-## DEJECTION
+# Sentiment
+## Dejection
 noun:
 * dejection
  dejectedness, depression, prosternation, lowness of spirits, depression of spirits, weight on the spirits, oppression on the spirits, damp on the spirits, low spirits, bad spirits, drooping spirits, depressed spirits, heart sinking, heaviness of heart, failure of heart

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VIGOR where 
+module Language.Thesaurus.RogetLite.Vigor where 
 import Language.Thesaurus
 vigor :: ThProg
 vigor = [thesaurus|
-# IDEAS
-## VIGOR
+# Ideas
+## Vigor
 noun:
 * vigor
  power, force, boldness, raciness, intellectual, force, spirit, point, antithesis, piquancy, verve, glow, fire, warmth, strong language, gravity, sententiousness, elevation, loftiness, sublimity

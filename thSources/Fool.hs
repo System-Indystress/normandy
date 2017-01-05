@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FOOL where 
+module Language.Thesaurus.RogetLite.Fool where 
 import Language.Thesaurus
 fool :: ThProg
 fool = [thesaurus|
-# IDEAS
-## FOOL
+# Ideas
+## Fool
 noun:
 * fool
  idiot, tomfool, wiseacre, simpleton, witling, dizzard, donkey, ass, ninny, ninnyhammer, chowderhead, chucklehead, dolt, booby, Tom Noddy, looby, hoddy-doddy, noddy, nonny, noodle, nizy, owl, goose, goosecap, imbecile, gaby, radoteur, nincompoop, badaud, zany, trifler, babbler, pretty fellow, natural, niais

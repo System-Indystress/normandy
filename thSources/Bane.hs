@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BANE where 
+module Language.Thesaurus.RogetLite.Bane where 
 import Language.Thesaurus
 bane :: ThProg
 bane = [thesaurus|
-# VOLITION
-## BANE
+# Volition
+## Bane
 noun:
 * bane
  curse, evil , hurtfulness  , painfulness  , scourge  , damnosa hereditas, white elephant

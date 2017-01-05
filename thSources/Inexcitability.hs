@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INEXCITABILITY where 
+module Language.Thesaurus.RogetLite.Inexcitability where 
 import Language.Thesaurus
 inexcitability :: ThProg
 inexcitability = [thesaurus|
-# SENTIMENT
-## INEXCITABILITY
+# Sentiment
+## Inexcitability
 noun:
 * inexcitability
  imperturbability, inirritability, even temper, tranquil mind, dispassion, tolerance, patience

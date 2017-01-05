@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VERTICALITY where 
+module Language.Thesaurus.RogetLite.Verticality where 
 import Language.Thesaurus
 verticality :: ThProg
 verticality = [thesaurus|
-# SPACE
-## VERTICALITY
+# Space
+## Verticality
 noun:
 * verticality
  erectness, perpendicularity, right angle, normal, azimuth circle

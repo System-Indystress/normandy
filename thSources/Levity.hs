@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LEVITY where 
+module Language.Thesaurus.RogetLite.Levity where 
 import Language.Thesaurus
 levity :: ThProg
 levity = [thesaurus|
-# MATTER
-## LEVITY
+# Matter
+## Levity
 noun:
 * levity
  lightness, imponderability, buoyancy, volatility

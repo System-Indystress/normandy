@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DERANGEMENT where 
+module Language.Thesaurus.RogetLite.Derangement where 
 import Language.Thesaurus
 derangement :: ThProg
 derangement = [thesaurus|
-# RELATION
-## DERANGEMENT
+# Relation
+## Derangement
 noun:
 * derangement
  disorder , evection, discomposure, disturbance, disorganization, deorganization, dislocation, perturbation, interruption, shufflng, inversion , corrugation  , involvement

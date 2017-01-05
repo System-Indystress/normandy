@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LATENCY where 
+module Language.Thesaurus.RogetLite.Latency where 
 import Language.Thesaurus
 latency :: ThProg
 latency = [thesaurus|
-# IDEAS
-## LATENCY
+# Ideas
+## Latency
 noun:
 * latency
  inexpression, hidden meaning, occult meaning, occultness, mystery, cabala, anagoge, silence  , concealment , more than meets the eye, more than meets the ear, Delphic oracle, le dessous des cartes, undercurrent

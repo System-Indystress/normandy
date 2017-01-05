@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CLASS where 
+module Language.Thesaurus.RogetLite.Class where 
 import Language.Thesaurus
 class :: ThProg
 class = [thesaurus|
-# RELATION
-## CLASS
+# Relation
+## Class
 noun:
 * class
  division, category, categorema, head, order, section, department, subdepartment, province, domain

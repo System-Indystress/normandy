@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CHANGE where 
+module Language.Thesaurus.RogetLite.Change where 
 import Language.Thesaurus
 change :: ThProg
 change = [thesaurus|
-# RELATION
-## CHANGE
+# Relation
+## Change
 noun:
 * change
  alteration, mutation, permutation, variation, modification, modulation, inflexion, mood, qualification, innovation, metastasis, deviation, turn, evolution, revolution, diversion, break

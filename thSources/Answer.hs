@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ANSWER where 
+module Language.Thesaurus.RogetLite.Answer where 
 import Language.Thesaurus
 answer :: ThProg
 answer = [thesaurus|
-# IDEAS
-## ANSWER
+# Ideas
+## Answer
 noun:
 * answer
  response, reply, replication, riposte, rejoinder, surrejoinder, rebutter, surrebutter, retort, repartee, rescript, rescription, antiphon, antiphony, acknowledgment, password, echo, counter statement

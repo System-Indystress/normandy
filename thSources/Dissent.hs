@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISSENT where 
+module Language.Thesaurus.RogetLite.Dissent where 
 import Language.Thesaurus
 dissent :: ThProg
 dissent = [thesaurus|
-# IDEAS
-## DISSENT
+# Ideas
+## Dissent
 noun:
 * dissent
  discordance  , difference diversity of opinion

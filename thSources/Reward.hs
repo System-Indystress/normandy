@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REWARD where 
+module Language.Thesaurus.RogetLite.Reward where 
 import Language.Thesaurus
 reward :: ThProg
 reward = [thesaurus|
-# SENTIMENT
-## REWARD
+# Sentiment
+## Reward
 noun:
 * reward
  recompense, remuneration, meed, guerdon, reguerdon, price, indemnity, indemnification, compensation, reparation, redress, quittance, retribution, reckoning, acknowledgement, requital, amends, sop, atonement, consideration, return, quid pro quo, salvage, perquisite, vail  , douceur, bribe, hush money, smart money, blackmail, carcelage, solatium

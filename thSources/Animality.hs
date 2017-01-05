@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ANIMALITY where 
+module Language.Thesaurus.RogetLite.Animality where 
 import Language.Thesaurus
 animality :: ThProg
 animality = [thesaurus|
-# MATTER
-## ANIMALITY
+# Matter
+## Animality
 noun:
 * animal life
  animation, animality, animalization, animalness, corporeal nature, human system, breath

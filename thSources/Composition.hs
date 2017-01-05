@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPOSITION where 
+module Language.Thesaurus.RogetLite.Composition where 
 import Language.Thesaurus
 composition :: ThProg
 composition = [thesaurus|
-# RELATION
-## COMPOSITION
+# Relation
+## Composition
 noun:
 * composition
  constitution, crasis, combination , inclusion, admission, comprehension, reception, embodiment, formation

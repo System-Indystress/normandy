@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CIRCULARITY where 
+module Language.Thesaurus.RogetLite.Circularity where 
 import Language.Thesaurus
 circularity :: ThProg
 circularity = [thesaurus|
-# SPACE
-## CIRCULARITY
+# Space
+## Circularity
 noun:
 * circularity
  roundness, rotundity 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FREEDOM where 
+module Language.Thesaurus.RogetLite.Freedom where 
 import Language.Thesaurus
 freedom :: ThProg
 freedom = [thesaurus|
-# VOLITION
-## FREEDOM
+# Volition
+## Freedom
 noun:
 * freedom
  liberty, independence, license  , facility 

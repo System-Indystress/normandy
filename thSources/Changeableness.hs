@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CHANGEABLENESS where 
+module Language.Thesaurus.RogetLite.Changeableness where 
 import Language.Thesaurus
 changeableness :: ThProg
 changeableness = [thesaurus|
-# RELATION
-## CHANGEABLENESS
+# Relation
+## Changeableness
 noun:
 * changeableness
  mutability, inconstancy, versatility, mobility, instability, unstable equilibrium, vacillation  , fluctuation, vicissitude, alternation  

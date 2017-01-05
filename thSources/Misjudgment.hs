@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MISJUDGMENT where 
+module Language.Thesaurus.RogetLite.Misjudgment where 
 import Language.Thesaurus
 misjudgment :: ThProg
 misjudgment = [thesaurus|
-# IDEAS
-## MISJUDGMENT
+# Ideas
+## Misjudgment
 noun:
 * misjudgment
  obliquity of judgment, miscalculation, miscomputation, misconception  , hasty conclusion

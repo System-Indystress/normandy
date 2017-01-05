@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRODUCER where 
+module Language.Thesaurus.RogetLite.Producer where 
 import Language.Thesaurus
 producer :: ThProg
 producer = [thesaurus|
-# RELATION
-## PRODUCER
+# Relation
+## Producer
 noun:
 * producer
  originator, inventor, author, founder, generator, mover, architect, creator, prime mover, maker

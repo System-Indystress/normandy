@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BEAUTY where 
+module Language.Thesaurus.RogetLite.Beauty where 
 import Language.Thesaurus
 beauty :: ThProg
 beauty = [thesaurus|
-# SENTIMENT
-## BEAUTY
+# Sentiment
+## Beauty
 noun:
 * beauty
  the beautiful, to kalon, le beau ideal, callaesthetics

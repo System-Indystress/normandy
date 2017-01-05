@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LITTLENESS where 
+module Language.Thesaurus.RogetLite.Littleness where 
 import Language.Thesaurus
 littleness :: ThProg
 littleness = [thesaurus|
-# SPACE
-## LITTLENESS
+# Space
+## Littleness
 noun:
 * littleness
  smallness  , exiguity, inextension, parvitude, parvity, duodecimo, Elzevir edition, epitome, microcosm, rudiment, vanishing point, thinness 

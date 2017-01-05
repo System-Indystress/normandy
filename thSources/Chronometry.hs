@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CHRONOMETRY where 
+module Language.Thesaurus.RogetLite.Chronometry where 
 import Language.Thesaurus
 chronometry :: ThProg
 chronometry = [thesaurus|
-# RELATION
-## CHRONOMETRY
+# Relation
+## Chronometry
 noun:
 * chronometry
  horometry, horology, date, epoch, style, era

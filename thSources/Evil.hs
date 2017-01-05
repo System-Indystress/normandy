@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EVIL where 
+module Language.Thesaurus.RogetLite.Evil where 
 import Language.Thesaurus
 evil :: ThProg
 evil = [thesaurus|
-# VOLITION
-## EVIL
+# Volition
+## Evil
 noun:
 * evil
  ill, harm, hurt, mischief, nuisance, machinations of the devil, Pandora's box, ills that flesh is heir to

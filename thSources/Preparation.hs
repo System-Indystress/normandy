@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PREPARATION where 
+module Language.Thesaurus.RogetLite.Preparation where 
 import Language.Thesaurus
 preparation :: ThProg
 preparation = [thesaurus|
-# VOLITION
-## PREPARATION
+# Volition
+## Preparation
 noun:
 * preparation
  providing, provision, providence, anticipation  , precaution, preconcertation, predisposition, forecast  , rehearsal, note of preparation

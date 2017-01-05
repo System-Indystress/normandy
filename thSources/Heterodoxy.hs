@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HETERODOXY where 
+module Language.Thesaurus.RogetLite.Heterodoxy where 
 import Language.Thesaurus
 heterodoxy :: ThProg
 heterodoxy = [thesaurus|
-# SENTIMENT
-## HETERODOXY
+# Sentiment
+## Heterodoxy
 noun:
 * heterodoxy
  error , false doctrine, heresy, schism, schismaticism, schismaticalness, recusancy, backsliding, apostasy, atheism  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WOMAN where 
+module Language.Thesaurus.RogetLite.Woman where 
 import Language.Thesaurus
 woman :: ThProg
 woman = [thesaurus|
-# MATTER
-## WOMAN
+# Matter
+## Woman
 noun:
 * woman
  she, her, female, petticoat

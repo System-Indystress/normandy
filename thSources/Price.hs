@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRICE where 
+module Language.Thesaurus.RogetLite.Price where 
 import Language.Thesaurus
 price :: ThProg
 price = [thesaurus|
-# VOLITION
-## PRICE
+# Volition
+## Price
 noun:
 * price
  amount, cost, expense, prime cost, charge, figure, demand, damage, fare, hire, wages  , value

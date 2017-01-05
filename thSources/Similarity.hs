@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SIMILARITY where 
+module Language.Thesaurus.RogetLite.Similarity where 
 import Language.Thesaurus
 similarity :: ThProg
 similarity = [thesaurus|
-# RELATION
-## SIMILARITY
+# Relation
+## Similarity
 noun:
 * similarity
  resemblance, likeness, similitude, semblance, affinity, approximation, parallelism, agreement , analogy, analogicalness, correspondence, homoiousia, parity

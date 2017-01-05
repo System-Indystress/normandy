@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RELINQUISHMENT where 
+module Language.Thesaurus.RogetLite.Relinquishment where 
 import Language.Thesaurus
 relinquishment :: ThProg
 relinquishment = [thesaurus|
-# VOLITION
-## RELINQUISHMENT
+# Volition
+## Relinquishment
 noun:
 * relinquishment
  abandonment, desertion, defection, secession, withdrawal, cave of Adullam, nolle prosequi

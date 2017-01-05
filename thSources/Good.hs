@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GOOD where 
+module Language.Thesaurus.RogetLite.Good where 
 import Language.Thesaurus
 good :: ThProg
 good = [thesaurus|
-# VOLITION
-## GOOD
+# Volition
+## Good
 noun:
 * good
  benefit, advantage, improvement , greatest good, supreme good, interest, service, behoof, behalf, weal, main chance, summum bonum, common weal, "consummation devoutly to be wished", gain, boot, profit, harvest

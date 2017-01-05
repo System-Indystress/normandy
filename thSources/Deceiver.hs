@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DECEIVER where 
+module Language.Thesaurus.RogetLite.Deceiver where 
 import Language.Thesaurus
 deceiver :: ThProg
 deceiver = [thesaurus|
-# IDEAS
-## DECEIVER
+# Ideas
+## Deceiver
 noun:
 * deceiver 
  dissembler, hypocrite, sophist, Pharisee, Jesuit, Mawworm, Pecksniff, Joseph Surface, Tartuffe, Janus, serpent, snake in the grass, cockatrice, Judas, wolf in sheep's clothing, jilt, shuffler, stool pigeon

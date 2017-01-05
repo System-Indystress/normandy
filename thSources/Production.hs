@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRODUCTION where 
+module Language.Thesaurus.RogetLite.Production where 
 import Language.Thesaurus
 production :: ThProg
 production = [thesaurus|
-# RELATION
-## PRODUCTION
+# Relation
+## Production
 noun:
 * production
  creation, construction, formation, fabrication, manufacture, building, architecture, erection, edification, coinage, diaster, organization, nisus formativus, putting together, establishment, workmanship, performance, achievement  

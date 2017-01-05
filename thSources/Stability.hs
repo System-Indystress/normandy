@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STABILITY where 
+module Language.Thesaurus.RogetLite.Stability where 
 import Language.Thesaurus
 stability :: ThProg
 stability = [thesaurus|
-# RELATION
-## STABILITY
+# Relation
+## Stability
 noun:
 * stability
  immutability, unchangeableness, constancy, stable equilibrium, immobility, soundness, vitality, stabiliment, stiffness, ankylosis, solidity, aplomb

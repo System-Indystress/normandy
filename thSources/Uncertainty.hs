@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNCERTAINTY where 
+module Language.Thesaurus.RogetLite.Uncertainty where 
 import Language.Thesaurus
 uncertainty :: ThProg
 uncertainty = [thesaurus|
-# IDEAS
-## UNCERTAINTY
+# Ideas
+## Uncertainty
 noun:
 * uncertainty
  incertitude, doubt, doubtfulness, dubiety, dubitation, dubitancy, dubitousness

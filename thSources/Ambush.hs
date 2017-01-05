@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AMBUSH where 
+module Language.Thesaurus.RogetLite.Ambush where 
 import Language.Thesaurus
 ambush :: ThProg
 ambush = [thesaurus|
-# IDEAS
-## AMBUSH
+# Ideas
+## Ambush
 noun:
 * hiding place
  secret place, secret drawer, recess, hold, holes and corners, closet, crypt, adytum, abditory, oubliette

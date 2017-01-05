@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WORD where 
+module Language.Thesaurus.RogetLite.Word where 
 import Language.Thesaurus
 word :: ThProg
 word = [thesaurus|
-# IDEAS
-## WORD
+# Ideas
+## Word
 noun:
 * word
  term, vocable, name , phrase , root, etymon, derivative, part of speech  , ideophone

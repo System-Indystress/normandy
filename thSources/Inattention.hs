@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INATTENTION where 
+module Language.Thesaurus.RogetLite.Inattention where 
 import Language.Thesaurus
 inattention :: ThProg
 inattention = [thesaurus|
-# IDEAS
-## INATTENTION
+# Ideas
+## Inattention
 noun:
 * inattention
  inconsideration, inconsiderateness, oversight, inadvertence, inadvertency, nonobservance, disregard

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FILAMENT where 
+module Language.Thesaurus.RogetLite.Filament where 
 import Language.Thesaurus
 filament :: ThProg
 filament = [thesaurus|
-# SPACE
-## FILAMENT
+# Space
+## Filament
 noun:
 * filament
  line, fiber, fibril, funicle, vein, hair, capillament, cilium, tendril, gossamer, hair stroke, veinlet, venula, venule

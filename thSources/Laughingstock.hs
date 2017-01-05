@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LAUGHINGSTOCK where 
+module Language.Thesaurus.RogetLite.Laughingstock where 
 import Language.Thesaurus
 laughingstock :: ThProg
 laughingstock = [thesaurus|
-# SENTIMENT
-## LAUGHINGSTOCK
+# Sentiment
+## Laughingstock
 noun:
 * laughingstock
  jestingstock, gazingstock, butt, game, fair game, April fool  

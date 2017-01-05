@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PHILANTHROPY where 
+module Language.Thesaurus.RogetLite.Philanthropy where 
 import Language.Thesaurus
 philanthropy :: ThProg
 philanthropy = [thesaurus|
-# SENTIMENT
-## PHILANTHROPY
+# Sentiment
+## Philanthropy
 noun:
 * philanthropy
  humanity, humanitarianism, universal benevolence, endaemonism, deliciae humani generis, cosmopolitanism utilitarianism, the greatest happiness of the greatest number, social science, sociology

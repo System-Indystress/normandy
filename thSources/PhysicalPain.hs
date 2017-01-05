@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PHYSICALPAIN where 
+module Language.Thesaurus.RogetLite.Physicalpain where 
 import Language.Thesaurus
 physicalpain :: ThProg
 physicalpain = [thesaurus|
-# MATTER
-## PHYSICALPAIN
+# Matter
+## Physicalpain
 noun:
 * pain
  suffering, suffrance, bodily pain, physical pain, bodily suffering, physical suffering, body pain, mental suffering , dolour, ache, aching, smart, shoot, shooting, twinge, twitch, gripe, headache, hurt, cut, sore, soreness, discomfort, malaise, cephalalgia, earache, gout, ischiagra, lumbago, neuralgia, odontalgia, otalgia, podagra, rheumatism, sciatica, tic douloureux, toothache, tormina, torticollis

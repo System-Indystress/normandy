@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RETALIATION where 
+module Language.Thesaurus.RogetLite.Retaliation where 
 import Language.Thesaurus
 retaliation :: ThProg
 retaliation = [thesaurus|
-# VOLITION
-## RETALIATION
+# Volition
+## Retaliation
 noun:
 * retaliation
  reprisal, retort, counterstroke, counterblast, counterplot, counterproject, retribution, lex talionis, reciprocation  

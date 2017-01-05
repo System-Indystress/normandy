@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUPERIORITY where 
+module Language.Thesaurus.RogetLite.Superiority where 
 import Language.Thesaurus
 superiority :: ThProg
 superiority = [thesaurus|
-# RELATION
-## SUPERIORITY
+# Relation
+## Superiority
 noun:
 * superiority
  majority, greatness , advantage, pull, preponderance, preponderation, vantage ground, prevalence, partiality, personal superiority, nobility  , Triton among the minnows, primus inter pares, nulli secundus, captain, crackerjack

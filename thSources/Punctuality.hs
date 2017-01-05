@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PUNCTUALITY where 
+module Language.Thesaurus.RogetLite.Punctuality where 
 import Language.Thesaurus
 punctuality :: ThProg
 punctuality = [thesaurus|
-# RELATION
-## PUNCTUALITY
+# Relation
+## Punctuality
 noun:
 * punctuality
  promptness, immediateness

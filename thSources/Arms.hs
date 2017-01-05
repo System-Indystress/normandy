@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ARMS where 
+module Language.Thesaurus.RogetLite.Arms where 
 import Language.Thesaurus
 arms :: ThProg
 arms = [thesaurus|
-# VOLITION
-## ARMS
+# Volition
+## Arms
 noun:
 * arm
  arms, weapon, deadly weapon, armament, armaments, armature, panoply, stand of arms, armor  , armory  , apparatus belli

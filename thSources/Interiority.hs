@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTERIORITY where 
+module Language.Thesaurus.RogetLite.Interiority where 
 import Language.Thesaurus
 interiority :: ThProg
 interiority = [thesaurus|
-# SPACE
-## INTERIORITY
+# Space
+## Interiority
 noun:
 * interiority
  inside, interior, interspace, subsoil, substratum, intrados

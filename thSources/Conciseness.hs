@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONCISENESS where 
+module Language.Thesaurus.RogetLite.Conciseness where 
 import Language.Thesaurus
 conciseness :: ThProg
 conciseness = [thesaurus|
-# IDEAS
-## CONCISENESS
+# Ideas
+## Conciseness
 noun:
 * conciseness
  brevity, "the soul of wit�, laconism, Tacitus, ellipsis, syncope, abridgment  , compression , epitome , monostich, brunch word, portmanteau word

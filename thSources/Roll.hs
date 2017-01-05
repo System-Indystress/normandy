@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ROLL where 
+module Language.Thesaurus.RogetLite.Roll where 
 import Language.Thesaurus
 roll :: ThProg
 roll = [thesaurus|
-# MATTER
-## ROLL
+# Matter
+## Roll
 noun:
 * roll
  drumming, berloque, bombination, rumbling, tattoo, dingdong, tantara, rataplan, whirr, ratatat, rubadub, pitapat, quaver, clutter, charivari, racket, cuckoo, repetition , peal of bells, devil's tattoo, reverberation 

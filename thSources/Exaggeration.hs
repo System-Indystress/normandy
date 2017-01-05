@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXAGGERATION where 
+module Language.Thesaurus.RogetLite.Exaggeration where 
 import Language.Thesaurus
 exaggeration :: ThProg
 exaggeration = [thesaurus|
-# IDEAS
-## EXAGGERATION
+# Ideas
+## Exaggeration
 noun:
 * exaggeration
  expansion , hyperbole, stretch, strain, coloring, high coloring, caricature, caricatura, extravagance  , Baron Munchausen, men in buckram, yarn, fringe, embroidery, traveler's tale, fish story, gooseberry

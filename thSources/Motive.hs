@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MOTIVE where 
+module Language.Thesaurus.RogetLite.Motive where 
 import Language.Thesaurus
 motive :: ThProg
 motive = [thesaurus|
-# VOLITION
-## MOTIVE
+# Volition
+## Motive
 noun:
 * motive
  springs of action, wellsprings of action

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FASTING where 
+module Language.Thesaurus.RogetLite.Fasting where 
 import Language.Thesaurus
 fasting :: ThProg
 fasting = [thesaurus|
-# SENTIMENT
-## FASTING
+# Sentiment
+## Fasting
 noun:
 * fasting
  xerophagy, famishment, starvation

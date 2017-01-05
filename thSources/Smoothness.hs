@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SMOOTHNESS where 
+module Language.Thesaurus.RogetLite.Smoothness where 
 import Language.Thesaurus
 smoothness :: ThProg
 smoothness = [thesaurus|
-# SPACE
-## SMOOTHNESS
+# Space
+## Smoothness
 noun:
 * smoothness
  polish, gloss, lubricity, lubrication

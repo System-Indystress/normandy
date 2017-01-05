@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SPACE where 
+module Language.Thesaurus.RogetLite.Space where 
 import Language.Thesaurus
 space :: ThProg
 space = [thesaurus|
-# SPACE
-## SPACE
+# Space
+## Space
 noun:
 * space
  extension, extent, superficial extent, expanse, stretch, room, scope, range, field, way, expansion, compass, sweep, swing, spread

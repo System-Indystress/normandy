@@ -6,6 +6,7 @@ module Language.Thesaurus
   , CatClass(..)
   , Category(..)
   , ThExp (..)
+  , ThProg(..)
   , parsedToFree
   , buildTh
   , catCl

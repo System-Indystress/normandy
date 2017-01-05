@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WASTE where 
+module Language.Thesaurus.RogetLite.Waste where 
 import Language.Thesaurus
 waste :: ThProg
 waste = [thesaurus|
-# VOLITION
-## WASTE
+# Volition
+## Waste
 noun:
 * consumption
  expenditure, exhaustion, dispersion , ebb, leakage  , loss , wear and tear, waste, prodigality , misuse , wasting, rubbish  

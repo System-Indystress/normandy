@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BUBBLE where 
+module Language.Thesaurus.RogetLite.Bubble where 
 import Language.Thesaurus
 bubble :: ThProg
 bubble = [thesaurus|
-# MATTER
-## BUBBLE
+# Matter
+## Bubble
 noun:
 * bubble
  foam, froth, head, spume, lather, suds, spray, surf, yeast, barm, spindrift

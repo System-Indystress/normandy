@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VAPORIZATION where 
+module Language.Thesaurus.RogetLite.Vaporization where 
 import Language.Thesaurus
 vaporization :: ThProg
 vaporization = [thesaurus|
-# MATTER
-## VAPORIZATION
+# Matter
+## Vaporization
 noun:
 * vaporization
  volatilization, gasification, evaporation, vaporation, distillation, cupellation, cohabilition, sublimination, exhalation, volatility

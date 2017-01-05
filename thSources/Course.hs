@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COURSE where 
+module Language.Thesaurus.RogetLite.Course where 
 import Language.Thesaurus
 course :: ThProg
 course = [thesaurus|
-# RELATION
-## COURSE
+# Relation
+## Course
 noun:
 * corridors of time
  sweep of time, vesta of time, course of time, progress of time, process of time, succession of time, lapse of time, flow of time, flux of time, stream of time, tract of time, current of time, tide of time, march of time, step of time, flight of time, duration 

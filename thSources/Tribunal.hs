@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TRIBUNAL where 
+module Language.Thesaurus.RogetLite.Tribunal where 
 import Language.Thesaurus
 tribunal :: ThProg
 tribunal = [thesaurus|
-# SENTIMENT
-## TRIBUNAL
+# Sentiment
+## Tribunal
 noun:
 * tribunal
  court, board, bench, judicatory, court of justice, court of law, court of arbitration, inquisition, guild

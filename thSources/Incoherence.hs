@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INCOHERENCE where 
+module Language.Thesaurus.RogetLite.Incoherence where 
 import Language.Thesaurus
 incoherence :: ThProg
 incoherence = [thesaurus|
-# RELATION
-## INCOHERENCE
+# Relation
+## Incoherence
 noun:
 * incoherence
  nonadhesion, immiscibility, looseness, laxity, relaxation, loosening, freedom, disjunction , rope of sand

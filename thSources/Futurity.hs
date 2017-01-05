@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FUTURITY where 
+module Language.Thesaurus.RogetLite.Futurity where 
 import Language.Thesaurus
 futurity :: ThProg
 futurity = [thesaurus|
-# RELATION
-## FUTURITY
+# Relation
+## Futurity
 noun:
 * futurity
  futurition, future, hereafter, time to come, approaching time, coming time, subsequent time, after time, approaching age, coming age, subsequent age, after age, approaching days, coming days, subsequent days, after days, approaching hours, coming hours, subsequent hours, after hours, approaching ages, coming ages, subsequent ages, after ages, approaching life, coming life, subsequent life, after life, approaching years, coming years, subsequent years, after years, morrow, millennium, doomsday, day of judgment, crack of doom, remote future

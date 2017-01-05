@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SHIP where 
+module Language.Thesaurus.RogetLite.Ship where 
 import Language.Thesaurus
 ship :: ThProg
 ship = [thesaurus|
-# SPACE
-## SHIP
+# Space
+## Ship
 noun:
 * ship
  vessel, sail, craft, bottom

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.STOPPER where 
+module Language.Thesaurus.RogetLite.Stopper where 
 import Language.Thesaurus
 stopper :: ThProg
 stopper = [thesaurus|
-# SPACE
-## STOPPER
+# Space
+## Stopper
 noun:
 * stopper
  stopple, plug, cork, bung, spike, spill, stopcock, tap, rammer, ram, ramrod, piston, stop-gap, wadding, stuffing, padding, stopping, dossil, pledget, tompion, tourniquet

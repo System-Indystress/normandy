@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IRRELATION where 
+module Language.Thesaurus.RogetLite.Irrelation where 
 import Language.Thesaurus
 irrelation :: ThProg
 irrelation = [thesaurus|
-# RELATION
-## IRRELATION
+# Relation
+## Irrelation
 noun:
 * irrelation
  dissociation, misrelation, inapplicability, inconnection, multifariousness, disconnection  , inconsequence, independence, incommensurability, irreconcilableness  , heterogeneity, unconformity , irrelevancy, impertinence, nihil ad rem, intrusion. , non-pertinence

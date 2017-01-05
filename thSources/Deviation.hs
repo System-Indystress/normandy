@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEVIATION where 
+module Language.Thesaurus.RogetLite.Deviation where 
 import Language.Thesaurus
 deviation :: ThProg
 deviation = [thesaurus|
-# SPACE
-## DEVIATION
+# Space
+## Deviation
 noun:
 * deviation
  swerving, obliquation, warp, refraction, flection, flexion, sweep, deflection, deflexure, declination

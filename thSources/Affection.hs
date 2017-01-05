@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AFFECTION where 
+module Language.Thesaurus.RogetLite.Affection where 
 import Language.Thesaurus
 affection :: ThProg
 affection = [thesaurus|
-# SENTIMENT
-## AFFECTION
+# Sentiment
+## Affection
 noun:
 * affectation
  affectedness, acting a part, pretense  ,  , boasting 

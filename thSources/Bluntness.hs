@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BLUNTNESS where 
+module Language.Thesaurus.RogetLite.Bluntness where 
 import Language.Thesaurus
 bluntness :: ThProg
 bluntness = [thesaurus|
-# SPACE
-## BLUNTNESS
+# Space
+## Bluntness
 noun:
 * bluntness
 verb:

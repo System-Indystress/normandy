@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LAWYER where 
+module Language.Thesaurus.RogetLite.Lawyer where 
 import Language.Thesaurus
 lawyer :: ThProg
 lawyer = [thesaurus|
-# SENTIMENT
-## LAWYER
+# Sentiment
+## Lawyer
 noun:
 * lawyer
  attorney, counsel, counsellor, jurist, legist, civilisan, pundit, publicist, juris consult, legal adviser, advocate, barrister, barrister at law, King's or Queen's counsel, K.C., Q.C., silk gown, leader, sergeant-at-law, bencher, tubman, judge 

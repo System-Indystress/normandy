@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.POSSIBILITY where 
+module Language.Thesaurus.RogetLite.Possibility where 
 import Language.Thesaurus
 possibility :: ThProg
 possibility = [thesaurus|
-# IDEAS
-## POSSIBILITY
+# Ideas
+## Possibility
 noun:
 * possibility
  potentiality, what may be, what is possible, compatibility  

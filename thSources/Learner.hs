@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LEARNER where 
+module Language.Thesaurus.RogetLite.Learner where 
 import Language.Thesaurus
 learner :: ThProg
 learner = [thesaurus|
-# IDEAS
-## LEARNER
+# Ideas
+## Learner
 noun:
 * learner
  scholar, student, pupil, apprentice, prentice, articled clerk, beginner, tyro, abecedarian, alphabetarian, alumnus, eleve

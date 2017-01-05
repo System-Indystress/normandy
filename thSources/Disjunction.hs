@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISJUNCTION where 
+module Language.Thesaurus.RogetLite.Disjunction where 
 import Language.Thesaurus
 disjunction :: ThProg
 disjunction = [thesaurus|
-# RELATION
-## DISJUNCTION
+# Relation
+## Disjunction
 noun:
 * disjunction
  disconnection, disunity, disunion, disassociation, disengagement, discontinuity , abjunction, cataclasm, inconnection, abstraction, abstractedness, isolation, insularity, insulation, oasis, island, separateness, severalty, disjecta membra, dispersion , apportionment 

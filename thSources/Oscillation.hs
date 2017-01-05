@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OSCILLATION where 
+module Language.Thesaurus.RogetLite.Oscillation where 
 import Language.Thesaurus
 oscillation :: ThProg
 oscillation = [thesaurus|
-# SPACE
-## OSCILLATION
+# Space
+## Oscillation
 noun:
 * oscillation
  vibration, libration, motion of a pendulum, nutation, undulation, pulsation, pulse

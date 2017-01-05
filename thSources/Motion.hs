@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MOTION where 
+module Language.Thesaurus.RogetLite.Motion where 
 import Language.Thesaurus
 motion :: ThProg
 motion = [thesaurus|
-# SPACE
-## MOTION
+# Space
+## Motion
 noun:
 * motion
  movement, move, going, unrest

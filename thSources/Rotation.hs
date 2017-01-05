@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ROTATION where 
+module Language.Thesaurus.RogetLite.Rotation where 
 import Language.Thesaurus
 rotation :: ThProg
 rotation = [thesaurus|
-# SPACE
-## ROTATION
+# Space
+## Rotation
 noun:
 * rotation
  revolution, gyration, circulation, roll, circumrotation, circumvolution, circumgyration, volutation, circination, turbination, pirouette, convolution

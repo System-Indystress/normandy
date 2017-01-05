@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BADDNESS where 
+module Language.Thesaurus.RogetLite.Baddness where 
 import Language.Thesaurus
 baddness :: ThProg
 baddness = [thesaurus|
-# VOLITION
-## BADDNESS
+# Volition
+## Baddness
 noun:
 * hurtfulness
  virulence

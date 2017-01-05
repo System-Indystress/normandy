@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FORESIGHT where 
+module Language.Thesaurus.RogetLite.Foresight where 
 import Language.Thesaurus
 foresight :: ThProg
 foresight = [thesaurus|
-# IDEAS
-## FORESIGHT
+# Ideas
+## Foresight
 noun:
 * foresight
  prospicience, prevision, long-sightedness, anticipation, providence  

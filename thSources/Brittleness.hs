@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BRITTLENESS where 
+module Language.Thesaurus.RogetLite.Brittleness where 
 import Language.Thesaurus
 brittleness :: ThProg
 brittleness = [thesaurus|
-# MATTER
-## BRITTLENESS
+# Matter
+## Brittleness
 noun:
 * brittleness
  fragility, friability, fragibility, fissibility, house of cards, house of glass

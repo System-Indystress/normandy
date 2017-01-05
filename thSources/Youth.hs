@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.YOUTH where 
+module Language.Thesaurus.RogetLite.Youth where 
 import Language.Thesaurus
 youth :: ThProg
 youth = [thesaurus|
-# RELATION
-## YOUTH
+# Relation
+## Youth
 noun:
 * youth
  juvenility, juvenescence, juniority, infancy, babyhood, childhood, boyhood, girlhood, youthhood, incunabula, minority, nonage, teens, tender age, bloom

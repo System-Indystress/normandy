@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ATTRACTION where 
+module Language.Thesaurus.RogetLite.Attraction where 
 import Language.Thesaurus
 attraction :: ThProg
 attraction = [thesaurus|
-# SPACE
-## ATTRACTION
+# Space
+## Attraction
 noun:
 * attraction
  attractiveness, attractivity, drawing to, pulling towards, adduction, magnetism, gravity, attraction of gravitation

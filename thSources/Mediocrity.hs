@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MEDIOCRITY where 
+module Language.Thesaurus.RogetLite.Mediocrity where 
 import Language.Thesaurus
 mediocrity :: ThProg
 mediocrity = [thesaurus|
-# VOLITION
-## MEDIOCRITY
+# Volition
+## Mediocrity
 noun:
 * moderate circumstances
  average circumstances, respectability, middle classes, mediocrity, golden mean  ,  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DESCENT where 
+module Language.Thesaurus.RogetLite.Descent where 
 import Language.Thesaurus
 descent :: ThProg
 descent = [thesaurus|
-# SPACE
-## DESCENT
+# Space
+## Descent
 noun:
 * descent
  descension, declension, declination, fall, falling: slump, drop, plunge, plummet, cadence, subsidence, collapse, lapse, downfall, tumble, slip, tilt, trip, lurch, cropper, culbute, titubation, stumble, fate of Icarus

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ODOR where 
+module Language.Thesaurus.RogetLite.Odor where 
 import Language.Thesaurus
 odor :: ThProg
 odor = [thesaurus|
-# MATTER
-## ODOR
+# Matter
+## Odor
 noun:
 * odor
  smell, odorament, scent, effluvium, emanation, exhalation, fume, essence, trail, nidor, redolence

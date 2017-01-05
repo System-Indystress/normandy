@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SNAP where 
+module Language.Thesaurus.RogetLite.Snap where 
 import Language.Thesaurus
 snap :: ThProg
 snap = [thesaurus|
-# MATTER
-## SNAP
+# Matter
+## Snap
 noun:
 * snap
  rapping, decrepitation, crepitation, report, thud, burst, explosion, discharge, detonation, firing, salvo, volley

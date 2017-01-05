@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXPENDITURE where 
+module Language.Thesaurus.RogetLite.Expenditure where 
 import Language.Thesaurus
 expenditure :: ThProg
 expenditure = [thesaurus|
-# VOLITION
-## EXPENDITURE
+# Volition
+## Expenditure
 noun:
 * expenditure
  money going out, out goings, out lay, expenses, disbursement, prime cost  , circulation, run upon a bank

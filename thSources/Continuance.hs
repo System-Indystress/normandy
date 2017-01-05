@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTINUANCE where 
+module Language.Thesaurus.RogetLite.Continuance where 
 import Language.Thesaurus
 continuance :: ThProg
 continuance = [thesaurus|
-# RELATION
-## CONTINUANCE
+# Relation
+## Continuance
 noun:
 * continuance
  continuation, run, perpetuation, prolongation, persistence  , repetition 

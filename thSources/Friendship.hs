@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FRIENDSHIP where 
+module Language.Thesaurus.RogetLite.Friendship where 
 import Language.Thesaurus
 friendship :: ThProg
 friendship = [thesaurus|
-# SENTIMENT
-## FRIENDSHIP
+# Sentiment
+## Friendship
 noun:
 * friendship
  amity, friendliness, brotherhood, fraternity, sodality, confraternity, harmony  , peace 

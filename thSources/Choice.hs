@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CHOICE where 
+module Language.Thesaurus.RogetLite.Choice where 
 import Language.Thesaurus
 choice :: ThProg
 choice = [thesaurus|
-# VOLITION
-## CHOICE
+# Volition
+## Choice
 noun:
 * choice
  option, discretion  , preoption, alternative, dilemma, embarras de choix, adoption, cooptation, novation, decision  

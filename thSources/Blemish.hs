@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BLEMISH where 
+module Language.Thesaurus.RogetLite.Blemish where 
 import Language.Thesaurus
 blemish :: ThProg
 blemish = [thesaurus|
-# SENTIMENT
-## BLEMISH
+# Sentiment
+## Blemish
 noun:
 * blemish
  disfigurement, deformity, adactylism, flaw, defect   , injury  , spots on the sun, eyesore

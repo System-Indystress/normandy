@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INORGANIZATION where 
+module Language.Thesaurus.RogetLite.Inorganization where 
 import Language.Thesaurus
 inorganization :: ThProg
 inorganization = [thesaurus|
-# MATTER
-## INORGANIZATION
+# Matter
+## Inorganization
 noun:
 * mineral world
  mineral kingdom, unorganized matter, inorganic matter, brute matter, inanimate matter

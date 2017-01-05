@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WORKSHOP where 
+module Language.Thesaurus.RogetLite.Workshop where 
 import Language.Thesaurus
 workshop :: ThProg
 workshop = [thesaurus|
-# IDEAS
-## WORKSHOP
+# Ideas
+## Workshop
 noun:
 * workshop
  workhouse, manufactory, mill, factory, cabinet, studio, bureau, atelier

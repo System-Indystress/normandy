@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LANGUAGE where 
+module Language.Thesaurus.RogetLite.Language where 
 import Language.Thesaurus
 language :: ThProg
 language = [thesaurus|
-# IDEAS
-## LANGUAGE
+# Ideas
+## Language
 noun:
 * language
  phraseology , speech , tongue, lingo, vernacular, mother tongue, vulgar tongue, native tongue, household words, King's or Queen's English, dialect 

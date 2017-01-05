@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIRECTOR where 
+module Language.Thesaurus.RogetLite.Director where 
 import Language.Thesaurus
 director :: ThProg
 director = [thesaurus|
-# VOLITION
-## DIRECTOR
+# Volition
+## Director
 noun:
 * director
  manager, governor, rector, comptroller

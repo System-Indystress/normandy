@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OPENING where 
+module Language.Thesaurus.RogetLite.Opening where 
 import Language.Thesaurus
 opening :: ThProg
 opening = [thesaurus|
-# SPACE
-## OPENING
+# Space
+## Opening
 noun:
 * hole
  foramen, puncture, perforation, fontanel, transforation, pinhole, keyhole, loophole, porthole, peephole, mousehole, pigeonhole, eye of a needle, eyelet, slot

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IDOLATRY where 
+module Language.Thesaurus.RogetLite.Idolatry where 
 import Language.Thesaurus
 idolatry :: ThProg
 idolatry = [thesaurus|
-# SENTIMENT
-## IDOLATRY
+# Sentiment
+## Idolatry
 noun:
 * idolatry
  idolism, demonism, demonolatry, idol-worship, demon-worship, devil-worship, fire-worship, zoolatry, fetichism, ecclesiolatry, heliolatry, Mariolatry, Bibliolatry

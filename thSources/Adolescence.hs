@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ADOLESCENCE where 
+module Language.Thesaurus.RogetLite.Adolescence where 
 import Language.Thesaurus
 adolescence :: ThProg
 adolescence = [thesaurus|
-# RELATION
-## ADOLESCENCE
+# Relation
+## Adolescence
 noun:
 * adolescence
  pubescence, majority, adultism, adultness, adulthood, manhood, virility, maturity, full age, ripe age, flower of age, prime of life, meridian of life, spring of life

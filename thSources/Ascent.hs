@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ASCENT where 
+module Language.Thesaurus.RogetLite.Ascent where 
 import Language.Thesaurus
 ascent :: ThProg
 ascent = [thesaurus|
-# SPACE
-## ASCENT
+# Space
+## Ascent
 noun:
 * ascent
  ascension, rising , acclivity, hill , flight of steps, flight of stairs, ladder

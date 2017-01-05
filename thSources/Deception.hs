@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DECEPTION where 
+module Language.Thesaurus.RogetLite.Deception where 
 import Language.Thesaurus
 deception :: ThProg
 deception = [thesaurus|
-# IDEAS
-## DECEPTION
+# Ideas
+## Deception
 noun:
 * deception
  falseness , untruth , imposition, inposture, fraud, deceit, guile, fraudulence, fraudulency, covin, knavery  , misrepresentation  , bluff, straw-bail, straw bid , spoof

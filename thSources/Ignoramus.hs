@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IGNORAMUS where 
+module Language.Thesaurus.RogetLite.Ignoramus where 
 import Language.Thesaurus
 ignoramus :: ThProg
 ignoramus = [thesaurus|
-# IDEAS
-## IGNORAMUS
+# Ideas
+## Ignoramus
 noun:
 * ignoramus
  dunce, wooden spoon, no scholar

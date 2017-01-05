@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WEALTH where 
+module Language.Thesaurus.RogetLite.Wealth where 
 import Language.Thesaurus
 wealth :: ThProg
 wealth = [thesaurus|
-# VOLITION
-## WEALTH
+# Volition
+## Wealth
 noun:
 * wealth
  riches, fortune, handsome fortune, opulence, affluence, good circumstances, easy circumstances, independence, competence  , solvency

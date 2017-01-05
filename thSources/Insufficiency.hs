@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSUFFICIENCY where 
+module Language.Thesaurus.RogetLite.Insufficiency where 
 import Language.Thesaurus
 insufficiency :: ThProg
 insufficiency = [thesaurus|
-# VOLITION
-## INSUFFICIENCY
+# Volition
+## Insufficiency
 noun:
 * insufficiency
  inadequacy, inadequateness, incompetence  , deficiency  , imperfection , shortcoming , paucity, stint, scantiness  , none to spare, bare subsistence

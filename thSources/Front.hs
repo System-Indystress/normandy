@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FRONT where 
+module Language.Thesaurus.RogetLite.Front where 
 import Language.Thesaurus
 front :: ThProg
 front = [thesaurus|
-# SPACE
-## FRONT
+# Space
+## Front
 noun:
 * front
  fore, forepart, foreground, face, disk, disc, frontage, facade, proscenium, facia, frontispiece, anteriority, obverse 

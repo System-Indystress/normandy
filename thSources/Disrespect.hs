@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISRESPECT where 
+module Language.Thesaurus.RogetLite.Disrespect where 
 import Language.Thesaurus
 disrespect :: ThProg
 disrespect = [thesaurus|
-# SENTIMENT
-## DISRESPECT
+# Sentiment
+## Disrespect
 noun:
 * disrespect
  disesteem, disestimation, disparagement  ,  

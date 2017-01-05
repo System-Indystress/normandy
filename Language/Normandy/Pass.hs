@@ -5,4 +5,4 @@ module Language.Normandy.Pass
 
 import Language.Normandy.Pass.POS
 import Language.Normandy.Pass.Class
-import Language.Normandy.Pass.Rhyme
+--import Language.Normandy.Pass.Rhyme

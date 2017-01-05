@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SECURITY where 
+module Language.Thesaurus.RogetLite.Security where 
 import Language.Thesaurus
 security :: ThProg
 security = [thesaurus|
-# VOLITION
-## SECURITY
+# Volition
+## Security
 noun:
 * security
  guaranty, guarantee, gage, warranty, bond, tie, pledge, plight, mortgage, debenture, hypothecation, bill of sale, lien, pawn, pignoration, real security, vadium

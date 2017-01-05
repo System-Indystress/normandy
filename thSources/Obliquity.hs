@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OBLIQUITY where 
+module Language.Thesaurus.RogetLite.Obliquity where 
 import Language.Thesaurus
 obliquity :: ThProg
 obliquity = [thesaurus|
-# SPACE
-## OBLIQUITY
+# Space
+## Obliquity
 noun:
 * obliquity
  inclination, slope, slant, crookedness, slopeness, leaning, bevel, tilt, bias, list, twist, swag, cant, lurch, distortion , bend  , tower of Pisa

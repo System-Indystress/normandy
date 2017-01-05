@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VINDICATION where 
+module Language.Thesaurus.RogetLite.Vindication where 
 import Language.Thesaurus
 vindication :: ThProg
 vindication = [thesaurus|
-# SENTIMENT
-## VINDICATION
+# Sentiment
+## Vindication
 noun:
 * vindication
  justification, warant, exoneration, exculpation, acquittal , whitewashing

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPARISON where 
+module Language.Thesaurus.RogetLite.Comparison where 
 import Language.Thesaurus
 comparison :: ThProg
 comparison = [thesaurus|
-# IDEAS
-## COMPARISON
+# Ideas
+## Comparison
 noun:
 * comparison
  collation, contrast, identification, comparative estimate, relative estimate

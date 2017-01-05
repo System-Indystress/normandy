@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPURITY where 
+module Language.Thesaurus.RogetLite.Impurity where 
 import Language.Thesaurus
 impurity :: ThProg
 impurity = [thesaurus|
-# SENTIMENT
-## IMPURITY
+# Sentiment
+## Impurity
 noun:
 * impurity
  uncleanness, filth , immodesty, grossness, indelicacy, indecency, impudicity, obscenity, ribaldry, Fescennine, smut, bawdry, double entente, equivoque

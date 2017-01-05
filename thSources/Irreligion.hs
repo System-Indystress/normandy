@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IRRELIGION where 
+module Language.Thesaurus.RogetLite.Irreligion where 
 import Language.Thesaurus
 irreligion :: ThProg
 irreligion = [thesaurus|
-# SENTIMENT
-## IRRELIGION
+# Sentiment
+## Irreligion
 noun:
 * irreligion
  indevotion, ungodliness, laxity, quietism

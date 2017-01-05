@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FREQUENCY where 
+module Language.Thesaurus.RogetLite.Frequency where 
 import Language.Thesaurus
 frequency :: ThProg
 frequency = [thesaurus|
-# RELATION
-## FREQUENCY
+# Relation
+## Frequency
 noun:
 * frequency
  oftness, oftenness, commonness, repetition , normality , example  , routine, custom  

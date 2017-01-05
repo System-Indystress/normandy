@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTELLECT where 
+module Language.Thesaurus.RogetLite.Intellect where 
 import Language.Thesaurus
 intellect :: ThProg
 intellect = [thesaurus|
-# IDEAS
-## INTELLECT
+# Ideas
+## Intellect
 noun:
 * intellect
  mind, understanding, reason, thinking principle, rationality, cogitative faculties, cognitive faculties, discursive faculties, reasoning faculties, intellectual faculties, faculties, senses, consciousness, observation, percipience, intelligence, intellection, intuition, association of ideas, instinct, conception, judgment, wits, parts, capacity, intellectuality, genius, brains, cognitive powers, intellectual powers, wit , ability  , wisdom , Vernunft, Verstand

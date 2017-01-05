@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VEHICLE where 
+module Language.Thesaurus.RogetLite.Vehicle where 
 import Language.Thesaurus
 vehicle :: ThProg
 vehicle = [thesaurus|
-# SPACE
-## VEHICLE
+# Space
+## Vehicle
 noun:
 * vehicle
  conveyance, carriage, caravan, van, wagon, waggon, wain, dray, cart, lorry

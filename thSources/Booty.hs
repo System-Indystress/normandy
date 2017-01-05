@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BOOTY where 
+module Language.Thesaurus.RogetLite.Booty where 
 import Language.Thesaurus
 booty :: ThProg
 booty = [thesaurus|
-# VOLITION
-## BOOTY
+# Volition
+## Booty
 noun:
 * booty
  spoil, plunder, prize, loot, swag, pickings, spolia opima, prey, blackmail, stolen goods

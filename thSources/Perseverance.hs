@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PERSEVERANCE where 
+module Language.Thesaurus.RogetLite.Perseverance where 
 import Language.Thesaurus
 perseverance :: ThProg
 perseverance = [thesaurus|
-# VOLITION
-## PERSEVERANCE
+# Volition
+## Perseverance
 noun:
 * perseverance
  continuance  , permanence  , firmness  

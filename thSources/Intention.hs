@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTENTION where 
+module Language.Thesaurus.RogetLite.Intention where 
 import Language.Thesaurus
 intention :: ThProg
 intention = [thesaurus|
-# VOLITION
-## INTENTION
+# Volition
+## Intention
 noun:
 * intent
  intention, intentionality, purpose, quo animo, project , undertaking , predetermination , design, ambition

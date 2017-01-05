@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MISANTHROPY where 
+module Language.Thesaurus.RogetLite.Misanthropy where 
 import Language.Thesaurus
 misanthropy :: ThProg
 misanthropy = [thesaurus|
-# SENTIMENT
-## MISANTHROPY
+# Sentiment
+## Misanthropy
 noun:
 * misanthropy
  incivism, egotism  , moroseness , cynicism

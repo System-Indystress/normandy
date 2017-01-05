@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROHIBITION where 
+module Language.Thesaurus.RogetLite.Prohibition where 
 import Language.Thesaurus
 prohibition :: ThProg
 prohibition = [thesaurus|
-# VOLITION
-## PROHIBITION
+# Volition
+## Prohibition
 noun:
 * prohibition
  inhibition, veto, disallowance, interdict, interdiction, injunction, embargo, ban, taboo, proscription, index expurgatorius, restriction  , hindrance , forbidden fruit, Maine law , blue law

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTIGUITY where 
+module Language.Thesaurus.RogetLite.Contiguity where 
 import Language.Thesaurus
 contiguity :: ThProg
 contiguity = [thesaurus|
-# SPACE
-## CONTIGUITY
+# Space
+## Contiguity
 noun:
 * contiguity
  contact, proximity, apposition, abuttal, juxtaposition, abutment, osculation, meeting, appulse, rencontre, rencounter, syzygy, coincidence, coexistence, adhesion , touching 

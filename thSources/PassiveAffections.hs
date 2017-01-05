@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PASSIVEAFFECTIONS where 
+module Language.Thesaurus.RogetLite.Passiveaffections where 
 import Language.Thesaurus
 passiveaffections :: ThProg
 passiveaffections = [thesaurus|
-# SENTIMENT
-## PASSIVEAFFECTIONS
+# Sentiment
+## Passiveaffections
 noun:
 * painfulness
  trouble, care  , trial, affliction, infliction, blow, stroke, burden, load, curse, bitter pill, bitter draught, waters of bitterness

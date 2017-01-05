@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEMON where 
+module Language.Thesaurus.RogetLite.Demon where 
 import Language.Thesaurus
 demon :: ThProg
 demon = [thesaurus|
-# SENTIMENT
-## DEMON
+# Sentiment
+## Demon
 noun:
 * demon
  demonry, demonology, evil genius, fiend, familiar, daeva, devil, bad spirit, unclean spirit, cacodemon, incubus Eblis, shaitan, succubus and succuba, Frankenstein's monster, Titan, Shedim, Mephistopheles, Asmodeus, Moloch, Belial, Ahriman, fury, harpy, Friar Rush

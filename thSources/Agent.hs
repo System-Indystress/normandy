@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AGENT where 
+module Language.Thesaurus.RogetLite.Agent where 
 import Language.Thesaurus
 agent :: ThProg
 agent = [thesaurus|
-# VOLITION
-## AGENT
+# Volition
+## Agent
 noun:
 * doer
  actor, agent, performer, perpetrator, operator, executor, executrix, practitioner, worker, stager

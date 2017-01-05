@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPERFECTION where 
+module Language.Thesaurus.RogetLite.Imperfection where 
 import Language.Thesaurus
 imperfection :: ThProg
 imperfection = [thesaurus|
-# VOLITION
-## IMPERFECTION
+# Volition
+## Imperfection
 noun:
 * imperfection
  imperfectness, deficiency, inadequacy  , peccancy  , immaturity 

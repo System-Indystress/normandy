@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REMEDY where 
+module Language.Thesaurus.RogetLite.Remedy where 
 import Language.Thesaurus
 remedy :: ThProg
 remedy = [thesaurus|
-# VOLITION
-## REMEDY
+# Volition
+## Remedy
 noun:
 * remedy
  help, redress, anthelmintic, antidote, antifebrile, antipoison, counterpoison, antitoxin, antispasmodic, bracer, faith cure, placebo, helminthagogue, lithagogue, pick-meup, stimulant, tonic, vermifuge, prophylactic, corrective, restorative, sedative , palliative, febrifuge, alterant, alterative, specific, antiseptic, emetic, analgesic, pain-killer, antitussive, anti-inflammatory, antibiotic, antiviral, antifungal, carminative, Nepenthe, Mithridate

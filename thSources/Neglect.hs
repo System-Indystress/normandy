@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NEGLECT where 
+module Language.Thesaurus.RogetLite.Neglect where 
 import Language.Thesaurus
 neglect :: ThProg
 neglect = [thesaurus|
-# IDEAS
-## NEGLECT
+# Ideas
+## Neglect
 noun:
 * neglect
  carelessness, trifling, negligence, omission, laches, default, supineness  , inattention , nonchalance  , imprudence, recklessness , slovenliness  ,  , improvidence , noncompletion , inexactness  

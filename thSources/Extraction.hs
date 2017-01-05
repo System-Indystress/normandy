@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXTRACTION where 
+module Language.Thesaurus.RogetLite.Extraction where 
 import Language.Thesaurus
 extraction :: ThProg
 extraction = [thesaurus|
-# SPACE
-## EXTRACTION
+# Space
+## Extraction
 noun:
 * extraction
  extracting, removal, elimination, extrication, eradication, evolution

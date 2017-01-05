@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNDERTAKING where 
+module Language.Thesaurus.RogetLite.Undertaking where 
 import Language.Thesaurus
 undertaking :: ThProg
 undertaking = [thesaurus|
-# VOLITION
-## UNDERTAKING
+# Volition
+## Undertaking
 noun:
 * undertaking
  compact , adventure, venture, engagement  , enterprise, emprise, pilgrimage, matter in hand  , move, first move  

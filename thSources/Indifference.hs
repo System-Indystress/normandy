@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INDIFFERENCE where 
+module Language.Thesaurus.RogetLite.Indifference where 
 import Language.Thesaurus
 indifference :: ThProg
 indifference = [thesaurus|
-# SENTIMENT
-## INDIFFERENCE
+# Sentiment
+## Indifference
 noun:
 * indifference
  neutrality, coldness, anaphrodisia, unconcern, insouciance, nonchalance, want of interest, want of earnestness, anorexy, anorexia, inappetency, apathy  , supineness  , disdain , recklessness , inattention 

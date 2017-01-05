@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MIXTURE where 
+module Language.Thesaurus.RogetLite.Mixture where 
 import Language.Thesaurus
 mixture :: ThProg
 mixture = [thesaurus|
-# RELATION
-## MIXTURE
+# Relation
+## Mixture
 noun:
 * mixture
  admixture, commixture, commixtion, commixion, intermixture, alloyage, matrimony, junction , combination , miscegenation

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MUSICIAN where 
+module Language.Thesaurus.RogetLite.Musician where 
 import Language.Thesaurus
 musician :: ThProg
 musician = [thesaurus|
-# MATTER
-## MUSICIAN
+# Matter
+## Musician
 noun:
 * musician
  artiste, performer, player, minstrel, bard  , accompanist, accordionist, instrumentalist, organist, pianist, violinist, flautist, harper, fiddler, fifer, trumpeter, piper, drummer, catgut scraper

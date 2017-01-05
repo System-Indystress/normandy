@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INACTION where 
+module Language.Thesaurus.RogetLite.Inaction where 
 import Language.Thesaurus
 inaction :: ThProg
 inaction = [thesaurus|
-# VOLITION
-## INACTION
+# Volition
+## Inaction
 noun:
 * inaction
  passiveness, abstinence from action, noninterference, Fabian policy, conservative policy, neglect 

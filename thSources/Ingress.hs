@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INGRESS where 
+module Language.Thesaurus.RogetLite.Ingress where 
 import Language.Thesaurus
 ingress :: ThProg
 ingress = [thesaurus|
-# SPACE
-## INGRESS
+# Space
+## Ingress
 noun:
 * ingress
  entrance, entry, introgression, influx, intrusion, inroad, incursion, invasion, irruption, ingression, penetration, interpenetration, illapse, import, infiltration, immigration, admission  , insinuation  , insertion 

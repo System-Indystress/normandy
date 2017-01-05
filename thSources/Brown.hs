@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BROWN where 
+module Language.Thesaurus.RogetLite.Brown where 
 import Language.Thesaurus
 brown :: ThProg
 brown = [thesaurus|
-# MATTER
-## BROWN
+# Matter
+## Brown
 noun:
 * brown
  brunet, brunette

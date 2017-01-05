@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SENSATIONSTOUCH where 
+module Language.Thesaurus.RogetLite.Sensationstouch where 
 import Language.Thesaurus
 sensationstouch :: ThProg
 sensationstouch = [thesaurus|
-# MATTER
-## SENSATIONSTOUCH
+# Matter
+## Sensationstouch
 noun:
 * itching
  titillation, formication, aura, stereognosis

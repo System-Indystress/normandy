@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RECEPTION where 
+module Language.Thesaurus.RogetLite.Reception where 
 import Language.Thesaurus
 reception :: ThProg
 reception = [thesaurus|
-# SPACE
-## RECEPTION
+# Space
+## Reception
 noun:
 * reception
  admission, admittance, entree, importation, introduction, intromission, immission, ingestion, imbibation, introception, absorption, ingurgitation, inhalation, suction, sucking, eating, drinking  , insertion , interjection , introit

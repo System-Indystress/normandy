@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SOFTNESS where 
+module Language.Thesaurus.RogetLite.Softness where 
 import Language.Thesaurus
 softness :: ThProg
 softness = [thesaurus|
-# MATTER
-## SOFTNESS
+# Matter
+## Softness
 noun:
 * softness
  pliableness, flexibility, pliancy, pliability, sequacity, malleability, ductility, tractility, extendibility, extensibility, plasticity, inelasticity, flaccidity, laxity

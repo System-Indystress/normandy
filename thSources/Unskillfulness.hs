@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNSKILLFULNESS where 
+module Language.Thesaurus.RogetLite.Unskillfulness where 
 import Language.Thesaurus
 unskillfulness :: ThProg
 unskillfulness = [thesaurus|
-# VOLITION
-## UNSKILLFULNESS
+# Volition
+## Unskillfulness
 noun:
 * unskillfulness
  want of skill , incompetence, incompentency, inability, infelicity, indexterity, inexperience, disqualification, unproficiency, quackery

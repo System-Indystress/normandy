@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RECORDER where 
+module Language.Thesaurus.RogetLite.Recorder where 
 import Language.Thesaurus
 recorder :: ThProg
 recorder = [thesaurus|
-# IDEAS
-## RECORDER
+# Ideas
+## Recorder
 noun:
 * recorder
  notary, clerk, registrar, registrary, register, prothonotary, amanuensis, secretary, scribe, babu, remembrancer, bookkeeper, custos rotulorum, Master of the Rolls

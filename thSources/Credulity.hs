@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CREDULITY where 
+module Language.Thesaurus.RogetLite.Credulity where 
 import Language.Thesaurus
 credulity :: ThProg
 credulity = [thesaurus|
-# IDEAS
-## CREDULITY
+# Ideas
+## Credulity
 noun:
 * credulity
  credulousness, gullible, cullibility, gross credulity, infatuation, self delusion, self deception, superstition, one's blind side, bigotry  , hyperorthodoxy , misjudgment 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TEXTURE where 
+module Language.Thesaurus.RogetLite.Texture where 
 import Language.Thesaurus
 texture :: ThProg
 texture = [thesaurus|
-# MATTER
-## TEXTURE
+# Matter
+## Texture
 noun:
 * structure  
  organization, anatomy, frame, mold, fabric, construction, framework, carcass, architecture, stratification, cleavage

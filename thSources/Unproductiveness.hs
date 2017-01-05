@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNPRODUCTIVENESS where 
+module Language.Thesaurus.RogetLite.Unproductiveness where 
 import Language.Thesaurus
 unproductiveness :: ThProg
 unproductiveness = [thesaurus|
-# RELATION
-## UNPRODUCTIVENESS
+# Relation
+## Unproductiveness
 noun:
 * unproductiveness
  infertility, sterility, infecundity, impotence , unprofitableness  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SYNCHRONISM where 
+module Language.Thesaurus.RogetLite.Synchronism where 
 import Language.Thesaurus
 synchronism :: ThProg
 synchronism = [thesaurus|
-# RELATION
-## SYNCHRONISM
+# Relation
+## Synchronism
 noun:
 * synchronism
  coexistence, coincidence, simultaneousness, simultaneity, concurrence, concomitance, unity of time, interim

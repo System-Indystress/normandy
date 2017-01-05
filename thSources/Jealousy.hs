@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.JEALOUSY where 
+module Language.Thesaurus.RogetLite.Jealousy where 
 import Language.Thesaurus
 jealousy :: ThProg
 jealousy = [thesaurus|
-# SENTIMENT
-## JEALOUSY
+# Sentiment
+## Jealousy
 noun:
 * jealousy
  jealousness, jaundiced eye, envious suspicion, suspicion, "green-eyed monster" , yellows, Juno

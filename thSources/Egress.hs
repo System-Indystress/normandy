@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EGRESS where 
+module Language.Thesaurus.RogetLite.Egress where 
 import Language.Thesaurus
 egress :: ThProg
 egress = [thesaurus|
-# SPACE
-## EGRESS
+# Space
+## Egress
 noun:
 * egress
  exit, issue, emersion, emergence, outbreak, outburst, eruption, proruption, emanation, egression, evacuation, exudation, transudation, extravasation, perspiration, sweating, leakage, percolation, distillation, oozing, gush  , outpour, outpouring, effluence, effusion, effluxion, drain, dribbling, defluxion, drainage, outcome, output, discharge  

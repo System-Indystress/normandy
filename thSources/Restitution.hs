@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESTITUTION where 
+module Language.Thesaurus.RogetLite.Restitution where 
 import Language.Thesaurus
 restitution :: ThProg
 restitution = [thesaurus|
-# VOLITION
-## RESTITUTION
+# Volition
+## Restitution
 noun:
 * restitution
  return, rendition, reddition, restoration, reinvestment, recuperation, rehabilitation  , reparation, atonement, compensation, indemnification

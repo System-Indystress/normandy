@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OBEDIENCE where 
+module Language.Thesaurus.RogetLite.Obedience where 
 import Language.Thesaurus
 obedience :: ThProg
 obedience = [thesaurus|
-# VOLITION
-## OBEDIENCE
+# Volition
+## Obedience
 noun:
 * obedience
  observance , compliance, submission , subjection , nonresistance, passiveness, resignation

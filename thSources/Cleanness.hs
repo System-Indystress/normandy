@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CLEANNESS where 
+module Language.Thesaurus.RogetLite.Cleanness where 
 import Language.Thesaurus
 cleanness :: ThProg
 cleanness = [thesaurus|
-# VOLITION
-## CLEANNESS
+# Volition
+## Cleanness
 noun:
 * cleanness
  cleanliness, purity, cleaning, purification, defecation, purgation, lustration, detersion, abstersion, epuration, mundation, ablution, lavation, colature, disinfection, drainage, sewerage

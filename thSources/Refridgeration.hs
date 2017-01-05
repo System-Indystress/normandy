@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REFRIDGERATION where 
+module Language.Thesaurus.RogetLite.Refridgeration where 
 import Language.Thesaurus
 refridgeration :: ThProg
 refridgeration = [thesaurus|
-# MATTER
-## REFRIDGERATION
+# Matter
+## Refridgeration
 noun:
 * refrigeration
  infrigidation, reduction of temperature, cooling, congelation, conglaciation, ice , solidification  , ice box  

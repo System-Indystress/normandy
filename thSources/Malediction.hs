@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MALEDICTION where 
+module Language.Thesaurus.RogetLite.Malediction where 
 import Language.Thesaurus
 malediction :: ThProg
 malediction = [thesaurus|
-# SENTIMENT
-## MALEDICTION
+# Sentiment
+## Malediction
 noun:
 * malediction
  malison, curse, imprecation, denunciation, execration, anathema, ban, proscription, excommunication, commination, thunders of the Vatican, fulmination, maranatha, aspersion, disparagement, vilification, vituperation

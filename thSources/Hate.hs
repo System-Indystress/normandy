@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HATE where 
+module Language.Thesaurus.RogetLite.Hate where 
 import Language.Thesaurus
 hate :: ThProg
 hate = [thesaurus|
-# SENTIMENT
-## HATE
+# Sentiment
+## Hate
 noun:
 * hate
  hatred, vials of hate

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MISINTERPRETATION where 
+module Language.Thesaurus.RogetLite.Misinterpretation where 
 import Language.Thesaurus
 misinterpretation :: ThProg
 misinterpretation = [thesaurus|
-# IDEAS
-## MISINTERPRETATION
+# Ideas
+## Misinterpretation
 noun:
 * misinterpretation
  misapprehension, misunderstanding, misacceptation, misconstruction, misapplication, catachresis, eisegesis, cross-reading, cross-purposes, mistake 

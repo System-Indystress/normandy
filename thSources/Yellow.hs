@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.YELLOW where 
+module Language.Thesaurus.RogetLite.Yellow where 
 import Language.Thesaurus
 yellow :: ThProg
 yellow = [thesaurus|
-# MATTER
-## YELLOW
+# Matter
+## Yellow
 noun:
 * yellow
  gamboge

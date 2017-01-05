@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.JUDGEMENT where 
+module Language.Thesaurus.RogetLite.Judgement where 
 import Language.Thesaurus
 judgement :: ThProg
 judgement = [thesaurus|
-# IDEAS
-## JUDGEMENT
+# Ideas
+## Judgement
 noun:
 * result
  conclusion, upshot, deduction, inference, ergotism, illation, corollary, porism, moral

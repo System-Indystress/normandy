@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROPULSION where 
+module Language.Thesaurus.RogetLite.Propulsion where 
 import Language.Thesaurus
 propulsion :: ThProg
 propulsion = [thesaurus|
-# SPACE
-## PROPULSION
+# Space
+## Propulsion
 noun:
 * propulsion
  projection, propelment, vis a tergo, push, shove  , ejaculate, ejection , throw, fling, toss, shot, discharge, shy

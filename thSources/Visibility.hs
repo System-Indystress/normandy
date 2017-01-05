@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VISIBILITY where 
+module Language.Thesaurus.RogetLite.Visibility where 
 import Language.Thesaurus
 visibility :: ThProg
 visibility = [thesaurus|
-# MATTER
-## VISIBILITY
+# Matter
+## Visibility
 noun:
 * visibility
  perceptibility, conspicuousness, distinctness, conspicuity, conspicuousness, appearance , bassetting, exposure, manifestation , ocular proof, ocular evidence, ocular demonstration, field of view  , periscopism

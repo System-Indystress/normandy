@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FLATTERY where 
+module Language.Thesaurus.RogetLite.Flattery where 
 import Language.Thesaurus
 flattery :: ThProg
 flattery = [thesaurus|
-# SENTIMENT
-## FLATTERY
+# Sentiment
+## Flattery
 noun:
 * flattery
  adulation, gloze, blandishment, blandiloquence, cajolery, fawning, wheedling, captation, coquetry, obsequiousness, sycophancy, flunkeyism, toadeating, tuft-hunting, snobbishness

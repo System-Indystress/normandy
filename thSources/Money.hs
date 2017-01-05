@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MONEY where 
+module Language.Thesaurus.RogetLite.Money where 
 import Language.Thesaurus
 money :: ThProg
 money = [thesaurus|
-# VOLITION
-## MONEY
+# Volition
+## Money
 noun:
 * money matters
  money market, finance, accounts , funds, treasure, capital, stock, assets  , wealth , supplies, ways and means, wherewithal, sinews of war, almighty dollar, needful, cash

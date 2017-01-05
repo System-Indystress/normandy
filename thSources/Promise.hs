@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROMISE where 
+module Language.Thesaurus.RogetLite.Promise where 
 import Language.Thesaurus
 promise :: ThProg
 promise = [thesaurus|
-# VOLITION
-## PROMISE
+# Volition
+## Promise
 noun:
 * promise
  undertaking, word, troth, plight, pledge, parole, word of honor, vow, oath  , profession, assurance, warranty, guarantee, insurance, obligation, contract , stipulation

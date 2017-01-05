@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSERTION where 
+module Language.Thesaurus.RogetLite.Insertion where 
 import Language.Thesaurus
 insertion :: ThProg
 insertion = [thesaurus|
-# SPACE
-## INSERTION
+# Space
+## Insertion
 noun:
 * insertion
  implantation, introduction, insinuation  , planting, injection, inoculation, importation, infusion, forcible ingress , immersion, submersion, submergence, dip, plunge, bath , , interment 

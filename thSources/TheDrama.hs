@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.THEDRAMA where 
+module Language.Thesaurus.RogetLite.Thedrama where 
 import Language.Thesaurus
 thedrama :: ThProg
 thedrama = [thesaurus|
-# IDEAS
-## THEDRAMA
+# Ideas
+## Thedrama
 noun:
 * the drama
  the stage, the theater, the play, film, the film, movies, motion pictures, cinema, cinematography, theatricals, dramaturgy, histrionic art, buskin, sock, cothurnus, Melpomene and Thalia, Thespis

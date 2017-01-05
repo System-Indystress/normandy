@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CIRCUMJACENCE where 
+module Language.Thesaurus.RogetLite.Circumjacence where 
 import Language.Thesaurus
 circumjacence :: ThProg
 circumjacence = [thesaurus|
-# SPACE
-## CIRCUMJACENCE
+# Space
+## Circumjacence
 noun:
 * circumjacence
  circumambience, environment, encompassment, atmosphere, medium, surroundings

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SOLILOQUY where 
+module Language.Thesaurus.RogetLite.Soliloquy where 
 import Language.Thesaurus
 soliloquy :: ThProg
 soliloquy = [thesaurus|
-# IDEAS
-## SOLILOQUY
+# Ideas
+## Soliloquy
 noun:
 * soliloquy
  monologue, apostrophe, monology

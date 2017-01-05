@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SALUBRITY where 
+module Language.Thesaurus.RogetLite.Salubrity where 
 import Language.Thesaurus
 salubrity :: ThProg
 salubrity = [thesaurus|
-# VOLITION
-## SALUBRITY
+# Volition
+## Salubrity
 noun:
 * salubrity
  healthiness. fine air, fine climate, eudiometer

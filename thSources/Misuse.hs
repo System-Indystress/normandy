@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MISUSE where 
+module Language.Thesaurus.RogetLite.Misuse where 
 import Language.Thesaurus
 misuse :: ThProg
 misuse = [thesaurus|
-# VOLITION
-## MISUSE
+# Volition
+## Misuse
 noun:
 * misuse
  misusage, misemployment, misapplication, misappropriation

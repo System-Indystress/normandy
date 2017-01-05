@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISTORTION where 
+module Language.Thesaurus.RogetLite.Distortion where 
 import Language.Thesaurus
 distortion :: ThProg
 distortion = [thesaurus|
-# SPACE
-## DISTORTION
+# Space
+## Distortion
 noun:
 * distortion
  detortion, contortion, twist, crookedness  , grimace, deformity, malformation, malconformation, harelip, monstrosity, misproportion, want of symmetry, anamorphosis, ugliness , talipes, teratology

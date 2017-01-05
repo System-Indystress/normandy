@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNIMPORTANCE where 
+module Language.Thesaurus.RogetLite.Unimportance where 
 import Language.Thesaurus
 unimportance :: ThProg
 unimportance = [thesaurus|
-# VOLITION
-## UNIMPORTANCE
+# Volition
+## Unimportance
 noun:
 * unimportance
  insignificance, nothingness, immateriality

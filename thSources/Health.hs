@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HEALTH where 
+module Language.Thesaurus.RogetLite.Health where 
 import Language.Thesaurus
 health :: ThProg
 health = [thesaurus|
-# VOLITION
-## HEALTH
+# Volition
+## Health
 noun:
 * health
  sanity, soundness, vigor, good health, perfect health, excellent health, rude health, robust health, bloom, mens sana in corpore sano, Hygeia, incorruption, incorruptibility, good state of health, clean bill of health, eupepsia, euphoria, euphory, St. Anthony's fire

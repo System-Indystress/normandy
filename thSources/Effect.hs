@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EFFECT where 
+module Language.Thesaurus.RogetLite.Effect where 
 import Language.Thesaurus
 effect :: ThProg
 effect = [thesaurus|
-# RELATION
-## EFFECT
+# Relation
+## Effect
 noun:
 * effect
  consequence, aftergrowth, aftercome, derivative, derivation, result, resultant, resultance, upshot, issue, denouement, end , development, outgrowth, fruit, crop, harvest, product, bud

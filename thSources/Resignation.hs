@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESIGNATION where 
+module Language.Thesaurus.RogetLite.Resignation where 
 import Language.Thesaurus
 resignation :: ThProg
 resignation = [thesaurus|
-# VOLITION
-## RESIGNATION
+# Volition
+## Resignation
 noun:
 * resignation
  retirement, abdication, renunciation, abjuration, abandonment, relinquishment

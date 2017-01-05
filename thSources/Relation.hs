@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RELATION where 
+module Language.Thesaurus.RogetLite.Relation where 
 import Language.Thesaurus
 relation :: ThProg
 relation = [thesaurus|
-# RELATION
-## RELATION
+# Relation
+## Relation
 noun:
 * relation
  bearing, reference, connection, concern, cognation, correlation , analogy, similarity , affinity, homology, alliance, homogeneity, association, approximation  , filiation  , interest, relevancy , dependency, relationship, relative position

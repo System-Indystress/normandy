@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPLETION where 
+module Language.Thesaurus.RogetLite.Completion where 
 import Language.Thesaurus
 completion :: ThProg
 completion = [thesaurus|
-# VOLITION
-## COMPLETION
+# Volition
+## Completion
 noun:
 * completion
  accomplishment, achievement, fulfillment, performance, execution, despatch, dispatch, consummation, culmination, finish, conclusion, close  , terminus  , winding up, finale, denouement, catastrophe, issue, upshot, result, final touch, last touch, crowning touch, finishing touch, finishing stroke, last finish, coup de grace, crowning of the edifice, coping-stone, keystone, missing link , superstructure, ne plus ultra, work done, fait accompli

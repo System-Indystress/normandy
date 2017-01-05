@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONSANGUINITY where 
+module Language.Thesaurus.RogetLite.Consanguinity where 
 import Language.Thesaurus
 consanguinity :: ThProg
 consanguinity = [thesaurus|
-# RELATION
-## CONSANGUINITY
+# Relation
+## Consanguinity
 noun:
 * consanguinity
  relationship, kindred, blood, parentage  , filiation, affiliation, lineage, agnation, connection, alliance, family connection, family tie, ties of blood, nepotism

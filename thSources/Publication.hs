@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PUBLICATION where 
+module Language.Thesaurus.RogetLite.Publication where 
 import Language.Thesaurus
 publication :: ThProg
 publication = [thesaurus|
-# IDEAS
-## PUBLICATION
+# Ideas
+## Publication
 noun:
 * publication
  public announcement , promulgation, propagation, proclamation, pronunziamento , circulation, indiction, edition, hue and cry

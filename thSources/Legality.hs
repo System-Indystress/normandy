@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LEGALITY where 
+module Language.Thesaurus.RogetLite.Legality where 
 import Language.Thesaurus
 legality :: ThProg
 legality = [thesaurus|
-# SENTIMENT
-## LEGALITY
+# Sentiment
+## Legality
 noun:
 * legality
  legitimacy, legitimateness

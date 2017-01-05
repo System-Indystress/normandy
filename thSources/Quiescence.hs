@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.QUIESCENCE where 
+module Language.Thesaurus.RogetLite.Quiescence where 
 import Language.Thesaurus
 quiescence :: ThProg
 quiescence = [thesaurus|
-# SPACE
-## QUIESCENCE
+# Space
+## Quiescence
 noun:
 * quiescence
  rest, stillness, stagnation, stagnancy, fixity, immobility, catalepsy, indisturbance, quietism

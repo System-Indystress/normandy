@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OSTENTATION where 
+module Language.Thesaurus.RogetLite.Ostentation where 
 import Language.Thesaurus
 ostentation :: ThProg
 ostentation = [thesaurus|
-# SENTIMENT
-## OSTENTATION
+# Sentiment
+## Ostentation
 noun:
 * ostentation
  display, show, flourish, parade, etalage, pomp, array, state, solemnity, dash, splash, splurge, glitter, strut, pomposity, pretense, pretensions, showing off, fuss

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OVERESTIMATION where 
+module Language.Thesaurus.RogetLite.Overestimation where 
 import Language.Thesaurus
 overestimation :: ThProg
 overestimation = [thesaurus|
-# IDEAS
-## OVERESTIMATION
+# Ideas
+## Overestimation
 noun:
 * overestimation
  exaggeration , vanity , optimism, pessimism, pessimist

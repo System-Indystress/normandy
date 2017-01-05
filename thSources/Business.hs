@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BUSINESS where 
+module Language.Thesaurus.RogetLite.Business where 
 import Language.Thesaurus
 business :: ThProg
 business = [thesaurus|
-# VOLITION
-## BUSINESS
+# Volition
+## Business
 noun:
 * business
  occupation, employment, pursuit , what one is doing, what one is about, affair, concern, matter, case

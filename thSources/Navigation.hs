@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NAVIGATION where 
+module Language.Thesaurus.RogetLite.Navigation where 
 import Language.Thesaurus
 navigation :: ThProg
 navigation = [thesaurus|
-# SPACE
-## NAVIGATION
+# Space
+## Navigation
 noun:
 * navigation
  aquatics, boating, yachting, ship , oar, paddle, screw, sail, canvas, aileron

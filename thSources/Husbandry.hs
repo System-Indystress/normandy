@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HUSBANDRY where 
+module Language.Thesaurus.RogetLite.Husbandry where 
 import Language.Thesaurus
 husbandry :: ThProg
 husbandry = [thesaurus|
-# MATTER
-## HUSBANDRY
+# Matter
+## Husbandry
 noun:
 * husbandry
  taming, circuration, zoohygiantics, domestication, domesticity, manege, veterinary art, farriery, breeding, pisciculture

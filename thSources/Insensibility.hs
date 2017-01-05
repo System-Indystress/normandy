@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSENSIBILITY where 
+module Language.Thesaurus.RogetLite.Insensibility where 
 import Language.Thesaurus
 insensibility :: ThProg
 insensibility = [thesaurus|
-# SENTIMENT
-## INSENSIBILITY
+# Sentiment
+## Insensibility
 noun:
 * insensibility
  insensibleness, moral insensibility, inertness, inertia, vis inertiae, impassiblity, impassiblenesss, inappetency, apathy, phlegm, dullness, hebetude, supineness, lukewarmness

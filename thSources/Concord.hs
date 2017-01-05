@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONCORD where 
+module Language.Thesaurus.RogetLite.Concord where 
 import Language.Thesaurus
 concord :: ThProg
 concord = [thesaurus|
-# VOLITION
-## CONCORD
+# Volition
+## Concord
 noun:
 * concord
  accord, harmony, symphony, homologue, agreement , sympathy  , response, union, unison, unity, bonds of harmony, peace , unanimity  , league , happy family

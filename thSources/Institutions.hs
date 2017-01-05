@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSTITUTIONS where 
+module Language.Thesaurus.RogetLite.Institutions where 
 import Language.Thesaurus
 institutions :: ThProg
 institutions = [thesaurus|
-# SENTIMENT
-## INSTITUTIONS
+# Sentiment
+## Institutions
 noun:
 * lawlessness
  illicitness, breach of law, violation of law, disobedience , unconformity 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VARIATION where 
+module Language.Thesaurus.RogetLite.Variation where 
 import Language.Thesaurus
 variation :: ThProg
 variation = [thesaurus|
-# RELATION
-## VARIATION
+# Relation
+## Variation
 noun:
 * variation
  alteration.  , modification, moods and tenses, discrepance, discrepancy, divergency , deviation , aberration, innovation

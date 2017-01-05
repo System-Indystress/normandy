@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SCULPTURE where 
+module Language.Thesaurus.RogetLite.Sculpture where 
 import Language.Thesaurus
 sculpture :: ThProg
 sculpture = [thesaurus|
-# IDEAS
-## SCULPTURE
+# Ideas
+## Sculpture
 noun:
 * sculpture
  insculpture, carving, statuary

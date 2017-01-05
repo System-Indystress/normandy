@@ -1,8 +1,9 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.Acquisition
 (acquisition
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
 acquisition :: ThProg
 acquisition = [thesaurus|

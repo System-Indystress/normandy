@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COWARDICE where 
+module Language.Thesaurus.RogetLite.Cowardice where 
 import Language.Thesaurus
 cowardice :: ThProg
 cowardice = [thesaurus|
-# SENTIMENT
-## COWARDICE
+# Sentiment
+## Cowardice
 noun:
 * cowardice
  pusillanimity, cowardliness, timidity, effeminacy

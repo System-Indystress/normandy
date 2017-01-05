@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HEAT where 
+module Language.Thesaurus.RogetLite.Heat where 
 import Language.Thesaurus
 heat :: ThProg
 heat = [thesaurus|
-# MATTER
-## HEAT
+# Matter
+## Heat
 noun:
 * heat
  caloric, temperature, warmth, fervor, calidity, incalescence, incandescence, glow, flush, fever, hectic

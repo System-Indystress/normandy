@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SERVANT where 
+module Language.Thesaurus.RogetLite.Servant where 
 import Language.Thesaurus
 servant :: ThProg
 servant = [thesaurus|
-# VOLITION
-## SERVANT
+# Volition
+## Servant
 noun:
 * subject
  liegeman, servant, retainer, follower, henchman, servitor, domestic, menial, help, lady help, employe, employee, attache, official

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MEANS where 
+module Language.Thesaurus.RogetLite.Means where 
 import Language.Thesaurus
 means :: ThProg
 means = [thesaurus|
-# VOLITION
-## MEANS
+# Volition
+## Means
 noun:
 * means
  resources, wherewithal, ways and means, capital  , revenue, stock in trade , provision , a shot in the locker, appliances  , means and appliances, conveniences, cards to play, expedients  , two strings to one's bow, sheet anchor  , aid , medium .

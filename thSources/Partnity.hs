@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PARTNITY where 
+module Language.Thesaurus.RogetLite.Partnity where 
 import Language.Thesaurus
 partnity :: ThProg
 partnity = [thesaurus|
-# RELATION
-## PARTNITY
+# Relation
+## Partnity
 noun:
 * paternity
  parentage, consanguinity 

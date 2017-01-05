@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BOOK where 
+module Language.Thesaurus.RogetLite.Book where 
 import Language.Thesaurus
 book :: ThProg
 book = [thesaurus|
-# IDEAS
-## BOOK
+# Ideas
+## Book
 noun:
 * booklet
  writing, work, volume, tome, opuscule, tract, tractate, livret, brochure, libretto, handbook, codex, manual, pamphlet, enchiridion, circular, publication, chap book

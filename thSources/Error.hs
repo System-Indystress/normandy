@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ERROR where 
+module Language.Thesaurus.RogetLite.Error where 
 import Language.Thesaurus
 error :: ThProg
 error = [thesaurus|
-# IDEAS
-## ERROR
+# Ideas
+## Error
 noun:
 * error
  fallacy, misconception, misapprehension, misstanding, misunderstanding, inexactness, laxity, misconstruction  , miscomputation  , non sequitur , misstatement, misreport, mumpsimus

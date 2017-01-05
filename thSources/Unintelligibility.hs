@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNINTELLIGIBILITY where 
+module Language.Thesaurus.RogetLite.Unintelligibility where 
 import Language.Thesaurus
 unintelligibility :: ThProg
 unintelligibility = [thesaurus|
-# IDEAS
-## UNINTELLIGIBILITY
+# Ideas
+## Unintelligibility
 noun:
 * unintelligibility
  incomprehensibility, imperspicuity, inconceivableness, vagueness, obscurity, ambiguity , doubtful meaning, uncertainty , perplexity  , spinosity, obscurum per obscurius, mystification  , latency , transcendentalism

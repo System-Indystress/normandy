@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCORDNESS where 
+module Language.Thesaurus.RogetLite.Discordness where 
 import Language.Thesaurus
 discordness :: ThProg
 discordness = [thesaurus|
-# VOLITION
-## DISCORDNESS
+# Volition
+## Discordness
 noun:
 * disagreement 
  discord, disaccord, dissidence, dissonance, jar, clash, shock, jarring, jostling, screw loose

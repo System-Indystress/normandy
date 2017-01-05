@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HORIZONTALLY where 
+module Language.Thesaurus.RogetLite.Horizontally where 
 import Language.Thesaurus
 horizontally :: ThProg
 horizontally = [thesaurus|
-# SPACE
-## HORIZONTALLY
+# Space
+## Horizontally
 noun:
 * horizontality
  flatness, level, plane, stratum , dead level, dead flat, level plane

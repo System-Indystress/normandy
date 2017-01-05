@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTERPRETER where 
+module Language.Thesaurus.RogetLite.Interpreter where 
 import Language.Thesaurus
 interpreter :: ThProg
 interpreter = [thesaurus|
-# IDEAS
-## INTERPRETER
+# Ideas
+## Interpreter
 noun:
 * interpreter
  expositor, expounder, exponent, explainer, demonstrator

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IRASCIBILITY where 
+module Language.Thesaurus.RogetLite.Irascibility where 
 import Language.Thesaurus
 irascibility :: ThProg
 irascibility = [thesaurus|
-# SENTIMENT
-## IRASCIBILITY
+# Sentiment
+## Irascibility
 noun:
 * irascibility
  irascibleness, temper, crossness, susceptibility, procacity, petulance, irritability, tartness, acerbity, protervity, pugnacity  

@@ -1,8 +1,9 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.Accompaniment
 (accompaniment
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
 accompaniment :: ThProg
 accompaniment = [thesaurus|

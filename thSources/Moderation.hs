@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MODERATION where 
+module Language.Thesaurus.RogetLite.Moderation where 
 import Language.Thesaurus
 moderation :: ThProg
 moderation = [thesaurus|
-# RELATION
-## MODERATION
+# Relation
+## Moderation
 noun:
 * moderation
  lenity , temperateness, gentleness, sobriety, quiet, mental calmness  

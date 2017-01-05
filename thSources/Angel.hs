@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ANGEL where 
+module Language.Thesaurus.RogetLite.Angel where 
 import Language.Thesaurus
 angel :: ThProg
 angel = [thesaurus|
-# SENTIMENT
-## ANGEL
+# Sentiment
+## Angel
 noun:
 * angel
  archangel, guardian angel, heavenly host, host of heaven, sons of God, seraph, seraphim, cherub, cherubim

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CELIBACY where 
+module Language.Thesaurus.RogetLite.Celibacy where 
 import Language.Thesaurus
 celibacy :: ThProg
 celibacy = [thesaurus|
-# SENTIMENT
-## CELIBACY
+# Sentiment
+## Celibacy
 noun:
 * celibacy
  singleness, single blessedness, bachelorhood, bachelorship, misogamy, misogyny

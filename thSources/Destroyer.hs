@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DESTROYER where 
+module Language.Thesaurus.RogetLite.Destroyer where 
 import Language.Thesaurus
 destroyer :: ThProg
 destroyer = [thesaurus|
-# RELATION
-## DESTROYER
+# Relation
+## Destroyer
 noun:
 * destroyer 
  cankerworm  , assassin  , executioner  , biblioclast, eidoloclast, iconoclast, idoloclast, nihilist

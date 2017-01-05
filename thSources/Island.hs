@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ISLAND where 
+module Language.Thesaurus.RogetLite.Island where 
 import Language.Thesaurus
 island :: ThProg
 island = [thesaurus|
-# MATTER
-## ISLAND
+# Matter
+## Island
 noun:
 * island
  isle, islet, eyot, ait, holf, reef, atoll, breaker, archipelago, islander

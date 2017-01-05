@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SCHOOL where 
+module Language.Thesaurus.RogetLite.School where 
 import Language.Thesaurus
 school :: ThProg
 school = [thesaurus|
-# IDEAS
-## SCHOOL
+# Ideas
+## School
 noun:
 * school
  academy, university, alma mater, college, seminary, Lyceum, institute, institution, palaestra, Gymnasium, class, seminar

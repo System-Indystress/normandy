@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CELEBRATION where 
+module Language.Thesaurus.RogetLite.Celebration where 
 import Language.Thesaurus
 celebration :: ThProg
 celebration = [thesaurus|
-# SENTIMENT
-## CELEBRATION
+# Sentiment
+## Celebration
 noun:
 * celebration
  solemnization, jubilee, commemoration, ovation, paean, triumph, jubilation, china anniversary, diamond anniversary, golden anniversary, silver anniversary, tin anniversary, china jubilee, diamond jubilee, golden jubilee, silver jubilee, tin jubilee, china wedding, diamond wedding, golden wedding, silver wedding, tin wedding

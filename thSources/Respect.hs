@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESPECT where 
+module Language.Thesaurus.RogetLite.Respect where 
 import Language.Thesaurus
 respect :: ThProg
 respect = [thesaurus|
-# SENTIMENT
-## RESPECT
+# Sentiment
+## Respect
 noun:
 * respect
  regard, consideration, courtesy , attention, deference, reverence, honor, esteem, estimation, veneration, admiration, approbation 

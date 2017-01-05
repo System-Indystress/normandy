@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.KNAVE where 
+module Language.Thesaurus.RogetLite.Knave where 
 import Language.Thesaurus
 knave :: ThProg
 knave = [thesaurus|
-# SENTIMENT
-## KNAVE
+# Sentiment
+## Knave
 noun:
 * knave
  rogue, Scapin, rascal, Lazarillo de Tormes, bad man , blackguard , barrater, barrator, shyster 

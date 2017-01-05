@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRESERVATION where 
+module Language.Thesaurus.RogetLite.Preservation where 
 import Language.Thesaurus
 preservation :: ThProg
 preservation = [thesaurus|
-# VOLITION
-## PRESERVATION
+# Volition
+## Preservation
 noun:
 * preservation
  safe-keeping, conservation  , maintenance, support, susteritation, conservatism, vis conservatrix, salvation  

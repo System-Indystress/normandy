@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GUILT where 
+module Language.Thesaurus.RogetLite.Guilt where 
 import Language.Thesaurus
 guilt :: ThProg
 guilt = [thesaurus|
-# SENTIMENT
-## GUILT
+# Sentiment
+## Guilt
 noun:
 * guilt
  guiltiness, culpability, criminality, criminousness, deviation from rectitude  , sinfulness  

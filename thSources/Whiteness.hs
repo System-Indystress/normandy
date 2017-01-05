@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WHITENESS where 
+module Language.Thesaurus.RogetLite.Whiteness where 
 import Language.Thesaurus
 whiteness :: ThProg
 whiteness = [thesaurus|
-# MATTER
-## WHITENESS
+# Matter
+## Whiteness
 noun:
 * whiteness
  argent. albification, etiolation, lactescence

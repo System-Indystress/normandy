@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INFLUENCE where 
+module Language.Thesaurus.RogetLite.Influence where 
 import Language.Thesaurus
 influence :: ThProg
 influence = [thesaurus|
-# RELATION
-## INFLUENCE
+# Relation
+## Influence
 noun:
 * influence
  importance , weight, pressure, preponderance, prevalence, sway, predominance, predominancy, ascendency, dominance, reign, control, domination, pull, authority , capability  , effect , interest

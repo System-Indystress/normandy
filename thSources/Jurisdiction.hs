@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.JURISDICTION where 
+module Language.Thesaurus.RogetLite.Jurisdiction where 
 import Language.Thesaurus
 jurisdiction :: ThProg
 jurisdiction = [thesaurus|
-# SENTIMENT
-## JURISDICTION
+# Sentiment
+## Jurisdiction
 noun:
 * jurisdiction
  judicature, administration of justice, soc, executive, commission of the peace, magistracy  

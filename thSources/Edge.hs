@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EDGE where 
+module Language.Thesaurus.RogetLite.Edge where 
 import Language.Thesaurus
 edge :: ThProg
 edge = [thesaurus|
-# SPACE
-## EDGE
+# Space
+## Edge
 noun:
 * edge
  verge, brink, brow, brim, margin, border, confine, skirt, rim, flange, side, mouth, jaws, chops, chaps, fauces, lip, muzzle

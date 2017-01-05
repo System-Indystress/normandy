@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SANITY where 
+module Language.Thesaurus.RogetLite.Sanity where 
 import Language.Thesaurus
 sanity :: ThProg
 sanity = [thesaurus|
-# IDEAS
-## SANITY
+# Ideas
+## Sanity
 noun:
 * sanity
  soundness, rationality, sobriety, lucidity, lucid interval, senses, sober senses, sound mind, mens sana

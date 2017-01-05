@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INTRINSICALITY where 
+module Language.Thesaurus.RogetLite.Intrinsicality where 
 import Language.Thesaurus
 intrinsicality :: ThProg
 intrinsicality = [thesaurus|
-# RELATION
-## INTRINSICALITY
+# Relation
+## Intrinsicality
 noun:
 * intrinsicality
  inbeing, inherence, inhesion, subjectiveness, ego, egohood, essence, essentialness, essential part, quintessence, incarnation, quiddity, gist, pith, marrow, core, sap, lifeblood, backbone, heart, soul, important part.  

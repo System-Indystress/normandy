@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BENEVOLENCE where 
+module Language.Thesaurus.RogetLite.Benevolence where 
 import Language.Thesaurus
 benevolence :: ThProg
 benevolence = [thesaurus|
-# SENTIMENT
-## BENEVOLENCE
+# Sentiment
+## Benevolence
 noun:
 * benevolence
  Christian charity, God's love, God's grace, good will, philanthropy , unselfishness 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PHYSICALINERTNESS where 
+module Language.Thesaurus.RogetLite.Physicalinertness where 
 import Language.Thesaurus
 physicalinertness :: ThProg
 physicalinertness = [thesaurus|
-# MATTER
-## PHYSICALINERTNESS
+# Matter
+## Physicalinertness
 noun:
 * inertness
  dullness, inertia, vis inertioe, inertion, inactivity, torpor, languor, quiescence , latency, inaction, passivity

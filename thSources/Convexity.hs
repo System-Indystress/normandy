@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONVEXITY where 
+module Language.Thesaurus.RogetLite.Convexity where 
 import Language.Thesaurus
 convexity :: ThProg
 convexity = [thesaurus|
-# SPACE
-## CONVEXITY
+# Space
+## Convexity
 noun:
 * convexity
  prominence, projection, swelling, gibbosity, bilge, bulge, protuberance, protrusion, camber, cahot, thank-ye-ma'am , swell

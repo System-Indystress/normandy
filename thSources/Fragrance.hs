@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FRAGRANCE where 
+module Language.Thesaurus.RogetLite.Fragrance where 
 import Language.Thesaurus
 fragrance :: ThProg
 fragrance = [thesaurus|
-# MATTER
-## FRAGRANCE
+# Matter
+## Fragrance
 noun:
 * fragrance
  aroma, redolence, perfume, bouquet, sweet smell, aromatic perfume

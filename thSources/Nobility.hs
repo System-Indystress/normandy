@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.NOBILITY where 
+module Language.Thesaurus.RogetLite.Nobility where 
 import Language.Thesaurus
 nobility :: ThProg
 nobility = [thesaurus|
-# SENTIMENT
-## NOBILITY
+# Sentiment
+## Nobility
 noun:
 * nobility
  rank, condition, distinction, optimacy, blood, pur sang, birth, high descent, order, quality, gentility, blue blood of Castile, ancien regime

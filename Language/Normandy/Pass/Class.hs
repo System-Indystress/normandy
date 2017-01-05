@@ -1,7 +1,8 @@
 module Language.Normandy.Pass.Class where
 
 import Language.Normandy.Free (Story)
-import Data.Free
+import Control.Monad.Free
+import Data.Text (Text(..))
 class Pass a where
   pass :: a -> Story Text -> Story Text
 

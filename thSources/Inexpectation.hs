@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INEXPECTATION where 
+module Language.Thesaurus.RogetLite.Inexpectation where 
 import Language.Thesaurus
 inexpectation :: ThProg
 inexpectation = [thesaurus|
-# IDEAS
-## INEXPECTATION
+# Ideas
+## Inexpectation
 noun:
 * inexpectation
  non-expectation, false expectation  , miscalculation 

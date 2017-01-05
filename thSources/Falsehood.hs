@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FALSEHOOD where 
+module Language.Thesaurus.RogetLite.Falsehood where 
 import Language.Thesaurus
 falsehood :: ThProg
 falsehood = [thesaurus|
-# IDEAS
-## FALSEHOOD
+# Ideas
+## Falsehood
 noun:
 * falsehood
  falseness, falsity, falsification, deception , untruth , guile, lying , untruth , guile, lying misrepresentation, mendacity, perjury, false swearing, forgery, invention, fabrication, subreption, covin

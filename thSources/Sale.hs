@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SALE where 
+module Language.Thesaurus.RogetLite.Sale where 
 import Language.Thesaurus
 sale :: ThProg
 sale = [thesaurus|
-# VOLITION
-## SALE
+# Volition
+## Sale
 noun:
 * sale
  vent, disposal, auction, roup, Dutch auction, outcry, vendue, custom  

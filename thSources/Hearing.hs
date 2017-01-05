@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HEARING where 
+module Language.Thesaurus.RogetLite.Hearing where 
 import Language.Thesaurus
 hearing :: ThProg
 hearing = [thesaurus|
-# MATTER
-## HEARING
+# Matter
+## Hearing
 noun:
 * hearing
  audition, auscultation, eavesdropping, audibility

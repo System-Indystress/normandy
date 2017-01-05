@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SEMILIQUIDITY where 
+module Language.Thesaurus.RogetLite.Semiliquidity where 
 import Language.Thesaurus
 semiliquidity :: ThProg
 semiliquidity = [thesaurus|
-# MATTER
-## SEMILIQUIDITY
+# Matter
+## Semiliquidity
 noun:
 * semiliquidity
  stickiness, viscidity, viscosity, gummosity, glutinosity, mucosity, spissitude, crassitude, lentor, adhesiveness  

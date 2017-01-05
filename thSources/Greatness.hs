@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GREATNESS where 
+module Language.Thesaurus.RogetLite.Greatness where 
 import Language.Thesaurus
 greatness :: ThProg
 greatness = [thesaurus|
-# RELATION
-## GREATNESS
+# Relation
+## Greatness
 noun:
 * greatness
  magnitude, size  , multitude  , immensity, enormity, infinity , might, strength, intensity, fullness, importance 

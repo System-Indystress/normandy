@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESOLUTION where 
+module Language.Thesaurus.RogetLite.Resolution where 
 import Language.Thesaurus
 resolution :: ThProg
 resolution = [thesaurus|
-# VOLITION
-## RESOLUTION
+# Volition
+## Resolution
 noun:
 * determination
  will, iron will, unconquerable will, will of one's own, decision, resolution, backbone, clear grit, true grit, grit , sand, strength of mind, strength of will, resolve  , firmness  , energy, manliness, vigor, game, pluck, resoluteness  , zeal , aplomb, desperation, devotion, devotedness

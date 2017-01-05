@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OBLIVION where 
+module Language.Thesaurus.RogetLite.Oblivion where 
 import Language.Thesaurus
 oblivion :: ThProg
 oblivion = [thesaurus|
-# IDEAS
-## OBLIVION
+# Ideas
+## Oblivion
 noun:
 * oblivion
  obliviousness, lethe, forgetfulness, obliteration of , insensibility to the past 

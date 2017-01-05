@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MEANING where 
+module Language.Thesaurus.RogetLite.Meaning where 
 import Language.Thesaurus
 meaning :: ThProg
 meaning = [thesaurus|
-# IDEAS
-## MEANING
+# Ideas
+## Meaning
 noun:
 * meaning
  signification, significance, sense, expression, import, purport, force, drift, tenor, spirit, bearing, coloring, scope

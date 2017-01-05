@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMMAND where 
+module Language.Thesaurus.RogetLite.Command where 
 import Language.Thesaurus
 command :: ThProg
 command = [thesaurus|
-# VOLITION
-## COMMAND
+# Volition
+## Command
 noun:
 * command
  order, ordinance, act, fiat, hukm, bidding, dictum, hest, behest, call, beck, nod

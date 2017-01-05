@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LEARNING where 
+module Language.Thesaurus.RogetLite.Learning where 
 import Language.Thesaurus
 learning :: ThProg
 learning = [thesaurus|
-# IDEAS
-## LEARNING
+# Ideas
+## Learning
 noun:
 * learning
  acquisition of knowledge , acquisition of skill , acquirement, attainment, edification, scholarship, erudition, acquired knowledge, lore, wide information, self- instruction, study, reading, perusal, inquiry 

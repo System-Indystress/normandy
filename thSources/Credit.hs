@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CREDIT where 
+module Language.Thesaurus.RogetLite.Credit where 
 import Language.Thesaurus
 credit :: ThProg
 credit = [thesaurus|
-# VOLITION
-## CREDIT
+# Volition
+## Credit
 noun:
 * credit
  trust, tick, score, tally, account

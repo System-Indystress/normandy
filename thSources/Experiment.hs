@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXPERIMENT where 
+module Language.Thesaurus.RogetLite.Experiment where 
 import Language.Thesaurus
 experiment :: ThProg
 experiment = [thesaurus|
-# IDEAS
-## EXPERIMENT
+# Ideas
+## Experiment
 noun:
 * experiment
  essay  , analysis  , trial, tentative method, tatonnement

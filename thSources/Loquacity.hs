@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LOQUACITY where 
+module Language.Thesaurus.RogetLite.Loquacity where 
 import Language.Thesaurus
 loquacity :: ThProg
 loquacity = [thesaurus|
-# IDEAS
-## LOQUACITY
+# Ideas
+## Loquacity
 noun:
 * loquacity
  loquaciousness, talkativeness, garrulity, multiloquence, much speaking. jaw, gabble, jabber, chatter, prate, prattle, cackle, clack, twaddle, twattle, rattle, caquet, caquetterie, blabber, bavardage, bibble-babble, gibble-gabble, small talk  

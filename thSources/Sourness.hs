@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SOURNESS where 
+module Language.Thesaurus.RogetLite.Sourness where 
 import Language.Thesaurus
 sourness :: ThProg
 sourness = [thesaurus|
-# MATTER
-## SOURNESS
+# Matter
+## Sourness
 noun:
 * sourness
  acid, acidity, acetous fermentation

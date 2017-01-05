@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PLAN where 
+module Language.Thesaurus.RogetLite.Plan where 
 import Language.Thesaurus
 plan :: ThProg
 plan = [thesaurus|
-# VOLITION
-## PLAN
+# Volition
+## Plan
 noun:
 * plan
  scheme, design, project, proposal, proposition, suggestion, resolution, motion, precaution  , deep-laid plan  ,

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ELEGANCE where 
+module Language.Thesaurus.RogetLite.Elegance where 
 import Language.Thesaurus
 elegance :: ThProg
 elegance = [thesaurus|
-# IDEAS
-## ELEGANCE
+# Ideas
+## Elegance
 noun:
 * elegance
  purity, grace, ease, gracefulness, readiness, concinnity, euphony, numerosity, Atticism, classicalism, classicism

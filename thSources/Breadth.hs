@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BREADTH where 
+module Language.Thesaurus.RogetLite.Breadth where 
 import Language.Thesaurus
 breadth :: ThProg
 breadth = [thesaurus|
-# SPACE
-## BREADTH
+# Space
+## Breadth
 noun:
 * breadth
  width, latitude, amplitude, diameter, bore, caliber, radius, superficial extent  

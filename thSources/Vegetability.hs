@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VEGETABILITY where 
+module Language.Thesaurus.RogetLite.Vegetability where 
 import Language.Thesaurus
 vegetability :: ThProg
 vegetability = [thesaurus|
-# MATTER
-## VEGETABILITY
+# Matter
+## Vegetability
 noun:
 * vegetable life
  vegetation, vegetability, vegetality

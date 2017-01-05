@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SATIETY where 
+module Language.Thesaurus.RogetLite.Satiety where 
 import Language.Thesaurus
 satiety :: ThProg
 satiety = [thesaurus|
-# SENTIMENT
-## SATIETY
+# Sentiment
+## Satiety
 noun:
 * satiety
  satisfaction, saturation, repletion, glut, surfeit, cloyment, satiation, weariness 

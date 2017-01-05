@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RESISTANCE where 
+module Language.Thesaurus.RogetLite.Resistance where 
 import Language.Thesaurus
 resistance :: ThProg
 resistance = [thesaurus|
-# VOLITION
-## RESISTANCE
+# Volition
+## Resistance
 noun:
 * resistance
  stand, front, oppugnation, oppugnancy, opposition , renitence, renitency, reluctation, recalcitration, kicking

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DESTINY where 
+module Language.Thesaurus.RogetLite.Destiny where 
 import Language.Thesaurus
 destiny :: ThProg
 destiny = [thesaurus|
-# RELATION
-## DESTINY
+# Relation
+## Destiny
 noun:
 * destiny  
  future existence, post existence, hereafter, future state, next world, world to come, after life, futurity , everlasting life, everlasting death, life beyond the grave, world beyond the grave, prospect  

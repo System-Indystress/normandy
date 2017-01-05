@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CENTRALITY where 
+module Language.Thesaurus.RogetLite.Centrality where 
 import Language.Thesaurus
 centrality :: ThProg
 centrality = [thesaurus|
-# SPACE
-## CENTRALITY
+# Space
+## Centrality
 noun:
 * centrality
  centricalness, center, middle , focus 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PURPLE where 
+module Language.Thesaurus.RogetLite.Purple where 
 import Language.Thesaurus
 purple :: ThProg
 purple = [thesaurus|
-# MATTER
-## PURPLE
+# Matter
+## Purple
 noun:
 * purple
  blue and red, bishop's purple, aniline dyes, gridelin, amethyst, purpure, heliotrope

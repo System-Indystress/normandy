@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCRIMINATION where 
+module Language.Thesaurus.RogetLite.Discrimination where 
 import Language.Thesaurus
 discrimination :: ThProg
 discrimination = [thesaurus|
-# IDEAS
-## DISCRIMINATION
+# Ideas
+## Discrimination
 noun:
 * discrimination
  distinction, differentiation, diagnosis, diorism, nice perception, perception of difference, appreciation of difference, estimation , nicety, refinement, taste , critique, judgment, tact, discernment  , acuteness, penetration, nuances

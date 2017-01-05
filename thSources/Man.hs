@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MAN where 
+module Language.Thesaurus.RogetLite.Man where 
 import Language.Thesaurus
 man :: ThProg
 man = [thesaurus|
-# MATTER
-## MAN
+# Matter
+## Man
 noun:
 * man
  male, he, him, manhood  , gentleman, sir, master, sahib, yeoman, wight, swain, fellow, blade, beau, elf, chap, gaffer, good man, husband  , Mr., mister, boy  

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ROTUNDITY where 
+module Language.Thesaurus.RogetLite.Rotundity where 
 import Language.Thesaurus
 rotundity :: ThProg
 rotundity = [thesaurus|
-# SPACE
-## ROTUNDITY
+# Space
+## Rotundity
 noun:
 * rotundity
  roundness, cylindricity, sphericity, spheroidity, globosity

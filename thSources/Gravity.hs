@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GRAVITY where 
+module Language.Thesaurus.RogetLite.Gravity where 
 import Language.Thesaurus
 gravity :: ThProg
 gravity = [thesaurus|
-# MATTER
-## GRAVITY
+# Matter
+## Gravity
 noun:
 * gravity
  gravitation, weight, heaviness, specific gravity, pondorosity, pressure, load, burden, burthen, ballast, counterpoise, lump of, mass of, weight of

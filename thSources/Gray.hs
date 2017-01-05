@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GRAY where 
+module Language.Thesaurus.RogetLite.Gray where 
 import Language.Thesaurus
 gray :: ThProg
 gray = [thesaurus|
-# MATTER
-## GRAY
+# Matter
+## Gray
 noun:
 * gray
  neutral tint, silver, pepper and salt, chiaroscuro, grisaille

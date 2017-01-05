@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONSIGNEE where 
+module Language.Thesaurus.RogetLite.Consignee where 
 import Language.Thesaurus
 consignee :: ThProg
 consignee = [thesaurus|
-# VOLITION
-## CONSIGNEE
+# Volition
+## Consignee
 noun:
 * consignee
  trustee, nominee, committee

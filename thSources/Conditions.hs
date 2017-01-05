@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONDITIONS where 
+module Language.Thesaurus.RogetLite.Conditions where 
 import Language.Thesaurus
 conditions :: ThProg
 conditions = [thesaurus|
-# VOLITION
-## CONDITIONS
+# Volition
+## Conditions
 noun:
 * conditions
  terms, articles, articles of agreement, memorandum

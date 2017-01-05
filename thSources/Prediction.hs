@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PREDICTION where 
+module Language.Thesaurus.RogetLite.Prediction where 
 import Language.Thesaurus
 prediction :: ThProg
 prediction = [thesaurus|
-# IDEAS
-## PREDICTION
+# Ideas
+## Prediction
 noun:
 * prediction
  announcement, program, programme  , premonition  , prognosis, prophecy, vaticination, mantology, prognostication, premonstration, augury, auguration, ahariolation, hariolation, foreboding, aboding, bodement, abodement, omniation, omniousness, auspices, forecast, omen , horoscope, nativity, sooth, soothsaying, fortunetelling, divination, necromancy 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRODIGALITY where 
+module Language.Thesaurus.RogetLite.Prodigality where 
 import Language.Thesaurus
 prodigality :: ThProg
 prodigality = [thesaurus|
-# VOLITION
-## PRODIGALITY
+# Volition
+## Prodigality
 noun:
 * prodigality
  prodigence, unthriftiness, waste, profusion, profuseness, extravagance, squandering, malversation

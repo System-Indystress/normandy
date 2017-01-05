@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WEAKNESS where 
+module Language.Thesaurus.RogetLite.Weakness where 
 import Language.Thesaurus
 weakness :: ThProg
 weakness = [thesaurus|
-# RELATION
-## WEAKNESS
+# Relation
+## Weakness
 noun:
 * weakness
  debility, atony, relaxation, languor, enervation, impotence , infirmity, effeminacy, feminality, fragility, flaccidity, inactivity 

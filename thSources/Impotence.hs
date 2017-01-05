@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPOTENCE where 
+module Language.Thesaurus.RogetLite.Impotence where 
 import Language.Thesaurus
 impotence :: ThProg
 impotence = [thesaurus|
-# RELATION
-## IMPOTENCE
+# Relation
+## Impotence
 noun:
 * impotence
  inability, disability, disablement, impuissance, imbecility, incapacity, incapability, inaptitude, ineptitude, incompetence, indocility, invalidity, disqualification, inefficiency

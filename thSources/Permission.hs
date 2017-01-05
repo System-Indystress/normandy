@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PERMISSION where 
+module Language.Thesaurus.RogetLite.Permission where 
 import Language.Thesaurus
 permission :: ThProg
 permission = [thesaurus|
-# VOLITION
-## PERMISSION
+# Volition
+## Permission
 noun:
 * permission
  leave, allowance, sufferance, tolerance, toleration, liberty, law, license, concession, grace, indulgence  , favor, dispensation, exemption, release, connivance, vouchsafement

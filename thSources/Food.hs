@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FOOD where 
+module Language.Thesaurus.RogetLite.Food where 
 import Language.Thesaurus
 food :: ThProg
 food = [thesaurus|
-# SPACE
-## FOOD
+# Space
+## Food
 noun:
 * eating
  deglutition, gulp, epulation, mastication, manducation, rumination, hippophagy, ichthyophagy, gluttony 

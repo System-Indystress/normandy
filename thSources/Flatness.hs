@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FLATNESS where 
+module Language.Thesaurus.RogetLite.Flatness where 
 import Language.Thesaurus
 flatness :: ThProg
 flatness = [thesaurus|
-# SPACE
-## FLATNESS
+# Space
+## Flatness
 noun:
 * flatness
  smoothness 

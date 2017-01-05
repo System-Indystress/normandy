@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRISONER where 
+module Language.Thesaurus.RogetLite.Prisoner where 
 import Language.Thesaurus
 prisoner :: ThProg
 prisoner = [thesaurus|
-# VOLITION
-## PRISONER
+# Volition
+## Prisoner
 noun:
 * prisoner
  captive, detenu, close prisoner

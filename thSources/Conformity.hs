@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONFORMITY where 
+module Language.Thesaurus.RogetLite.Conformity where 
 import Language.Thesaurus
 conformity :: ThProg
 conformity = [thesaurus|
-# RELATION
-## CONFORMITY
+# Relation
+## Conformity
 noun:
 * conformity
  conformance, observance, habituation

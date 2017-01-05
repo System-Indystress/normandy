@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HUMILITY where 
+module Language.Thesaurus.RogetLite.Humility where 
 import Language.Thesaurus
 humility :: ThProg
 humility = [thesaurus|
-# SENTIMENT
-## HUMILITY
+# Sentiment
+## Humility
 noun:
 * humility
  humbleness, meekness, lowness, lowliness, lowlihood, abasement, self-abasement, submission , resignation

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DEBT where 
+module Language.Thesaurus.RogetLite.Debt where 
 import Language.Thesaurus
 debt :: ThProg
 debt = [thesaurus|
-# VOLITION
-## DEBT
+# Volition
+## Debt
 noun:
 * debt
  obligation, liability, indebtment, debit, score

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRINTING where 
+module Language.Thesaurus.RogetLite.Printing where 
 import Language.Thesaurus
 printing :: ThProg
 printing = [thesaurus|
-# IDEAS
-## PRINTING
+# Ideas
+## Printing
 noun:
 * printing
  block printing, type printing, plate printing  , the press  , composition

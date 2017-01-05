@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AID where 
+module Language.Thesaurus.RogetLite.Aid where 
 import Language.Thesaurus
 aid :: ThProg
 aid = [thesaurus|
-# VOLITION
-## AID
+# Volition
+## Aid
 noun:
 * aid
  aidance, assistance, help, opitulation, succor, support, lift, advance, furtherance, promotion, coadjuvancy  

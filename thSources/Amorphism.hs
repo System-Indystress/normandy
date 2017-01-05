@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AMORPHISM where 
+module Language.Thesaurus.RogetLite.Amorphism where 
 import Language.Thesaurus
 amorphism :: ThProg
 amorphism = [thesaurus|
-# SPACE
-## AMORPHISM
+# Space
+## Amorphism
 noun:
 * amorphism
  informity, unlicked cub, rudis indigestaque moles, disorder , deformity 

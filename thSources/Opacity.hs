@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.OPACITY where 
+module Language.Thesaurus.RogetLite.Opacity where 
 import Language.Thesaurus
 opacity :: ThProg
 opacity = [thesaurus|
-# MATTER
-## OPACITY
+# Matter
+## Opacity
 noun:
 * opacity
  opaqueness film, cloud 

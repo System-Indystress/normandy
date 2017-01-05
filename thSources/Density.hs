@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DENSITY where 
+module Language.Thesaurus.RogetLite.Density where 
 import Language.Thesaurus
 density :: ThProg
 density = [thesaurus|
-# MATTER
-## DENSITY
+# Matter
+## Density
 noun:
 * density
  solidity, solidness, impenetrability, impermeability, incompressibility, imporosity, cohesion , constipation, consistence, spissitude

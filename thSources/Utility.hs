@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UTILITY where 
+module Language.Thesaurus.RogetLite.Utility where 
 import Language.Thesaurus
 utility :: ThProg
 utility = [thesaurus|
-# VOLITION
-## UTILITY
+# Volition
+## Utility
 noun:
 * utility
  usefulness, efficacy, efficiency, adequacy, service, use, stead, avail, help  , applicability, subservience  , function  , value, worth  , money's worth, productiveness , cui bono  , utilization   step in the right direction

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRIORITY where 
+module Language.Thesaurus.RogetLite.Priority where 
 import Language.Thesaurus
 priority :: ThProg
 priority = [thesaurus|
-# RELATION
-## PRIORITY
+# Relation
+## Priority
 noun:
 * priority
  antecedence, anteriority, precedence, pre-existence, precession , precursor , the past , premises

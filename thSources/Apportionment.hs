@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.APPORTIONMENT where 
+module Language.Thesaurus.RogetLite.Apportionment where 
 import Language.Thesaurus
 apportionment :: ThProg
 apportionment = [thesaurus|
-# VOLITION
-## APPORTIONMENT
+# Volition
+## Apportionment
 noun:
 * apportionment
  allotment, consignment, assignment, appointment, appropriation, dispensation, distribution, division, deal, repartition, partition, administration

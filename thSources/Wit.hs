@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WIT where 
+module Language.Thesaurus.RogetLite.Wit where 
 import Language.Thesaurus
 wit :: ThProg
 wit = [thesaurus|
-# SENTIMENT
-## WIT
+# Sentiment
+## Wit
 noun:
 * wit
  humor, wittiness, attic wit, attic salt, atticism, salt, esprit, point, fancy, whim, drollery, pleasantry

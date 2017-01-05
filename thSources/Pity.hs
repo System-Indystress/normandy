@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PITY where 
+module Language.Thesaurus.RogetLite.Pity where 
 import Language.Thesaurus
 pity :: ThProg
 pity = [thesaurus|
-# SENTIMENT
-## PITY
+# Sentiment
+## Pity
 noun:
 * pity
  compassion, commiseration, bowels, of compassion, sympathy, fellow-feeling, tenderness, yearning, forbearance, humanity, mercy, clemency, leniency  , charity, ruth, long- suffering

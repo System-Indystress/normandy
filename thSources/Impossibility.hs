@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPOSSIBILITY where 
+module Language.Thesaurus.RogetLite.Impossibility where 
 import Language.Thesaurus
 impossibility :: ThProg
 impossibility = [thesaurus|
-# IDEAS
-## IMPOSSIBILITY
+# Ideas
+## Impossibility
 noun:
 * impossibility
  what cannot, what can never be, sour grapes, hopelessness 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REVERSION where 
+module Language.Thesaurus.RogetLite.Reversion where 
 import Language.Thesaurus
 reversion :: ThProg
 reversion = [thesaurus|
-# RELATION
-## REVERSION
+# Relation
+## Reversion
 noun:
 * reversion
  return, revulsion

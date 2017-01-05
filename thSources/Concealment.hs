@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONCEALMENT where 
+module Language.Thesaurus.RogetLite.Concealment where 
 import Language.Thesaurus
 concealment :: ThProg
 concealment = [thesaurus|
-# IDEAS
-## CONCEALMENT
+# Ideas
+## Concealment
 noun:
 * concealment
  hiding, occultation, mystification

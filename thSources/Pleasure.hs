@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PLEASURE where 
+module Language.Thesaurus.RogetLite.Pleasure where 
 import Language.Thesaurus
 pleasure :: ThProg
 pleasure = [thesaurus|
-# SENTIMENT
-## PLEASURE
+# Sentiment
+## Pleasure
 noun:
 * pleasure
  gratification, enjoyment, fruition, oblection, delection, relish, zest, gusto  , satisfaction  , complacency

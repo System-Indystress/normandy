@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SULLENNESS where 
+module Language.Thesaurus.RogetLite.Sullenness where 
 import Language.Thesaurus
 sullenness :: ThProg
 sullenness = [thesaurus|
-# SENTIMENT
-## SULLENNESS
+# Sentiment
+## Sullenness
 noun:
 * sullenness
  morosity, spleen, churlishness  , irascibility 

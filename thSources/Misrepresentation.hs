@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MISREPRESENTATION where 
+module Language.Thesaurus.RogetLite.Misrepresentation where 
 import Language.Thesaurus
 misrepresentation :: ThProg
 misrepresentation = [thesaurus|
-# IDEAS
-## MISREPRESENTATION
+# Ideas
+## Misrepresentation
 noun:
 * misrepresentation
  distortion, caricatura, exaggeration, daubing, bad likeness, daub, sign painting, scratch, caricature, anamorphosis, burlesque, falsification, misstatement, parody, lampoon, take-off, travesty

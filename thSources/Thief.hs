@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.THIEF where 
+module Language.Thesaurus.RogetLite.Thief where 
 import Language.Thesaurus
 thief :: ThProg
 thief = [thesaurus|
-# VOLITION
-## THIEF
+# Volition
+## Thief
 noun:
 * thief
  robber, homo triumliterarum, pilferer, rifler, filcher, plagiarist

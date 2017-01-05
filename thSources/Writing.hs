@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WRITING where 
+module Language.Thesaurus.RogetLite.Writing where 
 import Language.Thesaurus
 writing :: ThProg
 writing = [thesaurus|
-# IDEAS
-## WRITING
+# Ideas
+## Writing
 noun:
 * writing
  chirography, stelography, cerography, penmanship, craftmanship, quill driving, typewriting

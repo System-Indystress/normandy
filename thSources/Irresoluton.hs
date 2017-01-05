@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IRRESOLUTON where 
+module Language.Thesaurus.RogetLite.Irresoluton where 
 import Language.Thesaurus
 irresoluton :: ThProg
 irresoluton = [thesaurus|
-# VOLITION
-## IRRESOLUTON
+# Volition
+## Irresoluton
 noun:
 * irresolution
  infirmity of purpose, indecision, indetermination, undetermination, unsettlement, uncertainty , demur, suspense, hesitating, hesitation, hesitancy, vacillation, changeableness , fluctuation, alternation  , caprice 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROVISION where 
+module Language.Thesaurus.RogetLite.Provision where 
 import Language.Thesaurus
 provision :: ThProg
 provision = [thesaurus|
-# VOLITION
-## PROVISION
+# Volition
+## Provision
 noun:
 * provision
  supply, grist, grist for the mill, subvention  , resources  , groceries, grocery

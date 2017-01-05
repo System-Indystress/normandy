@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INEXTENSION where 
+module Language.Thesaurus.RogetLite.Inextension where 
 import Language.Thesaurus
 inextension :: ThProg
 inextension = [thesaurus|
-# SPACE
-## INEXTENSION
+# Space
+## Inextension
 noun:
 * inextension
  nonextension, point, dot, atom

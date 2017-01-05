@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DUALITY where 
+module Language.Thesaurus.RogetLite.Duality where 
 import Language.Thesaurus
 duality :: ThProg
 duality = [thesaurus|
-# RELATION
-## DUALITY
+# Relation
+## Duality
 noun:
 * duality
  dualism, duplicity, biplicity, biformity, polarity

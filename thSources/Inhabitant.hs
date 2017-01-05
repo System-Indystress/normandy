@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INHABITANT where 
+module Language.Thesaurus.RogetLite.Inhabitant where 
 import Language.Thesaurus
 inhabitant :: ThProg
 inhabitant = [thesaurus|
-# SPACE
-## INHABITANT
+# Space
+## Inhabitant
 noun:
 * inhabitant
  resident, residentiary, dweller, indweller, addressee, occupier, occupant, householder, lodger, inmate, tenant, incumbent, sojourner, locum tenens, commorant, settler, squatter, backwoodsman, colonist, islander, denizen, citizen, burgher, oppidan, cockney, cit, townsman, burgess, villager, cottager, cottier, cotter, compatriot, backsettler, boarder, hotel keeper, innkeeper, habitant, paying guest, planter

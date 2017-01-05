@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PAINTING where 
+module Language.Thesaurus.RogetLite.Painting where 
 import Language.Thesaurus
 painting :: ThProg
 painting = [thesaurus|
-# IDEAS
-## PAINTING
+# Ideas
+## Painting
 noun:
 * painting
  depicting, drawing, design, perspective, sciagraphy, skiagraphy, chiaroscuro   composition, treatment

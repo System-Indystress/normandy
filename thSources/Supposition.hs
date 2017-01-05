@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SUPPOSITION where 
+module Language.Thesaurus.RogetLite.Supposition where 
 import Language.Thesaurus
 supposition :: ThProg
 supposition = [thesaurus|
-# IDEAS
-## SUPPOSITION
+# Ideas
+## Supposition
 noun:
 * supposition
  assumption, assumed position, postulation, condition, presupposition, hypothesis, postulate, postulatum, theory, thesis, theorem, data, proposition, position, proposal  , presumption  , divination

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROBABILITY where 
+module Language.Thesaurus.RogetLite.Probability where 
 import Language.Thesaurus
 probability :: ThProg
 probability = [thesaurus|
-# IDEAS
-## PROBABILITY
+# Ideas
+## Probability
 noun:
 * probability
  likelihood, credibleness, likeliness

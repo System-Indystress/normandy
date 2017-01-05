@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TEACHING where 
+module Language.Thesaurus.RogetLite.Teaching where 
 import Language.Thesaurus
 teaching :: ThProg
 teaching = [thesaurus|
-# IDEAS
-## TEACHING
+# Ideas
+## Teaching
 noun:
 * teaching
  instruction, edification, education, tuition, tutorage, tutelage, direction, guidance, opsimathy

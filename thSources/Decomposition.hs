@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DECOMPOSITION where 
+module Language.Thesaurus.RogetLite.Decomposition where 
 import Language.Thesaurus
 decomposition :: ThProg
 decomposition = [thesaurus|
-# RELATION
-## DECOMPOSITION
+# Relation
+## Decomposition
 noun:
 * decomposition
  analysis, dissection, resolution, catalysis, dissolution, corruption  , dispersion , disunction , disintegration

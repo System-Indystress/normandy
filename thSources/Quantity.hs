@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.QUANTITY where 
+module Language.Thesaurus.RogetLite.Quantity where 
 import Language.Thesaurus
 quantity :: ThProg
 quantity = [thesaurus|
-# RELATION
-## QUANTITY
+# Relation
+## Quantity
 noun:
 * quantity
  magnitude, size  , amplitude, magnitude, mass, amount, sum, quantum, measure, substance, strength, force

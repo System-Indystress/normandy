@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MUSIC where 
+module Language.Thesaurus.RogetLite.Music where 
 import Language.Thesaurus
 music :: ThProg
 music = [thesaurus|
-# MATTER
-## MUSIC
+# Matter
+## Music
 noun:
 * music
  concert, strain, tune, air, melody , aria, arietta, piece of music, sonata, rondo, rondeau, pastorale, cavatina, roulade, fantasia, concerto, overture, symphony, variations, cadenza, cadence, fugue, canon, serenade, notturno , dithyramb, opera, operetta, oratorio, composition, movement, stave, passamezzo , toccata, Vorspiel 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ULULATION where 
+module Language.Thesaurus.RogetLite.Ululation where 
 import Language.Thesaurus
 ululation :: ThProg
 ululation = [thesaurus|
-# MATTER
-## ULULATION
+# Matter
+## Ululation
 noun:
 * cry
  crying, bowwow, ululation, latration, belling, reboation, woodnote, insect cry, fritiniancy, drone, screech owl, cuckoo

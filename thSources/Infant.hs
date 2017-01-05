@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INFANT where 
+module Language.Thesaurus.RogetLite.Infant where 
 import Language.Thesaurus
 infant :: ThProg
 infant = [thesaurus|
-# RELATION
-## INFANT
+# Relation
+## Infant
 noun:
 * infant
  babe, baby, babe in arms, nurseling, suckling, yearling, weanling, papoose, bambino, kid, vagitus

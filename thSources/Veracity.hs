@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VERACITY where 
+module Language.Thesaurus.RogetLite.Veracity where 
 import Language.Thesaurus
 veracity :: ThProg
 veracity = [thesaurus|
-# IDEAS
-## VERACITY
+# Ideas
+## Veracity
 noun:
 * veracity
  truthfulness, frankness, truth, sincerity, candor, honesty, fidelity, plain dealing, bona fides, love of truth, probity , ingenuousness  

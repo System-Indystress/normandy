@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROGRESSION where 
+module Language.Thesaurus.RogetLite.Progression where 
 import Language.Thesaurus
 progression :: ThProg
 progression = [thesaurus|
-# SPACE
-## PROGRESSION
+# Space
+## Progression
 noun:
 * progress
  progression, progressiveness, advancing, advance, advancement, ongoing, flood, tide, headway, march , rise, improvement 

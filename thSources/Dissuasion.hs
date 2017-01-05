@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISSUASION where 
+module Language.Thesaurus.RogetLite.Dissuasion where 
 import Language.Thesaurus
 dissuasion :: ThProg
 dissuasion = [thesaurus|
-# VOLITION
-## DISSUASION
+# Volition
+## Dissuasion
 noun:
 * dissuasion
  dehortation, expostulation, remonstrance, deprecation 

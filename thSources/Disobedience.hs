@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISOBEDIENCE where 
+module Language.Thesaurus.RogetLite.Disobedience where 
 import Language.Thesaurus
 disobedience :: ThProg
 disobedience = [thesaurus|
-# VOLITION
-## DISOBEDIENCE
+# Volition
+## Disobedience
 noun:
 * disobedience
  insubordination, contumacy, infraction, infringement, violation, noncompliance, nonobservance 

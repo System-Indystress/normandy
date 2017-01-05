@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.JUDGE where 
+module Language.Thesaurus.RogetLite.Judge where 
 import Language.Thesaurus
 judge :: ThProg
 judge = [thesaurus|
-# SENTIMENT
-## JUDGE
+# Sentiment
+## Judge
 noun:
 * judge
  justice, justiciar, justiciary, chancellor, justice of assize, judge of assize, recorder, common sergeant, puisne judge, assistant judge, county court judge, conservator of the peace, justice of the peace, J.P., court  , magistrate, police magistrate, beak, his worship, his honor, his lordship

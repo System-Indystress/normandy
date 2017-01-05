@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONTINUITY where 
+module Language.Thesaurus.RogetLite.Continuity where 
 import Language.Thesaurus
 continuity :: ThProg
 continuity = [thesaurus|
-# RELATION
-## CONTINUITY
+# Relation
+## Continuity
 noun:
 * continuity
  consecution, consecutiveness, succession, round, suite, progression, series, train, chain, catenation, concatenation, scale, gradation, course, ceaselessness, constant flow, unbroken extent

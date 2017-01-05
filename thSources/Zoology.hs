@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ZOOLOGY where 
+module Language.Thesaurus.RogetLite.Zoology where 
 import Language.Thesaurus
 zoology :: ThProg
 zoology = [thesaurus|
-# MATTER
-## ZOOLOGY
+# Matter
+## Zoology
 noun:
 * zoology
  zoonomy, zoography, zootomy, anatomy, comparative anatomy, animal physiology, comparative physiology, morphology, mammalogy

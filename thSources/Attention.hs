@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ATTENTION where 
+module Language.Thesaurus.RogetLite.Attention where 
 import Language.Thesaurus
 attention :: ThProg
 attention = [thesaurus|
-# IDEAS
-## ATTENTION
+# Ideas
+## Attention
 noun:
 * attention
  mindfulness, intentness, intentiveness, alertness, thought , advertence, advertency, observance, observation, consideration, reflection, perpension, heed, heedfulness, particularity, notice, regard, circumspection,  , study, scrutiny inspection, introspection, revision, revisal

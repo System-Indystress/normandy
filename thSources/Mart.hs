@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MART where 
+module Language.Thesaurus.RogetLite.Mart where 
 import Language.Thesaurus
 mart :: ThProg
 mart = [thesaurus|
-# VOLITION
-## MART
+# Volition
+## Mart
 noun:
 * mart
  market, marketplace, fair, bazaar, staple, exchange, change, bourse, hall, guildhall, tollbooth, customhouse, Tattersall's

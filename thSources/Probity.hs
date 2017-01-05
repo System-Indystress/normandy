@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PROBITY where 
+module Language.Thesaurus.RogetLite.Probity where 
 import Language.Thesaurus
 probity :: ThProg
 probity = [thesaurus|
-# SENTIMENT
-## PROBITY
+# Sentiment
+## Probity
 noun:
 * probity
  integrity, rectitude, uprightness, honesty, faith, honor, bonne foi, good faith, bona fides, purity, clean hands

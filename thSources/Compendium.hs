@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMPENDIUM where 
+module Language.Thesaurus.RogetLite.Compendium where 
 import Language.Thesaurus
 compendium :: ThProg
 compendium = [thesaurus|
-# IDEAS
-## COMPENDIUM
+# Ideas
+## Compendium
 noun:
 * compend
  compendium, abstract, precis, epitome, multum in parvo, analysis, pandect, digest, sum and substance, brief, abridgment, summary, apercu , draft, minute, note, excerpt, synopsis, textbook, conspectus, outlines, syllabus, contents, heads, prospectus

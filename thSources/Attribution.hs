@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ATTRIBUTION where 
+module Language.Thesaurus.RogetLite.Attribution where 
 import Language.Thesaurus
 attribution :: ThProg
 attribution = [thesaurus|
-# RELATION
-## ATTRIBUTION
+# Relation
+## Attribution
 noun:
 * attribution
  theory, etiology, ascription, reference to, rationale, accounting for, palaetiology, imputation, derivation from

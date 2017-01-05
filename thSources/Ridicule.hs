@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RIDICULE where 
+module Language.Thesaurus.RogetLite.Ridicule where 
 import Language.Thesaurus
 ridicule :: ThProg
 ridicule = [thesaurus|
-# SENTIMENT
-## RIDICULE
+# Sentiment
+## Ridicule
 noun:
 * ridicule
  derision, sardonic smile, sardonic grin, irrision, scoffing  , mockery, quiz, banter, irony, persiflage, raillery, chaffe, badinage, quizzing, asteism

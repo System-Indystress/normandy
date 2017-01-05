@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ADDITION where 
+module Language.Thesaurus.RogetLite.Addition where 
 import Language.Thesaurus
 addition :: ThProg
 addition = [thesaurus|
-# RELATION
-## ADDITION
+# Relation
+## Addition
 noun:
 * addition
  annexation, adjection, junction , superposition, superaddition, superjunction, superfetation, accession, reinforcement, increase , increment, supplement, accompaniment , interposition , insertion 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.IMPROVEMENT where 
+module Language.Thesaurus.RogetLite.Improvement where 
 import Language.Thesaurus
 improvement :: ThProg
 improvement = [thesaurus|
-# VOLITION
-## IMPROVEMENT
+# Volition
+## Improvement
 noun:
 * improvement
  amelioration, melioration, betterment, mend, amendment, emendation, mending, advancement, advance  , ascent , promotion, preferment, elevation , increase , cultivation, civilization, culture, march of intellect, menticulture, race-culture, eugenics

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GOODMAN where 
+module Language.Thesaurus.RogetLite.Goodman where 
 import Language.Thesaurus
 goodman :: ThProg
 goodman = [thesaurus|
-# SENTIMENT
-## GOODMAN
+# Sentiment
+## Goodman
 noun:
 * good man
  worthy

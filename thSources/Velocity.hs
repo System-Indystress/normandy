@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.VELOCITY where 
+module Language.Thesaurus.RogetLite.Velocity where 
 import Language.Thesaurus
 velocity :: ThProg
 velocity = [thesaurus|
-# SPACE
-## VELOCITY
+# Space
+## Velocity
 noun:
 * velocity
  speed, celerity, swiftness, rapidity, eagle speed, expedition  , pernicity, acceleration, haste 

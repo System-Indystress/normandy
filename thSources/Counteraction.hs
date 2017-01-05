@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COUNTERACTION where 
+module Language.Thesaurus.RogetLite.Counteraction where 
 import Language.Thesaurus
 counteraction :: ThProg
 counteraction = [thesaurus|
-# RELATION
-## COUNTERACTION
+# Relation
+## Counteraction
 noun:
 * counteraction
  opposition, contrariety , antagonism, polarity, clashing, collision, interference, inhibition, resistance, renitency, friction, reaction, retroaction  , counterblast, neutralization  , vis inertiae, check, etc.  

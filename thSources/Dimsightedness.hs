@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIMSIGHTEDNESS where 
+module Language.Thesaurus.RogetLite.Dimsightedness where 
 import Language.Thesaurus
 dimsightedness :: ThProg
 dimsightedness = [thesaurus|
-# MATTER
-## DIMSIGHTEDNESS
+# Matter
+## Dimsightedness
 noun:
 * dim sight
  dull sight, half sight, short sight, near sight, nearsightedness, long sight, farsightedness, double sight, astigmatic sight, astigmatism, failing sight, dimsightedness, purblindness, lippitude, myopia, presbyopia, confusion of vision, astigmatism, color blindness, chromato-pseudo-blepsis, Daltonism, nyctalopia, strabismus, strabism, squint, blearedness, day blindness, hemeralopia, nystagmus, xanthocyanopia, xanthopsia, cast in the eye, swivel eye, goggleeyes, obliquity of vision

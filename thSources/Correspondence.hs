@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CORRESPONDENCE where 
+module Language.Thesaurus.RogetLite.Correspondence where 
 import Language.Thesaurus
 correspondence :: ThProg
 correspondence = [thesaurus|
-# IDEAS
-## CORRESPONDENCE
+# Ideas
+## Correspondence
 noun:
 * correpondence
  letter, epistle, note, billet, post card, missive, circular, favor, billet-doux, chit, chitty, letter card, picture post card, postal, postal card, despatch, dispatch, bulletin, these presents, rescript, rescription, post  

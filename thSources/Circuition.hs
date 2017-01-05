@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CIRCUITION where 
+module Language.Thesaurus.RogetLite.Circuition where 
 import Language.Thesaurus
 circuition :: ThProg
 circuition = [thesaurus|
-# SPACE
-## CIRCUITION
+# Space
+## Circuition
 noun:
 * circuition
  curculation, turn, curvet, excursiion, circumvention, circumnavigation, circumambulation, northwest passage, circuit 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RETENTION where 
+module Language.Thesaurus.RogetLite.Retention where 
 import Language.Thesaurus
 retention :: ThProg
 retention = [thesaurus|
-# VOLITION
-## RETENTION
+# Volition
+## Retention
 noun:
 * retention
  retaining, keep, detention, custody, tenacity, firm hold, grasp, gripe, grip, iron grip

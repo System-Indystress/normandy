@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PAIN where 
+module Language.Thesaurus.RogetLite.Pain where 
 import Language.Thesaurus
 pain :: ThProg
 pain = [thesaurus|
-# SENTIMENT
-## PAIN
+# Sentiment
+## Pain
 noun:
 * mental suffering
  pain, dolor, suffering, sufferance, ache, smart  , passion

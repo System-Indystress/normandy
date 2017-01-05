@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DIFFERENTTIME where 
+module Language.Thesaurus.RogetLite.Differenttime where 
 import Language.Thesaurus
 differenttime :: ThProg
 differenttime = [thesaurus|
-# RELATION
-## DIFFERENTTIME
+# Relation
+## Differenttime
 noun:
 * different time
  other time

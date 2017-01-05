@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TEMPERANCE where 
+module Language.Thesaurus.RogetLite.Temperance where 
 import Language.Thesaurus
 temperance :: ThProg
 temperance = [thesaurus|
-# SENTIMENT
-## TEMPERANCE
+# Sentiment
+## Temperance
 noun:
 * temperance
  moderation, sobriety, soberness

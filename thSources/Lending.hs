@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LENDING where 
+module Language.Thesaurus.RogetLite.Lending where 
 import Language.Thesaurus
 lending :: ThProg
 lending = [thesaurus|
-# VOLITION
-## LENDING
+# Volition
+## Lending
 noun:
 * lending
  loan, advance, accommodation, feneration, mortgage  , investment

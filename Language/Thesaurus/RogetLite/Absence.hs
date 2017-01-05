@@ -1,8 +1,9 @@
+{-#LANGUAGE QuasiQuotes#-}
 module Language.Thesaurus.RogetLite.Absence
 (absence
 ) where
 
-import LanguageThesaurus
+import Language.Thesaurus
 
 absence :: ThProg
 absence = [thesaurus|

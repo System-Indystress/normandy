@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SIMPLENESS where 
+module Language.Thesaurus.RogetLite.Simpleness where 
 import Language.Thesaurus
 simpleness :: ThProg
 simpleness = [thesaurus|
-# RELATION
-## SIMPLENESS
+# Relation
+## Simpleness
 noun:
 * simpleness
  purity, homogeneity

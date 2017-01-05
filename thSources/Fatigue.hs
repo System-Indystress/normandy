@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FATIGUE where 
+module Language.Thesaurus.RogetLite.Fatigue where 
 import Language.Thesaurus
 fatigue :: ThProg
 fatigue = [thesaurus|
-# VOLITION
-## FATIGUE
+# Volition
+## Fatigue
 noun:
 * fatigue
  weariness , yawning, drowsiness , lassitude, tiredness, fatigation, exhaustion, sweat, dyspncea

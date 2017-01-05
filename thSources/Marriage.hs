@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MARRIAGE where 
+module Language.Thesaurus.RogetLite.Marriage where 
 import Language.Thesaurus
 marriage :: ThProg
 marriage = [thesaurus|
-# SENTIMENT
-## MARRIAGE
+# Sentiment
+## Marriage
 noun:
 * marriage
  matrimony, wedlock, union, intermarriage, miscegenation, the bonds of marriage, vinculum matrimonii, nuptial tie

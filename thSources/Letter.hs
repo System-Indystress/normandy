@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LETTER where 
+module Language.Thesaurus.RogetLite.Letter where 
 import Language.Thesaurus
 letter :: ThProg
 letter = [thesaurus|
-# IDEAS
-## LETTER
+# Ideas
+## Letter
 noun:
 * letter
  character, hieroglyphic  , type  , capitals, digraph, trigraph, ideogram, ideograph, majuscule, minuscule, majuscule, minuscule, alphabet, ABC, abecedary, christcross-row

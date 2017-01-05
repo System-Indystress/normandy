@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ORGNAMENTS where 
+module Language.Thesaurus.RogetLite.Orgnaments where 
 import Language.Thesaurus
 orgnaments :: ThProg
 orgnaments = [thesaurus|
-# SENTIMENT
-## ORGNAMENTS
+# Sentiment
+## Orgnaments
 noun:
 * ornament
  ornamentation, ornamental art, ornature, ornateness, adornment, decoration, embellishment, architecture

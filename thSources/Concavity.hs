@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONCAVITY where 
+module Language.Thesaurus.RogetLite.Concavity where 
 import Language.Thesaurus
 concavity :: ThProg
 concavity = [thesaurus|
-# SPACE
-## CONCAVITY
+# Space
+## Concavity
 noun:
 * concavity
  depression, dip, hollow, hollowness, indentation, intaglio, cavity, dent, dint, dimple, follicle, pit, sinus, alveolus, lacuna, excavation, trough  , honeycomb

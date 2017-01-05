@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ARTIST where 
+module Language.Thesaurus.RogetLite.Artist where 
 import Language.Thesaurus
 artist :: ThProg
 artist = [thesaurus|
-# IDEAS
-## ARTIST
+# Ideas
+## Artist
 noun:
 * artist
  painter, limner, drawer, sketcher, designer, engraver, master, old master, draughtsman, copyist, dauber, hack, enamel, enameler, enamelist, caricaturist, illustrator, cartoonist, graphic artist

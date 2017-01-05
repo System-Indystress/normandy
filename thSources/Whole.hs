@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.WHOLE where 
+module Language.Thesaurus.RogetLite.Whole where 
 import Language.Thesaurus
 whole :: ThProg
 whole = [thesaurus|
-# RELATION
-## WHOLE
+# Relation
+## Whole
 noun:
 * whole
  totality, integrity, totalness, entirety, ensemble, collectiveness, unity , completeness , indivisibility, indiscerptibility, integration, embodiment, integer

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INVISIBILITY where 
+module Language.Thesaurus.RogetLite.Invisibility where 
 import Language.Thesaurus
 invisibility :: ThProg
 invisibility = [thesaurus|
-# MATTER
-## INVISIBILITY
+# Matter
+## Invisibility
 noun:
 * invisibility
  invisibleness, nonappearance, imperceptibility, indistinctness, mystery, delitescence

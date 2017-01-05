@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CIRCUIT where 
+module Language.Thesaurus.RogetLite.Circuit where 
 import Language.Thesaurus
 circuit :: ThProg
 circuit = [thesaurus|
-# VOLITION
-## CIRCUIT
+# Volition
+## Circuit
 noun:
 * circuit
  roundabout way, digression, detour, circumbendibus, ambages, loop, winding  , zigzag  

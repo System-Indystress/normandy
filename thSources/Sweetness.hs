@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SWEETNESS where 
+module Language.Thesaurus.RogetLite.Sweetness where 
 import Language.Thesaurus
 sweetness :: ThProg
 sweetness = [thesaurus|
-# MATTER
-## SWEETNESS
+# Matter
+## Sweetness
 noun:
 * sweetness
  dulcitude

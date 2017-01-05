@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EQUIVOCALNESS where 
+module Language.Thesaurus.RogetLite.Equivocalness where 
 import Language.Thesaurus
 equivocalness :: ThProg
 equivocalness = [thesaurus|
-# IDEAS
-## EQUIVOCALNESS
+# Ideas
+## Equivocalness
 noun:
 * equivocalness
  double meaning , ambiguity, ambiguousness, double entente, double entendre, pun, paragram, calembour, quibble, equivoque, anagram, conundrum  , word play  , homonym, homonymy, amphiboly, amphibology, ambilogy, ambiloquy

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GLUTTONY where 
+module Language.Thesaurus.RogetLite.Gluttony where 
 import Language.Thesaurus
 gluttony :: ThProg
 gluttony = [thesaurus|
-# SENTIMENT
-## GLUTTONY
+# Sentiment
+## Gluttony
 noun:
 * gluttony
  greed, greediness, voracity

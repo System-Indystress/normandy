@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PURCHASE where 
+module Language.Thesaurus.RogetLite.Purchase where 
 import Language.Thesaurus
 purchase :: ThProg
 purchase = [thesaurus|
-# VOLITION
-## PURCHASE
+# Volition
+## Purchase
 noun:
 * purchase
  emption, buying, purchasing, shopping, preemption, refusal

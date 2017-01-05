@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RIGHT where 
+module Language.Thesaurus.RogetLite.Right where 
 import Language.Thesaurus
 right :: ThProg
 right = [thesaurus|
-# SENTIMENT
-## RIGHT
+# Sentiment
+## Right
 noun:
 * right
  what ought to be, what should be, fitness, summum jus

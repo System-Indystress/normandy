@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.GIVING where 
+module Language.Thesaurus.RogetLite.Giving where 
 import Language.Thesaurus
 giving :: ThProg
 giving = [thesaurus|
-# VOLITION
-## GIVING
+# Volition
+## Giving
 noun:
 * giving
  bestowal, bestowment, donation, presentation, presentment, accordance, concession, delivery, consignment, dispensation, communication, endowment, investment, investiture, award

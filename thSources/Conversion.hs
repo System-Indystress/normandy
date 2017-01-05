@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONVERSION where 
+module Language.Thesaurus.RogetLite.Conversion where 
 import Language.Thesaurus
 conversion :: ThProg
 conversion = [thesaurus|
-# RELATION
-## CONVERSION
+# Relation
+## Conversion
 noun:
 * conversion
  reduction, transmutation, resolution, assimilation, evolution, sea change, change of state, assumption, naturalization, transportation, development , developing 

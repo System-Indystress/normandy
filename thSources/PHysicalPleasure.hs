@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PHYSICALPLEASURE where 
+module Language.Thesaurus.RogetLite.Physicalpleasure where 
 import Language.Thesaurus
 physicalpleasure :: ThProg
 physicalpleasure = [thesaurus|
-# MATTER
-## PHYSICALPLEASURE
+# Matter
+## Physicalpleasure
 noun:
 * pleasure
  physical pleasure, sensual pleasure, sensuous pleasure, bodily enjoyment, animal gratification, hedonism, sensuality, luxuriousness, dissipation, round of pleasure, titillation, gusto, creature comforts, comfort, ease, pillow  , luxury, lap of luxury, purple and fine linen, bed of downs, bed of roses, velvet, clover, cup of Circe  

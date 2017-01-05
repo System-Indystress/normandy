@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SITUATION where 
+module Language.Thesaurus.RogetLite.Situation where 
 import Language.Thesaurus
 situation :: ThProg
 situation = [thesaurus|
-# SPACE
-## SITUATION
+# Space
+## Situation
 noun:
 * situation
  position, locality, locale, status, latitude and longitude, footing, standing, standpoint, post, stage, aspect, attitude, posture, pose

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FACILITY where 
+module Language.Thesaurus.RogetLite.Facility where 
 import Language.Thesaurus
 facility :: ThProg
 facility = [thesaurus|
-# VOLITION
-## FACILITY
+# Volition
+## Facility
 noun:
 * facility
  ease, easiness, capability, feasibility  , flexibility, pliancy , smoothness 

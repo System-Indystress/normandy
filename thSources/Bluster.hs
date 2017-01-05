@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BLUSTER where 
+module Language.Thesaurus.RogetLite.Bluster where 
 import Language.Thesaurus
 bluster :: ThProg
 bluster = [thesaurus|
-# SENTIMENT
-## BLUSTER
+# Sentiment
+## Bluster
 noun:
 * blusterer
  swaggerer, vaporer, roisterer, brawler, fanfaron, braggart  , bully, terrorist, rough, bulldozer , hoodlum, hooligan, larrikin, roarer, drawcansir, swashbuckler, Captain Bobadil, Sir Lucius O'Trigger, Thraso, Pistol, Parolles, Bombastes Furioso, Hector, Chrononhotonthologos, jingo, desperado, daredevil, fire eater, fury,  , rowdy, slang-whanger, tough 

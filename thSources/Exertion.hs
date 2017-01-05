@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.EXERTION where 
+module Language.Thesaurus.RogetLite.Exertion where 
 import Language.Thesaurus
 exertion :: ThProg
 exertion = [thesaurus|
-# VOLITION
-## EXERTION
+# Volition
+## Exertion
 noun:
 * exertion
  effort, strain, tug, pull, stress, throw, stretch, struggle, spell, spurt, spirt, stroke of work, stitch of work

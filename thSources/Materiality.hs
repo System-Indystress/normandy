@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MATERIALITY where 
+module Language.Thesaurus.RogetLite.Materiality where 
 import Language.Thesaurus
 materiality :: ThProg
 materiality = [thesaurus|
-# MATTER
-## MATERIALITY
+# Matter
+## Materiality
 noun:
 * materiality
  materialness, corporeity, corporality, substantiality, substantialness, flesh and blood, plenum, physical condition

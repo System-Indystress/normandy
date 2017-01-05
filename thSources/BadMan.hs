@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BADMAN where 
+module Language.Thesaurus.RogetLite.Badman where 
 import Language.Thesaurus
 badman :: ThProg
 badman = [thesaurus|
-# SENTIMENT
-## BADMAN
+# Sentiment
+## Badman
 noun:
 * bad man
  wrongdoer, worker of iniquity, evildoer , sinner, the wicked , bad example

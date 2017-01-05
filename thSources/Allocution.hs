@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.ALLOCUTION where 
+module Language.Thesaurus.RogetLite.Allocution where 
 import Language.Thesaurus
 allocution :: ThProg
 allocution = [thesaurus|
-# IDEAS
-## ALLOCUTION
+# Ideas
+## Allocution
 noun:
 * allocution
  alloquy, address, speech , apostrophe, interpellation, appeal, invocation, salutation, word in the ear

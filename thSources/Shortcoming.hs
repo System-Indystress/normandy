@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.SHORTCOMING where 
+module Language.Thesaurus.RogetLite.Shortcoming where 
 import Language.Thesaurus
 shortcoming :: ThProg
 shortcoming = [thesaurus|
-# SPACE
-## SHORTCOMING
+# Space
+## Shortcoming
 noun:
 * shortcoming
  failure, falling short, default, defalcation, leeway, labor in vain, no go

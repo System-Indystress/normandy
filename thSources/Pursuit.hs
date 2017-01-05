@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PURSUIT where 
+module Language.Thesaurus.RogetLite.Pursuit where 
 import Language.Thesaurus
 pursuit :: ThProg
 pursuit = [thesaurus|
-# VOLITION
-## PURSUIT
+# Volition
+## Pursuit
 noun:
 * pursuit
  pursuing, prosecution, pursuance, enterprise  , business , adventure  , quest  , scramble, hue and cry, game, hobby, still-hunt

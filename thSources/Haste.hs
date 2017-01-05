@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.HASTE where 
+module Language.Thesaurus.RogetLite.Haste where 
 import Language.Thesaurus
 haste :: ThProg
 haste = [thesaurus|
-# VOLITION
-## HASTE
+# Volition
+## Haste
 noun:
 * haste
  urgency, despatch, dispatch, acceleration, spurt, spirt, forced march, rush, dash, velocity , precipitancy, precipitation, precipitiousness, impetuosity, brusquerie, hurry, drive, scramble, bustle, fuss, fidget, flurry, flutter, splutter

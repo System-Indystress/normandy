@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.INSIPIDITY where 
+module Language.Thesaurus.RogetLite.Insipidity where 
 import Language.Thesaurus
 insipidity :: ThProg
 insipidity = [thesaurus|
-# MATTER
-## INSIPIDITY
+# Matter
+## Insipidity
 noun:
 * insipidity
  blandness, tastelessness

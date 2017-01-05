@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DISCLOSURE where 
+module Language.Thesaurus.RogetLite.Disclosure where 
 import Language.Thesaurus
 disclosure :: ThProg
 disclosure = [thesaurus|
-# IDEAS
-## DISCLOSURE
+# Ideas
+## Disclosure
 noun:
 * disclosure
  retection, unveiling, deterration, revealment, revelation, exposition, exposure, expose, whole truth, telltale  

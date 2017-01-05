@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.REFUGE where 
+module Language.Thesaurus.RogetLite.Refuge where 
 import Language.Thesaurus
 refuge :: ThProg
 refuge = [thesaurus|
-# VOLITION
-## REFUGE
+# Volition
+## Refuge
 noun:
 * refuge
  sanctuary, retreat, fastness, acropolis, keep, last resort, ward, prison , asylum, ark, home, refuge for the destitute, almshouse, hiding place  , sanctum sanctorum  

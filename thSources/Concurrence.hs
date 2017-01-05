@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.CONCURRENCE where 
+module Language.Thesaurus.RogetLite.Concurrence where 
 import Language.Thesaurus
 concurrence :: ThProg
 concurrence = [thesaurus|
-# RELATION
-## CONCURRENCE
+# Relation
+## Concurrence
 noun:
 * concurrence
  cooperation, coagency, union, agreement , consilience, consent, coincidence  , alliance, concert , partnership 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LATENESS where 
+module Language.Thesaurus.RogetLite.Lateness where 
 import Language.Thesaurus
 lateness :: ThProg
 lateness = [thesaurus|
-# RELATION
-## LATENESS
+# Relation
+## Lateness
 noun:
 * lateness
  tardiness  

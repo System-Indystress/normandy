@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TASTE where 
+module Language.Thesaurus.RogetLite.Taste where 
 import Language.Thesaurus
 taste :: ThProg
 taste = [thesaurus|
-# MATTER
-## TASTE
+# Matter
+## Taste
 noun:
 * taste
  flavor, gust, gusto, savor, gout, relish, sapor, sapidity, twang, smack, smatch, aftertaste, tang

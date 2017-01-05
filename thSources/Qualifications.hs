@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.QUALIFICATIONS where 
+module Language.Thesaurus.RogetLite.Qualifications where 
 import Language.Thesaurus
 qualifications :: ThProg
 qualifications = [thesaurus|
-# IDEAS
-## QUALIFICATIONS
+# Ideas
+## Qualifications
 noun:
 * qualification
  limitation, modification, coloring

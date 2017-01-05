@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.BLINDNESS where 
+module Language.Thesaurus.RogetLite.Blindness where 
 import Language.Thesaurus
 blindness :: ThProg
 blindness = [thesaurus|
-# MATTER
-## BLINDNESS
+# Matter
+## Blindness
 noun:
 * blindness
  cecity, excecation, amaurosis, cataract, ablepsy, prestriction, dim-sightedness , ablepsia, Braille, Braille-type, guttaserena , noctograph, teichopsia

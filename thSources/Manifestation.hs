@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MANIFESTATION where 
+module Language.Thesaurus.RogetLite.Manifestation where 
 import Language.Thesaurus
 manifestation :: ThProg
 manifestation = [thesaurus|
-# IDEAS
-## MANIFESTATION
+# Ideas
+## Manifestation
 noun:
 * manifestation
  plainness adj., plain speaking, expression, showing, exposition, demonstration, exhibition, production, display, show, showing off, premonstration.  exhibit

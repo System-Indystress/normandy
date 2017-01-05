@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COMMISSION where 
+module Language.Thesaurus.RogetLite.Commission where 
 import Language.Thesaurus
 commission :: ThProg
 commission = [thesaurus|
-# VOLITION
-## COMMISSION
+# Volition
+## Commission
 noun:
 * commission
  delegation, consignment, assignment, procuration, deputation, legation, mission, embassy, agency, agentship, power of attorney, clerkship

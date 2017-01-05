@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.DUENESS where 
+module Language.Thesaurus.RogetLite.Dueness where 
 import Language.Thesaurus
 dueness :: ThProg
 dueness = [thesaurus|
-# SENTIMENT
-## DUENESS
+# Sentiment
+## Dueness
 noun:
 * due
  dueness, right, privilege, prerogative, prescription, title, claim, pretension, demand, birthright

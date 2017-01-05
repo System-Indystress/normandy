@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LAITY where 
+module Language.Thesaurus.RogetLite.Laity where 
 import Language.Thesaurus
 laity :: ThProg
 laity = [thesaurus|
-# SENTIMENT
-## LAITY
+# Sentiment
+## Laity
 noun:
 * laity
  flock, fold, congregation, assembly, brethren, people, society 

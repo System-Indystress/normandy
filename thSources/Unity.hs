@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.UNITY where 
+module Language.Thesaurus.RogetLite.Unity where 
 import Language.Thesaurus
 unity :: ThProg
 unity = [thesaurus|
-# RELATION
-## UNITY
+# Relation
+## Unity
 noun:
 * unity
  oneness, individuality, solitude  , isolation  , unification 

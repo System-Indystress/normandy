@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.COLD where 
+module Language.Thesaurus.RogetLite.Cold where 
 import Language.Thesaurus
 cold :: ThProg
 cold = [thesaurus|
-# MATTER
-## COLD
+# Matter
+## Cold
 noun:
 * cold
  coldness, frigidity, inclemency, fresco

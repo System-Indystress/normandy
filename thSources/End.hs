@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.END where 
+module Language.Thesaurus.RogetLite.End where 
 import Language.Thesaurus
 end :: ThProg
 end = [thesaurus|
-# RELATION
-## END
+# Relation
+## End
 noun:
 * end
  close, termination, desinence, conclusion, finis, finale, period, term, terminus, endpoint, last, omega, extreme, extremity, gable end, butt end, fag-end, tip, nib, point, tail  , verge  , tag, peroration, bonne bouche, bottom dollar, tail end, rear guard

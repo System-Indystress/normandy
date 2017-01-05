@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.TAKING where 
+module Language.Thesaurus.RogetLite.Taking where 
 import Language.Thesaurus
 taking :: ThProg
 taking = [thesaurus|
-# VOLITION
-## TAKING
+# Volition
+## Taking
 noun:
 * taking
  reception  , deglutition  , appropriation, prehension, prensation, capture, caption, apprehension, deprehension, abreption, seizure, abduction, ablation, subtraction  , abstraction, ademption, adrolepsy

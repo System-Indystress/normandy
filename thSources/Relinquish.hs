@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.RELINQUISH where 
+module Language.Thesaurus.RogetLite.Relinquish where 
 import Language.Thesaurus
 relinquish :: ThProg
 relinquish = [thesaurus|
-# VOLITION
-## RELINQUISH
+# Volition
+## Relinquish
 noun:
 * relinquishment
  abandonment  , renunciation, expropriation, dereliction, cession, surrender, dispensation, resignation , riddance

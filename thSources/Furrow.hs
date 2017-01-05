@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.FURROW where 
+module Language.Thesaurus.RogetLite.Furrow where 
 import Language.Thesaurus
 furrow :: ThProg
 furrow = [thesaurus|
-# SPACE
-## FURROW
+# Space
+## Furrow
 noun:
 * furrow
  groove, rut, sulcus, scratch, streak, striae, crack, score, incision, slit, chamfer, fluting, corduroy road, cradle hole

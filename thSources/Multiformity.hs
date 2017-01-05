@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.MULTIFORMITY where 
+module Language.Thesaurus.RogetLite.Multiformity where 
 import Language.Thesaurus
 multiformity :: ThProg
 multiformity = [thesaurus|
-# RELATION
-## MULTIFORMITY
+# Relation
+## Multiformity
 noun:
 * multiformity
  omniformity, variety, diversity, multifariousness, varied assortment

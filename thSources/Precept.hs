@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.PRECEPT where 
+module Language.Thesaurus.RogetLite.Precept where 
 import Language.Thesaurus
 precept :: ThProg
 precept = [thesaurus|
-# VOLITION
-## PRECEPT
+# Volition
+## Precept
 noun:
 * precept
  direction, instruction, charge, prescript, prescription, recipe, receipt, golden rule, maxim 

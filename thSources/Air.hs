@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AIR where 
+module Language.Thesaurus.RogetLite.Air where 
 import Language.Thesaurus
 air :: ThProg
 air = [thesaurus|
-# MATTER
-## AIR
+# Matter
+## Air
 noun:
 * air  
  common air, atmospheric air, atmosphere, aerosphere

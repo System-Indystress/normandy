@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.AMUSEMENT where 
+module Language.Thesaurus.RogetLite.Amusement where 
 import Language.Thesaurus
 amusement :: ThProg
 amusement = [thesaurus|
-# SENITMENT
-## AMUSEMENT
+# Senitment
+## Amusement
 noun:
 * amusement
  entertainment, diversion, divertissement, reaction, solace, pastime, passetemps, sport, labor of love, pleasure 

@@ -1,9 +1,9 @@
-module Language.Thesaurus.RogetLite.LOSS where 
+module Language.Thesaurus.RogetLite.Loss where 
 import Language.Thesaurus
 loss :: ThProg
 loss = [thesaurus|
-# VOLITION
-## LOSS
+# Volition
+## Loss
 noun:
 * loss
  deperdition, perdition, forfeiture, lapse
