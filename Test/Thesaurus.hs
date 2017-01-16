@@ -37,7 +37,10 @@ badness_verbs =
   Map.insert (T.pack "do mischief") (S.fromList $ map T.pack ["do mischief","make mischief", "bring into trouble"]) $
   Map.insert (T.pack "destroy") (S.fromList $ map T.pack ["destroy"]) $
   Map.empty
--- the nouns of the badness category should be the textcluster defined above
+
+badness_advs =
+  Map.insert (T.pack "badly") (S.fromList $ map T.pack ["badly","wrong", "ill", "to one's cost", "where the shoe pinches"]) $
+  Map.empty
 test_badness_nouns =
   (nouns (buildTh rogetLite) (Cat $ T.pack "Baddness"))
   @?=
@@ -48,12 +51,15 @@ test_badness_verbs =
   badness_verbs
 test_badness_adjs = undefined
 
-test_badness_advs = undefined
+test_badness_advs =
+  (advs (buildTh rogetLite) (Cat $ T.pack "Baddness"))
+  @?=
+  badness_advs
 
 main :: IO ()
 main = defaultMainWithOpts
   [ testCase "badness nouns" test_badness_nouns
   , testCase "badness verbs" test_badness_verbs
   --, testCase "badness adjs"  test_badness_adjs
-  --, testCase "badness advs"  test_badness_advs
+  , testCase "badness advs"  test_badness_advs
   ] mempty
