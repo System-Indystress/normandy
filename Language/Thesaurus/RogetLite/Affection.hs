@@ -1,5 +1,5 @@
 {-#LANGUAGE QuasiQuotes#-}
-module Language.Thesaurus.RogetLite.Affection where 
+module Language.Thesaurus.RogetLite.Affection where
 import Language.Thesaurus
 affection :: ThProg
 affection = [thesaurus|
@@ -7,9 +7,9 @@ affection = [thesaurus|
 ## Affection
 noun:
 * affectation
- affectedness, acting a part, pretense  ,  , boasting 
+ affectedness, acting a part, pretense   , boasting 
 *charlatanism
- quackery, shallow profundity, pretension, airs, pedantry, purism, precisianism, euphuism, teratology  
+ quackery, shallow profundity, pretension, airs, pedantry, purism, precisianism, euphuism, teratology
 *mannerism
  simagrée, grimace
 *conceit
@@ -25,7 +25,7 @@ adj:
 * affected
  full of affectation, pretentious, pedantic, stilted, stagy, theatrical, big-sounding, ad captandum, canting, insincere
 *not natural
- unnatural, self-conscious, maniere, artificial, overwrought, overdone, overacted, euphuist 
+ unnatural, self-conscious, maniere, artificial, overwrought, overdone, overacted, euphuist
 *stiff
  starch, formal, prim, smug, demure, tire a quatre epingles, quakerish, puritanical, prudish, pragmatical, priggish, conceited, coxcomical, foppish, dandified, finical, finikin, mincing, simpering, namby-pamby, sentimental
 |]

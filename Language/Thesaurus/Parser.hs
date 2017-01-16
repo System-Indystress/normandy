@@ -1,5 +1,8 @@
 {-#LANGUAGE TemplateHaskell, QuasiQuotes#-}
 module Language.Thesaurus.Parser where
+-- helpers
+import qualified Data.List as L
+import qualified Data.Char as C
 -- syntax
 
 import Language.Haskell.TH
@@ -103,17 +106,24 @@ thExp = thCat <||> thClass <||> thNoun <||>
       reservedOp "*"
       whiteSpace
       key <- line
-      return $ ClusKeyE key
+      return $ ClusKeyE $ trim key
+        where
+          trim = L.dropWhileEnd C.isSpace . L.dropWhile C.isSpace
     thWords = do
       whiteSpaceOrComment
       ws <- commaSep1 entry
+      whiteSpaceOrComment
+      optional $ reservedOp ","
+      optional newline
       whiteSpaceOrComment
       return $ ClusValsE  ws
       where
         entry = do
                   whiteSpaceOrComment
-                  ids <- manyTill anyChar (reservedOp ",") <||> manyTill anyChar newline
-                  return ids
+                  optional $ reservedOp ","
+                  someTerm <- many1 $ satisfy (\c -> c /= '\n' && c /= ',')
+                  return $ trim someTerm
+        trim = L.dropWhileEnd C.isSpace . L.dropWhile C.isSpace
 whiteSpaceOrComment = comment <||> whiteSpace
   where
     comment = do

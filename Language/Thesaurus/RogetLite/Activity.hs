@@ -1,5 +1,5 @@
 {-#LANGUAGE QuasiQuotes#-}
-module Language.Thesaurus.RogetLite.Activity where 
+module Language.Thesaurus.RogetLite.Activity where
 import Language.Thesaurus
 activity :: ThProg
 activity = [thesaurus|
@@ -9,21 +9,21 @@ noun:
 * activity
  briskness, liveliness, animation, life, vivacity, spirit, dash, energy, snap, vim
 *nimbleness
- agility, smartness, quickness, velocity, , alacrity, promptitude, despatch, dispatch, expedition, haste , punctuality  
+ agility, smartness, quickness, velocity, alacrity, promptitude, despatch, dispatch, expedition, haste , punctuality  
 *eagerness
- zeal, ardor, perfervidum aingenium, empressement, earnestness, intentness, abandon, vigor  , devotion  , exertion 
+ zeal, ardor, perfervidum aingenium, empressement, earnestness, intentness, abandon, vigor  , devotion  , exertion
 *industry
  assiduity, assiduousness, sedulity, laboriousness, drudgery  , painstaking, diligence, perseverance , indefatigation, habits of business
-*vigilance 
+*vigilance
  wakefulness, sleeplessness, restlessness, insomnia, pervigilium, insomnium, racketing
 *movement
- bustle, stir, fuss, ado, bother, pottering, fidget, fidgetiness, flurry  
+ bustle, stir, fuss, ado, bother, pottering, fidget, fidgetiness, flurry
 *officiousness
  dabbling, meddling, interference, interposition, intermeddling, tampering with, intrigue
 *press of business
  no sinecure, plenty to do, many irons in the fire, great doings, busy hum of men, battle of life, thick of the action
 *housewife
- busy bee, new brooms, sharp fellow, sharp blade, devotee, enthusiast, zealot, meddler, intermeddler, intriguer, busybody, pickthank, hummer, hustler, live man , rustler 
+ busy bee, new brooms, sharp fellow, sharp blade, devotee, enthusiast, zealot, meddler, intermeddler, intriguer, busybody, pickthank, hummer, hustler, live man , rustler
 verb:
 * be active
  busy oneself in, stir, stir about, stir one's stumps, bestir oneself, rouse oneself, speed, hasten, peg away, lay about one, bustle, fuss, raise up, kick up a dust, push, make a push, make a fuss, make a stir, go ahead, push forward, fight one's way, elbow one's way, make progress , toll  , plod, persist  , keep up the ball, keep the pot boiling
@@ -35,7 +35,7 @@ verb:
  run the round of, go all lengths, stick at nothing, run riot
 *outdo
  overdo, overact, overlay, overshoot the mark, make a toil of a pleasure
-*have a hand in  
+*have a hand in
  take an active part, put in one's oar, have a finger in the pie, mix oneself up with, trouble, one's head about, intrigue, agitate
 *tamper with
  meddle, moil, intermeddle, interfere, interpose, obtrude, poke one's nose in, thrust one's nose in
@@ -45,9 +45,9 @@ adj:
 *nimble
  nimble as a squirrel, agile, light-footed, nimble-footed, featly, tripping
 *quick
- prompt, yare, instant, ready, alert, spry, sharp, smart, fast  , quick as a lamplighter, expeditious, awake, broad awake, go-ahead, live  wide-awake  
+ prompt, yare, instant, ready, alert, spry, sharp, smart, fast  , quick as a lamplighter, expeditious, awake, broad awake, go-ahead, live  wide-awake
 *forward
- eager, strenuous, zealous, enterprising, in earnest, resolute 
+ eager, strenuous, zealous, enterprising, in earnest, resolute
 *industrious
  assiduous, diligent, sedulous, notable, painstaking, intent  , indefatigable  , unwearied, unsleeping, never tired, plodding, hardworking , businesslike, workaday
 *bustling
@@ -59,7 +59,7 @@ adj:
 *meddling
  meddlesome, pushing, officious, overofficious, intrigant
 *astir
- stirring, agoing, afoot, on foot, in full swing, eventful, on the alert,  
+ stirring, agoing, afoot, on foot, in full swing, eventful, on the alert,
 adv:
 * actively
  with life and spirit, with might and main , with haste , with wings, full tilt, in mediis rebus

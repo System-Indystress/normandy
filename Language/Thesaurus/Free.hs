@@ -8,6 +8,8 @@ import Data.Text (Text(..))
 import qualified Data.Map as Map
 import Data.Map (Map(..))
 import qualified Language.Thesaurus.Parser as TP
+import qualified Data.Set as S
+import Data.Set (Set(..))
 
 -- Imperative Syntax
 data ThExp next = THCatClE String next
@@ -51,8 +53,8 @@ data EntryState = ES { curCCl :: Maybe CatClass
                      , curKey :: Maybe Text }
   deriving (Show, Eq, Ord)
 mkES = ES Nothing Nothing Nothing Nothing
-type WordState  = Map EntryState [Text]
-type IndexState = Map Text [Category]
+type WordState  = Map EntryState (Set Text)
+type IndexState = Map Text (Set Category)
 type CatClState = Map Category CatClass
 data ThState =
   THS { wordMap :: WordState
@@ -71,8 +73,8 @@ addWord es value (ths @ THS{wordMap = wm}) =
 
 addWord' :: EntryState -> String -> WordState -> WordState
 addWord' key value m =
-  let f (Just txt) = Just $ (T.pack value) : txt
-      f Nothing    = Just [T.pack value]
+  let f (Just txt) = Just $ S.insert (T.pack value) txt
+      f Nothing    = Just $ S.singleton $ T.pack value
   in  Map.alter f key m
 
 addIndex :: EntryState -> String -> ThState -> ThState
@@ -81,8 +83,8 @@ addIndex es value (ths @ THS{indMap = im}) =
 
 addIndex' :: EntryState -> String -> IndexState -> IndexState
 addIndex' (ES{curCat = Just cc}) value is =
-  let f (Just cats) = Just $ cc : cats
-      f Nothing     = Just [cc]
+  let f (Just cats) = Just $ S.insert cc  cats
+      f Nothing     = Just $ S.singleton cc
   in  Map.alter f (T.pack value) is
 addIndex' _ _ is = is
 
@@ -159,7 +161,7 @@ instance Thesaurus ThState where
         f _ _ m = m
     in  Map.foldrWithKey f Map.empty wm
   toCats (THS _ cm _) catCl1 =
-    let f cat catCl2 cats = if catCl1 == catCl2 then cat : cats else cats
-    in  Map.foldrWithKey f [] cm
+    let f cat catCl2 cats = if catCl1 == catCl2 then S.insert cat cats else cats
+    in  Map.foldrWithKey f S.empty cm
   toClass (THS _ cm _) cat1 = Map.lookup cat1 cm
-  indexes (THS _ _ im) txt = Map.findWithDefault [] txt im
+  indexes (THS _ _ im) txt = Map.findWithDefault S.empty txt im

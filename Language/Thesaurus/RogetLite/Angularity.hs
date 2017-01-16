@@ -1,5 +1,5 @@
 {-#LANGUAGE QuasiQuotes#-}
-module Language.Thesaurus.RogetLite.Angularity where 
+module Language.Thesaurus.RogetLite.Angularity where
 import Language.Thesaurus
 angularity :: ThProg
 angularity = [thesaurus|
@@ -12,8 +12,8 @@ noun:
  knee, knuckle, ankle, groin, crotch, crutch, crane, fluke, scythe, sickle, zigzag, kimbo, akimbo
 *corner
  nook, recess, niche, oriel, coign
-*right angle 
- , obliquity , angle of , miter, acute angle, obtuse angle, salient angle, reentering angle, spherical angle
+*right angle
+  obliquity , angle of , miter, acute angle, obtuse angle, salient angle, reentering angle, spherical angle
 *angular measurement
  angular elevation, angular distance, angular velocity, trigonometry, goniometry, altimetry, clinometer, graphometer, goniometer, theodolite, sextant, quadrant, dichotomy
 *triangle
@@ -25,7 +25,7 @@ verb:
  fork, bifurcate, crinkle
 adj:
 * angular
- bent, crooked, aduncous, uncinated, aquiline, jagged, serrated, falciform, falcated, furcated, forked, bifurcate, zigzag, furcular, hooked, dovetailed, knock kneed, crinkled, akimbo, kimbo, geniculated, oblique 
+ bent, crooked, aduncous, uncinated, aquiline, jagged, serrated, falciform, falcated, furcated, forked, bifurcate, zigzag, furcular, hooked, dovetailed, knock kneed, crinkled, akimbo, kimbo, geniculated, oblique
 *fusiform
  wedge-shaped, cuneiform, cuneate, multangular, oxygonal, triangular, trigonal, trilateral, quadrangular, quadrilateral, foursquare, rectangular, square, multilateral, polygonal, cubical, rhomboidal, pyramidal
 |]

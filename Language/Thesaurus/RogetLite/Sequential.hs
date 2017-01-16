@@ -1,5 +1,5 @@
 {-#LANGUAGE QuasiQuotes#-}
-module Language.Thesaurus.RogetLite.Sequential where 
+module Language.Thesaurus.RogetLite.Sequential where
 import Language.Thesaurus
 sequential :: ThProg
 sequential = [thesaurus|
@@ -7,7 +7,7 @@ sequential = [thesaurus|
 ## Sequential
 noun:
 * sequence
- coming after  ,  , following pursuit 
+ coming after  ,  , following pursuit
 *follower
  attendant, satellite, shadow, dangler, train, groupee
 verb:
@@ -19,5 +19,5 @@ adj:
 * following
 adv:
 * behind
- in the rear , in the train of, in the wake of, after  ,
+ in the rear , in the train of, in the wake of, after 
 |]
