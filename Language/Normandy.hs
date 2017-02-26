@@ -13,6 +13,8 @@ module Language.Normandy
 , comment
 , prettyPrint
 , annotated
+, chooseAnyTopic
+, chooseAnyIdea
 ) where
 
 import Language.Normandy.Quote

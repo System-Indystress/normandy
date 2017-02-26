@@ -29,6 +29,8 @@ library
                      , Language.Normandy.Pass
                      , Language.Normandy.Pass.Class
                      , Language.Normandy.Pass.POS
+                     , Language.Normandy.Pass.Choose
+                     --ck , Language.Normandy.Pass.Vocab
 
                      , Language.Thesaurus.Free
                      , Language.Thesaurus.Parser

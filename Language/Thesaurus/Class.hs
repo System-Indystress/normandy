@@ -8,6 +8,11 @@ import qualified Data.Set as S
 import Data.Set (Set(..))
 
 type TextCluster = Map Text (Set Text)
+containing :: Text -> TextCluster -> Set Text
+containing word tc =
+  let find aSet acc = if S.member word aSet then S.union acc aSet else acc
+  in  Map.foldr find S.empty tc
+
 
 class Thesaurus t where
   nouns    :: t -> Category -> TextCluster
@@ -16,7 +21,8 @@ class Thesaurus t where
   advs     :: t -> Category -> TextCluster
   toCats   :: t -> CatClass -> Set Category
   toClass  :: t -> Category -> Maybe CatClass
-  indexes    :: t -> Text     -> Set Category
+  classes  :: t -> Set CatClass
+  indexes  :: t -> Text     -> Set Category
   combineT :: (Thesaurus t1) => t1 -> t -> DfltThesaurus
   combineT t1 t2 =
     DThes { dNouns = \c -> Map.union (nouns t1 c) (nouns t2 c)
@@ -28,6 +34,7 @@ class Thesaurus t where
                                Nothing -> (toClass t2 c)
                                v       -> v)
           , dIndexes = \txt -> (indexes t1 txt) `S.union` (indexes t2 txt)
+          , dClasses = classes t1 `S.union` classes t2
           }
 
 catCl :: String -> CatClass
@@ -49,6 +56,7 @@ data DfltThesaurus =
         , dToCats  :: (CatClass -> Set Category)
         , dToClass :: (Category -> Maybe CatClass)
         , dIndexes :: (Text     -> Set Category)
+        , dClasses :: Set CatClass
         }
 
 instance Thesaurus (DfltThesaurus) where
@@ -59,3 +67,4 @@ instance Thesaurus (DfltThesaurus) where
   toCats d = (dToCats d)
   toClass d = (dToClass d)
   indexes  d = (dIndexes d)
+  classes d = (dClasses d)

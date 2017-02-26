@@ -11,6 +11,7 @@ module Language.Thesaurus
   , buildTh
   , catCl
   , cat
+  , containing
   ) where
 
 import Language.Thesaurus.Class

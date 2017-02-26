@@ -165,3 +165,4 @@ instance Thesaurus ThState where
     in  Map.foldrWithKey f S.empty cm
   toClass (THS _ cm _) cat1 = Map.lookup cat1 cm
   indexes (THS _ _ im) txt = Map.findWithDefault S.empty txt im
+  classes (THS _ cm _) = S.fromList $ Map.elems cm
