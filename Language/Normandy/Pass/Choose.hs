@@ -27,8 +27,13 @@ chooseAnyIdea th nextFn seed story@(Free (NTopicF c next)) =
       cs = nouns th (Cat c)
   in case M.size cs of
        0 -> story
-       n -> let idea  = M.keys cs !! (seed `mod` n)
+       n -> let key  = M.keys cs !! (seed `mod` n)
+                val  = M.lookup key cs
                 seed' = nextFn seed
+                idea  = case val of
+                          Just v  -> S.elemAt (seed' `mod` S.size v) v
+                          Nothing -> key
+                seed'' = nextFn seed'
             in  (Free (NTopicF c
                   (Free (NProseF idea $
                     chooseAnyIdea th nextFn seed' next))))
