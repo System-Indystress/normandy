@@ -22,6 +22,7 @@ data NVal = NTopicV String
           | NProseV String
           | NHoleV (Maybe NVal)
           | NCommentV String
+          | NIdeasV [String]
   deriving (Show, Eq)
 
 -- Parser
@@ -68,7 +69,7 @@ nVals :: PS.Parser [NVal]
 nVals = many nVal
 
 nVal :: PS.Parser NVal
-nVal = topic <||> outline <||> hole <||> todo <||> comment <||> prose
+nVal = topic <||> outline <||> hole <||> todo <||> ideas <||> comment <||> prose
 
 
 opVal :: PS.Parser NVal
@@ -112,6 +113,15 @@ todo = do
   nval <- nVal
   return $ NHoleV $ Just nval
 
+ideas :: PS.Parser NVal
+ideas = do
+  whiteSpace
+  reservedOp "%{"
+  whiteSpace
+  is <- commaSep $ (manyTill anyChar $ reservedOp ",") <||> (manyTill anyChar $ reservedOp "}")
+  reservedOp "}"
+  return $ NIdeasV is
+
 comment :: PS.Parser NVal
 comment = do
   whiteSpace
@@ -147,7 +157,7 @@ whiteSpaceOrComment = comment <||> whiteSpace
 -- Lexer
 lexer :: PT.TokenParser ()
 lexer = PT.makeTokenParser $ haskellStyle
-  { reservedOpNames = ["%|", "|","%!","%???", "%TODO", "%"]
+  { reservedOpNames = ["%|", "|","%!","%???", "%TODO", "%", "%{", "}", ","]
   , reservedNames   = []
   }
 
@@ -160,6 +170,7 @@ charLiteral   = PT.charLiteral lexer
 stringLiteral = PT.stringLiteral  lexer
 integer       = PT.integer     lexer
 natural       = PT.natural     lexer
+commaSep      = PT.commaSep    lexer
 commaSep1     = PT.commaSep1   lexer
 parens        = PT.parens      lexer
 braces        = PT.braces      lexer

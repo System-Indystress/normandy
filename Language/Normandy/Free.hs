@@ -6,12 +6,15 @@ import Language.Normandy.Parser as NP
 
 import qualified Data.Text as T
 import Data.Text (Text(..))
+import qualified Data.Set as S
+import Data.Set (Set(..))
 
 data NFree a next = NTopicF Text next
                   | NOutlineF (Maybe Text) (Maybe Text) (Maybe Text) next
                   | NProseF a next
                   | NHoleF (Maybe next) next
                   | NCommentF Text next
+                  | NIdeasF (Set Text) next
 
 instance Functor (NFree a) where
   fmap f (NTopicF t n)          = NTopicF t           (f n)
@@ -20,6 +23,8 @@ instance Functor (NFree a) where
   fmap f (NHoleF Nothing n)     = NHoleF Nothing      (f n)
   fmap f (NHoleF (Just c) n)    = NHoleF (Just $ f c) (f n)
   fmap f (NCommentF t n)        = NCommentF t         (f n)
+  fmap f (NIdeasF s n)          = NIdeasF s (f n)
+
 
 type Story a = Free (NFree a) ()
 
@@ -33,6 +38,7 @@ parsedToFree (NOutlineV ms ma mo) =
   in  Free (NOutlineF (mp ms) (mp ma) (mp mo) $ Pure ())
 parsedToFree (NHoleV (Just val)) = Free (NHoleF (Just $ parsedToFree val) $ Pure ())
 parsedToFree (NHoleV Nothing) = Free (NHoleF Nothing $ Pure ())
+parsedToFree (NIdeasV is) = Free (NIdeasF (S.map T.pack $ S.fromList is) $ Pure ())
 
 -- %! Current Topic
 topic :: String -> Story Text
@@ -70,6 +76,9 @@ todo = parsedToFree . NHoleV . Just . NTopicV
 comment :: String -> Story Text
 comment = parsedToFree . NCommentV
 
+-- %{idea1, idea2, idea3}
+ideas :: [String] -> Story Text
+ideas = parsedToFree . NIdeasV
 -- default interpretters and instances
 
 prettyPrint :: Story Text -> String
@@ -88,4 +97,9 @@ prettyPrint (Free (NHoleF Nothing next)) =
   "%???\n" ++ prettyPrint next
 prettyPrint (Free (NHoleF (Just nprog) next)) =
   "%TODO " ++ (unwords $ lines $ prettyPrint nprog) ++ "\n" ++ prettyPrint next
+prettyPrint (Free (NIdeasF ideas next)) =
+  let ideasList = S.toList ideas
+      f txt acc = acc `T.append` txt `T.append` (T.pack ", ")
+      ideasString = T.unpack $ 2 `T.dropEnd` (foldr f T.empty ideasList)
+  in  "%{ " ++ ideasString ++ " }\n" ++ prettyPrint next
 prettyPrint (Pure _) = ""

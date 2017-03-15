@@ -11,13 +11,11 @@ import Data.List ((!!))
 chooseAnyTopic :: (Thesaurus t) => t -> (Int -> Int) -> Int -> Story Text -> Story Text
 chooseAnyTopic th nextFn seed story@(Free (NHoleF Nothing next)) =
   let cls = classes th
-  in case S.size cls of
+      cats = S.foldr (\cl s -> toCats th cl `S.union` s) S.empty cls
+  in case S.size cats of
        0 -> story
-       n -> let cl       = S.elemAt (seed `mod` n) cls
-                seed'    = nextFn seed
-                cats     = toCats th cl
-                (Cat c)  = S.elemAt (seed' `mod` S.size cats) cats
-            in  (Free (NTopicF c $ chooseAnyTopic th nextFn (nextFn seed') next))
+       n -> let (Cat c)  = S.elemAt (seed `mod` n) cats
+            in  (Free (NTopicF c $ chooseAnyTopic th nextFn (nextFn seed) next))
 chooseAnyTopic th nextFn seed (Free rest) = (Free $ fmap (chooseAnyTopic th nextFn seed) rest)
 chooseAnyTopic _ _ _ pur = pur
 
