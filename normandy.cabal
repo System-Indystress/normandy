@@ -19,13 +19,14 @@ library
   exposed-modules:
                        Language.Thesaurus
                      , Language.Normandy
+                     , Language.Normandy.Parser
+                     , Language.Normandy.Free
                      --, Test.ThesaurusQuasi
                      --, Test.NormandyQuasi
                      , Language.Thesaurus.RogetLite
 
-  other-modules:       Language.Normandy.Parser
-                     , Language.Normandy.Free
-                     , Language.Normandy.Quote
+  other-modules:
+                     Language.Normandy.Quote
                      , Language.Normandy.Pass
                      , Language.Normandy.Pass.Class
                      , Language.Normandy.Pass.POS

@@ -20,20 +20,26 @@ chooseAnyTopic th nextFn seed (Free rest) = (Free $ fmap (chooseAnyTopic th next
 chooseAnyTopic _ _ _ pur = pur
 
 chooseAnyIdea :: (Thesaurus t) => t -> (Int -> Int) -> Int -> Story Text -> Story Text
-chooseAnyIdea th nextFn seed story@(Free (NTopicF c next)) =
+chooseAnyIdea = chooseNIdeas 1
+
+
+chooseNIdeas :: (Thesaurus t) => Int -> t -> (Int -> Int) -> Int -> Story Text -> Story Text
+chooseNIdeas n th nextFn seed story@(Free (NTopicF c next)) =
   let cs :: TextCluster
       cs = nouns th (Cat c)
   in case M.size cs of
        0 -> story
-       n -> let key  = M.keys cs !! (seed `mod` n)
-                val  = M.lookup key cs
-                seed' = nextFn seed
-                idea  = case val of
-                          Just v  -> S.elemAt (seed' `mod` S.size v) v
-                          Nothing -> key
-                seed'' = nextFn seed'
+       m -> let seeds = take n $ iterate nextFn seed
+                keys  = map (\s -> M.keys cs !! (s `mod` m)) seeds
+                vals  = map (\key -> M.lookup key cs) keys
+                seeds' = map nextFn seeds
+                pairs = zip seeds' vals
+                f (_, Nothing) acc = acc
+                f (s', Just someNouns) acc = S.insert ((s' `mod` (S.size someNouns)) `S.elemAt` someNouns) acc
+                ideas  = foldr f S.empty pairs
+                seed'' = nextFn $ last seeds'
             in  (Free (NTopicF c
-                  (Free (NProseF idea $
-                    chooseAnyIdea th nextFn seed' next))))
-chooseAnyIdea th nextFn seed (Free rest) = (Free $ fmap (chooseAnyIdea th nextFn seed) rest)
-chooseAnyIdea _ _ _ pur = pur
+                  (Free (NIdeasF ideas $
+                    chooseNIdeas n th nextFn seed'' next))))
+chooseNIdeas n th nextFn seed (Free rest) = (Free $ fmap (chooseNIdeas n th nextFn seed) rest)
+chooseNIdeas _ _ _ _ pur = pur

@@ -1,5 +1,6 @@
 module Language.Normandy
 ( normandy
+-- Free
 , Story(..)
 , parsedToFree
 , topic
@@ -12,9 +13,12 @@ module Language.Normandy
 , todo
 , comment
 , prettyPrint
+-- POS
 , annotated
+-- Choose
 , chooseAnyTopic
 , chooseAnyIdea
+, chooseNIdeas
 ) where
 
 import Language.Normandy.Quote

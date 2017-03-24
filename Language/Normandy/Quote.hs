@@ -34,5 +34,6 @@ nparse input = do
    Left err -> unsafePerformIO $ fail $ show err
    Right x  -> normandy_val x
 
+
 normandy_val :: [NP.NVal] -> TH.Q TH.Exp
 normandy_val ast = [| foldr ((>>) . NF.parsedToFree) (Pure ()) ast|]

@@ -6,6 +6,7 @@ module Language.Normandy.Pass
 -- Choose
 , chooseAnyTopic
 , chooseAnyIdea
+, chooseNIdeas
 -- CLASS
 , Pass(..)
 ) where

@@ -69,18 +69,18 @@ nVals :: PS.Parser [NVal]
 nVals = many nVal
 
 nVal :: PS.Parser NVal
-nVal = topic <||> outline <||> hole <||> todo <||> ideas <||> comment <||> prose
+nVal = opVal <||> prose
 
 
 opVal :: PS.Parser NVal
-opVal = topic <||> outline <||> hole <||> todo <||> comment
+opVal = topic <||> outline <||> hole <||> todo <||> ideas <||> comment
 
 topic :: PS.Parser NVal
 topic = do
   whiteSpace
   reservedOp "%!"
   whiteSpace
-  str <- manyTill anyChar newline
+  str <- manyTill anyChar nlOrEof
   return $ NTopicV str
 
 outline :: PS.Parser NVal
@@ -118,16 +118,27 @@ ideas = do
   whiteSpace
   reservedOp "%{"
   whiteSpace
-  is <- commaSep $ (manyTill anyChar $ reservedOp ",") <||> (manyTill anyChar $ reservedOp "}")
-  reservedOp "}"
+  is <- getIs
+  whiteSpace
   return $ NIdeasV is
+  where
+    getIs = c <||> b
+    c     = do
+      whiteSpace
+      i <- manyTill anyToken (reservedOp ",")
+      whiteSpace
+      rest <- getIs
+      return $ i : rest
+    b     = do
+      i <- manyTill anyToken (reservedOp "}")
+      return [i]
 
 comment :: PS.Parser NVal
 comment = do
   whiteSpace
   reservedOp "%"
   whiteSpace
-  str <- manyTill anyChar newline
+  str <- manyTill anyToken nlOrEof
   return $ NCommentV str
 
 prose :: PS.Parser NVal
@@ -152,12 +163,17 @@ whiteSpaceOrComment = comment <||> whiteSpace
       reservedOp "--"
       (manyTill anyChar $ try $ string "\n") <||> (manyTill anyChar $ try $ string "\r")
       return ()
-
+nlOrEof :: PS.Parser ()
+nlOrEof = do
+  v <- optionMaybe newline
+  case v of
+    Just _   -> return ()
+    Nothing  -> eof
 ------------------------------------------------------------------------------
 -- Lexer
 lexer :: PT.TokenParser ()
 lexer = PT.makeTokenParser $ haskellStyle
-  { reservedOpNames = ["%|", "|","%!","%???", "%TODO", "%", "%{", "}", ","]
+  { reservedOpNames = ["%|", "|","%!","%???", "%TODO", "%{", "}","%", ","]
   , reservedNames   = []
   }
 
