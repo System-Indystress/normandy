@@ -15,14 +15,16 @@ import qualified Text.Parsec.Expr       as PE
 import qualified Text.Parsec.Combinator as PC
 import Text.ParserCombinators.Parsec.Language (haskellStyle, reservedOpNames, reservedNames)
 import Text.ParserCombinators.Parsec.Pos      (newPos)
-
+-- Debugging
+import Debug.Trace (trace)
 -- Syntax
-data NVal = NTopicV String
+data NVal = NTopicV [String]
           | NOutlineV (Maybe String) (Maybe String) (Maybe String)
           | NProseV String
           | NHoleV (Maybe NVal)
           | NCommentV String
           | NIdeasV [String]
+          | NRegionV String (Maybe String)
   deriving (Show, Eq)
 
 -- Parser
@@ -34,12 +36,14 @@ msE Nothing = ConE $ mkName "Nothing"
 msE (Just s) = AppE (ConE $ mkName "Just") (sE s)
 instance Lift NVal where
   -- lift :: ThExp -> Q Exp
-  lift (NTopicV s)             = [| NTopicV $(return $ sE s) |]
+  lift (NTopicV s)             = [| NTopicV $(return $ ListE $ Prelude.map sE s) |]
   lift (NOutlineV ms1 ms2 ms3) = [| NOutlineV $(return $ msE ms1) $(return $ msE ms2) $(return $ msE ms3)|]
   lift (NProseV s)             = [| NProseV $(return $ sE s)|]
   lift (NHoleV Nothing)        = [| NHoleV Nothing |]
   lift (NHoleV (Just v))       = [| NHoleV (Just $(lift v)) |]
-  lift (NCommentV s)           = [|NCommentV $(return $ sE s) |]
+  lift (NCommentV s)           = [| NCommentV $(return $ sE s) |]
+  lift (NIdeasV is)            = [| NIdeasV $(return $ ListE $ Prelude.map sE is) |]
+  lift (NRegionV i annot)      = [| NRegionV $(return $ sE i) $(return $ msE annot) |]
 
 ------------------------------------------------------------------------------
 -- Or-Try Combinator (tries two parsers, one after the other)
@@ -73,15 +77,31 @@ nVal = opVal <||> prose
 
 
 opVal :: PS.Parser NVal
-opVal = topic <||> outline <||> hole <||> todo <||> ideas <||> comment
+opVal = topic <||> outline <||> hole   <||>
+        todo  <||> ideas   <||> region <||> comment
 
 topic :: PS.Parser NVal
 topic = do
   whiteSpace
   reservedOp "%!"
   whiteSpace
-  str <- manyTill anyChar nlOrEof
-  return $ NTopicV str
+  str <- getTopics
+  trace (show str) $ return $ NTopicV str
+    where
+      getTopics :: PS.Parser [String]
+      getTopics = do {
+        whiteSpace
+      ; s <- manyTill anyToken (try $ do {optional whiteSpace; reservedOp "&"})
+      ; rest <- getTopics
+      ; return $ s : rest
+      } <||> do {
+        whiteSpace
+      ; s <- manyTill anyToken nlOrEof
+      ; return [s]
+      }
+
+
+
 
 outline :: PS.Parser NVal
 outline = do
@@ -132,6 +152,18 @@ ideas = do
     b     = do
       i <- manyTill anyToken (reservedOp "}")
       return [i]
+region :: PS.Parser NVal
+region = do
+  whiteSpace
+  reservedOp "%<"
+  whiteSpace
+  someId <- manyTill anyToken (reservedOp ">")
+  whiteSpace
+  annotation <- manyTill anyToken nlOrEof
+  let ma = case annotation of
+             "" -> Nothing
+             a  -> Just a
+  return $ NRegionV someId ma
 
 comment :: PS.Parser NVal
 comment = do
@@ -173,7 +205,7 @@ nlOrEof = do
 -- Lexer
 lexer :: PT.TokenParser ()
 lexer = PT.makeTokenParser $ haskellStyle
-  { reservedOpNames = ["%|", "|","%!","%???", "%TODO", "%{", "}","%", ","]
+  { reservedOpNames = ["%|", "|","%!","%???", "%TODO", "%{", "}","%", "%<", ">", "&", ","]
   , reservedNames   = []
   }
 

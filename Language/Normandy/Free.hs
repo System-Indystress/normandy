@@ -9,12 +9,13 @@ import Data.Text (Text(..))
 import qualified Data.Set as S
 import Data.Set (Set(..))
 
-data NFree a next = NTopicF Text next
+data NFree a next = NTopicF [Text] next
                   | NOutlineF (Maybe Text) (Maybe Text) (Maybe Text) next
                   | NProseF a next
                   | NHoleF (Maybe next) next
                   | NCommentF Text next
                   | NIdeasF (Set Text) next
+                  | NRegionF Text (Maybe Text) next
 
 instance Functor (NFree a) where
   fmap f (NTopicF t n)          = NTopicF t           (f n)
@@ -23,25 +24,26 @@ instance Functor (NFree a) where
   fmap f (NHoleF Nothing n)     = NHoleF Nothing      (f n)
   fmap f (NHoleF (Just c) n)    = NHoleF (Just $ f c) (f n)
   fmap f (NCommentF t n)        = NCommentF t         (f n)
-  fmap f (NIdeasF s n)          = NIdeasF s (f n)
+  fmap f (NIdeasF s n)          = NIdeasF s           (f n)
+  fmap f (NRegionF i ma n)      = NRegionF i ma       (f n)
 
 
 type Story a = Free (NFree a) ()
 
 parsedToFree :: NP.NVal -> Story Text
-parsedToFree (NTopicV str)   = Free (NTopicF   (T.pack str) $ Pure ())
+parsedToFree (NTopicV str)   = Free (NTopicF   (map T.pack str) $ Pure ())
 parsedToFree (NCommentV str) = Free (NCommentF (T.pack str) $ Pure ())
 parsedToFree (NProseV str)   = Free (NProseF   (T.pack str) $ Pure ())
 parsedToFree (NOutlineV ms ma mo) =
-  let mp (Just str) = (Just . T.pack) str
-      mp Nothing    = Nothing
+  let mp = fmap T.pack
   in  Free (NOutlineF (mp ms) (mp ma) (mp mo) $ Pure ())
-parsedToFree (NHoleV (Just val)) = Free (NHoleF (Just $ parsedToFree val) $ Pure ())
-parsedToFree (NHoleV Nothing) = Free (NHoleF Nothing $ Pure ())
-parsedToFree (NIdeasV is) = Free (NIdeasF (S.map T.pack $ S.fromList is) $ Pure ())
+parsedToFree (NHoleV (Just val)) = Free (NHoleF (Just $ parsedToFree val)   $ Pure ())
+parsedToFree (NHoleV Nothing) = Free (NHoleF Nothing                        $ Pure ())
+parsedToFree (NIdeasV is) = Free (NIdeasF (S.map T.pack $ S.fromList is)    $ Pure ())
+parsedToFree (NRegionV i ma) = Free (NRegionF (T.pack i) (fmap T.pack ma) $ Pure ())
 
 -- %! Current Topic
-topic :: String -> Story Text
+topic :: [String] -> Story Text
 topic = parsedToFree . NTopicV
 
 -- %| a | b | c |
@@ -70,7 +72,7 @@ hole = parsedToFree $ NHoleV Nothing
 
 -- %TODO Weak Topic
 todo :: String -> Story Text
-todo = parsedToFree . NHoleV . Just . NTopicV
+todo s = (parsedToFree . NHoleV . Just . NTopicV) [s]
 
 -- % This is what some free form text not to be edited, can be used as flags
 comment :: String -> Story Text
@@ -79,11 +81,15 @@ comment = parsedToFree . NCommentV
 -- %{idea1, idea2, idea3}
 ideas :: [String] -> Story Text
 ideas = parsedToFree . NIdeasV
+
+region :: String -> Maybe String -> Story Text
+region i ma = parsedToFree $ NRegionV i ma
 -- default interpretters and instances
 
 prettyPrint :: Story Text -> String
-prettyPrint (Free (NTopicF topic next)) =
-  "%! " ++ T.unpack topic ++ "\n" ++ prettyPrint next
+prettyPrint (Free (NTopicF topics next)) =
+
+  "%! " ++ (T.unpack $ T.intercalate (T.pack " & ") topics) ++ "\n" ++ prettyPrint next
 prettyPrint (Free (NOutlineF ms ma mo next)) =
   "%| " ++ munpack ms ++ " | " ++ munpack ma ++ " | " ++ munpack mo ++ " |\n" ++ prettyPrint next
   where
@@ -102,4 +108,8 @@ prettyPrint (Free (NIdeasF ideas next)) =
       f txt acc = acc `T.append` txt `T.append` (T.pack ", ")
       ideasString = T.unpack $ 2 `T.dropEnd` (foldr f T.empty ideasList)
   in  "%{ " ++ ideasString ++ " }\n" ++ prettyPrint next
+prettyPrint (Free (NRegionF i Nothing next)) =
+  "%<" ++ (show i) ++ ">\n" ++ prettyPrint next
+prettyPrint (Free (NRegionF i (Just annot) next)) =
+  "%<" ++ (show i) ++ "> " ++ (show annot) ++ "\n" ++ prettyPrint next
 prettyPrint (Pure _) = ""

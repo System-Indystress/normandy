@@ -16,7 +16,7 @@ chooseAnyTopic th nextFn seed story@(Free (NHoleF Nothing next)) =
   in case S.size cats of
        0 -> story
        n -> let (Cat c)  = S.elemAt (seed `mod` n) cats
-            in  (Free (NTopicF c $ chooseAnyTopic th nextFn (nextFn seed) next))
+            in  (Free (NTopicF [c] $ chooseAnyTopic th nextFn (nextFn seed) next))
 chooseAnyTopic th nextFn seed (Free rest) = (Free $ fmap (chooseAnyTopic th nextFn seed) rest)
 chooseAnyTopic _ _ _ pur = pur
 
@@ -25,10 +25,13 @@ chooseAnyIdea = chooseNIdeas 1
 
 
 chooseNIdeas :: (Thesaurus t) => Int -> t -> (Int -> Int) -> Int -> Story Text -> Story Text
-chooseNIdeas n th nextFn seed story@(Free (NTopicF c next)) =
+chooseNIdeas n th nextFn seed story@(Free (NTopicF someTopics next)) =
   let
       someCats :: S.Set Category
-      someCats = Cat (T.toTitle c) `S.insert` indexes th (T.toLower c)
+      someCats = S.foldr
+                  (\c acc -> Cat (T.toTitle c) `S.insert` indexes th (T.toLower c) `S.union` acc)
+                   S.empty
+                  (S.fromList someTopics)
       cs :: TextCluster
       cs = S.foldr M.union M.empty $ S.map (nouns th) someCats
   in case M.size cs of
@@ -44,11 +47,11 @@ chooseNIdeas n th nextFn seed story@(Free (NTopicF c next)) =
                 seed'' = nextFn $ last seeds'
             in  case next of
                   (Free (NIdeasF ideas' next')) ->
-                    (Free (NTopicF c
+                    (Free (NTopicF someTopics
                       (Free (NIdeasF (ideas `S.union` ideas') $
                         chooseNIdeas n th nextFn seed'' next'))))
                   _ ->
-                    (Free (NTopicF c
+                    (Free (NTopicF someTopics
                       (Free (NIdeasF ideas $
                         chooseNIdeas n th nextFn seed'' next))))
 chooseNIdeas n th nextFn seed (Free rest) = (Free $ fmap (chooseNIdeas n th nextFn seed) rest)
