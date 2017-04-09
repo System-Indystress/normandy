@@ -97,7 +97,7 @@ topic = do
       } <||> do {
         whiteSpace
       ; s <- manyTill anyToken nlOrEof
-      ; return [s]
+      ; return [Prelude.takeWhile (\c -> c /= '\n' && c /= '\r') s]
       }
 
 
