@@ -14,7 +14,7 @@ chooseAnyTopic th nextFn seed story@(Free (NHoleF Nothing next)) =
   let cls = classes th
       cats = S.foldr (\cl s -> toCats th cl `S.union` s) S.empty cls
   in case S.size cats of
-       0 -> story
+       0 -> story -- no cats, so might as well stop replacing ???s
        n -> let (Cat c)  = S.elemAt (seed `mod` n) cats
             in  (Free (NTopicF [c] $ chooseAnyTopic th nextFn (nextFn seed) next))
 chooseAnyTopic th nextFn seed (Free rest) = (Free $ fmap (chooseAnyTopic th nextFn seed) rest)
@@ -35,7 +35,7 @@ chooseNIdeas n th nextFn seed story@(Free (NTopicF someTopics next)) =
       cs :: TextCluster
       cs = S.foldr M.union M.empty $ S.map (nouns th) someCats
   in case M.size cs of
-       0 -> story
+       0 -> Free $ fmap (chooseNIdeas n th nextFn seed) (NTopicF someTopics next)
        m -> let seeds = take n $ iterate nextFn seed
                 keys  = map (\s -> M.keys cs !! (s `mod` m)) seeds
                 vals  = map (\key -> M.lookup key cs) keys
